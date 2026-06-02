@@ -1,0 +1,5 @@
+(sym_lib_table
+	(version 7)
+	(lib (name "edward_lib") (type "KiCad") (uri "${KIPRJMOD}/../libs/sym") (options "") (descr ""))
+	(lib (name "lcsc_lib") (type "KiCad") (uri "${KIPRJMOD}/../libs/lcsc-lib") (options "") (descr ""))
+)

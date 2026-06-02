@@ -1,0 +1,9 @@
+.DS_Store
+/pcb/vbench-pod/vbench-pod-backups/
+/pcb/vbench-pod/.history/
+/pcb/vbench-pod/out/
+/pcb/vbench-pod/*.gbr
+*.lck
+*.textClipping
+**/*.3dshapes/ # only if you decided to exclude them
+/*.sh
