@@ -1,5 +1,8 @@
 # BenchPod
 
+**NOTE1: Some tagged versions will have obvious mistakes in them, but as those got built, they're in the repo for historical reasons.**
+**NOTE2: Don't build these boards yourself without any necessary changes. The current tagged versions are not production-ready yet**
+
 **An open hardware bench tool with sensor sim, CAN, analog I/O, and power control, with a Python SDK and pytest integration.**
 
 Embedded teams often end up with a bench full of equipment that's hard to share, hard to automate, and difficult to use remotely. Setting up tests often means being physically present, and that doesn't scale well across a team.
