@@ -49,7 +49,7 @@
 	(fp_line (start 3.90 2.20) (end -3.90 2.20) (layer F.CrtYd) (width 0.05))
 	(fp_line (start -3.90 2.20) (end -3.90 -2.20) (layer F.CrtYd) (width 0.05))
 	(fp_poly (pts (xy -3.529000 1.143000) (xy -2.821000 1.143000) (xy -3.529000 1.143000)) (stroke (width 0) (type solid)) (fill solid) (layer "F.SilkS"))
-	(model "/Users/edwardviaene/dev/github.com/embeddedci-com/vbench-pod/pcb/libs/lcsc-lib/easyeda2kicad.3dshapes/TSSOP-24_L7.8-W4.4-H1.0-LS6.4-P0.65.wrl"
+	(model "${KIPRJMOD}/../libs/lcsc-lib/easyeda2kicad.3dshapes/TSSOP-24_L7.8-W4.4-H1.0-LS6.4-P0.65.wrl"
 		(offset (xyz 0.000 0.000 0.000))
 		(scale (xyz 1 1 1))
 		(rotate (xyz 0 0 270))

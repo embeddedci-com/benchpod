@@ -67,7 +67,7 @@
 	(fp_line (start -1.00 -1.00) (end 1.00 -1.00) (layer F.CrtYd) (width 0.05))
 	(fp_line (start 1.00 -1.00) (end 1.00 1.00) (layer F.CrtYd) (width 0.05))
 	(fp_line (start 1.00 1.00) (end -1.00 1.00) (layer F.CrtYd) (width 0.05))
-	(model "/Users/edwardviaene/dev/github.com/embeddedci-com/vbench-pod/pcb/libs/lcsc-lib/easyeda2kicad.3dshapes/VQFN-10_L2.0-W2.0-P0.45-TL.wrl"
+	(model "${KIPRJMOD}/../libs/lcsc-lib/easyeda2kicad.3dshapes/VQFN-10_L2.0-W2.0-P0.45-TL.wrl"
 		(offset (xyz 0.000 0.000 0.000))
 		(scale (xyz 1 1 1))
 		(rotate (xyz 0 0 0))

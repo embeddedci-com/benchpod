@@ -24,7 +24,7 @@
 	(fp_line (start -1.75 -3.25) (end 1.75 -3.25) (layer F.CrtYd) (width 0.05))
 	(fp_line (start 1.75 -3.25) (end 1.75 3.25) (layer F.CrtYd) (width 0.05))
 	(fp_line (start 1.75 3.25) (end -1.75 3.25) (layer F.CrtYd) (width 0.05))
-	(model "/Users/edwardviaene/dev/github.com/embeddedci-com/vbench-pod/pcb/libs/lcsc-lib/easyeda2kicad.3dshapes/SOT-223-4P_L6.5-W3.5-H1.6-LS7.0-P2.30.wrl"
+	(model "${KIPRJMOD}/../libs/lcsc-lib/easyeda2kicad.3dshapes/SOT-223-4P_L6.5-W3.5-H1.6-LS7.0-P2.30.wrl"
 		(offset (xyz 0.000 0.000 0.000))
 		(scale (xyz 1 1 1))
 		(rotate (xyz 0 0 180))

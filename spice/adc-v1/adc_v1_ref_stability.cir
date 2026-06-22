@@ -1,0 +1,36 @@
+* EmbeddedCI ADC v1 - REFERENCE-BUFFER cap-load STABILITY
+* Needs the real OPA354 model (output impedance + GBW matter here).
+* Get it from ti.com/product/OPA354 -> Design tools -> PSpice/SPICE model,
+* save the .lib/.cir next to this file, keep the filename below in sync.
+.include OPA354.lib
+*
+V3V3A  n3v3a 0 3.3
+*
+* Small-signal + step probe at the buffer input.
+* AC=1 gives the closed-loop response; PULSE gives the step (overshoot/ringing).
+Vstim  nin 0 DC 3.0 AC 1 PULSE(3.0 3.1 1u 1n 1n 100u 200u)
+*
+* U14 VRT buffer: unity gain (OUT tied to -IN).
+* !! VERIFY the node order against the .SUBCKT OPA354 line in the .lib !!
+* Typical TI order is:  +IN  -IN  V+  V-  OUT
+XU14   nin nvrt n3v3a 0 nvrt OPA354
+*
+* VRT decoupling EXACTLY as drawn, driven DIRECTLY off the op-amp output:
+Cvrt1  nvrt 0 1u
+Cvrt2  nvrt 0 100n
+*Cvrt3  nvrt 0 10u          ; ~11 uF total.  For the VRB case, make this 20u (~22 uF)
+*
+* ---- TI-recommended fix to compare (uncomment this block, comment the XU14 above) ----
+*Rs     nbuf nvrt {rs}       ; series isolation resistor
+*XU14   nin  nbuf n3v3a 0 nbuf OPA354   ; sense the feedback at the buffer side
+*   NOTE for a *reference* buffer: a series Rs after the loop creates a DC error
+*   equal to Rs * I_ref(ADC).  Cleaner v2 options: put Rs inside the loop with a
+*   small cap across the feedback, or use a buffer specced to drive big caps.
+*
+* ---------------- ANALYSIS (uncomment ONE) ----------------
+.step param rs list 1 2 5 10 22
+.ac dec 200 1k 100Meg      ; plot V(nvrt): a peak >0 dB (mag >1) = ringing / marginal
+*.tran 0 400u 0 50n         ; plot V(nvrt): step overshoot/ringing on the 3.0->3.1 edge
+*
+.meas ac peakmag MAX V(nvrt)   ; >~1.05 => closed-loop peaking => not stable enough
+.end

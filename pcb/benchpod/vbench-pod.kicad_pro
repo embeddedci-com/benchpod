@@ -67,31 +67,27 @@
       ],
       "drc_exclusions": [
         [
-          "annular_width|132767544|78100000|c8e7a71f-f997-46b7-a6a7-3e1febe570cf|00000000-0000-0000-0000-000000000000",
+          "annular_width|128210000|43670000|3f7576f0-18dc-4799-8c31-00f50654d242|00000000-0000-0000-0000-000000000000",
           ""
         ],
         [
-          "annular_width|132767544|83900000|d6fa6482-a0ae-4f6f-9203-1a1dc13dd927|00000000-0000-0000-0000-000000000000",
+          "annular_width|128210000|55110000|7dc64449-958c-4db0-8225-c8d96aeeb63b|00000000-0000-0000-0000-000000000000",
           ""
         ],
         [
-          "clearance|130857456|78100152|5becde12-11d5-4419-b6f9-1adbbb0dbbe6|2d111050-db11-42a3-b03a-29bb90e5ad92",
+          "annular_width|132647544|61480000|f06a6d55-943d-4a47-9eaa-1e68cdbd0811|00000000-0000-0000-0000-000000000000",
           ""
         ],
         [
-          "clearance|130857634|83900077|cc71fa78-9cbf-4acb-8a53-cf37b600c45a|b6db5ea6-4ea5-4c6e-b027-aea70558aafa",
+          "annular_width|132647544|67280000|44afc970-d776-47be-b642-41d954094fdc|00000000-0000-0000-0000-000000000000",
           ""
         ],
         [
-          "footprint_type_mismatch|133977544|81000000|0e2246ad-c748-4896-a99e-20bab11b882f|00000000-0000-0000-0000-000000000000",
+          "clearance|130737456|61480152|d637a9cf-4322-4089-a85e-2bcccdde2b8c|b23aaecc-d81b-4a0f-aab1-30c650b16553",
           ""
         ],
         [
-          "padstack|132767544|78100000|c8e7a71f-f997-46b7-a6a7-3e1febe570cf|00000000-0000-0000-0000-000000000000",
-          ""
-        ],
-        [
-          "padstack|132767544|83900000|d6fa6482-a0ae-4f6f-9203-1a1dc13dd927|00000000-0000-0000-0000-000000000000",
+          "clearance|130737634|67280077|bc00829f-460e-443f-b292-5ee5fec55c14|d3b19a45-a20c-4a15-b281-6ec8ca2e309a",
           ""
         ]
       ],
@@ -232,6 +228,7 @@
         0.15,
         0.2,
         0.25,
+        0.3,
         0.5
       ],
       "tuning_pattern_settings": {
@@ -679,6 +676,12 @@
           "show": true
         },
         {
+          "group_by": false,
+          "label": "LCSC Part",
+          "name": "LCSC Part",
+          "show": true
+        },
+        {
           "group_by": true,
           "label": "DNP",
           "name": "${DNP}",
@@ -812,12 +815,6 @@
         },
         {
           "group_by": false,
-          "label": "LCSC Part",
-          "name": "LCSC Part",
-          "show": false
-        },
-        {
-          "group_by": false,
           "label": "KiLib_Generator",
           "name": "KiLib_Generator",
           "show": false
@@ -826,6 +823,18 @@
           "group_by": false,
           "label": "Manufacturer",
           "name": "Manufacturer",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "KLC_S3.3",
+          "name": "KLC_S3.3",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "KLC_S4.1",
+          "name": "KLC_S4.1",
           "show": false
         }
       ],
@@ -877,7 +886,7 @@
         "uuid": "745fcf4b-2e0b-4fc4-95c0-f2e3fd40beb9"
       }
     ],
-    "used_designators": "#PWR219-220,D11,R88-89,RF2",
+    "used_designators": "",
     "variants": []
   },
   "sheets": [
@@ -886,8 +895,8 @@
       "Root"
     ],
     [
-      "b091dcc5-867c-486d-8861-747908d08f71",
-      "analog to digital"
+      "0c40e001-2f3c-4e38-99cd-bf6c5858d9e0",
+      "Ethernet"
     ],
     [
       "e3454fef-24e2-422b-9513-46b286a60c18",
@@ -898,8 +907,24 @@
       "Power"
     ],
     [
-      "bbb73926-de5c-4ec5-b23e-835fcac2d179",
-      "digital to analog"
+      "6e16e19c-a558-4ab3-b333-eb07c45a4c12",
+      "USB"
+    ],
+    [
+      "912decfe-2152-478c-90a9-82a2e6c8d6ce",
+      "analog to digital v2"
+    ],
+    [
+      "3913e297-993d-4cdf-98cd-f72d75fe1f7c",
+      "digital to analog v2"
+    ],
+    [
+      "af2b1f56-0fad-488e-8f0a-22dbdcc7b8d4",
+      "Analog Power v2"
+    ],
+    [
+      "6099375c-bbbd-4ae3-a5f6-bda1eee7cecc",
+      "analog switching"
     ]
   ],
   "text_variables": {},

@@ -1,0 +1,95 @@
+* ============================================================================
+* BenchPod - UNSELECTED / POWER-UP OUTPUT STATE FIX   (LTspice / macOS)
+* ============================================================================
+* Proves the proposed fix for the "RF6 sits at -12 V when not selected" hazard:
+*
+*   FIX 1: SPDT (TMUX1136-style, modeled with Ron=5) on the VMID leg of the
+*          12 V diff amp: R128 -> VMID when the range is SELECTED,
+*          R128 -> GND when UNSELECTED.  Input is already pulled to 0 by R127
+*          when the main mux is off, so unselected output = 5.9*(0-0) = 0 V.
+*   FIX 2: 100k pulldown on TO_5V so the 5 V stage's (otherwise floating)
+*          +input is defined at 0 when unselected.
+*
+* The main TMUX1104 channels are modeled as voltage-controlled switches
+* (Ron=5, off=1G) driven by the same SELECT signal.
+*
+* .step runs BOTH states:
+*   step 1: SEL=0  -> unselected / power-up state. EXPECT RF5 ~ 0, RF6 ~ 0
+*                     across the ENTIRE DAC ramp (was: RF6 = -12 V, RF5 undef).
+*   step 2: SEL=1  -> selected, normal operation. EXPECT RF5 -> 4.88 and
+*                     RF6 = 5.9*(code-2.048) with only mV-level error from
+*                     the 5-ohm switch Ron (it nearly cancels at mid-scale).
+*
+* Plot V(RF6) and V(RF5): one stepped trace flat at 0, the other the normal
+* transfer. Read the .meas table with:
+*   iconv -f UTF-16LE -t UTF-8 benchpod_unselected_fix.log | grep -iE "rf"
+*
+* PIN ORDER:  OPA2992 = IN+ IN- VCC VEE OUT  |  OPA365 = +IN -IN +V -V OUT
+* ============================================================================
+
+.include OPA2992.lib
+.include OPA365.lib
+
+* --- rails / references ---
+V_P5VA P5VA 0 DC 5.0
+V_P5V5 P5V5 0 DC 5.5
+V_P15  P15  0 DC 15
+V_N15  N15  0 DC -15
+V_VMID VMID 0 DC 2.048
+
+* --- range-select control: stepped 0 (off) / 1 (on), plus its complement ---
+.param SEL=0
+.step param SEL list 0 1
+V_CTRL  CTRL  0 {SEL}
+V_NCTRL NCTRL 0 {1-SEL}
+* To watch the live range-switch transient instead (deselect at t=50us),
+* comment out the .step and the two lines above, and use:
+*   V_CTRL  CTRL  0 PULSE(1 0 50u 100n 100n 1)
+*   V_NCTRL NCTRL 0 PULSE(0 1 50u 100n 100n 1)
+
+* --- DAC ramp -> unity buffer ---
+V_DAC  DACOUT 0 DC 2.048 PWL(0 0 100u 4.096)
+X_U44B DACOUT BUFOUT P5VA 0 BUFOUT OPA365
+
+* --- TMUX1104 channels as switches (on: Ron=5, off: 1G) ---
+S_MUX2 BUFOUT TO5V  CTRL 0 SWAN
+S_MUX3 BUFOUT TO12V CTRL 0 SWAN
+.model SWAN SW(Ron=5 Roff=1G Vt=0.5 Vh=0.1)
+
+* ---------------------------------------------------------------------------
+* 5 V stage (U45C) + FIX 2: pulldown defines unselected input
+* ---------------------------------------------------------------------------
+R_PD5 TO5V 0 100k                       ; <-- NEW
+X_U45C TO5V U45C_INN P5V5 0 O_U45C OPA2992
+R122 O_U45C U45C_INN 2.2k
+R123 U45C_INN 0 10k
+R134 O_U45C RF5 50
+R_LOAD5 RF5 0 1Meg
+
+* ---------------------------------------------------------------------------
+* 12 V stage (U51B) + FIX 1: SPDT on the VMID leg
+* ---------------------------------------------------------------------------
+S_VM VMLEG VMID CTRL  0 SWAN            ; <-- NEW: selected   -> VMID
+S_GN VMLEG 0    NCTRL 0 SWAN            ; <-- NEW: unselected -> GND
+R126 TO12V U51B_INP 2k
+R127 U51B_INP 0 11.8k
+R128 VMLEG U51B_INN 2k
+R129 O_U51B U51B_INN 11.8k
+X_U51B U51B_INP U51B_INN P15 N15 O_U51B OPA2992
+R135 O_U51B RF6 50
+R_LOAD6 RF6 0 1Meg
+
+* --- analysis ---
+.tran 0 100u 0 50n
+.save V(DACOUT) V(RF5) V(RF6)
+.options reltol=3e-3 trtol=10 plotwinsize=300000
+
+* --- measurements (per step; step 1 = unselected, step 2 = selected) ---
+.meas TRAN RF6_fs  FIND V(RF6) WHEN V(DACOUT)=4.0    ; ~0 | ~+11.5
+.meas TRAN RF6_mid FIND V(RF6) WHEN V(DACOUT)=2.048  ; ~0 | ~0 (Ron error, mV)
+.meas TRAN RF5_fs  FIND V(RF5) WHEN V(DACOUT)=4.0    ; ~0 | ~4.88
+* worst-case excursion while unselected (FROM 5u skips cold-start blip)
+.meas TRAN RF6_max MAX V(RF6) FROM 5u                ; step 1: should be ~mV
+.meas TRAN RF6_min MIN V(RF6) FROM 5u                ; step 1: should be ~mV
+
+.end

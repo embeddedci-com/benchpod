@@ -1,0 +1,33 @@
+* EmbeddedCI ADC v1 frontend - LEVELS / GAIN / RANGE check
+* Ideal unity buffers (E-sources) => runs instantly, NO model downloads.
+* Purpose: confirm the /2 divider math and see where the signal lands
+* relative to the VRT/VRB reference window.  ADC08060 itself is NOT modeled.
+*
+* ---------------- SIGNAL PATH ----------------
+Vin    nin   0   DC 0            ; swept below
+Rser   nin   na  1k              ; R33 (ideal buffer draws ~0, so no DC drop)
+EU13   o1    0   na   0   1      ; U13 OPA354 unity buffer (5VA) - ideal here
+Rtop   o1    nmid 1k             ; R36
+Rbot   nmid  0    1k             ; R37   -> /2 divider
+EU16   nvin  0   nmid 0   1      ; U16 OPA354 unity buffer (3V3A) - ideal here
+Rain   nvin  0   1Meg            ; ADC AIN ~ high impedance
+*
+* ---------------- REFERENCES ----------------
+Vref   nref  0   3.0             ; REF3030 = 3.0 V (ideal)
+EU14   nvrt  0   nref 0   1      ; VRT buffer  -> 3.0 V
+Rr34   nref  nrb 29.4k
+Rr35   nrb   0   1k
+EU15   nvrb  0   nrb  0   1      ; VRB buffer  -> 3.0 * 1k/30.4k = 0.0987 V
+*
+* ---------------- ANALYSIS (text-driven) ----------------
+.dc Vin 0 5 0.05
+.meas dc vin_zeroscale FIND V(nvin) WHEN V(nin)=0   ; expect 0 V  (-> below VRB!)
+.meas dc vin_fullscale FIND V(nvin) WHEN V(nin)=5   ; expect 2.5 V (-> below VRT)
+.meas dc vrt           FIND V(nvrt) WHEN V(nin)=0   ; expect 3.000 V
+.meas dc vrb           FIND V(nvrb) WHEN V(nin)=0   ; (read V(nvrb) in log/trace too)
+*
+* Findings to read off the .meas log:
+*   VIN spans 0 .. 2.5 V ; reference window is 0.0987 .. 3.0 V
+*   -> inputs near 0 V fall BELOW VRB (under-range)
+*   -> top ~0.5 V of the reference span is never used (~17% of codes wasted)
+.end

@@ -1,9 +1,15 @@
 .DS_Store
-/pcb/vbench-pod/vbench-pod-backups/
-/pcb/vbench-pod/.history/
-/pcb/vbench-pod/out/
-/pcb/vbench-pod/*.gbr
-*.lck
-*.textClipping
-**/*.3dshapes/ # only if you decided to exclude them
+
+# Local helper scripts (e.g. fix.sh path rewriting)
 /*.sh
+
+# 3D models (large binaries, visual-only; not needed to build the board)
+/pcb/libs/lcsc-lib/easyeda2kicad.3dshapes/
+
+# KiCad generated / local files
+/pcb/benchpod/vbench-pod-backups/
+/pcb/benchpod/.history/
+/pcb/benchpod/out/
+/pcb/benchpod/*.gbr
+*.kicad_prl
+*.lck

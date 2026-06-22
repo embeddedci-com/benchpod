@@ -43,7 +43,7 @@
 	(fp_line (start -12.70 -2.50) (end 12.70 -2.50) (layer F.CrtYd) (width 0.05))
 	(fp_line (start 12.70 -2.50) (end 12.70 2.50) (layer F.CrtYd) (width 0.05))
 	(fp_line (start 12.70 2.50) (end -12.70 2.50) (layer F.CrtYd) (width 0.05))
-	(model "/Users/edwardviaene/dev/github.com/embeddedci-com/vbench-pod/pcb/libs/lcsc-lib/easyeda2kicad.3dshapes/HDR-TH_20P-P2.54-V-M-R2-C10-S2.54-1.wrl"
+	(model "${KIPRJMOD}/../libs/lcsc-lib/easyeda2kicad.3dshapes/HDR-TH_20P-P2.54-V-M-R2-C10-S2.54-1.wrl"
 		(offset (xyz 0.000 0.000 0.000))
 		(scale (xyz 1 1 1))
 		(rotate (xyz 0 0 0))

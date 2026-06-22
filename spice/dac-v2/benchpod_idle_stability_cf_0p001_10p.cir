@@ -1,0 +1,70 @@
+* ============================================================================
+* BenchPod - 12 V STAGE IDLE-STATE STABILITY  (matches the v2 schematic)
+* ============================================================================
+* The actual implementation deselects the VMID leg to OPEN (TMUX1104 channel
+* off), not to GND. R128 then dangles: the amp runs at noise gain 1 with the
+* op-amp input capacitance + mux off-capacitance on the inverting node against
+* 11.8k of feedback -> feedback pole -> possible ringing/marginal stability.
+*
+* This bench reproduces a real "deselect the 12 V range" event and then kicks
+* the idle loop to measure ring-down, stepping the feedback cap:
+*   step 1: CF = 0.001 pF (effectively no cap)  -> look for ringing
+*   step 2: CF = 10 pF (the insurance cap)      -> should be cleanly damped
+*
+* Timeline:
+*   0-20 us : range SELECTED, DAC code held at 3.0 V -> RF6 = 5.9*(3-2.048)
+*             = +5.62 V  (also proves the 10 pF doesn't change the transfer)
+*   20 us   : DESELECT - signal channel and VMID leg both open
+*   35 us   : 100 uA / 200 ns kick into the inverting node -> watch ring-down
+*
+* Plot V(RF6), compare the two stepped traces after 20 us and around 35 us.
+* Log:  iconv -f UTF-16LE -t UTF-8 benchpod_idle_stability.log | grep -iE "lvl|ring"
+*
+* Only one macromodel (U51B) - VMID and the DAC buffer are ideal sources here
+* because the question is the diff amp's idle loop, nothing upstream.
+* ============================================================================
+
+.include OPA2992.lib
+
+* --- rails / sources ---
+V_P15  P15    0 DC 15
+V_N15  N15    0 DC -15
+V_VMID VMID   0 DC 2.048
+V_SIG  BUFOUT 0 DC 3.0          ; buffered DAC held mid-range
+
+* --- range select: ON until t=20us, then deselect ---
+V_CTRL CTRL 0 PULSE(1 0 20u 50n 50n 1 2)
+
+* --- TMUX1104 channels as switches, with off-capacitance on the S pins ---
+S_MUX BUFOUT TO12V CTRL 0 SWAN
+C_OFF1 TO12V 0 4p               ; mux CS(off) on the signal channel
+S_VM  VMID  VMLEG CTRL 0 SWAN
+C_OFF2 VMLEG 0 4p               ; mux CS(off) on the VMID-leg channel
+.model SWAN SW(Ron=4 Roff=1G Vt=0.5 Vh=0.1)
+
+* --- U51B difference amp (as in schematic) ---
+R126 TO12V INP 2k
+R127 INP   0   11.8k
+R128 VMLEG INN 2k
+R129 OUT   INN 11.8k
+CF   OUT   INN {CF}             ; <-- the insurance cap, stepped
+X_U51B INP INN P15 N15 OUT OPA2992
+R135 OUT RF6 50
+R_L  RF6 0 1Meg
+
+* --- small kick into the idle loop to measure damping ---
+I_KICK 0 INN PULSE(0 100u 35u 20n 20n 200n 1)
+
+* --- analysis ---
+.step param CF list 0.001p 10p
+.tran 0 60u 0 5n
+.save V(RF6) V(INN) V(TO12V) V(VMLEG)
+.options plotwinsize=300000
+
+* --- measurements ---
+.meas TRAN sel_lvl  AVG V(RF6) FROM 10u TO 19u   ; expect ~+5.62 in BOTH steps
+.meas TRAN idle_lvl AVG V(RF6) FROM 50u TO 60u   ; expect ~0 (mV) in both
+.meas TRAN ring_max MAX V(RF6) FROM 34u TO 50u   ; kick response: compare
+.meas TRAN ring_min MIN V(RF6) FROM 34u TO 50u   ;   peak-to-peak per step
+
+.end

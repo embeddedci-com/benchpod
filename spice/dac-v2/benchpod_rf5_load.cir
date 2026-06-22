@@ -1,0 +1,59 @@
+* ============================================================================
+* BenchPod - RF5 (5 V RANGE) LOAD TEST   (LTspice / macOS)
+* ============================================================================
+* Isolates the 5 V output stage (U45C, OPA2992 on +5.5 V) and steps the load
+* on the SMA output to see how the delivered voltage and the op-amp's own
+* output behave as it has to source real current.
+*
+* IMPORTANT TOPOLOGY NOTE:
+*   The feedback divider (R122/R123) taps the OP-AMP OUTPUT node O_U45C,
+*   *before* the 50 ohm back-termination R134. So the loop regulates O_U45C
+*   to 1.22 x input (= 5.0 V at full scale). R134 + the load then form a
+*   divider that sets what actually appears at RF5 (the SMA).
+*     - O_U45C  = what the op-amp must produce  -> reveals rail headroom
+*     - RF5     = what the DUT actually receives -> includes back-term divider
+*
+* HOW TO USE
+*   1. .include paths must match your model files.
+*   2. Run. Add traces V(O_U45C) and V(RF5). Each load value is a separate
+*      stepped trace; right-click the time axis -> Quantity Plotted -> V(DACOUT).
+*   3. Read the per-load table from the log via terminal:
+*        grep -iE "vamp|vrf5|iout" benchpod_rf5_load.log
+*
+* PIN ORDER:  OPA2992 = IN+ IN- VCC VEE OUT  |  OPA365 = +IN -IN +V -V OUT
+* ============================================================================
+
+.include OPA2992.lib
+.include OPA365.lib
+
+* --- rails ---
+V_P5VA P5VA 0 DC 5.0
+V_P5V5 P5V5 0 DC 5.5
+
+* --- DAC ramp -> unity buffer -> mux -> 5 V stage input ---
+V_DAC  DACOUT 0  DC 2.048 PWL(0 0 100u 4.096)
+X_U44B DACOUT BUFOUT P5VA 0 BUFOUT OPA365
+R_MUX2 BUFOUT TO5V 5
+
+* --- U45C : non-inverting gain 1 + 2.2k/10k = 1.22, feedback before R134 ---
+X_U45C TO5V U45C_INN P5V5 0 O_U45C OPA2992
+R122 O_U45C U45C_INN 2.2k
+R123 U45C_INN 0 10k
+R134 O_U45C RF5 50
+
+* --- stepped load on the SMA output (open -> hard 15 ohm) ---
+.param Rl=1Meg
+R_LOAD5 RF5 0 {Rl}
+.step param Rl list 1Meg 1k 200 100 50 25 15
+
+* --- analysis ---
+.tran 0 100u 0 50n
+.save V(DACOUT) V(O_U45C) V(RF5)
+.options reltol=3e-3 trtol=10 plotwinsize=300000
+
+* --- per-load measurements at full scale (DACOUT = 4.0 V) ---
+.meas TRAN Vamp FIND V(O_U45C) WHEN V(DACOUT)=4.0   ; op-amp output (rail headroom)
+.meas TRAN Vrf5 FIND V(RF5)    WHEN V(DACOUT)=4.0   ; delivered at SMA
+.meas TRAN Iout FIND I(R134)   WHEN V(DACOUT)=4.0   ; load current
+
+.end

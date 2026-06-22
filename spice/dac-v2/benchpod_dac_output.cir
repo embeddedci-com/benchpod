@@ -1,0 +1,117 @@
+* ============================================================================
+* BenchPod - DAC OUTPUT CHAIN TEST BENCH  (LTspice / macOS)  -- FAST/LEAN
+* ============================================================================
+* Verifies the op-amp output stages fed by the DAC. DAC8551 is NOT modeled;
+* DAC_OUTPUT is an ideal ramp so we exercise the buffers + range stages.
+*
+* WHY THIS VERSION IS FAST/SMALL:
+*   - 200 us quasi-DC ramp instead of 10 ms (still ~1000x slower than the
+*     op-amp settling time, so it's effectively a DC sweep).
+*   - .save keeps only the signals of interest -> raw file is ~1 MB, not 100s.
+*   - VMID is an ideal reference source and the redundant ADC-readback amp
+*     (U51C) is dropped, so only 4 macromodels are in the matrix.
+*   - Loosened tolerances let the solver take bigger steps once settled.
+*
+* HOW TO USE
+*   1. .include filenames below must match your model files (same folder).
+*   2. Open this .cir in LTspice, Run (a few seconds).
+*   3. Add traces V(RF4) V(RF5) V(RF6); right-click the TIME axis ->
+*      Quantity Plotted -> enter V(DACOUT) to get the transfer curves.
+*   4. .meas endpoints print in the SPICE Error Log (Ctrl+L) - now short.
+*
+* PIN ORDER:  OPA2992 = IN+ IN- VCC VEE OUT  |  OPA365 = +IN -IN +V -V OUT
+* ============================================================================
+
+.include OPA2992.lib
+.include OPA365.lib
+
+* ---------------------------------------------------------------------------
+* POWER RAILS
+* ---------------------------------------------------------------------------
+V_P5VA   P5VA  0  DC 5.0
+V_P5V5   P5V5  0  DC 5.5
+V_P15    P15   0  DC 15
+V_N15    N15   0  DC -15
+V_VREF   VREF  0  DC 4.096
+
+* ---------------------------------------------------------------------------
+* STIMULUS - 200 us quasi-DC ramp 0 -> 4.096 V  (AC 1 for optional .ac)
+* ---------------------------------------------------------------------------
+V_DAC  DACOUT 0  DC 2.048 AC 1 PWL(0 0 200u 4.096)
+
+* ---------------------------------------------------------------------------
+* BUFFER_VMID: ideal 2.048 V reference (the real U44A buffer just reproduces
+* AREF_4V096/2; uncomment the block below to put the actual op-amp back in).
+* ---------------------------------------------------------------------------
+V_VMID VMID 0 DC 2.048
+;R111 VREF AREF2 10k
+;R110 AREF2 0    10k
+;X_U44A AREF2 VMID P5VA 0 VMID OPA365
+
+* ---------------------------------------------------------------------------
+* U44B : DAC output unity-gain buffer  (OPA2365)
+* ---------------------------------------------------------------------------
+X_U44B DACOUT BUFOUT P5VA 0 BUFOUT OPA365
+
+* ---------------------------------------------------------------------------
+* MUX (TMUX1104) modeled as on-resistance; all paths tied on for one sweep.
+* ---------------------------------------------------------------------------
+R_MUX1 BUFOUT TO3V3 5
+R_MUX2 BUFOUT TO5V  5
+R_MUX3 BUFOUT TO12V 5
+
+* ---------------------------------------------------------------------------
+* U45B - 3.3 V range (OPA2992, +5.5 V): x0.806 attenuator + unity buffer
+* ---------------------------------------------------------------------------
+R108 TO3V3 U45B_INP 2.4k
+R109 U45B_INP 0 10k
+X_U45B U45B_INP O_U45B P5V5 0 O_U45B OPA2992
+R125 O_U45B RF4 50
+R_LOAD4 RF4 0 1Meg
+
+* ---------------------------------------------------------------------------
+* U45C - 5 V range (OPA2992, +5.5 V): non-inverting gain 1 + 2.2k/10k = 1.22
+* ---------------------------------------------------------------------------
+X_U45C TO5V U45C_INN P5V5 0 O_U45C OPA2992
+R122 O_U45C U45C_INN 2.2k
+R123 U45C_INN 0 10k
+R134 O_U45C RF5 50
+R_LOAD5 RF5 0 1Meg
+
+* ---------------------------------------------------------------------------
+* U51B - +/-12 V range (OPA2992, +/-15 V): diff amp about VMID, gain 5.9
+* ---------------------------------------------------------------------------
+R126 TO12V U51B_INP 2k
+R127 U51B_INP 0 11.8k
+R128 VMID U51B_INN 2k
+R129 O_U51B U51B_INN 11.8k
+X_U51B U51B_INP U51B_INN P15 N15 O_U51B OPA2992
+R135 O_U51B RF6 50
+R_LOAD6 RF6 0 1Meg
+
+* Output protection clamps (D17/D18 Schottky, D19 TVS) are OFF in normal
+* operation and only add stiffness near the rails -> omitted for speed.
+* Re-add them if you want to study overvoltage / hot-plug behavior.
+
+* ===========================================================================
+* ANALYSIS
+* ===========================================================================
+.tran 0 200u 0 100n
+;.ac dec 100 1 50Meg
+
+* keep the raw file tiny - only save what we plot
+.save V(DACOUT) V(BUFOUT) V(VMID) V(RF4) V(RF5) V(RF6)
+
+* let the solver take big steps once the (quasi-static) nodes settle
+.options reltol=3e-3 trtol=10 plotwinsize=300000
+
+* ---------------------------------------------------------------------------
+* MEASUREMENTS - results in SPICE Error Log (Ctrl+L)
+* ---------------------------------------------------------------------------
+.meas TRAN RF4_full FIND V(RF4) WHEN V(DACOUT)=4.0    ; expect ~3.23
+.meas TRAN RF5_full FIND V(RF5) WHEN V(DACOUT)=4.0    ; expect ~4.88
+.meas TRAN RF6_neg  FIND V(RF6) WHEN V(DACOUT)=0.1    ; expect ~-11.49
+.meas TRAN RF6_mid  FIND V(RF6) WHEN V(DACOUT)=2.048  ; expect ~0
+.meas TRAN RF6_pos  FIND V(RF6) WHEN V(DACOUT)=4.0    ; expect ~+11.52
+
+.end

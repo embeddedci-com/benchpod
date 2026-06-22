@@ -32,7 +32,7 @@
 	(fp_line (start -5.21 4.50) (end -5.21 -5.50) (layer F.CrtYd) (width 0.05))
 	(fp_poly (pts (xy -2.999994 -5.499989) (xy -1.999996 -5.499989) (xy -1.999996 -3.499993) (xy -1.499997 -3.499993) (xy -2.499995 -2.499995) (xy -3.499993 -3.499993) (xy -2.999994 -3.499993) (xy -2.999994 -5.499989)) (stroke (width 0) (type solid)) (fill solid) (layer "F.SilkS"))
 	(fp_poly (pts (xy 2.080006 -5.499989) (xy 3.080004 -5.499989) (xy 3.080004 -3.499993) (xy 3.580003 -3.499993) (xy 2.580005 -2.499995) (xy 1.580007 -3.499993) (xy 2.080006 -3.499993) (xy 2.080006 -5.499989)) (stroke (width 0) (type solid)) (fill solid) (layer "F.SilkS"))
-	(model "/Users/edwardviaene/dev/github.com/embeddedci-com/vbench-pod/pcb/libs/lcsc-lib/easyeda2kicad.3dshapes/CONN-TH_2P-P5.00_WJ500V-5.08-2P.wrl"
+	(model "${KIPRJMOD}/../libs/lcsc-lib/easyeda2kicad.3dshapes/CONN-TH_2P-P5.00_WJ500V-5.08-2P.wrl"
 		(offset (xyz 0.000 0.000 0.000))
 		(scale (xyz 1 1 1))
 		(rotate (xyz 0 0 0))

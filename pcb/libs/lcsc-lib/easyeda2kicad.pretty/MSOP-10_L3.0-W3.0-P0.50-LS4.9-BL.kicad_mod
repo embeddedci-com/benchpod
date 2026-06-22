@@ -35,7 +35,7 @@
 	(fp_line (start 1.50 1.50) (end -1.50 1.50) (layer F.CrtYd) (width 0.05))
 	(fp_line (start -1.50 1.50) (end -1.50 -1.50) (layer F.CrtYd) (width 0.05))
 	(fp_poly (pts (xy -1.243406 0.999998) (xy -0.756590 0.999998) (xy -1.243406 0.999998)) (stroke (width 0) (type solid)) (fill solid) (layer "F.SilkS"))
-	(model "/Users/edwardviaene/dev/github.com/embeddedci-com/vbench-pod/pcb/libs/lcsc-lib/easyeda2kicad.3dshapes/MSOP-10_L3.0-W3.0-H1.1-LS5.0-P0.50.wrl"
+	(model "${KIPRJMOD}/../libs/lcsc-lib/easyeda2kicad.3dshapes/MSOP-10_L3.0-W3.0-H1.1-LS5.0-P0.50.wrl"
 		(offset (xyz 0.000 0.000 0.000))
 		(scale (xyz 1 1 1))
 		(rotate (xyz 0 0 0))

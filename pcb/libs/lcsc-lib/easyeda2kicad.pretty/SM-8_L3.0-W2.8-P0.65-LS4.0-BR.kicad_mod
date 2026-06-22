@@ -31,7 +31,7 @@
 	(fp_line (start -1.40 -1.50) (end 1.40 -1.50) (layer F.CrtYd) (width 0.05))
 	(fp_line (start 1.40 -1.50) (end 1.40 1.50) (layer F.CrtYd) (width 0.05))
 	(fp_line (start 1.40 1.50) (end -1.40 1.50) (layer F.CrtYd) (width 0.05))
-	(model "/Users/edwardviaene/dev/github.com/embeddedci-com/vbench-pod/pcb/libs/lcsc-lib/easyeda2kicad.3dshapes/SM-8_L3.0-W2.8-P0.65-LS4.0-BR.wrl"
+	(model "${KIPRJMOD}/../libs/lcsc-lib/easyeda2kicad.3dshapes/SM-8_L3.0-W2.8-P0.65-LS4.0-BR.wrl"
 		(offset (xyz 0.000 0.000 0.000))
 		(scale (xyz 1 1 1))
 		(rotate (xyz 0 0 0))
