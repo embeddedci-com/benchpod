@@ -6071,7 +6071,7 @@
 	)
 	(symbol
 		(lib_id "lcsc_lib:SMAJ5.0A_C2925443")
-		(at 48.26 86.36 180)
+		(at 48.26 86.36 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -6102,7 +6102,7 @@
 			)
 		)
 		(property "Footprint" "lcsc:SMA_L4.3-W2.6-LS5.0-RD"
-			(at 48.26 78.74 0)
+			(at 48.26 93.98 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6113,7 +6113,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.lcsc.com/datasheet/C2925443.pdf"
-			(at 48.26 76.2 0)
+			(at 48.26 96.52 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6135,7 +6135,7 @@
 			)
 		)
 		(property "Manufacturer" "Liown(里阳半导体)"
-			(at 48.26 73.66 0)
+			(at 48.26 99.06 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6146,7 +6146,7 @@
 			)
 		)
 		(property "MPN" "SMAJ5.0A"
-			(at 48.26 71.12 0)
+			(at 48.26 101.6 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6157,7 +6157,7 @@
 			)
 		)
 		(property "LCSC Part" "C2925443"
-			(at 48.26 68.58 0)
+			(at 48.26 104.14 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)

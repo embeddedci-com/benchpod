@@ -3496,9 +3496,9 @@
 		)
 		(uuid "b2c8318a-20f5-475f-a749-2192402ed2fa")
 	)
-	(text "5VA to -0.232V"
+	(text "+3V3 Analog to -0.232V"
 		(exclude_from_sim no)
-		(at 226.06 84.074 0)
+		(at 226.314 80.01 0)
 		(effects
 			(font
 				(size 1.8288 1.8288)
