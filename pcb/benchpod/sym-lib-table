@@ -2,4 +2,6 @@
 	(version 7)
 	(lib (name "edward_lib") (type "KiCad") (uri "${KIPRJMOD}/../libs/sym") (options "") (descr ""))
 	(lib (name "lcsc_lib") (type "KiCad") (uri "${KIPRJMOD}/../libs/lcsc-lib") (options "") (descr ""))
+	(lib (name "lcsc_plugin") (type "KiCad") (uri "${KIPRJMOD}/libs/lcsc/symbols") (options "") (descr ""))
+	(lib (name "lcsc_footprints") (type "") (uri "${KIPRJMOD}/libs/lcsc/footprints.pretty") (options "") (descr ""))
 )
