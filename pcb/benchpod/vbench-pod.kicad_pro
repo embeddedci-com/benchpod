@@ -621,7 +621,7 @@
       "method": 0,
       "sort_order": 0
     },
-    "bom_export_filename": "out/${PROJECTNAME}.csv",
+    "bom_export_filename": "../../../../../../Downloads/vbench-pod.csv",
     "bom_fmt_presets": [],
     "bom_fmt_settings": {
       "field_delimiter": ",",
@@ -815,6 +815,18 @@
           "label": "Manufacturer",
           "name": "Manufacturer",
           "show": false
+        },
+        {
+          "group_by": false,
+          "label": "KLC_S3.3",
+          "name": "KLC_S3.3",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "KLC_S4.1",
+          "name": "KLC_S4.1",
+          "show": false
         }
       ],
       "filter_string": "",
@@ -865,7 +877,7 @@
         "uuid": "745fcf4b-2e0b-4fc4-95c0-f2e3fd40beb9"
       }
     ],
-    "used_designators": "U5",
+    "used_designators": "#PWR14,#PWR349,#PWR415-420,U5",
     "variants": []
   },
   "sheets": [
