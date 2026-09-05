@@ -555,7 +555,7 @@
         "diff_pair_gap": 0.2,
         "name": "Power",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
-        "priority": 2,
+        "priority": 3,
         "schematic_color": "rgba(0, 0, 0, 0.000)",
         "track_width": 1.0,
         "tuning_profile": ""
@@ -565,7 +565,7 @@
         "diff_pair_width": 0.15,
         "name": "Power-ext",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
-        "priority": 0,
+        "priority": 1,
         "schematic_color": "rgba(0, 0, 0, 0.000)",
         "track_width": 1.5,
         "tuning_profile": ""
@@ -576,12 +576,22 @@
         "diff_pair_width": 0.2,
         "name": "USB",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
-        "priority": 1,
+        "priority": 2,
         "schematic_color": "rgba(0, 0, 0, 0.000)",
         "track_width": 0.2,
         "tuning_profile": "",
         "via_diameter": 0.45,
         "via_drill": 0.2
+      },
+      {
+        "diff_pair_gap": 0.2032,
+        "diff_pair_width": 0.2258,
+        "name": "ethernet",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "priority": 0,
+        "schematic_color": "rgba(0, 0, 0, 0.000)",
+        "track_width": 0.2258,
+        "tuning_profile": ""
       }
     ],
     "meta": {
@@ -601,6 +611,22 @@
       {
         "netclass": "Power-ext",
         "pattern": "INA_IN_P2"
+      },
+      {
+        "netclass": "ethernet",
+        "pattern": "/Ethernet/RXP"
+      },
+      {
+        "netclass": "ethernet",
+        "pattern": "/Ethernet/RXN"
+      },
+      {
+        "netclass": "ethernet",
+        "pattern": "/Ethernet/TXP"
+      },
+      {
+        "netclass": "ethernet",
+        "pattern": "/Ethernet/TXN"
       }
     ]
   },
