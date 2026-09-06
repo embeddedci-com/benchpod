@@ -366,6 +366,172 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "Device:D_TVS"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 1.016)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "D"
+				(at 0 2.54 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "D_TVS"
+				(at 0 -2.54 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Bidirectional transient-voltage-suppression diode"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "diode TVS thyrector"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "TO-???* *_Diode_* *SingleDiode* D_*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "D_TVS_0_1"
+				(polyline
+					(pts
+						(xy -2.54 1.27) (xy -2.54 -1.27) (xy 2.54 1.27) (xy 2.54 -1.27) (xy -2.54 1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.508 1.27) (xy 0 1.27) (xy 0 -1.27) (xy -0.508 -1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 0) (xy -1.27 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "D_TVS_1_1"
+				(pin passive line
+					(at -3.81 0 0)
+					(length 2.54)
+					(name "A1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 3.81 0 180)
+					(length 2.54)
+					(name "A2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "Device:R"
 			(pin_numbers
 				(hide yes)
@@ -2841,197 +3007,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "lcsc_lib:SMF13CA_C1851355"
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(in_pos_files yes)
-			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "D"
-				(at 0 5.08 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "SMF13CA_C1851355"
-				(at 0 -5.08 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" "easyeda2kicad:SOD-123FL_L3.0-W1.8-LS3.7-BI"
-				(at 0 -7.62 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Datasheet" "https://www.lcsc.com/datasheet/C1851355.pdf"
-				(at 0 -10.16 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Description" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Manufacturer" "Littelfuse(美国力特)"
-				(at 0 -12.7 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "MPN" "SMF13CA"
-				(at 0 -15.24 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "LCSC Part" "C1851355"
-				(at 0 -17.78 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_keywords" "TVS"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(symbol "SMF13CA_C1851355_0_1"
-				(polyline
-					(pts
-						(xy -1.78 1.27) (xy -1.78 1.78) (xy -1.27 1.78) (xy -1.27 -1.78) (xy -0.76 -1.78) (xy -0.76 -1.27)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -1.27 0) (xy -2.54 0)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.27 1.78) (xy -1.27 0) (xy 1.27 -1.78) (xy 1.27 1.78)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-				(polyline
-					(pts
-						(xy 2.54 0) (xy 1.27 0)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(pin unspecified line
-					(at 5.08 0 180)
-					(length 2.54)
-					(name "A"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin unspecified line
-					(at -5.08 0 0)
-					(length 2.54)
-					(name "K"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "lcsc_lib:SS34_C8678"
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -4887,6 +4862,12 @@
 		(uuid "214031c7-6a3b-41b5-b6d1-08488a18e4e3")
 	)
 	(junction
+		(at 325.12 208.28)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "23031a86-b6cf-42e4-9e5a-459f6f518033")
+	)
+	(junction
 		(at 323.85 59.69)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -4995,6 +4976,12 @@
 		(uuid "573986c8-eadc-49eb-9e69-3fc9de3934e7")
 	)
 	(junction
+		(at 346.71 173.99)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "574b812c-ab21-4bf7-9137-052ac2356e83")
+	)
+	(junction
 		(at 201.93 198.12)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -5089,12 +5076,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "9ae48194-bae3-4f53-9615-220312ef0fe2")
-	)
-	(junction
-		(at 325.12 208.28)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "9c2a2793-128b-41ef-acc9-93f2849f2cb4")
 	)
 	(junction
 		(at 342.9 97.79)
@@ -5472,6 +5453,16 @@
 	)
 	(wire
 		(pts
+			(xy 346.71 173.99) (xy 359.41 173.99)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "14f8942c-f10a-4037-adb9-e7af0c5a7978")
+	)
+	(wire
+		(pts
 			(xy 190.5 48.26) (xy 190.5 57.15)
 		)
 		(stroke
@@ -5699,16 +5690,6 @@
 			(type default)
 		)
 		(uuid "28553205-709b-42f9-9e4f-78d2cac05afa")
-	)
-	(wire
-		(pts
-			(xy 325.12 208.28) (xy 330.2 208.28)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "2b00b2a8-a5c3-468c-890b-17e5a96879db")
 	)
 	(wire
 		(pts
@@ -6239,6 +6220,16 @@
 			(type default)
 		)
 		(uuid "6abf3f98-656b-4175-b622-103f4de0210d")
+	)
+	(wire
+		(pts
+			(xy 325.12 208.28) (xy 330.2 208.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6be81120-3891-4bd7-8dd9-a39d3d2b465d")
 	)
 	(wire
 		(pts
@@ -7342,7 +7333,7 @@
 	)
 	(wire
 		(pts
-			(xy 320.04 173.99) (xy 359.41 173.99)
+			(xy 320.04 173.99) (xy 346.71 173.99)
 		)
 		(stroke
 			(width 0)
@@ -12106,7 +12097,7 @@
 	)
 	(symbol
 		(lib_id "power:GNDA")
-		(at 325.12 218.44 0)
+		(at 325.12 215.9 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -12116,7 +12107,7 @@
 		(dnp no)
 		(uuid "3ae56bd6-50ce-49b9-921f-a4121b8af323")
 		(property "Reference" "#PWR0337"
-			(at 325.12 224.79 0)
+			(at 325.12 222.25 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12127,7 +12118,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 325.247 222.8342 0)
+			(at 325.247 220.2942 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -12137,7 +12128,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 325.12 218.44 0)
+			(at 325.12 215.9 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12148,7 +12139,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 325.12 218.44 0)
+			(at 325.12 215.9 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12159,7 +12150,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 325.12 218.44 0)
+			(at 325.12 215.9 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -25006,6 +24997,175 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:D_TVS")
+		(at 346.71 177.8 270)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "cf8cb7be-de94-4cb7-96c0-b7704915115c")
+		(property "Reference" "D20"
+			(at 358.902 178.816 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "SMF13CA"
+			(at 358.902 176.276 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "lcsc:SOD-123FL_L3.0-W1.8-LS3.7-BI"
+			(at 346.71 177.8 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://www.lcsc.com/datasheet/C1851355.pdf"
+			(at 346.71 177.8 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Bidirectional transient-voltage-suppression diode"
+			(at 346.71 177.8 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "Littelfuse(美国力特)"
+			(at 334.01 177.8 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "SMF13CA"
+			(at 331.47 177.8 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Part" "C1851355"
+			(at 328.93 177.8 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C1851355"
+			(at 346.71 177.8 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "ProductID" ""
+			(at 346.71 177.8 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pins" ""
+			(at 346.71 177.8 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S3.3" ""
+			(at 346.71 177.8 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S4.1" ""
+			(at 346.71 177.8 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "c249101e-7220-4967-82b7-d33a2044b354")
+		)
+		(pin "2"
+			(uuid "79bebd37-712e-458f-9a2d-1ecc13bb4b04")
+		)
+		(instances
+			(project "vbench-pod"
+				(path "/745fcf4b-2e0b-4fc4-95c0-f2e3fd40beb9/3913e297-993d-4cdf-98cd-f72d75fe1f7c"
+					(reference "D20")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:C")
 		(at 185.42 60.96 180)
 		(unit 1)
@@ -26535,8 +26695,8 @@
 		)
 	)
 	(symbol
-		(lib_id "lcsc_lib:SMF13CA_C1851355")
-		(at 325.12 213.36 90)
+		(lib_id "Device:D_TVS")
+		(at 325.12 212.09 270)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -26546,7 +26706,7 @@
 		(dnp no)
 		(uuid "f01416f0-915f-44b1-9594-c6b79adf72ff")
 		(property "Reference" "D19"
-			(at 312.928 212.344 90)
+			(at 337.312 213.106 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -26557,7 +26717,7 @@
 			)
 		)
 		(property "Value" "SMF13CA"
-			(at 312.928 214.884 90)
+			(at 337.312 210.566 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -26568,7 +26728,7 @@
 			)
 		)
 		(property "Footprint" "lcsc:SOD-123FL_L3.0-W1.8-LS3.7-BI"
-			(at 332.74 213.36 0)
+			(at 325.12 212.09 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -26579,7 +26739,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.lcsc.com/datasheet/C1851355.pdf"
-			(at 335.28 213.36 0)
+			(at 325.12 212.09 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -26589,8 +26749,8 @@
 				)
 			)
 		)
-		(property "Description" ""
-			(at 325.12 213.36 0)
+		(property "Description" "Bidirectional transient-voltage-suppression diode"
+			(at 325.12 212.09 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -26601,7 +26761,7 @@
 			)
 		)
 		(property "Manufacturer" "Littelfuse(美国力特)"
-			(at 337.82 213.36 0)
+			(at 312.42 212.09 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -26612,7 +26772,7 @@
 			)
 		)
 		(property "MPN" "SMF13CA"
-			(at 340.36 213.36 0)
+			(at 309.88 212.09 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -26623,7 +26783,7 @@
 			)
 		)
 		(property "LCSC Part" "C1851355"
-			(at 342.9 213.36 0)
+			(at 307.34 212.09 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -26634,7 +26794,7 @@
 			)
 		)
 		(property "LCSC" "C1851355"
-			(at 325.12 213.36 90)
+			(at 325.12 212.09 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -26645,7 +26805,7 @@
 			)
 		)
 		(property "ProductID" ""
-			(at 325.12 213.36 90)
+			(at 325.12 212.09 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -26656,7 +26816,7 @@
 			)
 		)
 		(property "Sim.Pins" ""
-			(at 325.12 213.36 90)
+			(at 325.12 212.09 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -26667,7 +26827,7 @@
 			)
 		)
 		(property "KLC_S3.3" ""
-			(at 325.12 213.36 90)
+			(at 325.12 212.09 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -26678,7 +26838,7 @@
 			)
 		)
 		(property "KLC_S4.1" ""
-			(at 325.12 213.36 90)
+			(at 325.12 212.09 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -27459,6 +27619,82 @@
 			(project "vbench-pod"
 				(path "/745fcf4b-2e0b-4fc4-95c0-f2e3fd40beb9/3913e297-993d-4cdf-98cd-f72d75fe1f7c"
 					(reference "#PWR0274")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GNDA")
+		(at 346.71 181.61 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "fa8cdd68-41e4-44c9-8f71-0dbc442b157a")
+		(property "Reference" "#PWR0426"
+			(at 346.71 187.96 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 346.837 186.0042 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 346.71 181.61 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 346.71 181.61 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 346.71 181.61 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "9f917f75-17bf-4092-98c8-7c6111c9b842")
+		)
+		(instances
+			(project "vbench-pod"
+				(path "/745fcf4b-2e0b-4fc4-95c0-f2e3fd40beb9/3913e297-993d-4cdf-98cd-f72d75fe1f7c"
+					(reference "#PWR0426")
 					(unit 1)
 				)
 			)
