@@ -775,7 +775,7 @@
           "group_by": false,
           "label": "Description",
           "name": "Description",
-          "show": false
+          "show": true
         },
         {
           "group_by": false,
@@ -904,7 +904,7 @@
         "uuid": "745fcf4b-2e0b-4fc4-95c0-f2e3fd40beb9"
       }
     ],
-    "used_designators": "USB1,R7,R163,H4,#PWR14,#PWR33,#PWR176,#PWR211-212,#PWR214,#PWR268,#PWR349,#PWR370-372,#PWR415-424,U5,U11-14",
+    "used_designators": "USB1,R7,R163-164,H4,#PWR14,#PWR33,#PWR63,#PWR80,#PWR176,#PWR211-212,#PWR214,#PWR268,#PWR349,#PWR370-372,#PWR415-424,U5,U11-14",
     "variants": []
   },
   "sheets": [

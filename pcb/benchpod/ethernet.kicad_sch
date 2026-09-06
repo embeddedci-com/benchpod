@@ -14154,7 +14154,7 @@
 				)
 			)
 		)
-		(property "Description" "Four pin crystal, GND on pins 2 and 4"
+		(property "Description" "Four pin crystal, GND on pins 2 and 4. 25MHz/6pF, ESR ≤100Ω required (LAN8742A PHY ref clk on Y1"
 			(at 130.81 76.2 0)
 			(hide yes)
 			(show_name no)
@@ -14187,7 +14187,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C20623595"
+		(property "LCSC" "C49867546"
 			(at 130.81 76.2 0)
 			(hide yes)
 			(show_name no)
