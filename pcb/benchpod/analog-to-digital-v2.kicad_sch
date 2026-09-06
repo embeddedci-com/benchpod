@@ -2588,6 +2588,149 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "lcsc_plugin:HX_PZ2_54-1X2P_ZZ"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "U"
+				(at 0 1.27 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "HX PZ2.54-1X2P ZZ"
+				(at 0 -2.54 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "lcsc_footprints:C32713268_HDR-TH_2P-P2_54-V-M-3"
+				(at 0 -10.16 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2407231541_hanxia-HX-PZ2-54-1x2P-ZZ_C32713268.pdf"
+				(at -2.286 0.127 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "HX PZ2.54-1X2P ZZ"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "LCSC" "C32713268"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Manufacturer" "hanxia(韩下)"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "HX_PZ2_54-1X2P_ZZ_1_1"
+				(rectangle
+					(start -2.54 3.81)
+					(end 2.54 -3.81)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(circle
+					(center -1.27 2.54)
+					(radius 0.381)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(pin unspecified line
+					(at -5.08 1.27 0)
+					(length 2.54)
+					(name "1"
+						(effects
+							(font
+								(size 1 1)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1 1)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at -5.08 -1.27 0)
+					(length 2.54)
+					(name "2"
+						(effects
+							(font
+								(size 1 1)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1 1)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "power:+3V3"
 			(power global)
 			(pin_numbers
@@ -3158,6 +3301,12 @@
 		(uuid "6dbd2613-c297-4cb2-8f2a-eee715b48b12")
 	)
 	(junction
+		(at 44.45 36.83)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "767109be-cbc8-46f8-9ccf-a4879d1ef81e")
+	)
+	(junction
 		(at 87.63 154.94)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3448,6 +3597,16 @@
 			(type default)
 		)
 		(uuid "1e27baf0-e197-4ce0-88b1-156c3409eaa6")
+	)
+	(wire
+		(pts
+			(xy 44.45 36.83) (xy 44.45 60.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1eb872b0-3aee-4d29-ae72-e608fee3dbf8")
 	)
 	(wire
 		(pts
@@ -3861,6 +4020,16 @@
 	)
 	(wire
 		(pts
+			(xy 29.21 60.96) (xy 44.45 60.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "59c15cdf-b828-4db0-9d97-f93633436a94")
+	)
+	(wire
+		(pts
 			(xy 165.1 57.15) (xy 171.45 57.15)
 		)
 		(stroke
@@ -4068,6 +4237,16 @@
 			(type default)
 		)
 		(uuid "83366227-c695-4cdd-bc4c-8f65e731ca42")
+	)
+	(wire
+		(pts
+			(xy 44.45 36.83) (xy 48.26 36.83)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8550a72c-c6cd-4301-8d82-0c298ebdc0c4")
 	)
 	(wire
 		(pts
@@ -4291,7 +4470,17 @@
 	)
 	(wire
 		(pts
-			(xy 41.91 36.83) (xy 48.26 36.83)
+			(xy 29.21 63.5) (xy 30.48 63.5)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b1c57792-55c8-402a-9732-a003433d38f0")
+	)
+	(wire
+		(pts
+			(xy 41.91 36.83) (xy 44.45 36.83)
 		)
 		(stroke
 			(width 0)
@@ -14414,6 +14603,108 @@
 		)
 	)
 	(symbol
+		(lib_id "lcsc_plugin:HX_PZ2_54-1X2P_ZZ")
+		(at 24.13 62.23 180)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "d9ea993e-0b0a-4b32-9ea8-6699bc267ea1")
+		(property "Reference" "U11"
+			(at 24.13 53.34 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "HX PZ2.54-1X2P ZZ"
+			(at 24.13 55.88 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "lcsc_footprints:C32713268_HDR-TH_2P-P2_54-V-M-3"
+			(at 24.13 52.07 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2407231541_hanxia-HX-PZ2-54-1x2P-ZZ_C32713268.pdf"
+			(at 26.416 62.357 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "HX PZ2.54-1X2P ZZ"
+			(at 24.13 62.23 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C32713268"
+			(at 24.13 62.23 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "hanxia(韩下)"
+			(at 24.13 62.23 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "63a94f58-6528-4368-9018-96a34930a6a0")
+		)
+		(pin "2"
+			(uuid "901b5671-258d-41d5-bb96-78dff42623dc")
+		)
+		(instances
+			(project "vbench-pod"
+				(path "/745fcf4b-2e0b-4fc4-95c0-f2e3fd40beb9/912decfe-2152-478c-90a9-82a2e6c8d6ce"
+					(reference "U11")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R")
 		(at 252.73 95.25 90)
 		(unit 1)
@@ -14542,6 +14833,82 @@
 			(project "vbench-pod"
 				(path "/745fcf4b-2e0b-4fc4-95c0-f2e3fd40beb9/912decfe-2152-478c-90a9-82a2e6c8d6ce"
 					(reference "R106")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GNDA")
+		(at 30.48 63.5 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "da1de9df-c231-4b64-be63-9165567a8e49")
+		(property "Reference" "#PWR0214"
+			(at 30.48 69.85 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 30.607 67.8942 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 30.48 63.5 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 30.48 63.5 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 30.48 63.5 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "8ce2f981-0750-4b2e-a786-9282aa8726aa")
+		)
+		(instances
+			(project "vbench-pod"
+				(path "/745fcf4b-2e0b-4fc4-95c0-f2e3fd40beb9/912decfe-2152-478c-90a9-82a2e6c8d6ce"
+					(reference "#PWR0214")
 					(unit 1)
 				)
 			)
