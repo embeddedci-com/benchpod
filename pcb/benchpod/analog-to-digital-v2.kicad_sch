@@ -4020,7 +4020,7 @@
 	)
 	(wire
 		(pts
-			(xy 29.21 60.96) (xy 44.45 60.96)
+			(xy 29.21 60.96) (xy 34.29 60.96)
 		)
 		(stroke
 			(width 0)
@@ -4217,6 +4217,16 @@
 			(type default)
 		)
 		(uuid "7f67f960-b069-4dbc-84d5-598c7751efbb")
+	)
+	(wire
+		(pts
+			(xy 41.91 60.96) (xy 44.45 60.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7fe671c9-4ee7-41a7-91c3-058b98e31567")
 	)
 	(wire
 		(pts
@@ -15439,6 +15449,97 @@
 			(project "vbench-pod"
 				(path "/745fcf4b-2e0b-4fc4-95c0-f2e3fd40beb9/912decfe-2152-478c-90a9-82a2e6c8d6ce"
 					(reference "R91")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 38.1 60.96 270)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "e5a2cd54-7677-429b-a63c-aedc47a3e262")
+		(property "Reference" "R20"
+			(at 38.1 54.61 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "0"
+			(at 38.1 57.15 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+			(at 38.1 59.182 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 38.1 60.96 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 38.1 60.96 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C17168"
+			(at 38.1 60.96 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "caeaab99-7a19-4f9f-b3b0-1770230eed5b")
+		)
+		(pin "1"
+			(uuid "4f575929-afa7-45b2-927d-8bc164be2777")
+		)
+		(instances
+			(project "vbench-pod"
+				(path "/745fcf4b-2e0b-4fc4-95c0-f2e3fd40beb9/912decfe-2152-478c-90a9-82a2e6c8d6ce"
+					(reference "R20")
 					(unit 1)
 				)
 			)
