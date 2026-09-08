@@ -62,7 +62,7 @@
           "hatch_thickness": 1.0,
           "min_clearance": 0.2,
           "min_island_area": 10.0,
-          "min_thickness": 0.2,
+          "min_thickness": 0.25,
           "pad_connection": 2,
           "remove_islands": 0,
           "thermal_relief_gap": 0.5,
@@ -81,12 +81,7 @@
           "width": 0.2
         }
       ],
-      "drc_exclusions": [
-        [
-          "text_thickness|74312341|97999997|553b80ad-cbcb-4f71-8322-1f69e66623ee|00000000-0000-0000-0000-000000000000",
-          ""
-        ]
-      ],
+      "drc_exclusions": [],
       "meta": {
         "version": 2
       },
@@ -909,7 +904,7 @@
         "uuid": "745fcf4b-2e0b-4fc4-95c0-f2e3fd40beb9"
       }
     ],
-    "used_designators": "H4,USB1,R7,R20,R163-173,C147,C253-255,D12,D19-21,#PWR14,#PWR33,#PWR63,#PWR80,#PWR176,#PWR211-212,#PWR214,#PWR268,#PWR275,#PWR349,#PWR370-372,#PWR415-432,U5,U11-17",
+    "used_designators": "H4,USB1,R7,R20,R163-173,C147,C253-255,D12,D19-21,#PWR14,#PWR33,#PWR47,#PWR63,#PWR80,#PWR176,#PWR211-212,#PWR214,#PWR268,#PWR275,#PWR349,#PWR370-372,#PWR415-432,U5,U11-17",
     "variants": []
   },
   "sheets": [

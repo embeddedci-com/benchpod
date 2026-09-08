@@ -21917,7 +21917,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
 			(at 82.8548 176.53 0)
 			(hide yes)
 			(show_name no)
@@ -21961,7 +21961,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C59461"
+		(property "LCSC" "C45783"
 			(at 83.82 180.34 0)
 			(hide yes)
 			(show_name no)
@@ -24447,7 +24447,6 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "b5f7e968-6cf3-4450-9c45-4f8632e3fcaf")
 		(property "Reference" "C197"
 			(at 172.72 106.6799 0)
@@ -24471,7 +24470,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
 			(at 169.8752 111.76 0)
 			(hide yes)
 			(show_name no)
@@ -24504,7 +24503,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C59461"
+		(property "LCSC" "C45783"
 			(at 168.91 107.95 0)
 			(hide yes)
 			(show_name no)
@@ -24775,7 +24774,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
 			(at 158.4452 111.76 0)
 			(hide yes)
 			(show_name no)
@@ -24808,7 +24807,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C59461"
+		(property "LCSC" "C45783"
 			(at 157.48 107.95 0)
 			(hide yes)
 			(show_name no)
@@ -25000,7 +24999,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
 			(at 201.6252 156.21 0)
 			(hide yes)
 			(show_name no)
@@ -25033,7 +25032,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C59461"
+		(property "LCSC" "C45783"
 			(at 200.66 152.4 0)
 			(hide yes)
 			(show_name no)
@@ -32573,7 +32572,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
 			(at 101.9048 119.38 0)
 			(hide yes)
 			(show_name no)
@@ -32617,7 +32616,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C59461"
+		(property "LCSC" "C45783"
 			(at 102.87 123.19 0)
 			(hide yes)
 			(show_name no)

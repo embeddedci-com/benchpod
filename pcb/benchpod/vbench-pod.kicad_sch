@@ -2484,14 +2484,14 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "lcsc_lib:APS6404L-3SQR-SN_C5333729"
+		(symbol "lcsc_imported:APS6404L-3SQR-ZR"
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
 			(in_pos_files yes)
 			(duplicate_pin_numbers_are_jumpers no)
 			(property "Reference" "U"
-				(at 0 8.89 0)
+				(at 0 1.27 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(effects
@@ -2500,8 +2500,8 @@
 					)
 				)
 			)
-			(property "Value" "APS6404L-3SQR-SN_C5333729"
-				(at 0 -8.89 0)
+			(property "Value" "APS6404L-3SQR-ZR"
+				(at 0 -2.54 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(effects
@@ -2510,19 +2510,8 @@
 					)
 				)
 			)
-			(property "Footprint" "easyeda2kicad:SOIC-8_L4.9-W3.9-P1.27-LS6.0-BL"
-				(at 0 -11.43 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Datasheet" "https://www.lcsc.com/datasheet/C5333729.pdf"
-				(at 0 -13.97 0)
+			(property "Footprint" "lcsc_footprints:C3040877_USON-8_L3_0-W2_0-P0_50-BL-EP"
+				(at 0 -10.16 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(hide yes)
@@ -2532,7 +2521,29 @@
 					)
 				)
 			)
-			(property "Description" ""
+			(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2411220136_AP-Memory-APS6404L-3SQR-ZR_C3040877.pdf"
+				(at -2.286 0.127 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "APS6404L-3SQR-ZR"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "LCSC" "C3040877"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -2544,39 +2555,6 @@
 				)
 			)
 			(property "Manufacturer" "Apmemory"
-				(at 0 -16.51 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "MPN" "APS6404L-3SQR-SN"
-				(at 0 -19.05 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "LCSC Part" "C5333729"
-				(at 0 -21.59 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_keywords" "DRAM"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -2587,10 +2565,10 @@
 					)
 				)
 			)
-			(symbol "APS6404L-3SQR-SN_C5333729_0_1"
+			(symbol "APS6404L-3SQR-ZR_1_1"
 				(rectangle
-					(start -17.78 6.35)
-					(end 17.78 -6.35)
+					(start -11.43 6.35)
+					(end 11.43 -6.35)
 					(stroke
 						(width 0)
 						(type default)
@@ -2600,156 +2578,174 @@
 					)
 				)
 				(circle
-					(center -16.51 5.08)
-					(radius 0.38)
+					(center -10.16 5.08)
+					(radius 0.381)
 					(stroke
 						(width 0)
 						(type default)
 					)
 					(fill
-						(type none)
+						(type background)
 					)
 				)
 				(pin unspecified line
-					(at -20.32 3.81 0)
+					(at -13.97 3.81 0)
 					(length 2.54)
-					(name "~{CE}"
+					(name "/CE"
 						(effects
 							(font
-								(size 1.27 1.27)
+								(size 1 1)
 							)
 						)
 					)
 					(number "1"
 						(effects
 							(font
-								(size 1.27 1.27)
+								(size 1 1)
 							)
 						)
 					)
 				)
 				(pin unspecified line
-					(at -20.32 1.27 0)
+					(at -13.97 1.27 0)
 					(length 2.54)
-					(name "SO/SIO[1]"
+					(name "SO/SIO"
 						(effects
 							(font
-								(size 1.27 1.27)
+								(size 1 1)
 							)
 						)
 					)
 					(number "2"
 						(effects
 							(font
-								(size 1.27 1.27)
+								(size 1 1)
 							)
 						)
 					)
 				)
 				(pin unspecified line
-					(at -20.32 -1.27 0)
+					(at -13.97 -1.27 0)
 					(length 2.54)
-					(name "SIO[2]"
+					(name "SIO"
 						(effects
 							(font
-								(size 1.27 1.27)
+								(size 1 1)
 							)
 						)
 					)
 					(number "3"
 						(effects
 							(font
-								(size 1.27 1.27)
+								(size 1 1)
 							)
 						)
 					)
 				)
 				(pin unspecified line
-					(at -20.32 -3.81 0)
+					(at -13.97 -3.81 0)
 					(length 2.54)
 					(name "VSS"
 						(effects
 							(font
-								(size 1.27 1.27)
+								(size 1 1)
 							)
 						)
 					)
 					(number "4"
 						(effects
 							(font
-								(size 1.27 1.27)
+								(size 1 1)
 							)
 						)
 					)
 				)
 				(pin unspecified line
-					(at 20.32 -3.81 180)
+					(at 13.97 -3.81 180)
 					(length 2.54)
-					(name "SI/SIO[0]"
+					(name "SI/SIO"
 						(effects
 							(font
-								(size 1.27 1.27)
+								(size 1 1)
 							)
 						)
 					)
 					(number "5"
 						(effects
 							(font
-								(size 1.27 1.27)
+								(size 1 1)
 							)
 						)
 					)
 				)
 				(pin unspecified line
-					(at 20.32 -1.27 180)
+					(at 13.97 -1.27 180)
 					(length 2.54)
 					(name "SCLK"
 						(effects
 							(font
-								(size 1.27 1.27)
+								(size 1 1)
 							)
 						)
 					)
 					(number "6"
 						(effects
 							(font
-								(size 1.27 1.27)
+								(size 1 1)
 							)
 						)
 					)
 				)
 				(pin unspecified line
-					(at 20.32 1.27 180)
+					(at 13.97 1.27 180)
 					(length 2.54)
-					(name "SIO[3]"
+					(name "SIO"
 						(effects
 							(font
-								(size 1.27 1.27)
+								(size 1 1)
 							)
 						)
 					)
 					(number "7"
 						(effects
 							(font
-								(size 1.27 1.27)
+								(size 1 1)
 							)
 						)
 					)
 				)
 				(pin unspecified line
-					(at 20.32 3.81 180)
+					(at 13.97 3.81 180)
 					(length 2.54)
 					(name "VDD"
 						(effects
 							(font
-								(size 1.27 1.27)
+								(size 1 1)
 							)
 						)
 					)
 					(number "8"
 						(effects
 							(font
-								(size 1.27 1.27)
+								(size 1 1)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 0 8.89 270)
+					(length 2.54)
+					(name "EP"
+						(effects
+							(font
+								(size 1 1)
+							)
+						)
+					)
+					(number "9"
+						(effects
+							(font
+								(size 1 1)
 							)
 						)
 					)
@@ -10121,7 +10117,17 @@
 	)
 	(wire
 		(pts
-			(xy 185.42 262.89) (xy 185.42 265.43)
+			(xy 219.71 262.89) (xy 231.14 262.89)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0c206ec5-b3dc-42c3-8844-b6be5f40b82e")
+	)
+	(wire
+		(pts
+			(xy 186.69 262.89) (xy 186.69 265.43)
 		)
 		(stroke
 			(width 0)
@@ -10691,16 +10697,6 @@
 	)
 	(wire
 		(pts
-			(xy 231.14 260.35) (xy 226.06 260.35)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "3a27434a-08d1-4759-b29d-3e8d3f2c3a07")
-	)
-	(wire
-		(pts
 			(xy 26.67 149.86) (xy 31.75 149.86)
 		)
 		(stroke
@@ -10941,6 +10937,16 @@
 	)
 	(wire
 		(pts
+			(xy 219.71 257.81) (xy 231.14 257.81)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4deaf544-643f-46ed-abaf-6916550b6fee")
+	)
+	(wire
+		(pts
 			(xy 52.07 129.54) (xy 52.07 135.89)
 		)
 		(stroke
@@ -11001,7 +11007,7 @@
 	)
 	(wire
 		(pts
-			(xy 170.18 257.81) (xy 185.42 257.81)
+			(xy 170.18 257.81) (xy 191.77 257.81)
 		)
 		(stroke
 			(width 0)
@@ -11041,7 +11047,7 @@
 	)
 	(wire
 		(pts
-			(xy 170.18 260.35) (xy 185.42 260.35)
+			(xy 170.18 260.35) (xy 191.77 260.35)
 		)
 		(stroke
 			(width 0)
@@ -11301,6 +11307,26 @@
 	)
 	(wire
 		(pts
+			(xy 219.71 260.35) (xy 231.14 260.35)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "70b0433c-f2dc-4685-a975-4c4ea369f80f")
+	)
+	(wire
+		(pts
+			(xy 205.74 248.92) (xy 208.28 248.92)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7234f160-8fd4-448d-83b8-1509f547f3d3")
+	)
+	(wire
+		(pts
 			(xy 289.56 29.21) (xy 278.13 29.21)
 		)
 		(stroke
@@ -11471,7 +11497,7 @@
 	)
 	(wire
 		(pts
-			(xy 181.61 255.27) (xy 185.42 255.27)
+			(xy 181.61 255.27) (xy 191.77 255.27)
 		)
 		(stroke
 			(width 0)
@@ -11871,6 +11897,16 @@
 	)
 	(wire
 		(pts
+			(xy 205.74 248.92) (xy 205.74 250.19)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a1838ed1-aa8f-46ac-b0ba-3e5ff9f39fe8")
+	)
+	(wire
+		(pts
 			(xy 134.62 240.03) (xy 134.62 257.81)
 		)
 		(stroke
@@ -11958,16 +11994,6 @@
 			(type default)
 		)
 		(uuid "ada15e99-f1d8-4c66-a1a9-4cff5f997770")
-	)
-	(wire
-		(pts
-			(xy 231.14 257.81) (xy 226.06 257.81)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "af475337-b514-44c0-a584-5a7ed912018b")
 	)
 	(wire
 		(pts
@@ -12211,6 +12237,16 @@
 	)
 	(wire
 		(pts
+			(xy 186.69 262.89) (xy 191.77 262.89)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c608c165-940c-4734-aa80-8c300b137829")
+	)
+	(wire
+		(pts
 			(xy 162.56 34.29) (xy 172.72 34.29)
 		)
 		(stroke
@@ -12238,6 +12274,16 @@
 			(type default)
 		)
 		(uuid "ca832369-0d4c-46d2-8674-6bdac8f21d45")
+	)
+	(wire
+		(pts
+			(xy 219.71 255.27) (xy 226.06 255.27)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "caf624ce-3025-49b1-a3cc-9323d530f2a3")
 	)
 	(wire
 		(pts
@@ -12588,16 +12634,6 @@
 			(type default)
 		)
 		(uuid "f019a7f4-6ef0-489e-8278-6bf02536c76d")
-	)
-	(wire
-		(pts
-			(xy 231.14 262.89) (xy 226.06 262.89)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f05adb4e-7336-45ec-84df-1a3f562f1bcb")
 	)
 	(wire
 		(pts
@@ -18967,6 +19003,82 @@
 			(project "vbench-pod"
 				(path "/745fcf4b-2e0b-4fc4-95c0-f2e3fd40beb9"
 					(reference "#PWR087")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 208.28 248.92 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "20780e8c-6758-485e-9d0f-9b7938e3c3a6")
+		(property "Reference" "#PWR047"
+			(at 208.28 255.27 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 212.09 250.19 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 208.28 248.92 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 208.28 248.92 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 208.28 248.92 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "5049e8e6-a0cd-42c4-8d40-c68d23701ca5")
+		)
+		(instances
+			(project "vbench-pod"
+				(path "/745fcf4b-2e0b-4fc4-95c0-f2e3fd40beb9"
+					(reference "#PWR047")
 					(unit 1)
 				)
 			)
@@ -28297,7 +28409,7 @@
 		(in_bom yes)
 		(on_board yes)
 		(in_pos_files yes)
-		(dnp no)
+		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "5f6aea79-8245-4d66-bb0f-afa3fea2fc90")
 		(property "Reference" "H1"
@@ -33165,7 +33277,7 @@
 		(in_bom yes)
 		(on_board yes)
 		(in_pos_files yes)
-		(dnp no)
+		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "84cb6656-5149-4a41-b5b3-9c623a7602ea")
 		(property "Reference" "H3"
@@ -34969,7 +35081,7 @@
 		(in_bom yes)
 		(on_board yes)
 		(in_pos_files yes)
-		(dnp no)
+		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "8ea8cffb-ce79-4b50-9580-04a31d51625e")
 		(property "Reference" "H2"
@@ -37816,7 +37928,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
 			(at 173.6852 34.29 0)
 			(hide yes)
 			(show_name no)
@@ -37849,7 +37961,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C59461"
+		(property "LCSC" "C45783"
 			(at 172.72 30.48 0)
 			(hide yes)
 			(show_name no)
@@ -48411,192 +48523,6 @@
 		)
 	)
 	(symbol
-		(lib_id "lcsc_lib:APS6404L-3SQR-SN_C5333729")
-		(at 205.74 259.08 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "e53446c4-8cfe-4396-a639-f7af2f383acc")
-		(property "Reference" "U7"
-			(at 205.74 247.65 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "APS6404L-3SQR-SN_C5333729"
-			(at 205.74 250.19 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "lcsc:SOIC-8_L4.9-W3.9-P1.27-LS6.0-BL"
-			(at 205.74 270.51 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" "https://www.lcsc.com/datasheet/C5333729.pdf"
-			(at 205.74 273.05 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 205.74 259.08 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Manufacturer" "Apmemory"
-			(at 205.74 275.59 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "MPN" "APS6404L-3SQR-SN"
-			(at 205.74 278.13 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "LCSC Part" "C5333729"
-			(at 205.74 280.67 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "LCSC" "C5333729"
-			(at 205.74 259.08 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "ProductID" ""
-			(at 205.74 259.08 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Pins" ""
-			(at 205.74 259.08 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "KLC_S3.3" ""
-			(at 205.74 259.08 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "KLC_S4.1" ""
-			(at 205.74 259.08 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "7"
-			(uuid "fd830008-04fd-437b-976e-51c2ff66f85b")
-		)
-		(pin "6"
-			(uuid "d7306255-1201-4cbb-bd45-33fd5324da2b")
-		)
-		(pin "2"
-			(uuid "74d8d75d-995c-43c5-b591-d7de32a8ebb4")
-		)
-		(pin "4"
-			(uuid "ba81a5f9-b00e-4dcc-8176-8409a94b2b5c")
-		)
-		(pin "3"
-			(uuid "52d57fd6-f644-4971-8f06-2819353fb79f")
-		)
-		(pin "1"
-			(uuid "45b7b179-12dc-4793-8270-45251629a278")
-		)
-		(pin "5"
-			(uuid "0010a623-9bf4-4521-89bb-b72a2ac8c2d6")
-		)
-		(pin "8"
-			(uuid "c98bba1c-33a0-4985-804b-55f694118e47")
-		)
-		(instances
-			(project "vbench-pod"
-				(path "/745fcf4b-2e0b-4fc4-95c0-f2e3fd40beb9"
-					(reference "U7")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:C")
 		(at 29.21 132.08 0)
 		(mirror y)
@@ -49790,8 +49716,131 @@
 		)
 	)
 	(symbol
+		(lib_id "lcsc_imported:APS6404L-3SQR-ZR")
+		(at 205.74 259.08 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "ebcd987c-5253-46cf-8884-6319484dd3c3")
+		(property "Reference" "U7"
+			(at 205.74 267.97 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "APS6404L-3SQR-ZR"
+			(at 205.74 270.51 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "lcsc_footprints:C3040877_USON-8_L3_0-W2_0-P0_50-BL-EP"
+			(at 205.74 269.24 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2411220136_AP-Memory-APS6404L-3SQR-ZR_C3040877.pdf"
+			(at 203.454 258.953 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "APS6404L-3SQR-ZR"
+			(at 205.74 259.08 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C3040877"
+			(at 205.74 259.08 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "Apmemory"
+			(at 205.74 259.08 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "4"
+			(uuid "9bd29e29-ecb6-4b6d-ab7b-7af5f2f681d3")
+		)
+		(pin "5"
+			(uuid "5faf1e9b-7034-4c05-9e17-ef4e60e2a63c")
+		)
+		(pin "6"
+			(uuid "cc3ca0eb-c8e1-4f72-9c20-08db0a8595bc")
+		)
+		(pin "7"
+			(uuid "a313db79-409e-467a-be46-77ac4f483f3d")
+		)
+		(pin "8"
+			(uuid "ba2dc2e5-7e74-4f01-bbce-3ce4a13258e4")
+		)
+		(pin "9"
+			(uuid "e0df8e59-3564-4e7f-ba73-9cba9008e8ba")
+		)
+		(pin "2"
+			(uuid "e49dc451-e21a-4473-a0bc-de8a182d93f5")
+		)
+		(pin "3"
+			(uuid "a7643f7b-6d93-4871-8aad-df665af84fda")
+		)
+		(pin "1"
+			(uuid "b7511b71-a0de-4e15-a04d-ccfcf518a178")
+		)
+		(instances
+			(project "vbench-pod"
+				(path "/745fcf4b-2e0b-4fc4-95c0-f2e3fd40beb9"
+					(reference "U7")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
-		(at 185.42 265.43 0)
+		(at 186.69 265.43 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -49801,7 +49850,7 @@
 		(dnp no)
 		(uuid "edf62012-5e12-4e19-b07c-277beec6632b")
 		(property "Reference" "#PWR044"
-			(at 185.42 271.78 0)
+			(at 186.69 271.78 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -49812,7 +49861,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 189.23 266.7 0)
+			(at 190.5 266.7 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -49822,7 +49871,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 185.42 265.43 0)
+			(at 186.69 265.43 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -49833,7 +49882,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 185.42 265.43 0)
+			(at 186.69 265.43 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -49844,7 +49893,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 185.42 265.43 0)
+			(at 186.69 265.43 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
