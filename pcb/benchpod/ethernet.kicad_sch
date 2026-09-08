@@ -14121,7 +14121,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "Crystal_GND24"
+		(property "Value" "6pF ±10ppm SMD2016-4P Crystals  - 25Mhz"
 			(at 138.43 70.612 90)
 			(show_name no)
 			(do_not_autoplace no)

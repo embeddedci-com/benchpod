@@ -2192,6 +2192,129 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "Mechanical:MountingHole_Pad"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 1.016)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom no)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "H"
+				(at 0 6.35 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "MountingHole_Pad"
+				(at 0 4.445 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Mounting Hole with connection"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "mounting hole"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "MountingHole*Pad*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "MountingHole_Pad_0_1"
+				(circle
+					(center 0 1.27)
+					(radius 1.27)
+					(stroke
+						(width 1.27)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "MountingHole_Pad_1_1"
+				(pin input line
+					(at 0 -2.54 90)
+					(length 2.54)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "edward_lib:W25Q64JVSSIQ"
 			(pin_names
 				(offset 0.254)
@@ -9738,6 +9861,18 @@
 		(uuid "e39351bc-1808-4a7a-9e5a-87e4eaceb738")
 	)
 	(junction
+		(at 246.38 275.59)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "e4ebac70-1037-44a1-a24f-3e50eb480193")
+	)
+	(junction
+		(at 260.35 275.59)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "e70d345c-bb30-493f-afbe-e84c66fee7c6")
+	)
+	(junction
 		(at 323.85 36.83)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -10154,6 +10289,16 @@
 			(type default)
 		)
 		(uuid "0e58a3f6-bb1a-4528-8c6b-41c0dd3d16a0")
+	)
+	(wire
+		(pts
+			(xy 236.22 275.59) (xy 246.38 275.59)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0f0b77ad-f721-49d3-9ecf-b50c27b2f2ec")
 	)
 	(wire
 		(pts
@@ -10734,6 +10879,16 @@
 			(type default)
 		)
 		(uuid "3d23ba0e-eb89-4d41-9d37-66f5d405cdcb")
+	)
+	(wire
+		(pts
+			(xy 260.35 275.59) (xy 265.43 275.59)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3e309194-ccb9-42bd-9dd9-53bf96972b00")
 	)
 	(wire
 		(pts
@@ -12167,6 +12322,16 @@
 	)
 	(wire
 		(pts
+			(xy 246.38 275.59) (xy 260.35 275.59)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bd67b96b-cce8-4a39-b8f7-82023ea3f4ce")
+	)
+	(wire
+		(pts
 			(xy 306.07 226.06) (xy 330.2 226.06)
 		)
 		(stroke
@@ -12267,6 +12432,16 @@
 	)
 	(wire
 		(pts
+			(xy 265.43 281.94) (xy 260.35 276.86)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c9d93905-7afb-4a69-bda6-6c03c4472c33")
+	)
+	(wire
+		(pts
 			(xy 312.42 36.83) (xy 323.85 36.83)
 		)
 		(stroke
@@ -12274,6 +12449,16 @@
 			(type default)
 		)
 		(uuid "ca832369-0d4c-46d2-8674-6bdac8f21d45")
+	)
+	(wire
+		(pts
+			(xy 260.35 275.59) (xy 260.35 276.86)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cad294c4-2105-47f7-a715-2d3cc34341eb")
 	)
 	(wire
 		(pts
@@ -20954,7 +21139,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Mechanical:MountingHole")
+		(lib_id "Mechanical:MountingHole_Pad")
 		(at 265.43 273.05 0)
 		(unit 1)
 		(body_style 1)
@@ -20966,7 +21151,7 @@
 		(fields_autoplaced yes)
 		(uuid "29b0b379-94ce-4f4e-a427-6b5ee2ad46c5")
 		(property "Reference" "H11"
-			(at 267.97 271.7799 0)
+			(at 267.97 270.5099 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -20977,7 +21162,7 @@
 			)
 		)
 		(property "Value" "MountingHole"
-			(at 267.97 274.3199 0)
+			(at 267.97 273.0499 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -20987,7 +21172,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "MountingHole:MountingHole_2.7mm_M2.5"
+		(property "Footprint" "MountingHole:MountingHole_2.7mm_M2.5_Pad_Via"
 			(at 265.43 273.05 0)
 			(hide yes)
 			(show_name no)
@@ -21009,7 +21194,7 @@
 				)
 			)
 		)
-		(property "Description" "Mounting Hole without connection"
+		(property "Description" "Mounting Hole with connection"
 			(at 265.43 273.05 0)
 			(hide yes)
 			(show_name no)
@@ -21019,6 +21204,9 @@
 					(size 1.27 1.27)
 				)
 			)
+		)
+		(pin "1"
+			(uuid "47ef1d95-2f2a-47db-88e9-b5dd3427bf1f")
 		)
 		(instances
 			(project "vbench-pod"
@@ -24500,6 +24688,82 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GND")
+		(at 236.22 275.59 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "4035f93a-33e6-4e11-bcb9-798d0634cc7c")
+		(property "Reference" "#PWR064"
+			(at 236.22 281.94 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 235.966 280.162 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 236.22 275.59 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 236.22 275.59 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 236.22 275.59 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "01845202-4977-41ae-9e7c-6ff58b7ce68a")
+		)
+		(instances
+			(project "vbench-pod"
+				(path "/745fcf4b-2e0b-4fc4-95c0-f2e3fd40beb9"
+					(reference "#PWR064")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:C")
 		(at 142.24 30.48 0)
 		(mirror x)
@@ -25603,7 +25867,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric"
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
 			(at 244.8052 36.83 0)
 			(hide yes)
 			(show_name no)
@@ -25636,7 +25900,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C29823"
+		(property "LCSC" "C98192"
 			(at 243.84 33.02 0)
 			(hide yes)
 			(show_name no)
@@ -29681,7 +29945,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
 			(at 25.7048 149.86 0)
 			(hide yes)
 			(show_name no)
@@ -29713,7 +29977,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C19666"
+		(property "LCSC" "C98192"
 			(at 26.67 146.05 0)
 			(hide yes)
 			(show_name no)
@@ -32113,7 +32377,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "Crystal_GND24"
+		(property "Value" "6pF ±10ppm SMD2016-4P Crystals  - 25Mhz"
 			(at 238.76 160.782 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -40907,7 +41171,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Mechanical:MountingHole")
+		(lib_id "Mechanical:MountingHole_Pad")
 		(at 265.43 279.4 0)
 		(unit 1)
 		(body_style 1)
@@ -40919,7 +41183,7 @@
 		(fields_autoplaced yes)
 		(uuid "a2e1290b-b2bc-4363-9d15-f11d9cf1d6ae")
 		(property "Reference" "H14"
-			(at 267.97 278.1299 0)
+			(at 267.97 276.8599 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -40930,7 +41194,7 @@
 			)
 		)
 		(property "Value" "MountingHole"
-			(at 267.97 280.6699 0)
+			(at 267.97 279.3999 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -40940,7 +41204,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "MountingHole:MountingHole_2.7mm_M2.5"
+		(property "Footprint" "MountingHole:MountingHole_2.7mm_M2.5_Pad_Via"
 			(at 265.43 279.4 0)
 			(hide yes)
 			(show_name no)
@@ -40962,7 +41226,7 @@
 				)
 			)
 		)
-		(property "Description" "Mounting Hole without connection"
+		(property "Description" "Mounting Hole with connection"
 			(at 265.43 279.4 0)
 			(hide yes)
 			(show_name no)
@@ -40972,6 +41236,9 @@
 					(size 1.27 1.27)
 				)
 			)
+		)
+		(pin "1"
+			(uuid "b26a0aad-5408-4844-8c70-9f42ff4789ce")
 		)
 		(instances
 			(project "vbench-pod"
@@ -43437,7 +43704,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Mechanical:MountingHole")
+		(lib_id "Mechanical:MountingHole_Pad")
 		(at 246.38 273.05 0)
 		(unit 1)
 		(body_style 1)
@@ -43449,7 +43716,7 @@
 		(fields_autoplaced yes)
 		(uuid "b7410b83-371b-4ee6-973c-9728eb3fc27d")
 		(property "Reference" "H10"
-			(at 248.92 271.7799 0)
+			(at 248.92 270.5099 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -43460,7 +43727,7 @@
 			)
 		)
 		(property "Value" "MountingHole"
-			(at 248.92 274.3199 0)
+			(at 248.92 273.0499 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -43470,7 +43737,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "MountingHole:MountingHole_2.7mm_M2.5"
+		(property "Footprint" "MountingHole:MountingHole_2.7mm_M2.5_Pad_Via"
 			(at 246.38 273.05 0)
 			(hide yes)
 			(show_name no)
@@ -43492,7 +43759,7 @@
 				)
 			)
 		)
-		(property "Description" "Mounting Hole without connection"
+		(property "Description" "Mounting Hole with connection"
 			(at 246.38 273.05 0)
 			(hide yes)
 			(show_name no)
@@ -43502,6 +43769,9 @@
 					(size 1.27 1.27)
 				)
 			)
+		)
+		(pin "1"
+			(uuid "a7ccca3c-1d82-4796-90bb-3f6027472565")
 		)
 		(instances
 			(project "vbench-pod"
@@ -48556,7 +48826,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
 			(at 28.2448 135.89 0)
 			(hide yes)
 			(show_name no)
@@ -48588,7 +48858,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C19666"
+		(property "LCSC" "C98192"
 			(at 29.21 132.08 0)
 			(hide yes)
 			(show_name no)
