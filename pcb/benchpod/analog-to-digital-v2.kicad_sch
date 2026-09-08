@@ -11476,7 +11476,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
+		(property "Footprint" "Resistor_SMD:R_1206_3216Metric"
 			(at 85.852 158.75 90)
 			(hide yes)
 			(show_name no)
@@ -11509,7 +11509,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C2989268"
+		(property "LCSC" "C870575"
 			(at 87.63 158.75 0)
 			(hide yes)
 			(show_name no)
