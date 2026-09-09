@@ -60,7 +60,7 @@
           "hatch_smoothing_level": 0,
           "hatch_smoothing_value": 0.1,
           "hatch_thickness": 1.0,
-          "min_clearance": 0.3,
+          "min_clearance": 0.22,
           "min_island_area": 10.0,
           "min_thickness": 0.25,
           "pad_connection": 2,
@@ -166,7 +166,7 @@
         "min_through_hole_diameter": 0.2,
         "min_track_width": 0.2,
         "min_via_annular_width": 0.15,
-        "min_via_diameter": 0.5,
+        "min_via_diameter": 0.45,
         "solder_mask_to_copper_clearance": 0.0,
         "use_height_for_length_calcs": true
       },
@@ -904,7 +904,7 @@
         "uuid": "745fcf4b-2e0b-4fc4-95c0-f2e3fd40beb9"
       }
     ],
-    "used_designators": "H4,USB1,R7,R20,R163-177,C48,C59,C62-66,C97,C147,C253-257,D12,D19-21,#PWR14,#PWR32-33,#PWR47,#PWR63-64,#PWR80,#PWR176,#PWR211-212,#PWR214,#PWR220,#PWR268,#PWR275,#PWR349,#PWR370-372,#PWR415-437,U5,U11-17,U28",
+    "used_designators": "L1,H4,USB1,R7,R20,R138,R163-179,C48,C59,C62-66,C97,C147,C253-259,D12,D19-21,#PWR14,#PWR32-33,#PWR47,#PWR63-64,#PWR80,#PWR176,#PWR206,#PWR211-212,#PWR214,#PWR220,#PWR268,#PWR275,#PWR349,#PWR370-372,#PWR415-438,U5,U11-17,U28",
     "variants": []
   },
   "sheets": [

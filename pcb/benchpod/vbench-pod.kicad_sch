@@ -10332,10 +10332,6 @@
 		(uuid "0a25db83-6c44-465e-b3ba-abe4dab12a8f")
 	)
 	(no_connect
-		(at 330.2 116.84)
-		(uuid "0df395eb-ac73-4f19-aa43-95fc51412046")
-	)
-	(no_connect
 		(at 330.2 83.82)
 		(uuid "100b79df-b242-4eea-8468-c02a1121c74d")
 	)
@@ -10386,10 +10382,6 @@
 	(no_connect
 		(at 373.38 124.46)
 		(uuid "5f4510ff-72a6-4384-91db-cbde9739a359")
-	)
-	(no_connect
-		(at 330.2 121.92)
-		(uuid "62bf151e-d4f7-42b1-8170-4e8a270964e9")
 	)
 	(no_connect
 		(at 373.38 91.44)
@@ -14769,6 +14761,16 @@
 		)
 		(uuid "63899087-e4f9-44df-b9d5-4cd13c9c816c")
 	)
+	(label "CC_SENSE1"
+		(at 113.03 43.18 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "66297099-df22-436d-9b68-eceb26d2a43a")
+	)
 	(label "STM32_VDD"
 		(at 330.2 127 180)
 		(effects
@@ -15229,6 +15231,16 @@
 		)
 		(uuid "9269d963-c580-4fa4-9bb3-a2bc4257a762")
 	)
+	(label "CC_SENSE2"
+		(at 330.2 121.92 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "931f166e-ad33-4f5e-b935-9cfb9f29ab4a")
+	)
 	(label "DAC_SCLK"
 		(at 123.19 78.74 0)
 		(effects
@@ -15638,6 +15650,16 @@
 			(justify right bottom)
 		)
 		(uuid "b25b6f5d-bb59-4b4a-8bcb-3567775b0dd6")
+	)
+	(label "CC_SENSE1"
+		(at 330.2 116.84 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "b3130297-b80e-4135-954d-92437d74e98d")
 	)
 	(label "HEADER1_5"
 		(at 270.51 257.81 180)
@@ -16478,6 +16500,16 @@
 			(justify left bottom)
 		)
 		(uuid "f8ce0890-6dd5-4291-b0ab-c13666cb4bd0")
+	)
+	(label "CC_SENSE2"
+		(at 113.03 46.99 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "fc7a83b1-520c-45a1-90a4-267143273905")
 	)
 	(label "FDCAN1_RX"
 		(at 373.38 129.54 0)
@@ -27197,7 +27229,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "lcsc:L0603"
+		(property "Footprint" "lcsc_footprints:C85833_L0603"
 			(at 286.512 128.27 90)
 			(hide yes)
 			(show_name no)
@@ -27241,7 +27273,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C1002"
+		(property "LCSC" "C85833"
 			(at 288.29 128.27 0)
 			(hide yes)
 			(show_name no)
@@ -54905,6 +54937,26 @@
 		(pin "P_USB_D-" input
 			(at 113.03 36.83 0)
 			(uuid "900b4da6-0e07-4d7b-adf3-470f8dd520d3")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "CC_SENSE1" input
+			(at 113.03 43.18 0)
+			(uuid "58d94d03-495d-4126-8623-795d0a25b18e")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "CC_SENSE2" input
+			(at 113.03 46.99 0)
+			(uuid "c4a70627-3dad-4389-a19f-48a0a406d3b9")
 			(effects
 				(font
 					(size 1.27 1.27)

@@ -10086,7 +10086,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "lcsc:L0603"
+		(property "Footprint" "lcsc_footprints:C85833_L0603"
 			(at 117.602 33.02 90)
 			(hide yes)
 			(show_name no)
@@ -10130,7 +10130,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C1002"
+		(property "LCSC" "C85833"
 			(at 119.38 33.02 0)
 			(hide yes)
 			(show_name no)
