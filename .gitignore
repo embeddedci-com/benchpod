@@ -13,3 +13,9 @@
 /pcb/benchpod/*.gbr
 *.kicad_prl
 *.lck
+
+/pcb/benchpod-*/vbench-pod-backups/
+/pcb/benchpod-*/.history/
+/pcb/benchpod-*/out/
+/pcb/benchpod-*/*.gbr
+*.zip
