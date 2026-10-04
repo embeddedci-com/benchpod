@@ -6976,7 +6976,7 @@
 				)
 			)
 		)
-		(property "Value" "INA238AIDGSR"
+		(property "Value" "INA226"
 			(at 259.08 140.97 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6997,7 +6997,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.lcsc.com/datasheet/C2868250.pdf"
+		(property "Datasheet" "https://www.lcsc.com/datasheet/C49851.pdf"
 			(at 259.08 166.37 0)
 			(hide yes)
 			(show_name no)
@@ -7019,29 +7019,7 @@
 				)
 			)
 		)
-		(property "Manufacturer" "TI(德州仪器)"
-			(at 259.08 168.91 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "MPN" "INA238AIDGSR"
-			(at 259.08 171.45 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "LCSC Part" "C2868250"
+		(property "LCSC Part" "C49851"
 			(at 259.08 173.99 0)
 			(hide yes)
 			(show_name no)
@@ -7052,7 +7030,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C2868250"
+		(property "LCSC" "C49851"
 			(at 259.08 151.13 0)
 			(hide yes)
 			(show_name no)
@@ -7168,7 +7146,7 @@
 				)
 			)
 		)
-		(property "Value" "30m"
+		(property "Value" "20m"
 			(at 163.83 127 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7211,7 +7189,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C2941066"
+		(property "LCSC" "C915979"
 			(at 163.83 129.54 90)
 			(hide yes)
 			(show_name no)
@@ -7985,7 +7963,7 @@
 				)
 			)
 		)
-		(property "Value" "50m"
+		(property "Value" "30m"
 			(at 161.29 90.17 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8028,7 +8006,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C5200068"
+		(property "LCSC" "C2941066"
 			(at 161.29 92.71 90)
 			(hide yes)
 			(show_name no)
@@ -11768,7 +11746,7 @@
 				)
 			)
 		)
-		(property "Value" "INA238AIDGSR"
+		(property "Value" "INA226"
 			(at 207.01 142.24 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11789,7 +11767,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.lcsc.com/datasheet/C2868250.pdf"
+		(property "Datasheet" "https://www.lcsc.com/datasheet/C49851.pdf"
 			(at 207.01 167.64 0)
 			(hide yes)
 			(show_name no)
@@ -11811,29 +11789,7 @@
 				)
 			)
 		)
-		(property "Manufacturer" "TI(德州仪器)"
-			(at 207.01 170.18 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "MPN" "INA238AIDGSR"
-			(at 207.01 172.72 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "LCSC Part" "C2868250"
+		(property "LCSC Part" "C49851"
 			(at 207.01 175.26 0)
 			(hide yes)
 			(show_name no)
@@ -11844,7 +11800,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C2868250"
+		(property "LCSC" "C49851"
 			(at 207.01 152.4 0)
 			(hide yes)
 			(show_name no)

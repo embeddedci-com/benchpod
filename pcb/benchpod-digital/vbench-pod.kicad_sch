@@ -22205,7 +22205,7 @@
 				)
 			)
 		)
-		(property "Value" "STM32H563ZIT6"
+		(property "Value" "STM32H563ZGT6"
 			(at 351.79 48.26 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -22226,7 +22226,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.lcsc.com/datasheet/C6807803.pdf"
+		(property "Datasheet" "https://www.lcsc.com/datasheet/C29271104.pdf"
 			(at 353.06 243.84 0)
 			(hide yes)
 			(show_name no)
@@ -22248,29 +22248,7 @@
 				)
 			)
 		)
-		(property "Manufacturer" "ST(意法半导体)"
-			(at 353.06 246.38 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "MPN" "STM32H563ZIT6"
-			(at 353.06 248.92 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "LCSC Part" "C6807803"
+		(property "LCSC Part" "C29271104"
 			(at 353.06 251.46 0)
 			(hide yes)
 			(show_name no)
@@ -22281,7 +22259,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C6807803"
+		(property "LCSC" "C29271104"
 			(at 353.06 143.51 0)
 			(hide yes)
 			(show_name no)
@@ -28323,17 +28301,6 @@
 				)
 			)
 		)
-		(property "LCSC Part" "C1002"
-			(at 288.29 128.27 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(property "Arrow Part Number" ""
 			(at 288.29 128.27 0)
 			(hide yes)
@@ -28792,7 +28759,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C25127"
+		(property "LCSC" "C3013179"
 			(at 184.15 148.59 0)
 			(hide yes)
 			(show_name no)
@@ -54562,7 +54529,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C25127"
+		(property "LCSC" "C3013179"
 			(at 184.15 146.05 0)
 			(hide yes)
 			(show_name no)

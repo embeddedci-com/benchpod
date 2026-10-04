@@ -137,7 +137,7 @@
         "through_hole_pad_without_hole": "error",
         "too_many_vias": "error",
         "track_angle": "error",
-        "track_dangling": "warning",
+        "track_dangling": "error",
         "track_not_centered_on_via": "error",
         "track_on_post_machined_layer": "error",
         "track_segment_length": "error",
@@ -146,7 +146,7 @@
         "tuning_profile_track_geometries": "error",
         "unconnected_items": "error",
         "unresolved_variable": "error",
-        "via_dangling": "warning",
+        "via_dangling": "error",
         "zones_intersect": "error"
       },
       "rules": {
@@ -649,7 +649,7 @@
       "method": 0,
       "sort_order": 0
     },
-    "bom_export_filename": "../../../../../../Downloads/vbench-pod.csv",
+    "bom_export_filename": "../../../../../../Downloads/benchpod-digital2.csv",
     "bom_fmt_presets": [],
     "bom_fmt_settings": {
       "field_delimiter": ",",
