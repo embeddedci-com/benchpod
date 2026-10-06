@@ -7987,7 +7987,7 @@
 				)
 			)
 		)
-		(property "Value" "INA226"
+		(property "Value" "INA226AIDGSR"
 			(at 247.65 129.54 0)
 			(show_name no)
 			(do_not_autoplace no)
