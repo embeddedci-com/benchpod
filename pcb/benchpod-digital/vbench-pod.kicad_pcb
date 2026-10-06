@@ -104764,7 +104764,7 @@
 			(justify right bottom)
 		)
 	)
-	(gr_text "BenchPod v3r1-Digital"
+	(gr_text "BenchPod v3r2-Digital"
 		(locked yes)
 		(at 58.746 85.101 0)
 		(layer "F.SilkS")
