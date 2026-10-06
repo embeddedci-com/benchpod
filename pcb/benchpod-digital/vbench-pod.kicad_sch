@@ -9976,7 +9976,7 @@
 	)
 	(text "FPGA"
 		(exclude_from_sim no)
-		(at 71.12 66.294 0)
+		(at 35.56 67.564 0)
 		(effects
 			(font
 				(size 2.54 2.54)
@@ -14850,6 +14850,16 @@
 		)
 		(uuid "2a5a6dae-bd93-478b-933f-ad4359a2ae6d")
 	)
+	(label "I2C0_SDA"
+		(at 113.03 53.34 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "2b3ceb8d-c83b-42ae-b4e5-085e4891b0e1")
+	)
 	(label "STM32_BOOT0"
 		(at 394.97 68.58 0)
 		(effects
@@ -16969,6 +16979,16 @@
 			(justify left bottom)
 		)
 		(uuid "f8ce0890-6dd5-4291-b0ab-c13666cb4bd0")
+	)
+	(label "I2C0_SCL"
+		(at 113.03 50.8 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "fc55fdb5-0be5-47de-a2d6-7807cf570f6e")
 	)
 	(label "CC_SENSE2"
 		(at 113.03 46.99 0)
@@ -55000,6 +55020,26 @@
 		(pin "CC_SENSE2" input
 			(at 113.03 46.99 0)
 			(uuid "c4a70627-3dad-4389-a19f-48a0a406d3b9")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "INA_SCL" input
+			(at 113.03 50.8 0)
+			(uuid "8ac930f8-3df1-4623-9e73-c70a4c311fd4")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "INA_SDA" input
+			(at 113.03 53.34 0)
+			(uuid "81ff6c86-d1c4-4463-8814-28e92eb7628a")
 			(effects
 				(font
 					(size 1.27 1.27)
