@@ -9755,12 +9755,6 @@
 		(uuid "406580ec-1373-49d1-bd9c-1c077e9b9e3b")
 	)
 	(junction
-		(at 295.91 203.2)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "45cc8fc2-d283-47c2-9643-7b050591de4c")
-	)
-	(junction
 		(at 196.85 77.47)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -10097,12 +10091,6 @@
 		(uuid "b78a0639-9b56-47a8-aaa3-4677e207ee10")
 	)
 	(junction
-		(at 298.45 76.2)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "b945aa89-8b37-4289-9416-b47e3d0a38a7")
-	)
-	(junction
 		(at 346.71 29.21)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -10191,18 +10179,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "d25a4dc5-f090-4b6a-a683-24e2572fbf80")
-	)
-	(junction
-		(at 298.45 78.74)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "d70a2a58-13f9-43f3-9424-4c8d10660231")
-	)
-	(junction
-		(at 309.88 200.66)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "d7416af0-7e96-414e-94c2-70be799961bc")
 	)
 	(junction
 		(at 162.56 160.02)
@@ -10363,6 +10339,14 @@
 		(uuid "33a4380f-251a-4243-82eb-77f51d323185")
 	)
 	(no_connect
+		(at 373.38 228.6)
+		(uuid "38089ab2-99f9-45a2-bd85-76cd3eb797ef")
+	)
+	(no_connect
+		(at 330.2 200.66)
+		(uuid "39e0a273-70bd-412d-a544-70cea97edca2")
+	)
+	(no_connect
 		(at 373.38 121.92)
 		(uuid "3b9b1dae-92d1-414f-a890-11c64cb218ee")
 	)
@@ -10427,6 +10411,10 @@
 		(uuid "73fb6db3-7715-41a0-86a3-7284c36106ad")
 	)
 	(no_connect
+		(at 330.2 76.2)
+		(uuid "741ae615-9c13-4b01-b777-043feb6c78d2")
+	)
+	(no_connect
 		(at 373.38 73.66)
 		(uuid "753a0b23-134c-408e-abd9-de3a3c12348c")
 	)
@@ -10465,6 +10453,14 @@
 	(no_connect
 		(at 330.2 68.58)
 		(uuid "917f50b7-35cc-44b1-ac17-1648b2bff183")
+	)
+	(no_connect
+		(at 373.38 109.22)
+		(uuid "92aa4948-9f9c-496d-b63c-173ff32f4890")
+	)
+	(no_connect
+		(at 373.38 231.14)
+		(uuid "93e4b44c-940f-46de-9c76-975e22b56040")
 	)
 	(no_connect
 		(at 373.38 101.6)
@@ -10507,12 +10503,20 @@
 		(uuid "c1bdae38-1d9f-417f-9234-2b7299b9a17a")
 	)
 	(no_connect
+		(at 330.2 203.2)
+		(uuid "c474ef40-eeeb-475a-b41f-1ba0f2f9b1cf")
+	)
+	(no_connect
 		(at 373.38 233.68)
 		(uuid "c8b66e53-f18d-48dc-a82a-5c1c9af9c1f0")
 	)
 	(no_connect
 		(at 173.99 87.63)
 		(uuid "cb25e17f-062c-4723-b543-87c6b0836b92")
+	)
+	(no_connect
+		(at 373.38 116.84)
+		(uuid "cbada6cd-e356-4268-9b3a-ec3b59875625")
 	)
 	(no_connect
 		(at 373.38 175.26)
@@ -10531,8 +10535,16 @@
 		(uuid "dbc2be22-090c-4c1c-a96f-0aec3959ea23")
 	)
 	(no_connect
+		(at 330.2 78.74)
+		(uuid "e0a2e864-89fb-44c0-b607-a2187f34ee5d")
+	)
+	(no_connect
 		(at 196.85 107.95)
 		(uuid "e15c0e14-5cc4-4ce0-a5fe-7f415b768ef0")
+	)
+	(no_connect
+		(at 330.2 124.46)
+		(uuid "e789deaa-4b9c-4c0f-93b9-cff4800d10ba")
 	)
 	(no_connect
 		(at 373.38 119.38)
@@ -10571,16 +10583,6 @@
 			(type default)
 		)
 		(uuid "01306e8b-f4a9-40bd-9098-7128682e9934")
-	)
-	(wire
-		(pts
-			(xy 298.45 78.74) (xy 295.91 78.74)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "0177a4be-9fcc-40de-9c52-ff000cbda105")
 	)
 	(wire
 		(pts
@@ -10734,16 +10736,6 @@
 	)
 	(wire
 		(pts
-			(xy 267.97 231.14) (xy 275.59 231.14)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "0e58a3f6-bb1a-4528-8c6b-41c0dd3d16a0")
-	)
-	(wire
-		(pts
 			(xy 19.05 176.53) (xy 30.48 176.53)
 		)
 		(stroke
@@ -10894,16 +10886,6 @@
 	)
 	(wire
 		(pts
-			(xy 298.45 78.74) (xy 330.2 78.74)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "170ff062-f776-4f96-91f2-2079b63de982")
-	)
-	(wire
-		(pts
 			(xy 246.38 162.56) (xy 231.14 162.56)
 		)
 		(stroke
@@ -11001,16 +10983,6 @@
 			(type default)
 		)
 		(uuid "1db5185e-c7ea-4c8e-b43a-c24c70bf327e")
-	)
-	(wire
-		(pts
-			(xy 293.37 203.2) (xy 295.91 203.2)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "1e006591-bedf-4b9a-ae94-f2f970ec873d")
 	)
 	(wire
 		(pts
@@ -11214,16 +11186,6 @@
 	)
 	(wire
 		(pts
-			(xy 298.45 76.2) (xy 295.91 76.2)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "30713a4b-c333-42ea-824f-0b3f91b3ca9e")
-	)
-	(wire
-		(pts
 			(xy 172.72 207.01) (xy 176.53 207.01)
 		)
 		(stroke
@@ -11281,16 +11243,6 @@
 			(type default)
 		)
 		(uuid "34a14539-ecca-4ed3-8f22-b1f60725a51c")
-	)
-	(wire
-		(pts
-			(xy 298.45 76.2) (xy 330.2 76.2)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "3651bb7b-312b-4578-817d-8ae203799ee4")
 	)
 	(wire
 		(pts
@@ -11641,16 +11593,6 @@
 			(type default)
 		)
 		(uuid "519f367e-d88e-4173-bb3a-fbbb3489aa51")
-	)
-	(wire
-		(pts
-			(xy 295.91 203.2) (xy 330.2 203.2)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "520694f3-1101-4ee1-bfa8-64815c5b5f20")
 	)
 	(wire
 		(pts
@@ -12114,16 +12056,6 @@
 	)
 	(wire
 		(pts
-			(xy 309.88 200.66) (xy 307.34 200.66)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "791dbf5d-2839-44ef-931b-60ce450807f0")
-	)
-	(wire
-		(pts
 			(xy 86.36 140.97) (xy 87.63 140.97)
 		)
 		(stroke
@@ -12291,16 +12223,6 @@
 			(type default)
 		)
 		(uuid "853c0a58-5c10-480a-958e-f593944ac8ec")
-	)
-	(wire
-		(pts
-			(xy 309.88 200.66) (xy 330.2 200.66)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "85a10365-606e-482c-b257-3adcaef6d5d8")
 	)
 	(wire
 		(pts
@@ -13842,16 +13764,6 @@
 		)
 		(uuid "0d4f57d2-c5ee-4cdd-8026-6bfce8dce4a4")
 	)
-	(label "I2C1_SCL"
-		(at 295.91 78.74 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "0d86b3fa-70da-44d9-be83-867ca11da3c3")
-	)
 	(label "RMII_NRST"
 		(at 248.92 109.22 0)
 		(effects
@@ -14482,16 +14394,6 @@
 		)
 		(uuid "4916baab-2ede-406a-819e-d17c5b5b88e6")
 	)
-	(label "SPI2_SCK"
-		(at 267.97 226.06 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "49a16a92-36a4-469c-b225-5474129035ce")
-	)
 	(label "ESP32_DATAREADY"
 		(at 173.99 77.47 180)
 		(effects
@@ -14972,16 +14874,6 @@
 		)
 		(uuid "7390cc4a-4c53-41a7-bad6-50f6eef288bc")
 	)
-	(label "SPI2_CS0"
-		(at 293.37 203.2 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "73dda887-6228-4d4e-a2f6-e58c90b77689")
-	)
 	(label "CAN_PIN_N"
 		(at 209.55 151.13 0)
 		(effects
@@ -15402,16 +15294,6 @@
 		)
 		(uuid "a09830ca-cb06-48c5-8156-596dd9e7436a")
 	)
-	(label "SPI2_CS1"
-		(at 255.27 231.14 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "a164515b-f890-46c5-856a-d708dcf8725d")
-	)
 	(label "HEADER1_10"
 		(at 283.21 262.89 0)
 		(effects
@@ -15462,26 +15344,6 @@
 		)
 		(uuid "a5c73751-443a-47f4-8994-079f22a8913f")
 	)
-	(label "SPI2_MOSI"
-		(at 330.2 124.46 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "a6036ffb-d493-4b0c-81dc-bd4b89b5abc2")
-	)
-	(label "I2C1_SDA"
-		(at 295.91 76.2 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "a720272c-cb53-4957-884d-18367e8dd34d")
-	)
 	(label "LA_INPUT2"
 		(at 208.28 176.53 0)
 		(effects
@@ -15511,16 +15373,6 @@
 			(justify left bottom)
 		)
 		(uuid "a97ebadd-6730-4518-9449-7c5a87326b3d")
-	)
-	(label "I2C1_SDA"
-		(at 255.27 233.68 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "a9e7ebb2-b2c3-405a-b13c-cc64a934bf9a")
 	)
 	(label "ICE_SS"
 		(at 330.2 55.88 180)
@@ -15802,16 +15654,6 @@
 		)
 		(uuid "baa755c3-cd10-4b5a-9954-4321f80675ad")
 	)
-	(label "USART2_TX"
-		(at 373.38 116.84 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "bb0f0cdc-fdb7-4ed7-9bac-7341e8ba68d5")
-	)
 	(label "ICE_STM32_MISO"
 		(at 330.2 157.48 180)
 		(effects
@@ -15861,16 +15703,6 @@
 			(justify left bottom)
 		)
 		(uuid "c02d1d25-431a-4bab-896b-e90b73819112")
-	)
-	(label "USART2_RX"
-		(at 373.38 109.22 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "c1083462-27d6-4108-9817-89f144de17af")
 	)
 	(label "LA_OUT7"
 		(at 55.88 100.33 0)
@@ -15931,16 +15763,6 @@
 			(justify left bottom)
 		)
 		(uuid "c5853996-b7e8-438b-8c43-9e281b05bb1e")
-	)
-	(label "SPI2_MISO"
-		(at 267.97 228.6 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "c5e3638d-3530-4aca-b49d-c079d93a0fab")
 	)
 	(label "LA_VCCIO"
 		(at 50.8 166.37 0)
@@ -16072,16 +15894,6 @@
 		)
 		(uuid "cf36b126-10c3-4618-abbd-4d089a22e3c9")
 	)
-	(label "SPI2_CS1"
-		(at 307.34 200.66 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "d0575dbe-0287-4a4b-8155-d1e0c1dbe730")
-	)
 	(label "FDCAN1_RX"
 		(at 134.62 160.02 180)
 		(effects
@@ -16172,16 +15984,6 @@
 		)
 		(uuid "db9fe08f-74a1-438a-8408-797b6ca4782a")
 	)
-	(label "USART2_RX"
-		(at 267.97 236.22 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "dc1c19a1-7b23-4d5b-93e8-acc8f117d063")
-	)
 	(label "STM32_VDD"
 		(at 374.65 53.34 0)
 		(effects
@@ -16262,16 +16064,6 @@
 		)
 		(uuid "e186d093-368a-4e3d-9ecd-4bc964332ecf")
 	)
-	(label "USART2_TX"
-		(at 255.27 236.22 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "e3b9a837-3c9a-4462-bf56-d6914826672b")
-	)
 	(label "ICE_IO3"
 		(at 83.82 204.47 180)
 		(effects
@@ -16312,16 +16104,6 @@
 		)
 		(uuid "e7251902-08c4-4c80-842a-cc91f4f468ad")
 	)
-	(label "SPI2_SCK"
-		(at 373.38 231.14 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "e89af63f-d123-4b4a-9ee7-5e627e7e0141")
-	)
 	(label "ICE_IO3"
 		(at 146.05 260.35 0)
 		(effects
@@ -16331,16 +16113,6 @@
 			(justify left bottom)
 		)
 		(uuid "e90afdb5-b0a8-47f7-9e0d-568b0de26b95")
-	)
-	(label "SPI2_MISO"
-		(at 373.38 228.6 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "e969b237-d154-4e5b-8452-8c92285d6e1c")
 	)
 	(label "PH0"
 		(at 265.43 170.18 0)
@@ -16422,16 +16194,6 @@
 		)
 		(uuid "ecb53ad0-92a3-4bdd-8449-3e6bf9ff7c2f")
 	)
-	(label "SPI2_CS0"
-		(at 255.27 226.06 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "ecc92860-d69b-4336-8d76-f1f7b1a76cd6")
-	)
 	(label "P_USB_D-"
 		(at 113.03 36.83 0)
 		(effects
@@ -16492,16 +16254,6 @@
 		)
 		(uuid "f1d04ced-c3e0-4f9a-9d31-e3adf79e12e4")
 	)
-	(label "SPI2_MOSI"
-		(at 255.27 228.6 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "f396875f-5668-4ce2-8a4d-160230906f24")
-	)
 	(label "ESP32_TX"
 		(at 373.38 160.02 0)
 		(effects
@@ -16551,16 +16303,6 @@
 			(justify left bottom)
 		)
 		(uuid "fd6aaf7e-1beb-4bd1-ab18-fea8ad5a22c1")
-	)
-	(label "I2C1_SCL"
-		(at 267.97 233.68 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "fdaf81e9-7e04-4d69-92e7-32a56da04541")
 	)
 	(label "ESP32_BOOT"
 		(at 147.32 102.87 180)
@@ -26557,82 +26299,6 @@
 	)
 	(symbol
 		(lib_id "power:+3V3")
-		(at 295.91 195.58 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "4eddad33-4c44-4d6c-b6b5-6bac340d7435")
-		(property "Reference" "#PWR073"
-			(at 295.91 199.39 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "+3V3"
-			(at 294.894 191.262 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 295.91 195.58 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 295.91 195.58 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 295.91 195.58 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "2c8fff15-37ea-4ce8-9f1d-00b74c03f06c")
-		)
-		(instances
-			(project "vbench-pod"
-				(path "/745fcf4b-2e0b-4fc4-95c0-f2e3fd40beb9"
-					(reference "#PWR073")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+3V3")
 		(at 156.21 57.15 0)
 		(mirror y)
 		(unit 1)
@@ -27437,253 +27103,6 @@
 			(project "vbench-pod"
 				(path "/745fcf4b-2e0b-4fc4-95c0-f2e3fd40beb9"
 					(reference "FB2")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
-		(at 298.45 72.39 0)
-		(mirror y)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "576dcbe8-e519-4fdd-a31a-cdf2c0b608c2")
-		(property "Reference" "R28"
-			(at 296.418 70.104 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "4.7k"
-			(at 296.418 72.644 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
-			(at 300.228 72.39 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 298.45 72.39 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 298.45 72.39 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "LCSC Part #" ""
-			(at 298.45 72.39 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "MFR. Part #" ""
-			(at 298.45 72.39 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "LCSC" "C25900"
-			(at 298.45 72.39 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "KiLib_Generator" "SMD_2terminal_chip_molded"
-			(at 298.45 72.39 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Arrow Part Number" ""
-			(at 298.45 72.39 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Arrow Price/Stock" ""
-			(at 298.45 72.39 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Height" ""
-			(at 298.45 72.39 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Manufacturer_Name" ""
-			(at 298.45 72.39 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Manufacturer_Part_Number" ""
-			(at 298.45 72.39 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Mouser Part Number" ""
-			(at 298.45 72.39 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Mouser Price/Stock" ""
-			(at 298.45 72.39 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "ProductID" ""
-			(at 298.45 72.39 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Pins" ""
-			(at 298.45 72.39 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "KLC_S3.3" ""
-			(at 298.45 72.39 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "KLC_S4.1" ""
-			(at 298.45 72.39 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "4ab774f9-3444-4cf1-86dc-8efddcefa80c")
-		)
-		(pin "2"
-			(uuid "7267b475-9ef3-4328-8736-5b42e5a7bfd1")
-		)
-		(instances
-			(project "vbench-pod"
-				(path "/745fcf4b-2e0b-4fc4-95c0-f2e3fd40beb9"
-					(reference "R28")
 					(unit 1)
 				)
 			)
@@ -35832,82 +35251,6 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 275.59 231.14 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "868ad9bb-72b8-4727-abf3-76a49476bfc6")
-		(property "Reference" "#PWR0369"
-			(at 275.59 237.49 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "GND"
-			(at 279.4 232.41 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 275.59 231.14 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 275.59 231.14 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 275.59 231.14 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "e52f3cd9-5565-4654-a57b-21ddcb0c2536")
-		)
-		(instances
-			(project "vbench-pod"
-				(path "/745fcf4b-2e0b-4fc4-95c0-f2e3fd40beb9"
-					(reference "#PWR0369")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
 		(at 387.35 55.88 0)
 		(mirror y)
 		(unit 1)
@@ -36333,443 +35676,6 @@
 			(project "vbench-pod"
 				(path "/745fcf4b-2e0b-4fc4-95c0-f2e3fd40beb9"
 					(reference "#PWR0372")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
-		(at 298.45 82.55 180)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "8dbcbe9c-8ed0-4800-9d9c-ebd2df8f3c2f")
-		(property "Reference" "R29"
-			(at 296.418 83.82 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "4.7k"
-			(at 296.418 81.28 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
-			(at 300.228 82.55 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 298.45 82.55 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 298.45 82.55 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "LCSC Part #" ""
-			(at 298.45 82.55 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "MFR. Part #" ""
-			(at 298.45 82.55 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "LCSC" "C25900"
-			(at 298.45 82.55 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "KiLib_Generator" "SMD_2terminal_chip_molded"
-			(at 298.45 82.55 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Arrow Part Number" ""
-			(at 298.45 82.55 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Arrow Price/Stock" ""
-			(at 298.45 82.55 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Height" ""
-			(at 298.45 82.55 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Manufacturer_Name" ""
-			(at 298.45 82.55 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Manufacturer_Part_Number" ""
-			(at 298.45 82.55 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Mouser Part Number" ""
-			(at 298.45 82.55 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Mouser Price/Stock" ""
-			(at 298.45 82.55 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "ProductID" ""
-			(at 298.45 82.55 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Pins" ""
-			(at 298.45 82.55 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "KLC_S3.3" ""
-			(at 298.45 82.55 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "KLC_S4.1" ""
-			(at 298.45 82.55 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "8ee1534b-ab2a-41d8-8d55-d96148f33ff2")
-		)
-		(pin "2"
-			(uuid "0f880fc4-948c-44d2-9a76-3d56391c1151")
-		)
-		(instances
-			(project "vbench-pod"
-				(path "/745fcf4b-2e0b-4fc4-95c0-f2e3fd40beb9"
-					(reference "R29")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "lcsc_lib:HC-PZ127-7.2L-2X5PZ")
-		(at 261.62 231.14 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp yes)
-		(uuid "8ea8cffb-ce79-4b50-9580-04a31d51625e")
-		(property "Reference" "H2"
-			(at 269.24 218.44 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "HC-PZ127-7.2L-2X5PZ"
-			(at 261.62 220.98 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "lcsc:HDR-TH_HC-PZ127-7.2L-2X5PZ"
-			(at 261.62 243.84 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" "https://www.lcsc.com/datasheet/C42163009.pdf"
-			(at 261.62 246.38 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 261.62 231.14 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Manufacturer" "HC(虹成电子)"
-			(at 261.62 248.92 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "MPN" "HC-PZ127-7.2L-2x5PZ"
-			(at 261.62 251.46 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "LCSC Part" "C42163009"
-			(at 261.62 254 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "LCSC" "C42163009"
-			(at 261.62 231.14 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "ProductID" ""
-			(at 261.62 231.14 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Pins" ""
-			(at 261.62 231.14 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "KLC_S3.3" ""
-			(at 261.62 231.14 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "KLC_S4.1" ""
-			(at 261.62 231.14 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "4"
-			(uuid "d812a3fa-48a9-4b6c-8c46-2e98a60dfdb8")
-		)
-		(pin "5"
-			(uuid "70489e77-354d-4c6b-95a0-552ebc422320")
-		)
-		(pin "6"
-			(uuid "e6ff0e75-8f33-4a9a-b5e6-3cb3797b3d34")
-		)
-		(pin "7"
-			(uuid "2770bb12-979b-4966-aff4-4f669ad79f0a")
-		)
-		(pin "8"
-			(uuid "bfd2b6b7-946e-4da2-9eef-ff4994693a44")
-		)
-		(pin "9"
-			(uuid "47368e7d-b6cf-4453-a301-316dc471f6a3")
-		)
-		(pin "10"
-			(uuid "31da1b54-044b-4c8f-ba4a-050df23b14d1")
-		)
-		(pin "3"
-			(uuid "fe50ffb5-edbd-4166-8290-315b36ac13d0")
-		)
-		(pin "2"
-			(uuid "00c5cfdf-2425-4ae1-8edf-d3865f87e761")
-		)
-		(pin "1"
-			(uuid "a76ddb6c-b788-4164-9060-5f44cb45c403")
-		)
-		(instances
-			(project "vbench-pod"
-				(path "/745fcf4b-2e0b-4fc4-95c0-f2e3fd40beb9"
-					(reference "H2")
 					(unit 1)
 				)
 			)
@@ -39888,250 +38794,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R")
-		(at 309.88 196.85 180)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "98aade83-2d70-425a-aa45-20e4fc5fd351")
-		(property "Reference" "R30"
-			(at 306.324 193.802 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "10k"
-			(at 306.324 196.342 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
-			(at 311.658 196.85 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 309.88 196.85 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 309.88 196.85 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "LCSC Part #" ""
-			(at 309.88 196.85 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "MFR. Part #" ""
-			(at 309.88 196.85 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "LCSC" "C25744"
-			(at 309.88 196.85 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "KiLib_Generator" "SMD_2terminal_chip_molded"
-			(at 309.88 196.85 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Arrow Part Number" ""
-			(at 309.88 196.85 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Arrow Price/Stock" ""
-			(at 309.88 196.85 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Height" ""
-			(at 309.88 196.85 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Manufacturer_Name" ""
-			(at 309.88 196.85 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Manufacturer_Part_Number" ""
-			(at 309.88 196.85 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Mouser Part Number" ""
-			(at 309.88 196.85 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Mouser Price/Stock" ""
-			(at 309.88 196.85 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "ProductID" ""
-			(at 309.88 196.85 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Pins" ""
-			(at 309.88 196.85 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "KLC_S3.3" ""
-			(at 309.88 196.85 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "KLC_S4.1" ""
-			(at 309.88 196.85 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "59ffdca5-3b90-4707-9894-ac6e72fff67a")
-		)
-		(pin "2"
-			(uuid "e2a25dcc-42fe-4959-af85-d875111e85c7")
-		)
-		(instances
-			(project "vbench-pod"
-				(path "/745fcf4b-2e0b-4fc4-95c0-f2e3fd40beb9"
-					(reference "R30")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GND")
 		(at 82.55 129.54 0)
 		(unit 1)
@@ -40202,82 +38864,6 @@
 			(project "vbench-pod"
 				(path "/745fcf4b-2e0b-4fc4-95c0-f2e3fd40beb9"
 					(reference "#PWR0217")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+3V3")
-		(at 309.88 193.04 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "9ac0dd16-a137-43b1-828b-121d11127942")
-		(property "Reference" "#PWR076"
-			(at 309.88 196.85 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "+3V3"
-			(at 306.578 190.5 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 309.88 193.04 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 309.88 193.04 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 309.88 193.04 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "fb43dc31-e060-4d5f-b925-48ee021e6259")
-		)
-		(instances
-			(project "vbench-pod"
-				(path "/745fcf4b-2e0b-4fc4-95c0-f2e3fd40beb9"
-					(reference "#PWR076")
 					(unit 1)
 				)
 			)
@@ -42498,82 +41084,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:+3V3")
-		(at 298.45 68.58 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "a3dc5c73-ac5e-4d1a-b531-86e7b9ab1671")
-		(property "Reference" "#PWR074"
-			(at 298.45 72.39 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "+3V3"
-			(at 297.942 64.77 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 298.45 68.58 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 298.45 68.58 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 298.45 68.58 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "64bbc0a1-a3ac-4674-a4ca-b8a6cc48437e")
-		)
-		(instances
-			(project "vbench-pod"
-				(path "/745fcf4b-2e0b-4fc4-95c0-f2e3fd40beb9"
-					(reference "#PWR074")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:C")
 		(at 302.26 118.11 180)
 		(unit 1)
@@ -43529,83 +42039,6 @@
 			(project "vbench-pod"
 				(path "/745fcf4b-2e0b-4fc4-95c0-f2e3fd40beb9"
 					(reference "C66")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+3V3")
-		(at 298.45 86.36 0)
-		(mirror x)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "aaceae25-b059-4d0b-9785-4e39aff98106")
-		(property "Reference" "#PWR075"
-			(at 298.45 82.55 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "+3V3"
-			(at 298.577 90.805 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 298.45 86.36 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 298.45 86.36 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 298.45 86.36 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "18a246be-091e-49e7-b182-ceeb6abd7ae5")
-		)
-		(instances
-			(project "vbench-pod"
-				(path "/745fcf4b-2e0b-4fc4-95c0-f2e3fd40beb9"
-					(reference "#PWR075")
 					(unit 1)
 				)
 			)
@@ -45013,250 +43446,6 @@
 			(project "vbench-pod"
 				(path "/745fcf4b-2e0b-4fc4-95c0-f2e3fd40beb9"
 					(reference "H10")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
-		(at 295.91 199.39 180)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "b8eef464-d902-4854-abdc-e1b0bfbe1632")
-		(property "Reference" "R27"
-			(at 292.354 196.342 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "10k"
-			(at 292.354 198.882 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
-			(at 297.688 199.39 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 295.91 199.39 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 295.91 199.39 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "LCSC Part #" ""
-			(at 295.91 199.39 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "MFR. Part #" ""
-			(at 295.91 199.39 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "LCSC" "C25744"
-			(at 295.91 199.39 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "KiLib_Generator" "SMD_2terminal_chip_molded"
-			(at 295.91 199.39 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Arrow Part Number" ""
-			(at 295.91 199.39 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Arrow Price/Stock" ""
-			(at 295.91 199.39 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Height" ""
-			(at 295.91 199.39 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Manufacturer_Name" ""
-			(at 295.91 199.39 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Manufacturer_Part_Number" ""
-			(at 295.91 199.39 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Mouser Part Number" ""
-			(at 295.91 199.39 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Mouser Price/Stock" ""
-			(at 295.91 199.39 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "ProductID" ""
-			(at 295.91 199.39 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Pins" ""
-			(at 295.91 199.39 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "KLC_S3.3" ""
-			(at 295.91 199.39 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "KLC_S4.1" ""
-			(at 295.91 199.39 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "bdece021-159b-4ec6-b7cf-9c192beeb7cb")
-		)
-		(pin "2"
-			(uuid "d0b12038-69d0-43ab-9fc9-b569c4c7c3a0")
-		)
-		(instances
-			(project "vbench-pod"
-				(path "/745fcf4b-2e0b-4fc4-95c0-f2e3fd40beb9"
-					(reference "R27")
 					(unit 1)
 				)
 			)
@@ -55473,4 +53662,5 @@
 			(page "1")
 		)
 	)
+	(embedded_fonts no)
 )
