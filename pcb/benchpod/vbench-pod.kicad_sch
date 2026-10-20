@@ -10349,6 +10349,10 @@
 		(uuid "38089ab2-99f9-45a2-bd85-76cd3eb797ef")
 	)
 	(no_connect
+		(at 373.38 200.66)
+		(uuid "384d9eed-9998-4240-ab96-05c9233a50ea")
+	)
+	(no_connect
 		(at 330.2 200.66)
 		(uuid "39e0a273-70bd-412d-a544-70cea97edca2")
 	)
@@ -10369,6 +10373,10 @@
 		(uuid "3fb94416-4c98-4daf-bd7c-a64bb4e7f5de")
 	)
 	(no_connect
+		(at 373.38 198.12)
+		(uuid "48c45e9b-d77f-47c9-8359-ea7d8f76b370")
+	)
+	(no_connect
 		(at 373.38 132.08)
 		(uuid "4ea07cc7-5a30-4a43-8b5d-2fa272ebcda3")
 	)
@@ -10385,6 +10393,10 @@
 		(uuid "5f4510ff-72a6-4384-91db-cbde9739a359")
 	)
 	(no_connect
+		(at 373.38 220.98)
+		(uuid "658c318d-eb87-4ccb-9082-7a6a95b6c217")
+	)
+	(no_connect
 		(at 373.38 91.44)
 		(uuid "67dfb785-49f4-4587-bb68-7ff6ce3c518e")
 	)
@@ -10399,6 +10411,10 @@
 	(no_connect
 		(at 373.38 185.42)
 		(uuid "6dd68c6f-2bfe-4fb4-8175-88a672a91254")
+	)
+	(no_connect
+		(at 373.38 203.2)
+		(uuid "70180d89-2996-413a-9611-819f932bcbae")
 	)
 	(no_connect
 		(at 330.2 88.9)
@@ -10441,6 +10457,10 @@
 		(uuid "800dbe08-3b62-46fa-8a80-cf44131d2e40")
 	)
 	(no_connect
+		(at 373.38 210.82)
+		(uuid "80667bce-86b8-418c-84eb-88b704c41c5c")
+	)
+	(no_connect
 		(at 173.99 107.95)
 		(uuid "8118272a-5f31-4fe4-8fac-b3dbd59f0f51")
 	)
@@ -10457,6 +10477,10 @@
 		(uuid "8fc406f2-d356-46b5-8cab-2258fb88004c")
 	)
 	(no_connect
+		(at 373.38 223.52)
+		(uuid "8fd19da0-ff3c-4f4c-aca4-b0e80dbd8290")
+	)
+	(no_connect
 		(at 330.2 68.58)
 		(uuid "917f50b7-35cc-44b1-ac17-1648b2bff183")
 	)
@@ -10471,6 +10495,14 @@
 	(no_connect
 		(at 373.38 101.6)
 		(uuid "991ecba7-c878-43e3-9380-3db892dff94e")
+	)
+	(no_connect
+		(at 373.38 215.9)
+		(uuid "9c18adb9-4e2e-41fb-a4f7-e15392c762dc")
+	)
+	(no_connect
+		(at 373.38 218.44)
+		(uuid "9e7f7a06-2a1a-4794-a02e-8402609be36c")
 	)
 	(no_connect
 		(at 330.2 71.12)
@@ -10511,6 +10543,10 @@
 	(no_connect
 		(at 330.2 203.2)
 		(uuid "c474ef40-eeeb-475a-b41f-1ba0f2f9b1cf")
+	)
+	(no_connect
+		(at 373.38 213.36)
+		(uuid "c48dbd6b-f3a7-4428-a99e-311b9d65e9f1")
 	)
 	(no_connect
 		(at 373.38 233.68)
@@ -10555,6 +10591,10 @@
 	(no_connect
 		(at 373.38 119.38)
 		(uuid "e84e1653-0acf-469f-9d39-64210111d18b")
+	)
+	(no_connect
+		(at 373.38 190.5)
+		(uuid "e894894b-4b8f-4dff-8839-6f843f9522c4")
 	)
 	(no_connect
 		(at 173.99 62.23)
@@ -13730,16 +13770,6 @@
 		)
 		(uuid "03a383a3-db4e-4719-b137-8738825a5aa8")
 	)
-	(label "HEADER1_3"
-		(at 270.51 255.27 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "0506a9c1-d6d5-44c1-b256-25912023c1d3")
-	)
 	(label "CAN_PIN_N"
 		(at 189.23 148.59 270)
 		(effects
@@ -13829,16 +13859,6 @@
 			(justify right bottom)
 		)
 		(uuid "119521f5-40f8-4a21-aa97-7436de85cee6")
-	)
-	(label "HEADER1_2"
-		(at 373.38 198.12 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "13b2b088-c9c8-4e9c-b35f-0c479158be3c")
 	)
 	(label "ICE_SPI_SI"
 		(at 83.82 219.71 180)
@@ -14010,16 +14030,6 @@
 		)
 		(uuid "25164a05-877e-4102-9b2d-f18001f1fcb6")
 	)
-	(label "HEADER1_8"
-		(at 373.38 218.44 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "263a2121-97c8-4391-adc7-1e855d193d49")
-	)
 	(label "LA_OUT6"
 		(at 55.88 97.79 0)
 		(effects
@@ -14049,16 +14059,6 @@
 			(justify left bottom)
 		)
 		(uuid "27aaacc5-76a1-40a7-9623-373222670fbe")
-	)
-	(label "HEADER1_8"
-		(at 283.21 260.35 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "2876b8e2-f4ea-48ab-a3f6-a587ba1b41d3")
 	)
 	(label "LA_OUT1"
 		(at 55.88 85.09 0)
@@ -14400,16 +14400,6 @@
 		)
 		(uuid "46919647-aeec-4850-ab1a-1b59de3d5ee1")
 	)
-	(label "HEADER1_1"
-		(at 270.51 252.73 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "487339fc-1ebb-45b6-8d28-88f2d3fc3dcc")
-	)
 	(label "LA_INPUT3"
 		(at 25.4 78.74 180)
 		(effects
@@ -14549,16 +14539,6 @@
 			(justify right bottom)
 		)
 		(uuid "520f4865-01f7-425a-96b1-1e0975d05984")
-	)
-	(label "HEADER1_1"
-		(at 373.38 190.5 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "52cd6ddc-f839-4e3c-abcd-3f937d135d51")
 	)
 	(label "LA_INPUT13"
 		(at 193.04 191.77 180)
@@ -14800,16 +14780,6 @@
 		)
 		(uuid "6d1301e1-51eb-4810-aa91-7aed759fc97e")
 	)
-	(label "HEADER1_10"
-		(at 373.38 223.52 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "6d78b7cb-88bc-45f5-8728-b81995cd333d")
-	)
 	(label "NRST_CONTROL"
 		(at 313.69 83.82 0)
 		(effects
@@ -14959,16 +14929,6 @@
 			(justify left bottom)
 		)
 		(uuid "7aa51c71-a420-4308-8c63-ce65efe3e78a")
-	)
-	(label "HEADER1_2"
-		(at 283.21 252.73 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "7ac5b526-043f-4f3b-b7bf-0183235a0262")
 	)
 	(label "LA_INPUT4"
 		(at 25.4 81.28 180)
@@ -15300,16 +15260,6 @@
 		)
 		(uuid "9eba9b36-db4f-4c9b-8dc1-14cb112ab137")
 	)
-	(label "HEADER1_6"
-		(at 283.21 257.81 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "9fff4912-9f40-43b0-a79c-a4b69a0ff479")
-	)
 	(label "LA_OUT5"
 		(at 40.64 212.09 180)
 		(effects
@@ -15329,16 +15279,6 @@
 			(justify right bottom)
 		)
 		(uuid "a09830ca-cb06-48c5-8156-596dd9e7436a")
-	)
-	(label "HEADER1_10"
-		(at 283.21 262.89 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "a1d43838-7793-448a-a5e8-bcfaaa5500a8")
 	)
 	(label "LA_OUT5"
 		(at 55.88 95.25 0)
@@ -15390,16 +15330,6 @@
 		)
 		(uuid "a735951e-67bf-4495-8227-363318cef920")
 	)
-	(label "HEADER1_4"
-		(at 373.38 203.2 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "a87b773d-c84d-4fb3-bef0-5371afc4b1d4")
-	)
 	(label "ICE_SS"
 		(at 16.51 257.81 0)
 		(effects
@@ -15419,16 +15349,6 @@
 			(justify right bottom)
 		)
 		(uuid "ab6fa9f3-35e8-4d9f-aeae-0c88e0a106e8")
-	)
-	(label "HEADER1_7"
-		(at 270.51 260.35 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "abd5ce44-114a-4d01-baf5-7ffb6e5ca53b")
 	)
 	(label "STM32_VCAP1"
 		(at 373.38 58.42 0)
@@ -15550,16 +15470,6 @@
 		)
 		(uuid "b3130297-b80e-4135-954d-92437d74e98d")
 	)
-	(label "HEADER1_5"
-		(at 270.51 257.81 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "b3732b3f-eaf9-4a00-99fc-83589ef7142c")
-	)
 	(label "ICE_SPI_SI"
 		(at 170.18 257.81 180)
 		(effects
@@ -15680,16 +15590,6 @@
 		)
 		(uuid "ba68c401-5b79-42ca-bc13-968d4ce4bb6b")
 	)
-	(label "HEADER1_6"
-		(at 373.38 213.36 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "baa755c3-cd10-4b5a-9954-4321f80675ad")
-	)
 	(label "ICE_STM32_MISO"
 		(at 330.2 157.48 180)
 		(effects
@@ -15780,26 +15680,6 @@
 		)
 		(uuid "c2c1a49c-ef03-4405-bb6e-54538456178d")
 	)
-	(label "HEADER1_5"
-		(at 373.38 210.82 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "c33fa80a-a8b4-43bf-8f6d-3c6fbeee8d8a")
-	)
-	(label "HEADER1_9"
-		(at 270.51 262.89 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "c41a7960-0f8d-4741-a6a6-42c05d9e16a0")
-	)
 	(label "LA_OUT14"
 		(at 55.88 118.11 0)
 		(effects
@@ -15849,16 +15729,6 @@
 			(justify left bottom)
 		)
 		(uuid "c7a51d20-f92f-408f-93fd-2dec117aadd5")
-	)
-	(label "HEADER1_4"
-		(at 283.21 255.27 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "c8b33038-5fa4-4768-8213-0ab2f2e91109")
 	)
 	(label "CAN+"
 		(at 193.04 199.39 180)
@@ -15969,16 +15839,6 @@
 			(justify left bottom)
 		)
 		(uuid "d5feb255-1845-4ea7-8e3f-558c787707c9")
-	)
-	(label "HEADER1_7"
-		(at 373.38 215.9 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "d6a6d5f1-aaa7-4b7e-8dd8-021d0484f0cf")
 	)
 	(label "ICE_SPI_SO"
 		(at 83.82 217.17 180)
@@ -16230,16 +16090,6 @@
 		)
 		(uuid "eac22bf6-e979-4f77-bb9e-6c7086c116cd")
 	)
-	(label "HEADER1_9"
-		(at 373.38 220.98 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "ecb53ad0-92a3-4bdd-8449-3e6bf9ff7c2f")
-	)
 	(label "P_USB_D-"
 		(at 113.03 36.83 0)
 		(effects
@@ -16339,16 +16189,6 @@
 			(justify right bottom)
 		)
 		(uuid "fd420f60-d23a-4764-864b-f67066eb16ba")
-	)
-	(label "HEADER1_3"
-		(at 373.38 200.66 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "fd6aaf7e-1beb-4bd1-ab18-fea8ad5a22c1")
 	)
 	(label "ESP32_BOOT"
 		(at 147.32 102.87 180)
@@ -34240,198 +34080,6 @@
 			(project "vbench-pod"
 				(path "/745fcf4b-2e0b-4fc4-95c0-f2e3fd40beb9"
 					(reference "C97")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "lcsc_lib:HC-PZ127-7.2L-2X5PZ")
-		(at 276.86 257.81 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp yes)
-		(fields_autoplaced yes)
-		(uuid "84cb6656-5149-4a41-b5b3-9c623a7602ea")
-		(property "Reference" "H3"
-			(at 276.86 245.11 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "HC-PZ127-7.2L-2X5PZ"
-			(at 276.86 247.65 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "lcsc:HDR-TH_HC-PZ127-7.2L-2X5PZ"
-			(at 276.86 270.51 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" "https://www.lcsc.com/datasheet/C42163009.pdf"
-			(at 276.86 273.05 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 276.86 257.81 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Manufacturer" "HC(虹成电子)"
-			(at 276.86 275.59 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "MPN" "HC-PZ127-7.2L-2x5PZ"
-			(at 276.86 278.13 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "LCSC Part" "C42163009"
-			(at 276.86 280.67 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "LCSC" "C42163009"
-			(at 276.86 257.81 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "ProductID" ""
-			(at 276.86 257.81 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Pins" ""
-			(at 276.86 257.81 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "KLC_S3.3" ""
-			(at 276.86 257.81 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "KLC_S4.1" ""
-			(at 276.86 257.81 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "4"
-			(uuid "759a181d-76ca-4395-a238-3601fda51ee6")
-		)
-		(pin "5"
-			(uuid "c1320ada-e9dc-46b5-82ef-c688eebf2422")
-		)
-		(pin "6"
-			(uuid "decafe83-3e4f-4256-b2bc-849e0b48cc23")
-		)
-		(pin "7"
-			(uuid "e7f44f94-dcb9-42a4-89ea-fc341d032f03")
-		)
-		(pin "8"
-			(uuid "994e879a-d8c0-4608-9a02-2426b576225a")
-		)
-		(pin "9"
-			(uuid "94bd7f4f-f34e-4cba-a0bc-6c454419fc7e")
-		)
-		(pin "10"
-			(uuid "c772f7a0-688f-4e61-b066-f6bfb00a5589")
-		)
-		(pin "3"
-			(uuid "972a7cae-dfe6-420f-877a-b4e40a621292")
-		)
-		(pin "2"
-			(uuid "84b6af43-b3e1-4753-8e52-6c4a9652398d")
-		)
-		(pin "1"
-			(uuid "c0eaa450-e7eb-483e-899a-2b74628bd568")
-		)
-		(instances
-			(project "vbench-pod"
-				(path "/745fcf4b-2e0b-4fc4-95c0-f2e3fd40beb9"
-					(reference "H3")
 					(unit 1)
 				)
 			)
