@@ -14901,16 +14901,6 @@
 		)
 		(uuid "70f84eb7-23ee-42df-a571-2aba30455d89")
 	)
-	(label "I2C0_SCL"
-		(at 123.19 87.63 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "71dbf7a5-83c1-4db7-a82d-2443de3e093d")
-	)
 	(label "CAN_TERM_CTRL"
 		(at 185.42 156.21 180)
 		(effects
@@ -15080,16 +15070,6 @@
 			(justify left bottom)
 		)
 		(uuid "7e26e51c-6492-4d82-b5d7-b14f301e24bc")
-	)
-	(label "I2C0_SDA"
-		(at 123.19 85.09 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "7e30064c-d6a6-4c01-a6d9-2a6852e1c05e")
 	)
 	(label "STM32_VDD"
 		(at 373.38 86.36 0)
@@ -54604,29 +54584,9 @@
 				(justify right)
 			)
 		)
-		(pin "SCL" input
-			(at 123.19 87.63 0)
-			(uuid "c3cfcd8b-6808-448b-948d-86d1c994527e")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
 		(pin "SCLK" input
 			(at 123.19 78.74 0)
 			(uuid "4d04bcd7-0304-452f-9b9f-df59ee9b7196")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(pin "SDA" input
-			(at 123.19 85.09 0)
-			(uuid "58fda2a5-13ce-4a49-9fc0-d7cdea106308")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -55502,5 +55462,4 @@
 			(page "1")
 		)
 	)
-	(embedded_fonts no)
 )
