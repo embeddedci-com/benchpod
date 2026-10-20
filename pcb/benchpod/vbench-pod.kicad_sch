@@ -10708,16 +10708,8 @@
 		(uuid "ab39143d-ba93-40ee-83d2-426db0b8730e")
 	)
 	(no_connect
-		(at 184.15 214.63)
-		(uuid "b345fd9b-9426-43b1-9cd0-312b36d29b3f")
-	)
-	(no_connect
 		(at 373.38 170.18)
 		(uuid "b50d1d23-9a9e-488c-91b0-8dda1e83459a")
-	)
-	(no_connect
-		(at 184.15 219.71)
-		(uuid "b8c46cc8-f14d-4139-8130-514c87d1a5fc")
 	)
 	(no_connect
 		(at 373.38 78.74)
@@ -14199,6 +14191,16 @@
 		)
 		(uuid "1e4e5d6d-2c39-4aef-9dfd-f8a4cca1855e")
 	)
+	(label "LA_VCCIO"
+		(at 184.15 219.71 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "1e833527-a002-4eba-8370-1702d365bac5")
+	)
 	(label "ICE_SS_PSRAM"
 		(at 170.18 255.27 180)
 		(effects
@@ -14958,6 +14960,16 @@
 			(justify left bottom)
 		)
 		(uuid "6750b4ff-ee37-49ef-bfb9-6f37e2d54336")
+	)
+	(label "+1V8"
+		(at 184.15 214.63 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "6794852c-2482-4fe3-aa29-2b64a0c99a8c")
 	)
 	(label "EFUSE_INT"
 		(at 373.38 165.1 0)
