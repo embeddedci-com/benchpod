@@ -12250,7 +12250,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
 			(at 192.0748 44.45 0)
 			(hide yes)
 			(show_name no)
@@ -12283,7 +12283,7 @@
 				)
 			)
 		)
-		(property "MPN" "CL10A226MO7JZNC"
+		(property "MPN" "CL21B105KBFNNNE"
 			(at 193.04 48.26 0)
 			(hide yes)
 			(show_name no)
@@ -12294,7 +12294,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C2762594"
+		(property "LCSC" "C45783"
 			(at 193.04 48.26 0)
 			(hide yes)
 			(show_name no)
