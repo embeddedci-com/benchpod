@@ -9463,6 +9463,17 @@
 		)
 		(uuid "510a2377-4afa-44a5-953a-44dae6d42273")
 	)
+	(text "PA3 strap R164/R163:\nv3: 1k/10k, 3.00 V\nv3r2: 2.2k/10k, 2.70 V"
+		(exclude_from_sim no)
+		(at 264.16 175.26 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left top)
+		)
+		(uuid "5e0b1c3d-8f7a-4b8e-9c61-2a4d7e9f0b13")
+	)
 	(text "STM32H563"
 		(exclude_from_sim no)
 		(at 319.024 19.558 0)
@@ -47392,7 +47403,7 @@
 				)
 			)
 		)
-		(property "Value" "1k"
+		(property "Value" "2.2k"
 			(at 288.29 170.434 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -47445,7 +47456,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C852624"
+		(property "LCSC" "C326602"
 			(at 288.29 167.64 90)
 			(hide yes)
 			(show_name no)
