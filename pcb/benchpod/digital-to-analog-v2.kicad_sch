@@ -8803,7 +8803,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "BWSMA-KWE-Z001"
+		(property "Value" "HC-SMA-KWE-14.5H-D002-01"
 			(at 384.81 60.9599 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8847,7 +8847,7 @@
 				)
 			)
 		)
-		(property "Manufacturer" "BAT WIRELESS(蝙蝠无线)"
+		(property "Manufacturer" "HCTL"
 			(at 372.11 39.37 0)
 			(hide yes)
 			(show_name no)
@@ -8858,7 +8858,7 @@
 				)
 			)
 		)
-		(property "MPN" "BWSMA-KWE-Z001"
+		(property "MPN" "HC-SMA-KWE-14.5H-D002-01"
 			(at 372.11 36.83 0)
 			(hide yes)
 			(show_name no)
@@ -8869,7 +8869,7 @@
 				)
 			)
 		)
-		(property "LCSC Part" "C496551"
+		(property "LCSC Part" "C41410437"
 			(at 372.11 34.29 0)
 			(hide yes)
 			(show_name no)
@@ -8880,7 +8880,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C496551"
+		(property "LCSC" "C41410437"
 			(at 372.11 59.69 0)
 			(hide yes)
 			(show_name no)
@@ -9302,7 +9302,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C25744"
+		(property "LCSC" "C190095"
 			(at 30.48 152.4 90)
 			(hide yes)
 			(show_name no)
@@ -11025,7 +11025,7 @@
 				)
 			)
 		)
-		(property "Manufacturer" "R+O(宏嘉诚)"
+		(property "Manufacturer" "FOSAN"
 			(at 209.55 233.68 0)
 			(hide yes)
 			(show_name no)
@@ -11047,7 +11047,7 @@
 				)
 			)
 		)
-		(property "LCSC Part" "C19077551"
+		(property "LCSC Part" "C5353135"
 			(at 204.47 233.68 0)
 			(hide yes)
 			(show_name no)
@@ -11058,7 +11058,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C19077551"
+		(property "LCSC" "C5353135"
 			(at 222.25 233.68 90)
 			(hide yes)
 			(show_name no)
@@ -12128,7 +12128,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C11653"
+		(property "LCSC" "C852496"
 			(at 289.56 217.17 0)
 			(hide yes)
 			(show_name no)
@@ -12340,7 +12340,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C11653"
+		(property "LCSC" "C852496"
 			(at 307.34 200.66 90)
 			(hide yes)
 			(show_name no)
@@ -12567,7 +12567,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C4109"
+		(property "LCSC" "C852711"
 			(at 279.4 171.45 90)
 			(hide yes)
 			(show_name no)
@@ -12692,7 +12692,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "BWSMA-KWE-Z001"
+		(property "Value" "HC-SMA-KWE-14.5H-D002-01"
 			(at 386.08 140.9699 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12736,7 +12736,7 @@
 				)
 			)
 		)
-		(property "Manufacturer" "BAT WIRELESS(蝙蝠无线)"
+		(property "Manufacturer" "HCTL"
 			(at 373.38 119.38 0)
 			(hide yes)
 			(show_name no)
@@ -12747,7 +12747,7 @@
 				)
 			)
 		)
-		(property "MPN" "BWSMA-KWE-Z001"
+		(property "MPN" "HC-SMA-KWE-14.5H-D002-01"
 			(at 373.38 116.84 0)
 			(hide yes)
 			(show_name no)
@@ -12758,7 +12758,7 @@
 				)
 			)
 		)
-		(property "LCSC Part" "C496551"
+		(property "LCSC Part" "C41410437"
 			(at 373.38 114.3 0)
 			(hide yes)
 			(show_name no)
@@ -12769,7 +12769,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C496551"
+		(property "LCSC" "C41410437"
 			(at 373.38 139.7 0)
 			(hide yes)
 			(show_name no)
@@ -13065,7 +13065,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C11653"
+		(property "LCSC" "C852496"
 			(at 299.72 165.1 90)
 			(hide yes)
 			(show_name no)
@@ -13930,7 +13930,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C25744"
+		(property "LCSC" "C190095"
 			(at 281.94 66.04 0)
 			(hide yes)
 			(show_name no)
@@ -16109,7 +16109,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "BWSMA-KWE-Z001"
+		(property "Value" "HC-SMA-KWE-14.5H-D002-01"
 			(at 387.35 175.2599 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16153,7 +16153,7 @@
 				)
 			)
 		)
-		(property "Manufacturer" "BAT WIRELESS(蝙蝠无线)"
+		(property "Manufacturer" "HCTL"
 			(at 374.65 153.67 0)
 			(hide yes)
 			(show_name no)
@@ -16164,7 +16164,7 @@
 				)
 			)
 		)
-		(property "MPN" "BWSMA-KWE-Z001"
+		(property "MPN" "HC-SMA-KWE-14.5H-D002-01"
 			(at 374.65 151.13 0)
 			(hide yes)
 			(show_name no)
@@ -16175,7 +16175,7 @@
 				)
 			)
 		)
-		(property "LCSC Part" "C496551"
+		(property "LCSC Part" "C41410437"
 			(at 374.65 148.59 0)
 			(hide yes)
 			(show_name no)
@@ -16186,7 +16186,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C496551"
+		(property "LCSC" "C41410437"
 			(at 374.65 173.99 0)
 			(hide yes)
 			(show_name no)
@@ -18527,7 +18527,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C11653"
+		(property "LCSC" "C852496"
 			(at 288.29 180.34 0)
 			(hide yes)
 			(show_name no)
@@ -20577,7 +20577,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C4109"
+		(property "LCSC" "C852711"
 			(at 285.75 205.74 90)
 			(hide yes)
 			(show_name no)
@@ -23702,7 +23702,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C4109"
+		(property "LCSC" "C852711"
 			(at 281.94 213.36 90)
 			(hide yes)
 			(show_name no)
@@ -23836,7 +23836,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C4109"
+		(property "LCSC" "C852711"
 			(at 280.67 176.53 90)
 			(hide yes)
 			(show_name no)
@@ -24503,7 +24503,7 @@
 				)
 			)
 		)
-		(property "Manufacturer" "MDD(辰达半导体)"
+		(property "Manufacturer" "FOSAN"
 			(at 217.17 219.71 0)
 			(hide yes)
 			(show_name no)
@@ -24525,7 +24525,7 @@
 				)
 			)
 		)
-		(property "LCSC Part" "C8678"
+		(property "LCSC Part" "C3014011"
 			(at 212.09 219.71 0)
 			(hide yes)
 			(show_name no)
@@ -24536,7 +24536,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C8678"
+		(property "LCSC" "C3014011"
 			(at 229.87 219.71 90)
 			(hide yes)
 			(show_name no)
@@ -24916,7 +24916,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C25879"
+		(property "LCSC" "C326602"
 			(at 293.37 86.36 90)
 			(hide yes)
 			(show_name no)
@@ -25006,7 +25006,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C22940"
+		(property "LCSC" "C861300"
 			(at 274.32 62.23 90)
 			(hide yes)
 			(show_name no)
@@ -26058,7 +26058,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C25744"
+		(property "LCSC" "C190095"
 			(at 38.1 156.21 0)
 			(hide yes)
 			(show_name no)
@@ -26575,7 +26575,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C25744"
+		(property "LCSC" "C190095"
 			(at 275.59 96.52 0)
 			(hide yes)
 			(show_name no)

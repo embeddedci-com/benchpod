@@ -7095,7 +7095,7 @@
 				)
 			)
 		)
-		(property "Manufacturer" "MDD(辰达半导体)"
+		(property "Manufacturer" "FOSAN"
 			(at 124.46 142.24 0)
 			(hide yes)
 			(show_name no)
@@ -7117,7 +7117,7 @@
 				)
 			)
 		)
-		(property "LCSC Part" "C8678"
+		(property "LCSC Part" "C3014011"
 			(at 119.38 142.24 0)
 			(hide yes)
 			(show_name no)
@@ -7172,7 +7172,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C8678"
+		(property "LCSC" "C3014011"
 			(at 137.16 142.24 90)
 			(hide yes)
 			(show_name no)

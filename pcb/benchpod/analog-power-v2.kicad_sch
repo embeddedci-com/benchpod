@@ -14563,7 +14563,7 @@
 				)
 			)
 		)
-		(property "Manufacturer" "MDD(辰达半导体)"
+		(property "Manufacturer" "FOSAN"
 			(at 86.36 196.85 0)
 			(hide yes)
 			(show_name no)
@@ -14585,7 +14585,7 @@
 				)
 			)
 		)
-		(property "LCSC Part" "C8678"
+		(property "LCSC Part" "C3014011"
 			(at 81.28 196.85 0)
 			(hide yes)
 			(show_name no)
@@ -14596,7 +14596,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C8678"
+		(property "LCSC" "C3014011"
 			(at 99.06 196.85 90)
 			(hide yes)
 			(show_name no)
@@ -25609,7 +25609,7 @@
 				)
 			)
 		)
-		(property "Manufacturer" "MDD(辰达半导体)"
+		(property "Manufacturer" "FOSAN"
 			(at 124.46 144.78 0)
 			(hide yes)
 			(show_name no)
@@ -25631,7 +25631,7 @@
 				)
 			)
 		)
-		(property "LCSC Part" "C8678"
+		(property "LCSC Part" "C3014011"
 			(at 129.54 144.78 0)
 			(hide yes)
 			(show_name no)
@@ -25642,7 +25642,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C8678"
+		(property "LCSC" "C3014011"
 			(at 111.76 144.78 90)
 			(hide yes)
 			(show_name no)
