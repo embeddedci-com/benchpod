@@ -4381,12 +4381,6 @@
 		(uuid "773cfccf-ed86-45cd-beb7-bbe99d2ccccf")
 	)
 	(junction
-		(at 62.23 175.26)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "7741b5d6-33a3-4cda-affa-e0577b865732")
-	)
-	(junction
 		(at 237.49 172.72)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -4565,12 +4559,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "a8cb2bf6-ec98-44ab-9ae1-0e1a3bd6c9a5")
-	)
-	(junction
-		(at 66.04 171.45)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "a9d5d19b-f69a-4023-a1c8-76e28c02fb77")
 	)
 	(junction
 		(at 50.8 148.59)
@@ -5043,26 +5031,6 @@
 			(type default)
 		)
 		(uuid "15a4589f-399c-4b55-baae-c717253927a8")
-	)
-	(wire
-		(pts
-			(xy 62.23 184.15) (xy 71.12 184.15)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "15dc6bd6-8549-47f3-b13c-26b6083556fa")
-	)
-	(wire
-		(pts
-			(xy 73.66 181.61) (xy 71.12 184.15)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "18128000-50b1-4915-ba1e-ff687473d316")
 	)
 	(wire
 		(pts
@@ -5546,6 +5514,16 @@
 	)
 	(wire
 		(pts
+			(xy 68.58 181.61) (xy 73.66 181.61)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4d6b9503-bb87-43d8-a730-c68b2846f295")
+	)
+	(wire
+		(pts
 			(xy 24.13 172.72) (xy 34.29 172.72)
 		)
 		(stroke
@@ -5966,16 +5944,6 @@
 	)
 	(wire
 		(pts
-			(xy 62.23 175.26) (xy 62.23 176.53)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "79aa5767-5441-4698-b507-3d128ad3caf5")
-	)
-	(wire
-		(pts
 			(xy 280.67 160.02) (xy 292.1 160.02)
 		)
 		(stroke
@@ -6073,16 +6041,6 @@
 			(type default)
 		)
 		(uuid "83abfeec-8a8b-4e6e-829e-4587fa2a6d25")
-	)
-	(wire
-		(pts
-			(xy 66.04 171.45) (xy 66.04 173.99)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "83c572a3-0f00-428e-a05f-b6d4c342b735")
 	)
 	(wire
 		(pts
@@ -7703,6 +7661,17 @@
 			(justify left bottom)
 		)
 		(uuid "ff5a5921-ce7b-4d5b-abcc-0d8781a157b8")
+	)
+	(hierarchical_label "ANA14_EN"
+		(shape input)
+		(at 66.04 181.61 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "4e1ab40f-a98b-4d7c-8273-2012140f649d")
 	)
 	(symbol
 		(lib_id "Device:C")
@@ -10297,6 +10266,83 @@
 			(project "vbench-pod"
 				(path "/745fcf4b-2e0b-4fc4-95c0-f2e3fd40beb9/af2b1f56-0fad-488e-8f0a-22dbdcc7b8d4"
 					(reference "#PWR0269")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 66.04 173.99 180)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "23c9f5ba-166a-4569-af04-b2910fc989c5")
+		(property "Reference" "#PWR0465"
+			(at 66.04 180.34 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 66.04 177.8 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 66.04 173.99 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 66.04 173.99 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 66.04 173.99 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "6f97e3c0-a1a3-4018-8d09-7224fc13e0b5")
+		)
+		(instances
+			(project "vbench-pod"
+				(path "/745fcf4b-2e0b-4fc4-95c0-f2e3fd40beb9/af2b1f56-0fad-488e-8f0a-22dbdcc7b8d4"
+					(reference "#PWR0465")
 					(unit 1)
 				)
 			)
@@ -19516,140 +19562,6 @@
 			(project "vbench-pod"
 				(path "/745fcf4b-2e0b-4fc4-95c0-f2e3fd40beb9/af2b1f56-0fad-488e-8f0a-22dbdcc7b8d4"
 					(reference "#PWR0289")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
-		(at 62.23 180.34 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "8049d106-d7a1-44dd-b537-fee4117e4d86")
-		(property "Reference" "R117"
-			(at 57.658 181.102 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "100k"
-			(at 57.404 183.896 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
-			(at 60.452 180.34 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 62.23 180.34 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 62.23 180.34 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "LCSC" "C25741"
-			(at 62.23 180.34 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "ProductID" ""
-			(at 62.23 180.34 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Pins" ""
-			(at 62.23 180.34 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "KLC_S3.3" ""
-			(at 62.23 180.34 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "KLC_S4.1" ""
-			(at 62.23 180.34 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "a136d793-d075-4e44-b77a-34fbb56430ec")
-		)
-		(pin "1"
-			(uuid "0ea7e6b5-ee2e-45d3-b958-04ec3accd926")
-		)
-		(instances
-			(project "vbench-pod"
-				(path "/745fcf4b-2e0b-4fc4-95c0-f2e3fd40beb9/af2b1f56-0fad-488e-8f0a-22dbdcc7b8d4"
-					(reference "R117")
 					(unit 1)
 				)
 			)
