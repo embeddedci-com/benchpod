@@ -3468,7 +3468,7 @@
 		)
 		(uuid "e017cee1-c51d-400a-9f41-3894cd20a07a")
 	)
-	(text "2-6pF trimmer"
+	(text "Compensated divider: R90 x (C140 + ~0.3 pF stray) = R91 x (C72 + ~7 pF).\nFixed 9.1 pF replaces the v3 2-6 pF trimmer (measured 2026-10-20)."
 		(exclude_from_sim no)
 		(at 166.624 24.638 0)
 		(effects
@@ -3599,22 +3599,10 @@
 		(uuid "4e67d722-5275-4b8c-970b-5d1acbc8d95c")
 	)
 	(junction
-		(at 156.21 35.56)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "5d8fea31-ccfd-4ee2-9e23-09108c75f848")
-	)
-	(junction
 		(at 248.92 46.99)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "5fd186ec-dc7a-4e40-b22c-ef876250d0a7")
-	)
-	(junction
-		(at 148.59 35.56)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "60633b4c-ab66-4325-899e-05b458269346")
 	)
 	(junction
 		(at 209.55 78.74)
@@ -4296,16 +4284,6 @@
 	)
 	(wire
 		(pts
-			(xy 156.21 35.56) (xy 157.48 35.56)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "57cd6a9a-5210-409a-81b7-7a70fed3f29f")
-	)
-	(wire
-		(pts
 			(xy 179.07 140.97) (xy 185.42 140.97)
 		)
 		(stroke
@@ -4483,16 +4461,6 @@
 			(type default)
 		)
 		(uuid "7ec14c7b-1ffa-4e89-a354-fadf7442df00")
-	)
-	(wire
-		(pts
-			(xy 147.32 35.56) (xy 148.59 35.56)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "7ec8510a-c9b2-4471-8328-183a6b164ad6")
 	)
 	(wire
 		(pts
@@ -5016,16 +4984,6 @@
 	)
 	(wire
 		(pts
-			(xy 147.32 30.48) (xy 147.32 35.56)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d6a18f42-3007-4363-a017-b0dd7c701908")
-	)
-	(wire
-		(pts
 			(xy 85.09 102.87) (xy 102.87 102.87)
 		)
 		(stroke
@@ -5073,16 +5031,6 @@
 			(type default)
 		)
 		(uuid "e16dde42-6dd0-4f94-861b-385c52add7f8")
-	)
-	(wire
-		(pts
-			(xy 157.48 30.48) (xy 157.48 35.56)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e4e1330d-be88-4cfd-a64f-a48bdded0150")
 	)
 	(wire
 		(pts
@@ -6380,7 +6328,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C1546"
+		(property "LCSC" "C327198"
 			(at 171.45 53.34 0)
 			(hide yes)
 			(show_name no)
@@ -6718,7 +6666,7 @@
 				)
 			)
 		)
-		(property "Value" "5.1p"
+		(property "Value" "9.1p"
 			(at 152.146 42.164 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6761,7 +6709,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C2297586"
+		(property "LCSC" "C2299929"
 			(at 152.4 35.56 90)
 			(hide yes)
 			(show_name no)
@@ -6807,6 +6755,17 @@
 		)
 		(property "KLC_S4.1" ""
 			(at 152.4 35.56 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "GQM1875C2E9R1BB12D"
+			(at 152.4 35.56 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13161,163 +13120,6 @@
 			(project "vbench-pod"
 				(path "/745fcf4b-2e0b-4fc4-95c0-f2e3fd40beb9/912decfe-2152-478c-90a9-82a2e6c8d6ce"
 					(reference "U40")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "lcsc_lib:STC3MA06-T1")
-		(at 152.4 30.48 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "ba473182-cbcc-40ba-88cd-deeb17693024")
-		(property "Reference" "C160"
-			(at 152.4 24.13 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "STC3MA06-T1"
-			(at 152.4 26.67 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "lcsc:CAP-SMD_L4.5-W3.2_STC3MD20-T1"
-			(at 152.4 38.1 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" "https://www.lcsc.com/datasheet/C22468120.pdf"
-			(at 152.4 40.64 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 152.4 30.48 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Manufacturer" "SEHWA(韩国世华)"
-			(at 152.4 43.18 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "MPN" "STC3MA06-T1"
-			(at 152.4 45.72 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "LCSC" "C22468120"
-			(at 152.4 48.26 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "ProductID" ""
-			(at 152.4 30.48 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Pins" ""
-			(at 152.4 30.48 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "KLC_S3.3" ""
-			(at 152.4 30.48 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "KLC_S4.1" ""
-			(at 152.4 30.48 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "fafb6f98-75cb-40b6-9a85-efdd3c4fbb9d")
-		)
-		(pin "2"
-			(uuid "31d2cd20-93fb-49b6-b83d-9b3803fe57e0")
-		)
-		(instances
-			(project "vbench-pod"
-				(path "/745fcf4b-2e0b-4fc4-95c0-f2e3fd40beb9/912decfe-2152-478c-90a9-82a2e6c8d6ce"
-					(reference "C160")
 					(unit 1)
 				)
 			)
