@@ -54836,18 +54836,6 @@
 		(uuid "c95066ff-4d8a-4806-a0a8-eacd0231ffeb")
 	)
 	(no_connect
-		(at 373.38 200.66)
-		(uuid "384d9eed-9998-4240-ab96-05c9233a50ea")
-	)
-	(no_connect
-		(at 373.38 198.12)
-		(uuid "48c45e9b-d77f-47c9-8359-ea7d8f76b370")
-	)
-	(no_connect
-		(at 373.38 203.2)
-		(uuid "70180d89-2996-413a-9611-819f932bcbae")
-	)
-	(no_connect
 		(at 373.38 190.5)
 		(uuid "e894894b-4b8f-4dff-8839-6f843f9522c4")
 	)
@@ -56024,7 +56012,7 @@
 			(color 0 0 0 0)
 		)
 		(uuid "3b6fbda2-fc40-469d-a8f6-0fdb43fb58b6")
-		(property "Sheetname" "Module link"
+		(property "Sheetname" "Module link, bridge power"
 			(at 264.16 249.478 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -56093,6 +56081,72 @@
 			(type default)
 		)
 		(uuid "0fdb6195-19b2-49fa-9e6a-f2a93f71010b")
+	)
+	(global_label "BRIDGE_PWR_EN"
+		(shape output)
+		(at 373.38 203.2 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "1a911e88-aca3-4cc5-adc1-a9607bf07d50")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 373.38 203.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "BRIDGE_PWR_FLT#"
+		(shape input)
+		(at 373.38 200.66 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "e8756435-43a0-415c-902d-681b638e781a")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 373.38 200.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "BRIDGE_PWR_PG"
+		(shape input)
+		(at 373.38 198.12 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "5750834a-e323-42a1-b6bd-051fb28e2e79")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 373.38 198.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
 	)
 	(sheet_instances
 		(path "/"
