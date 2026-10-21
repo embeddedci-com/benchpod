@@ -16123,7 +16123,7 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 270.51 36.83 180)
+		(at 270.51 36.83 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
