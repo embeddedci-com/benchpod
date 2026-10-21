@@ -41868,7 +41868,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C2838502"
+		(property "LCSC" "C2934569"
 			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -95388,7 +95388,7 @@
 				)
 			)
 		)
-		(property "Value" "10k"
+		(property "Value" "10k-0.1pct"
 			(at 0 1.17 90)
 			(layer "F.Fab")
 			(uuid "f9722e23-1b8a-47dd-b18a-2056d25901ce")
@@ -121715,7 +121715,7 @@
 				)
 			)
 		)
-		(property "Value" "10k"
+		(property "Value" "10k-0.1pct"
 			(at 0 1.17 0)
 			(layer "F.Fab")
 			(uuid "df63f9fb-3704-4fbe-90d1-005980a63325")
@@ -137263,7 +137263,7 @@
 			)
 		)
 		(property ki_fp_filters "QFN*1EP*7x7mm*P0.5mm*")
-		(path "/9c7013ca-b091-4ca7-98d3-84d609f456a2")
+		(path "/9c7013ca-b091-4ca7-98d3-84d609f456a5")
 		(sheetname "/")
 		(sheetfile "vbench-pod.kicad_sch")
 		(units
@@ -148905,7 +148905,7 @@
 				)
 			)
 		)
-		(property "Value" "10k"
+		(property "Value" "10k-0.1pct"
 			(at 0 1.17 0)
 			(layer "F.Fab")
 			(uuid "f8d5a454-8239-4bd5-87d9-7b4ec2d5c9b6")
@@ -174134,7 +174134,7 @@
 				)
 			)
 		)
-		(property "Value" "10k"
+		(property "Value" "10k-0.1pct"
 			(at 0 1.17 0)
 			(layer "F.Fab")
 			(uuid "1257a3b1-92b9-469b-a297-5088d9f6f9bb")
