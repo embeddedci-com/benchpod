@@ -8950,7 +8950,7 @@
 				)
 			)
 		)
-		(property "Value" "10k"
+		(property "Value" "10k-0.1pct"
 			(at 30.48 148.59 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12941,7 +12941,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "10k"
+		(property "Value" "10k-0.1pct"
 			(at 227.33 69.8499 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -23149,7 +23149,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "10k"
+		(property "Value" "10k-0.1pct"
 			(at 40.64 157.4799 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -23679,7 +23679,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "10k"
+		(property "Value" "10k-0.1pct"
 			(at 211.836 100.838 0)
 			(show_name no)
 			(do_not_autoplace no)
