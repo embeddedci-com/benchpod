@@ -55,6 +55,7 @@ below to get the git tag with the exact design files for your board:
 | BenchPod v3-Digital | Digital only | `digital-v3` | `pcb/benchpod-digital` | First digital-only board: the v3 without the analog section. STM32H563ZGT6 (1 MB flash), INA226 current monitors. |
 | BenchPod v3-r1 | Analog + digital | `analog-v3r1` | `pcb/benchpod` | STM32H563ZGT6 and INA226 like the digital board. Monitors the pod's own current (INA226 at 0x41). The 5.5 V analog rail comes from a 7 V boost instead of the 14 V rail, so U50 no longer runs hot. TPS65131 compensation caps fixed. THS4551 and TPS7A2050 in their smaller packages (RUN, DQN). |
 | BenchPod v3r2-Digital | Digital only | `digital-v3r2` | `pcb/benchpod-digital` | Monitors the pod's own current (INA226 at 0x41). |
+| BenchPod v3-r2 | Analog + digital | `analog-v3r2` | `pcb/benchpod` | One DAC8554 quad DAC (a channel per output) replaces the DAC8551 and its two TMUX1104 muxes. The ±14 V supply starts off and the firmware switches it on. 0.1 % resistors around the ADC driver for a smaller zero offset between pods. Fixed 9.1 pF ADC compensation instead of the trimmer. SWD and USART2 on DNP 2x2 headers instead of H1-H3. More ESD clamps (USB CC, +1V8, LA_VCCIO, the 0-5 V SMA). Board revision strap 2.70 V. |
 
 To get the files for your board, check out its tag:
 
@@ -69,6 +70,8 @@ The v3 tags used to be named `v3.0.0` (now `analog-v3`), `v3.0.1-digital` (now `
 `v3.0.1-analog` (now `analog-v3r1`) and `v3.0.2-digital` (now `digital-v3r2`).
 
 One firmware runs on all v3 boards. The pod's own current needs firmware newer than 3.5.1.
+The v3-r2 board needs firmware newer than 3.9.4: older firmware runs it as a v3-r1 and its DAC
+outputs and ±12 V stay off.
 
 ---
 
