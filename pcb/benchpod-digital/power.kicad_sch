@@ -11236,7 +11236,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 91.1352 83.82 0)
 			(hide yes)
 			(show_name no)
@@ -11346,7 +11346,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C1613"
+		(property "LCSC" "C26404"
 			(at 90.17 80.01 0)
 			(hide yes)
 			(show_name no)
@@ -16916,7 +16916,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C41376408"
+		(property "LCSC" "C5353170"
 			(at 43.18 187.96 0)
 			(hide yes)
 			(show_name no)
@@ -16927,7 +16927,18 @@
 				)
 			)
 		)
-		(property "Manufacturer" "R+O(宏嘉诚)"
+		(property "Manufacturer" "FOSAN"
+			(at 43.18 187.96 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "SMAJ20A"
 			(at 43.18 187.96 0)
 			(hide yes)
 			(show_name no)
@@ -22256,7 +22267,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 98.7552 135.89 0)
 			(hide yes)
 			(show_name no)
@@ -22366,7 +22377,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C1613"
+		(property "LCSC" "C26404"
 			(at 97.79 132.08 0)
 			(hide yes)
 			(show_name no)
@@ -23965,7 +23976,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 261.3152 31.75 0)
 			(hide yes)
 			(show_name no)
@@ -24075,7 +24086,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C1613"
+		(property "LCSC" "C26404"
 			(at 260.35 27.94 0)
 			(hide yes)
 			(show_name no)

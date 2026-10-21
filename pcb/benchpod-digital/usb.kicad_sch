@@ -3239,10 +3239,6 @@
 		(uuid "e1ffd3cc-7f01-4efd-8e58-202298f33d75")
 	)
 	(no_connect
-		(at 162.56 59.69)
-		(uuid "042187b5-d9ff-4641-b340-a23f8c2453f0")
-	)
-	(no_connect
 		(at 236.22 139.7)
 		(uuid "248159b2-3fcb-4473-8db3-728073038c01")
 	)
@@ -3253,10 +3249,6 @@
 	(no_connect
 		(at 76.2 57.15)
 		(uuid "c35bc739-3027-41c4-a424-53bf847514d1")
-	)
-	(no_connect
-		(at 162.56 41.91)
-		(uuid "edfc3a7c-242f-4d10-acd5-e048bcd3e36e")
 	)
 	(wire
 		(pts
@@ -4157,6 +4149,46 @@
 			(type default)
 		)
 		(uuid "febc3d3d-c661-4b3e-a110-6bbad9e7f18a")
+	)
+	(label "USB_CC2"
+		(at 162.56 59.69 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "3945af9f-1f1f-479f-8965-5018565fcef9")
+	)
+	(label "USB_CC1"
+		(at 76.2 44.45 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "030ad293-d5e0-4f4f-8a04-5f050b6f4334")
+	)
+	(label "USB_CC2"
+		(at 76.2 59.69 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "b97518b6-89fe-4ce8-a5c4-f330f32183da")
+	)
+	(label "USB_CC1"
+		(at 162.56 41.91 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "32fba2d5-c4d0-448a-adac-eeaade9d3f3a")
 	)
 	(label "5V_IN"
 		(at 60.96 39.37 180)
@@ -7554,7 +7586,7 @@
 				)
 			)
 		)
-		(property "Manufacturer" "MDD(辰达半导体)"
+		(property "Manufacturer" "FOSAN"
 			(at 124.46 142.24 0)
 			(hide yes)
 			(show_name no)
@@ -7576,7 +7608,7 @@
 				)
 			)
 		)
-		(property "LCSC Part" "C8678"
+		(property "LCSC Part" "C3014011"
 			(at 119.38 142.24 0)
 			(hide yes)
 			(show_name no)
@@ -7631,7 +7663,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C8678"
+		(property "LCSC" "C3014011"
 			(at 137.16 142.24 90)
 			(hide yes)
 			(show_name no)
@@ -12332,7 +12364,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 127.9652 101.6 0)
 			(hide yes)
 			(show_name no)
@@ -12442,7 +12474,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C1613"
+		(property "LCSC" "C26404"
 			(at 127 97.79 0)
 			(hide yes)
 			(show_name no)
