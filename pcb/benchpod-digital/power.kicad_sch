@@ -7381,7 +7381,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "Screw_Terminal_01x02"
+		(property "Value" "DB2ERC-3.81-2P-BK"
 			(at 36.576 186.944 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7392,7 +7392,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "lcsc:CONN-TH_2P-P5.00_WJ500V-5.08-2P"
+		(property "Footprint" "lcsc_footprints:C5259145_CONN-TH_2P-P3.81_DB2ERC-3.81-2P-BK"
 			(at 26.67 190.5 0)
 			(hide yes)
 			(show_name no)
@@ -7414,7 +7414,7 @@
 				)
 			)
 		)
-		(property "Description" "Generic screw terminal, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
+		(property "Description" "Pluggable terminal block, right-angle, 3.81 mm, 2P, black (the plug ships separately)"
 			(at 26.67 190.5 0)
 			(hide yes)
 			(show_name no)
@@ -7425,7 +7425,7 @@
 				)
 			)
 		)
-		(property "LCSC Part #" "C8465"
+		(property "LCSC Part #" "C5259145"
 			(at 26.67 190.5 0)
 			(hide yes)
 			(show_name no)
@@ -7436,7 +7436,7 @@
 				)
 			)
 		)
-		(property "MFR. Part #" "WJ500V-5.08-2P"
+		(property "MFR. Part #" "DB2ERC-3.81-2P-BK"
 			(at 26.67 190.5 0)
 			(hide yes)
 			(show_name no)
@@ -7447,7 +7447,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C8465"
+		(property "LCSC" "C5259145"
 			(at 26.67 190.5 0)
 			(hide yes)
 			(show_name no)
@@ -7458,7 +7458,7 @@
 				)
 			)
 		)
-		(property "LCSC Part" "C8465"
+		(property "LCSC Part" "C5259145"
 			(at 26.67 190.5 0)
 			(hide yes)
 			(show_name no)
@@ -9068,7 +9068,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "Screw_Terminal_01x02"
+		(property "Value" "DB2ERC-3.81-2P-BK"
 			(at 168.656 84.074 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9079,7 +9079,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "lcsc:CONN-TH_2P-P5.00_WJ500V-5.08-2P"
+		(property "Footprint" "lcsc_footprints:C5259145_CONN-TH_2P-P3.81_DB2ERC-3.81-2P-BK"
 			(at 180.34 88.9 0)
 			(hide yes)
 			(show_name no)
@@ -9101,7 +9101,7 @@
 				)
 			)
 		)
-		(property "Description" "Generic screw terminal, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
+		(property "Description" "Pluggable terminal block, right-angle, 3.81 mm, 2P, black (the plug ships separately)"
 			(at 180.34 88.9 0)
 			(hide yes)
 			(show_name no)
@@ -9112,7 +9112,7 @@
 				)
 			)
 		)
-		(property "LCSC Part #" "C8465"
+		(property "LCSC Part #" "C5259145"
 			(at 180.34 88.9 0)
 			(hide yes)
 			(show_name no)
@@ -9123,7 +9123,7 @@
 				)
 			)
 		)
-		(property "MFR. Part #" "WJ500V-5.08-2P"
+		(property "MFR. Part #" "DB2ERC-3.81-2P-BK"
 			(at 180.34 88.9 0)
 			(hide yes)
 			(show_name no)
@@ -9134,7 +9134,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C8465"
+		(property "LCSC" "C5259145"
 			(at 180.34 88.9 0)
 			(hide yes)
 			(show_name no)
@@ -9145,7 +9145,7 @@
 				)
 			)
 		)
-		(property "LCSC Part" "C8465"
+		(property "LCSC Part" "C5259145"
 			(at 180.34 88.9 0)
 			(hide yes)
 			(show_name no)
@@ -19852,7 +19852,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "Screw_Terminal_01x02"
+		(property "Value" "DB2ERC-3.81-2P-BK"
 			(at 175.514 134.874 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -19863,7 +19863,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "lcsc:CONN-TH_2P-P5.00_WJ500V-5.08-2P"
+		(property "Footprint" "lcsc_footprints:C5259145_CONN-TH_2P-P3.81_DB2ERC-3.81-2P-BK"
 			(at 179.07 129.54 0)
 			(hide yes)
 			(show_name no)
@@ -19885,7 +19885,7 @@
 				)
 			)
 		)
-		(property "Description" "Generic screw terminal, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
+		(property "Description" "Pluggable terminal block, right-angle, 3.81 mm, 2P, black (the plug ships separately)"
 			(at 179.07 129.54 0)
 			(hide yes)
 			(show_name no)
@@ -19896,7 +19896,7 @@
 				)
 			)
 		)
-		(property "LCSC Part #" "C8465"
+		(property "LCSC Part #" "C5259145"
 			(at 179.07 129.54 0)
 			(hide yes)
 			(show_name no)
@@ -19907,7 +19907,7 @@
 				)
 			)
 		)
-		(property "MFR. Part #" "WJ500V-5.08-2P"
+		(property "MFR. Part #" "DB2ERC-3.81-2P-BK"
 			(at 179.07 129.54 0)
 			(hide yes)
 			(show_name no)
@@ -19918,7 +19918,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C8465"
+		(property "LCSC" "C5259145"
 			(at 179.07 129.54 0)
 			(hide yes)
 			(show_name no)
@@ -19929,7 +19929,7 @@
 				)
 			)
 		)
-		(property "LCSC Part" "C8465"
+		(property "LCSC Part" "C5259145"
 			(at 179.07 129.54 0)
 			(hide yes)
 			(show_name no)
