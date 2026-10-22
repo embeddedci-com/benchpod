@@ -9708,7 +9708,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "270"
+		(property "Value" "330"
 			(at 195.58 92.7099 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9719,7 +9719,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 191.262 91.44 90)
 			(hide yes)
 			(show_name no)
@@ -9796,7 +9796,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C22966"
+		(property "LCSC" "C25104"
 			(at 193.04 91.44 0)
 			(hide yes)
 			(show_name no)
@@ -11029,7 +11029,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "270"
+		(property "Value" "330"
 			(at 217.17 92.7099 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11040,7 +11040,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 212.852 91.44 90)
 			(hide yes)
 			(show_name no)
@@ -11117,7 +11117,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C22966"
+		(property "LCSC" "C25104"
 			(at 214.63 91.44 0)
 			(hide yes)
 			(show_name no)
