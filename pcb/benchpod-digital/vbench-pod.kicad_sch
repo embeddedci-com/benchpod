@@ -25916,7 +25916,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "49.9"
+		(property "Value" "56"
 			(at 183.134 148.59 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -25949,7 +25949,7 @@
 				)
 			)
 		)
-		(property "Description" "Resistor"
+		(property "Description" ""
 			(at 184.15 148.59 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -25981,7 +25981,7 @@
 				)
 			)
 		)
-		(property "LCSC Part #" "C325388"
+		(property "LCSC Part #" ""
 			(at 184.15 148.59 0)
 			(hide yes)
 			(show_name no)
@@ -26003,7 +26003,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C325388"
+		(property "LCSC" "C3013179"
 			(at 184.15 148.59 0)
 			(hide yes)
 			(show_name no)
@@ -48500,7 +48500,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "49.9"
+		(property "Value" "56"
 			(at 183.134 146.05 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -48533,7 +48533,7 @@
 				)
 			)
 		)
-		(property "Description" "Resistor"
+		(property "Description" ""
 			(at 184.15 146.05 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -48565,7 +48565,7 @@
 				)
 			)
 		)
-		(property "LCSC Part #" "C325388"
+		(property "LCSC Part #" ""
 			(at 184.15 146.05 0)
 			(hide yes)
 			(show_name no)
@@ -48587,7 +48587,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C325388"
+		(property "LCSC" "C3013179"
 			(at 184.15 146.05 0)
 			(hide yes)
 			(show_name no)
