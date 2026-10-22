@@ -13648,16 +13648,6 @@
 		)
 		(uuid "20fd05bc-28a6-48aa-b130-8961b4b59e2b")
 	)
-	(label "BRIDGE_PWR_PG"
-		(at 373.38 198.12 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "22a11f04-05c5-4e65-9dfc-81d862c359e8")
-	)
 	(label "DAC_DIN"
 		(at 134.62 208.28 180)
 		(effects
@@ -13698,16 +13688,6 @@
 		)
 		(uuid "27aaacc5-76a1-40a7-9623-373222670fbe")
 	)
-	(label "MOD_PWR_PG"
-		(at 373.38 213.36 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "29a9759c-7c7b-46d9-9370-28ad79ddc2da")
-	)
 	(label "LA_OUT1"
 		(at 55.88 85.09 0)
 		(effects
@@ -13727,16 +13707,6 @@
 			(justify left bottom)
 		)
 		(uuid "2b3ceb8d-c83b-42ae-b4e5-085e4891b0e1")
-	)
-	(label "MOD_PWR_PG"
-		(at 203.2 40.64 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "2dab7ce9-0c6d-4948-a0e7-2939d4d5ebe7")
 	)
 	(label "STM32_BOOT0"
 		(at 394.97 68.58 0)
@@ -13967,16 +13937,6 @@
 			(justify left bottom)
 		)
 		(uuid "3ae07b82-46dc-482a-905d-c1c42a4f09b4")
-	)
-	(label "BRIDGE_PWR_FLT#"
-		(at 203.2 45.72 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "3b44c9fa-8350-4fc3-95c6-e3ae8b319ebb")
 	)
 	(label "LA_VCCIO"
 		(at 85.09 137.16 180)
@@ -14217,16 +14177,6 @@
 			(justify right bottom)
 		)
 		(uuid "4f09fd0c-6485-43aa-90ab-aff3dbfac84f")
-	)
-	(label "MOD_PWR_FLT#"
-		(at 373.38 215.9 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "4f45a96c-f70b-4908-8a95-4d5b15a286cf")
 	)
 	(label "ICE_SCLK"
 		(at 330.2 106.68 180)
@@ -14728,16 +14678,6 @@
 		)
 		(uuid "7b39ad8a-0cce-42c2-a696-f6d17a6e0ed8")
 	)
-	(label "BRIDGE_PWR_FLT#"
-		(at 373.38 200.66 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "7cdb7302-22d3-46dc-ad83-38016639dc2e")
-	)
 	(label "ICE_CRESET"
 		(at 73.66 186.69 180)
 		(effects
@@ -14747,16 +14687,6 @@
 			(justify right bottom)
 		)
 		(uuid "7d273d26-11be-48f8-929d-783c8c332f08")
-	)
-	(label "BRIDGE_PWR_PG"
-		(at 203.2 48.26 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "7d867dfc-50ae-4d69-ac1a-2d9b401e3366")
 	)
 	(label "STM32_VDD"
 		(at 373.38 86.36 0)
@@ -15857,16 +15787,6 @@
 			(justify right bottom)
 		)
 		(uuid "ef29a1de-4bee-4ac0-b592-5e388174dd6d")
-	)
-	(label "MOD_PWR_FLT#"
-		(at 203.2 38.1 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "f1493f76-1099-464f-aad0-acc83ec5bf5d")
 	)
 	(label "LA_INPUT3"
 		(at 193.04 179.07 180)
@@ -49139,49 +49059,9 @@
 				(justify right)
 			)
 		)
-		(pin "MOD_PWR_FLT#" input
-			(at 203.2 38.1 0)
-			(uuid "e4600ff6-ab95-49d8-9c9d-d9dc5926d2a2")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(pin "MOD_PWR_PG" input
-			(at 203.2 40.64 0)
-			(uuid "dc261ebe-90c7-446b-b757-13dbb4c8ccfb")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
 		(pin "BRIDGE_PWR_EN" output
 			(at 203.2 43.18 0)
 			(uuid "4d7f6e54-a5e3-44cc-b2aa-3266b3fad1a0")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(pin "BRIDGE_PWR_FLT#" input
-			(at 203.2 45.72 0)
-			(uuid "d7a171d0-4fb2-47bf-a033-adfb36526777")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(pin "BRIDGE_PWR_PG" input
-			(at 203.2 48.26 0)
-			(uuid "8a837edb-fae3-4ae5-8cd6-301f36c922db")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -49743,6 +49623,22 @@
 				)
 			)
 		)
+	)
+	(no_connect
+		(at 373.38 215.9)
+		(uuid "71d5323b-a737-4713-835b-23546798e462")
+	)
+	(no_connect
+		(at 373.38 213.36)
+		(uuid "82211403-46ee-481d-8d77-ba956010ec42")
+	)
+	(no_connect
+		(at 373.38 200.66)
+		(uuid "59817967-811d-4406-af96-65a4958cc705")
+	)
+	(no_connect
+		(at 373.38 198.12)
+		(uuid "ecfc5150-8897-4fbe-bb0b-643b25dffbf9")
 	)
 	(sheet_instances
 		(path "/"
