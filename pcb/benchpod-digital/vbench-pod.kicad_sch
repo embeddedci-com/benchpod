@@ -10419,10 +10419,6 @@
 		(uuid "67dfb785-49f4-4587-bb68-7ff6ce3c518e")
 	)
 	(no_connect
-		(at 330.2 78.74)
-		(uuid "6b8c3463-e9d8-4314-9920-ad69094648a8")
-	)
-	(no_connect
 		(at 373.38 185.42)
 		(uuid "6dd68c6f-2bfe-4fb4-8175-88a672a91254")
 	)
@@ -10433,10 +10429,6 @@
 	(no_connect
 		(at 330.2 73.66)
 		(uuid "722991d8-19a3-4d98-85f8-79f5a51b19e7")
-	)
-	(no_connect
-		(at 330.2 76.2)
-		(uuid "75331271-d461-41ef-92ac-6328fa46a61e")
 	)
 	(no_connect
 		(at 373.38 73.66)
@@ -12918,16 +12910,6 @@
 	)
 	(wire
 		(pts
-			(xy 91.44 106.68) (xy 92.71 106.68)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d6adc27e-6a7b-48e8-97b4-a55cf098db24")
-	)
-	(wire
-		(pts
 			(xy 63.5 137.16) (xy 68.58 137.16)
 		)
 		(stroke
@@ -13375,16 +13357,6 @@
 			(justify left bottom)
 		)
 		(uuid "018ec71a-2dd8-4992-ad44-d1bded4825ee")
-	)
-	(label "I2C0_SDA"
-		(at 91.44 106.68 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "020a9c91-3dc4-4b14-af78-437279b95bbc")
 	)
 	(label "I2C0_SDA"
 		(at 38.1 31.75 0)
@@ -15306,16 +15278,6 @@
 		)
 		(uuid "d69ab414-9e4b-4a23-8673-83047b68b059")
 	)
-	(label "I2C0_SCL"
-		(at 113.03 111.76 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "d8362040-d0b7-43fe-bc52-93a98909c317")
-	)
 	(label "ICE_SPI_SO"
 		(at 83.82 217.17 180)
 		(effects
@@ -15645,438 +15607,6 @@
 			(justify right bottom)
 		)
 		(uuid "ffe9b232-227a-4bab-abbf-e2c01ab3920e")
-	)
-	(global_label "BRIDGE_PWR_EN"
-		(shape output)
-		(at 373.38 203.2 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "1a911e88-aca3-4cc5-adc1-a9607bf07d50")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 373.38 203.2 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-	)
-	(global_label "MOD_ADC_SCLK"
-		(shape output)
-		(at 92.71 101.6 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "1c4a4a36-36e5-4639-8439-c820df636174")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 92.71 101.6 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-	)
-	(global_label "MOD_SPARE"
-		(shape bidirectional)
-		(at 373.38 210.82 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "1cbd97a6-30ae-4e78-8793-ea923448e7fe")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 373.38 210.82 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-	)
-	(global_label "I2C0_SCL"
-		(shape bidirectional)
-		(at 113.03 111.76 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "27c3ba0e-d3b6-4ec7-8538-8f4b1773868f")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 113.03 111.76 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-	)
-	(global_label "MOD_PRESENT#"
-		(shape input)
-		(at 373.38 220.98 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "32b9cf8a-961b-4885-87ed-90adb1ebeac4")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 373.38 220.98 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-	)
-	(global_label "MOD_ADC_SDI"
-		(shape output)
-		(at 113.03 93.98 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "40e2dd99-5b0d-48f5-afd7-48fb9a4fbeb8")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 113.03 93.98 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-	)
-	(global_label "MOD_PWR_EN"
-		(shape output)
-		(at 373.38 218.44 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "45458d78-df99-4c71-afb8-f2ea30a94537")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 373.38 218.44 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-	)
-	(global_label "BRIDGE_PWR_PG"
-		(shape input)
-		(at 373.38 198.12 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "5750834a-e323-42a1-b6bd-051fb28e2e79")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 373.38 198.12 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-	)
-	(global_label "I2C0_SDA"
-		(shape bidirectional)
-		(at 92.71 106.68 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "64890bb3-c5ee-4090-b9b9-1a15ae87e767")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 92.71 106.68 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-	)
-	(global_label "MOD_PWR_FLT#"
-		(shape input)
-		(at 373.38 215.9 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "82fcb691-8525-4890-8ae5-a1219561efeb")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 373.38 215.9 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-	)
-	(global_label "MOD_ADC_CNVST"
-		(shape output)
-		(at 113.03 104.14 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "b0d38c01-de8e-495e-b3e0-269e216d0be4")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 113.03 104.14 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-	)
-	(global_label "MOD_RESET#"
-		(shape output)
-		(at 373.38 223.52 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "d665813d-aab4-4c6b-90f4-62873a5f8438")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 373.38 223.52 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-	)
-	(global_label "MOD_ADC_SDO"
-		(shape input)
-		(at 113.03 99.06 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "d7850a23-6ac9-4122-8afe-e9132ab9d995")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 113.03 99.06 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-	)
-	(global_label "MOD_PWR_PG"
-		(shape input)
-		(at 373.38 213.36 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "d925a54e-5826-4d28-bde2-70bd6890ad51")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 373.38 213.36 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-	)
-	(global_label "BRIDGE_PWR_FLT#"
-		(shape input)
-		(at 373.38 200.66 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "e8756435-43a0-415c-902d-681b638e781a")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 373.38 200.66 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-	)
-	(global_label "MOD_DAC_SCLK"
-		(shape output)
-		(at 92.71 96.52 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "f08f3469-675c-4cb8-b431-a91f7a138aa8")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 92.71 96.52 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-	)
-	(global_label "MOD_DAC_DIN"
-		(shape output)
-		(at 92.71 91.44 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "f51c9973-a4c9-42b9-9878-22338971c472")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 92.71 91.44 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-	)
-	(global_label "MOD_DAC_SYNC"
-		(shape output)
-		(at 113.03 88.9 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "fd6d52e7-1c96-46a9-a455-d3cf6bf8dadf")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 113.03 88.9 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
 	)
 	(symbol
 		(lib_id "power:+3V3")
@@ -49082,8 +48612,8 @@
 		)
 	)
 	(sheet
-		(at 264.16 250.19)
-		(size 25.4 5.08)
+		(at 152.4 25.4)
+		(size 50.8 25.4)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -49098,7 +48628,7 @@
 		)
 		(uuid "3b6fbda2-fc40-469d-a8f6-0fdb43fb58b6")
 		(property "Sheetname" "Module link, bridge power"
-			(at 264.16 249.478 0)
+			(at 152.4 24.6884 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -49109,7 +48639,7 @@
 			)
 		)
 		(property "Sheetfile" "module-link.kicad_sch"
-			(at 264.16 255.855 0)
+			(at 152.4 51.3846 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -49117,6 +48647,186 @@
 					(size 1.27 1.27)
 				)
 				(justify left top)
+			)
+		)
+		(pin "MOD_DAC_SCLK" output
+			(at 152.4 27.94 180)
+			(uuid "ecf56c4c-d8a0-4f97-bad1-c74f75e35de5")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "MOD_DAC_DIN" output
+			(at 152.4 30.48 180)
+			(uuid "1bae7dc7-76a9-42e7-88c7-6d73fc5597ac")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "MOD_DAC_SYNC" output
+			(at 152.4 33.02 180)
+			(uuid "8c14aec1-21a7-4a7b-84b1-f516b864c4cd")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "MOD_ADC_SCLK" output
+			(at 152.4 35.56 180)
+			(uuid "c46b7995-daf4-47ff-9b41-6acb8dd1e408")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "MOD_ADC_SDO" input
+			(at 152.4 38.1 180)
+			(uuid "50a3fb1e-3d4f-4bb1-a6f8-a800237562c0")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "MOD_ADC_SDI" output
+			(at 152.4 40.64 180)
+			(uuid "de9a1f73-b44f-4fd2-89ba-b082de08551f")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "MOD_ADC_CNVST" output
+			(at 152.4 43.18 180)
+			(uuid "6bf16a95-5c47-459f-8b71-ddab9a9f1bd7")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "MOD_I2C_SDA" bidirectional
+			(at 152.4 45.72 180)
+			(uuid "b2990d96-d760-4667-9f01-c624fb4a05b8")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "MOD_I2C_SCL" bidirectional
+			(at 152.4 48.26 180)
+			(uuid "170db99b-83dd-45ab-8402-c5ecaa49ebc9")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "MOD_RESET#" output
+			(at 203.2 27.94 0)
+			(uuid "ac3711ef-767d-49b8-a74b-3fc5ec3751fd")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "MOD_PRESENT#" input
+			(at 203.2 30.48 0)
+			(uuid "12d9575c-3aeb-4dce-a4a3-6406704de628")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "MOD_SPARE" bidirectional
+			(at 203.2 33.02 0)
+			(uuid "3e1b1656-00fb-41f4-a948-814325bbdfb5")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "MOD_PWR_EN" output
+			(at 203.2 35.56 0)
+			(uuid "e2f89122-00bd-48d5-9010-7d7043102264")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "MOD_PWR_FLT#" input
+			(at 203.2 38.1 0)
+			(uuid "e4600ff6-ab95-49d8-9c9d-d9dc5926d2a2")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "MOD_PWR_PG" input
+			(at 203.2 40.64 0)
+			(uuid "dc261ebe-90c7-446b-b757-13dbb4c8ccfb")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "BRIDGE_PWR_EN" output
+			(at 203.2 43.18 0)
+			(uuid "4d7f6e54-a5e3-44cc-b2aa-3266b3fad1a0")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "BRIDGE_PWR_FLT#" input
+			(at 203.2 45.72 0)
+			(uuid "d7a171d0-4fb2-47bf-a033-adfb36526777")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "BRIDGE_PWR_PG" input
+			(at 203.2 48.26 0)
+			(uuid "8a837edb-fae3-4ae5-8cd6-301f36c922db")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
 			)
 		)
 		(instances
@@ -49673,6 +49383,366 @@
 				)
 			)
 		)
+	)
+	(label "BRIDGE_PWR_EN"
+		(at 373.38 203.2 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "0c1812cb-a8bb-4950-bae0-728f496b3db3")
+	)
+	(label "MOD_ADC_SCLK"
+		(at 92.71 101.6 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "caff789f-d1b4-4822-8816-c14edf8695ea")
+	)
+	(label "MOD_SPARE"
+		(at 373.38 210.82 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "77620e6f-09c6-478e-88b9-6ac5fb525ac4")
+	)
+	(label "MOD_PRESENT#"
+		(at 373.38 220.98 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "8442bfd0-5aec-447f-a1a2-887772ea4ea7")
+	)
+	(label "MOD_ADC_SDI"
+		(at 113.03 93.98 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "4443ba56-6555-4835-9eb4-bbcbd6c93f37")
+	)
+	(label "MOD_PWR_EN"
+		(at 373.38 218.44 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "346ab06e-3ba5-4a23-a6fa-e87ebdc16c6f")
+	)
+	(label "BRIDGE_PWR_PG"
+		(at 373.38 198.12 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "22a11f04-05c5-4e65-9dfc-81d862c359e8")
+	)
+	(label "MOD_PWR_FLT#"
+		(at 373.38 215.9 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "4f45a96c-f70b-4908-8a95-4d5b15a286cf")
+	)
+	(label "MOD_ADC_CNVST"
+		(at 113.03 104.14 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "b4fa2e2d-4e70-48ee-a559-f0577013e6cd")
+	)
+	(label "MOD_RESET#"
+		(at 373.38 223.52 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "b6371910-a441-477c-adc9-c3d445481d79")
+	)
+	(label "MOD_ADC_SDO"
+		(at 113.03 99.06 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "0768702f-a0e1-4358-ae21-fd507ca15fbc")
+	)
+	(label "MOD_PWR_PG"
+		(at 373.38 213.36 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "29a9759c-7c7b-46d9-9370-28ad79ddc2da")
+	)
+	(label "BRIDGE_PWR_FLT#"
+		(at 373.38 200.66 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "7cdb7302-22d3-46dc-ad83-38016639dc2e")
+	)
+	(label "MOD_DAC_SCLK"
+		(at 92.71 96.52 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "4019a146-f08a-4b78-8dc7-2a0b33545dc0")
+	)
+	(label "MOD_DAC_DIN"
+		(at 92.71 91.44 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "20fd05bc-28a6-48aa-b130-8961b4b59e2b")
+	)
+	(label "MOD_DAC_SYNC"
+		(at 113.03 88.9 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "8e66e805-991d-4ca7-859b-d51ab6706e5f")
+	)
+	(label "MOD_I2C_SDA"
+		(at 330.2 76.2 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "e1bf509c-31b0-4aab-953f-3e998fe4ac5f")
+	)
+	(label "MOD_I2C_SCL"
+		(at 330.2 78.74 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "1585e689-fcc7-4844-a045-41421910574e")
+	)
+	(label "MOD_DAC_SCLK"
+		(at 152.4 27.94 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "0842a29d-debf-4aad-9e18-524bb3378fc2")
+	)
+	(label "MOD_DAC_DIN"
+		(at 152.4 30.48 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "f56869ee-9634-4179-adb4-a7449947878a")
+	)
+	(label "MOD_DAC_SYNC"
+		(at 152.4 33.02 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "6ce1001a-2a74-48eb-8ba2-7625bd3aad7c")
+	)
+	(label "MOD_ADC_SCLK"
+		(at 152.4 35.56 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "38cf14e5-e901-4b54-b580-793547612a47")
+	)
+	(label "MOD_ADC_SDO"
+		(at 152.4 38.1 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "4f09fd0c-6485-43aa-90ab-aff3dbfac84f")
+	)
+	(label "MOD_ADC_SDI"
+		(at 152.4 40.64 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "a93520b0-2ccb-4c03-9326-e92834dc7536")
+	)
+	(label "MOD_ADC_CNVST"
+		(at 152.4 43.18 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "a01a6741-bd73-4c60-b8b3-5bd875fd75f2")
+	)
+	(label "MOD_I2C_SDA"
+		(at 152.4 45.72 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "5e72d5d9-4fa8-43a6-849f-fe04bf058f5a")
+	)
+	(label "MOD_I2C_SCL"
+		(at 152.4 48.26 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "872b3146-8221-41ea-9b36-a8905138eb26")
+	)
+	(label "MOD_RESET#"
+		(at 203.2 27.94 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "7955be28-d5ef-464f-bba0-a64c881dfc31")
+	)
+	(label "MOD_PRESENT#"
+		(at 203.2 30.48 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "ded94307-9dfe-4f0b-a132-c49e4c421b70")
+	)
+	(label "MOD_SPARE"
+		(at 203.2 33.02 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "ceeaaa93-34b0-4edf-9b4f-4fc618c11115")
+	)
+	(label "MOD_PWR_EN"
+		(at 203.2 35.56 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "54d158e8-ac3d-4f2e-b2a1-d196c68756ae")
+	)
+	(label "MOD_PWR_FLT#"
+		(at 203.2 38.1 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "f1493f76-1099-464f-aad0-acc83ec5bf5d")
+	)
+	(label "MOD_PWR_PG"
+		(at 203.2 40.64 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "2dab7ce9-0c6d-4948-a0e7-2939d4d5ebe7")
+	)
+	(label "BRIDGE_PWR_EN"
+		(at 203.2 43.18 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "c3edab7d-c8f0-4156-8abd-091a164ffa48")
+	)
+	(label "BRIDGE_PWR_FLT#"
+		(at 203.2 45.72 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "3b44c9fa-8350-4fc3-95c6-e3ae8b319ebb")
+	)
+	(label "BRIDGE_PWR_PG"
+		(at 203.2 48.26 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "7d867dfc-50ae-4d69-ac1a-2d9b401e3366")
 	)
 	(sheet_instances
 		(path "/"

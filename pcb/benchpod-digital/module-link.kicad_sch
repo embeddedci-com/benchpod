@@ -1794,7 +1794,7 @@
 			(embedded_fonts no)
 		)
 	)
-	(text "Link to the analog module: 24-pin 1.0 mm FFC (top and bottom contact).\n1-3 +5V_MOD (eFuse U59, ~1 A limit, on at power-up; PD10 low = off)\n4-6 GND, 7 DAC_SCLK, 8 DAC_DIN, 9 DAC_SYNC, 10 GND\n11 ADC_SCLK, 12 ADC_SDO, 13 ADC_SDI, 14 GND, 15 ADC_CNVST, 16 GND\n17 I2C0_SDA, 18 I2C0_SCL, 19 GND, 20 MOD_RESET# (PD8), 21 MOD_PRESENT# (PD9, module ties to GND)\n22 GND, 23 MOD_SPARE (PD13), 24 GND. FLT# = PD11, PG = PD12.\nBridge power: USB2 (USB-A, back panel) = always-on 5 V for the Wi-Fi bridge through eFuse U60 (~1 A, on at power-up;\nPD14 low = off), FLT# = PD15, PG = PG2. D+/D- tied like USB1. USB1 stays target power."
+	(text "Link to the analog module: 24-pin 1.0 mm FFC (top and bottom contact).\n1-3 +5V_MOD (eFuse U59, ~1 A limit, on at power-up; PD10 low = off)\n4-6 GND, 7 DAC_SCLK, 8 DAC_DIN, 9 DAC_SYNC, 10 GND\n11 ADC_SCLK, 12 ADC_SDO, 13 ADC_SDI, 14 GND, 15 ADC_CNVST, 16 GND\n17 MOD_I2C_SDA (PF0), 18 MOD_I2C_SCL (PF1), own bus, 4.7k pull-ups, 19 GND, 20 MOD_RESET# (PD8), 21 MOD_PRESENT# (PD9, module ties to GND)\n22 GND, 23 MOD_SPARE (PD13), 24 GND. FLT# = PD11, PG = PD12.\nBridge power: USB2 (USB-A, back panel) = always-on 5 V for the Wi-Fi bridge through eFuse U60 (~1 A, on at power-up;\nPD14 low = off), FLT# = PD15, PG = PG2. D+/D- tied like USB1. USB1 stays target power."
 		(exclude_from_sim no)
 		(at 25.4 182.88 0)
 		(effects
@@ -2105,605 +2105,302 @@
 		)
 		(uuid "fbe0e592-ca1d-4b33-b782-d0aae050db57")
 	)
-	(global_label "MOD_SPARE"
-		(shape bidirectional)
-		(at 195.58 130.81 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "0d939c72-e9b5-4c03-b264-244a9d949cef")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 195.58 130.81 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-	)
-	(global_label "BRIDGE_PWR_PG"
-		(shape input)
-		(at 154.94 59.69 270)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "139eb56d-cda6-49fd-a770-6fdb4ac1b382")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 154.94 59.69 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-	)
-	(global_label "MOD_DAC_SCLK"
-		(shape output)
-		(at 195.58 90.17 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "1ff6280e-ea9e-4770-ad91-0ce327817f60")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 195.58 90.17 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-	)
-	(global_label "MOD_ADC_SCLK"
-		(shape output)
-		(at 195.58 100.33 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "2538ed21-ec57-4431-8288-c02449bc9cf3")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 195.58 100.33 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-	)
-	(global_label "MOD_PWR_PG"
-		(shape input)
-		(at 71.12 86.36 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "26911a54-286c-4dfd-9d55-0212bc6de139")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 71.12 86.36 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-	)
-	(global_label "MOD_PWR_FLT#"
+	(hierarchical_label "MOD_PWR_FLT#"
 		(shape input)
 		(at 78.74 59.69 270)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify right)
 		)
-		(uuid "30767544-c6c4-4a1c-8bd0-fa7c371f514f")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 78.74 59.69 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
+		(uuid "132f2428-308d-4b49-a61a-1b7584863b81")
 	)
-	(global_label "BRIDGE_PWR_FLT#"
-		(shape input)
-		(at 71.12 149.86 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "31e06002-edc4-45e2-9597-51dcecd113ba")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 71.12 149.86 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-	)
-	(global_label "BRIDGE_PWR_FLT#"
-		(shape input)
-		(at 139.7 59.69 270)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "3a1b092e-f30b-410b-8c5c-d8cddd87ac28")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 139.7 59.69 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-	)
-	(global_label "MOD_DAC_DIN"
-		(shape output)
-		(at 195.58 92.71 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "46fb9d20-ceb3-40f6-a2cd-b959b6b2b8ab")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 195.58 92.71 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-	)
-	(global_label "MOD_PWR_EN"
-		(shape output)
-		(at 63.5 59.69 270)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "50d20bdd-f72d-42db-bf7f-29a06caa79b9")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 63.5 59.69 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-	)
-	(global_label "MOD_PRESENT#"
-		(shape input)
-		(at 109.22 59.69 270)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "545b10da-643a-41f1-beac-6e7e8a2cd09f")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 109.22 59.69 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-	)
-	(global_label "MOD_PWR_PG"
-		(shape input)
-		(at 93.98 59.69 270)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "657197a3-7b5d-4718-a66b-9a3636376316")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 93.98 59.69 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-	)
-	(global_label "MOD_PWR_EN"
+	(hierarchical_label "MOD_PWR_EN"
 		(shape output)
 		(at 71.12 81.28 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify right)
 		)
-		(uuid "6b00e71e-2712-4f96-b895-c85c60620c19")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 71.12 81.28 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
+		(uuid "2942f72e-e820-45ce-9e35-a8cd3553c28c")
 	)
-	(global_label "MOD_ADC_SDI"
-		(shape output)
-		(at 195.58 105.41 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "749a91cb-3c49-4d65-8361-93baf9282679")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 195.58 105.41 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-	)
-	(global_label "I2C0_SDA"
-		(shape bidirectional)
-		(at 195.58 115.57 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "797504d3-d26b-4001-8fa5-6d78765c4d93")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 195.58 115.57 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-	)
-	(global_label "BRIDGE_PWR_EN"
-		(shape output)
-		(at 71.12 142.24 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "8fce809c-f34c-4461-88f0-f579989fc669")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 71.12 142.24 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-	)
-	(global_label "I2C0_SCL"
-		(shape bidirectional)
-		(at 195.58 118.11 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "968270e3-b1cf-4cef-9dbc-18ecad865a1e")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 195.58 118.11 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-	)
-	(global_label "BRIDGE_PWR_PG"
+	(hierarchical_label "MOD_PWR_PG"
 		(shape input)
-		(at 71.12 147.32 180)
-		(fields_autoplaced yes)
+		(at 71.12 86.36 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify right)
 		)
-		(uuid "b06f1a25-686c-402f-b7a5-debe0db747d3")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 71.12 147.32 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
+		(uuid "3952ac70-32a6-4ad2-a621-f27dd07992b3")
 	)
-	(global_label "MOD_ADC_SDO"
-		(shape input)
-		(at 195.58 102.87 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "c31ab200-4633-412f-a321-ec57a964d90e")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 195.58 102.87 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-	)
-	(global_label "MOD_ADC_CNVST"
+	(hierarchical_label "MOD_ADC_CNVST"
 		(shape output)
 		(at 195.58 110.49 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify right)
 		)
-		(uuid "cd6c3286-d786-4aae-a613-b133bcedcdea")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 195.58 110.49 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
+		(uuid "451588b3-9d3c-49a8-823e-9ffcbe9d2331")
 	)
-	(global_label "MOD_PWR_FLT#"
-		(shape input)
-		(at 71.12 88.9 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "e5f76287-d83f-43e4-9c5b-ed6fbbf0fbbd")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 71.12 88.9 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-	)
-	(global_label "MOD_PRESENT#"
-		(shape input)
-		(at 195.58 125.73 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "ed88b69d-83a6-458b-b17e-0e2e004e6643")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 195.58 125.73 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-	)
-	(global_label "MOD_DAC_SYNC"
+	(hierarchical_label "BRIDGE_PWR_EN"
 		(shape output)
-		(at 195.58 95.25 180)
-		(fields_autoplaced yes)
+		(at 71.12 142.24 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify right)
 		)
-		(uuid "f498b648-ef6a-4238-981a-e3c45972f95e")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 195.58 95.25 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
+		(uuid "4f092e51-3015-43e8-8f93-12a85a9c268c")
 	)
-	(global_label "BRIDGE_PWR_EN"
+	(hierarchical_label "MOD_I2C_SDA"
+		(shape bidirectional)
+		(at 195.58 115.57 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "4fabe475-ac7d-4db4-b8ee-52588b6e2f9b")
+	)
+	(hierarchical_label "MOD_PRESENT#"
+		(shape input)
+		(at 109.22 59.69 270)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "51a2f427-40cf-4989-9760-b8fb4fd12795")
+	)
+	(hierarchical_label "BRIDGE_PWR_PG"
+		(shape input)
+		(at 71.12 147.32 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "59549052-32e7-4686-8fd6-3767c7315202")
+	)
+	(hierarchical_label "MOD_PWR_PG"
+		(shape input)
+		(at 93.98 59.69 270)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "7bf66f5e-2267-4074-a281-fb8ca2b768cb")
+	)
+	(hierarchical_label "MOD_I2C_SCL"
+		(shape bidirectional)
+		(at 195.58 118.11 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "811f4c8c-f803-4215-9b15-e276c24bd010")
+	)
+	(hierarchical_label "MOD_SPARE"
+		(shape bidirectional)
+		(at 195.58 130.81 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "81534589-69c3-480e-aec8-5a0871f15e69")
+	)
+	(hierarchical_label "BRIDGE_PWR_FLT#"
+		(shape input)
+		(at 71.12 149.86 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "829a15c1-08f7-48c7-b25e-0301fc3dab12")
+	)
+	(hierarchical_label "BRIDGE_PWR_EN"
 		(shape output)
 		(at 124.46 59.69 270)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify right)
 		)
-		(uuid "fba97881-0138-4568-bc64-6db9bb14bf8e")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 124.46 59.69 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
+		(uuid "86921069-b250-43f7-b234-65eed927ee11")
 	)
-	(global_label "MOD_RESET#"
+	(hierarchical_label "MOD_DAC_SYNC"
+		(shape output)
+		(at 195.58 95.25 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "88ed2a8e-b861-45d8-8ce6-c74205a30d43")
+	)
+	(hierarchical_label "MOD_ADC_SDO"
+		(shape input)
+		(at 195.58 102.87 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "946a580c-9d4d-4977-9211-57e6b83a8571")
+	)
+	(hierarchical_label "MOD_DAC_DIN"
+		(shape output)
+		(at 195.58 92.71 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "996aeb80-7f7b-4c94-87b4-6d17d221f7ae")
+	)
+	(hierarchical_label "MOD_ADC_SDI"
+		(shape output)
+		(at 195.58 105.41 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "9f81d05d-bdf5-404e-a970-bff20ee96133")
+	)
+	(hierarchical_label "BRIDGE_PWR_PG"
+		(shape input)
+		(at 154.94 59.69 270)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "abb63aa7-e4c0-44c3-b57a-91e7c7a2f1e0")
+	)
+	(hierarchical_label "MOD_DAC_SCLK"
+		(shape output)
+		(at 195.58 90.17 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "be62a39b-bd83-4c8a-a413-75ba7778ede4")
+	)
+	(hierarchical_label "MOD_ADC_SCLK"
+		(shape output)
+		(at 195.58 100.33 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "c6b9ee39-4db0-4e78-b449-ba9d76386344")
+	)
+	(hierarchical_label "MOD_I2C_SDA"
+		(shape bidirectional)
+		(at 170.18 44.45 270)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "d810dab2-67f7-499a-b3ca-0d2c2871bcd5")
+	)
+	(hierarchical_label "MOD_RESET#"
 		(shape output)
 		(at 195.58 123.19 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify right)
 		)
-		(uuid "fd7b5828-92f5-423a-aca0-8f02d8f01c09")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 195.58 123.19 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
+		(uuid "e1685d8b-0828-4a92-8149-c725288f6c9b")
+	)
+	(hierarchical_label "MOD_PWR_EN"
+		(shape output)
+		(at 63.5 59.69 270)
+		(effects
+			(font
+				(size 1.27 1.27)
 			)
+			(justify right)
 		)
+		(uuid "e827df52-e721-41fc-9586-4d0ae8ce0667")
+	)
+	(hierarchical_label "MOD_I2C_SCL"
+		(shape bidirectional)
+		(at 185.42 44.45 270)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "ec9e5322-8fed-4538-9d48-cff90536439e")
+	)
+	(hierarchical_label "MOD_PWR_FLT#"
+		(shape input)
+		(at 71.12 88.9 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "f0588e86-54b9-409b-ae8d-a10cfaa5b95e")
+	)
+	(hierarchical_label "BRIDGE_PWR_FLT#"
+		(shape input)
+		(at 139.7 59.69 270)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "f47274ce-c82e-4526-9804-b49d658fac41")
+	)
+	(hierarchical_label "MOD_PRESENT#"
+		(shape input)
+		(at 195.58 125.73 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "f794c81d-380a-4de1-9688-6a940023a586")
 	)
 	(symbol
 		(lib_id "Device:R")
@@ -7311,6 +7008,84 @@
 		)
 	)
 	(symbol
+		(lib_id "power:+3V3")
+		(at 170.18 36.83 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "64563ec2-5478-4f0f-8abb-c6ecc6521d0a")
+		(property "Reference" "#PWR0546"
+			(at 170.18 36.83 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "+3V3"
+			(at 170.18 33.274 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 170.18 36.83 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 170.18 36.83 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3V3\""
+			(at 170.18 36.83 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "71856457-2705-4a08-92c7-a5f6770c1a30")
+		)
+		(instances
+			(project "vbench-pod"
+				(path "/745fcf4b-2e0b-4fc4-95c0-f2e3fd40beb9/3b6fbda2-fc40-469d-a8f6-0fdb43fb58b6"
+					(reference "#PWR0546")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 154.94 147.32 270)
 		(unit 1)
@@ -7718,6 +7493,252 @@
 			(project "vbench-pod"
 				(path "/745fcf4b-2e0b-4fc4-95c0-f2e3fd40beb9/3b6fbda2-fc40-469d-a8f6-0fdb43fb58b6"
 					(reference "C264")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 185.42 40.64 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "77ebb608-a4f6-4541-b014-fde98a6bbd59")
+		(property "Reference" "R194"
+			(at 187.96 39.37 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "4.7k"
+			(at 187.96 41.91 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+			(at 185.42 40.64 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 185.42 40.64 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 185.42 40.64 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Part #" ""
+			(at 185.42 40.64 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MFR. Part #" ""
+			(at 185.42 40.64 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C25900"
+			(at 185.42 40.64 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KiLib_Generator" "SMD_2terminal_chip_molded"
+			(at 185.42 40.64 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Arrow Part Number" ""
+			(at 185.42 40.64 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Arrow Price/Stock" ""
+			(at 185.42 40.64 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Height" ""
+			(at 185.42 40.64 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer_Name" ""
+			(at 185.42 40.64 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer_Part_Number" ""
+			(at 185.42 40.64 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Mouser Part Number" ""
+			(at 185.42 40.64 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Mouser Price/Stock" ""
+			(at 185.42 40.64 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "ProductID" ""
+			(at 185.42 40.64 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pins" ""
+			(at 185.42 40.64 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S3.3" ""
+			(at 185.42 40.64 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S4.1" ""
+			(at 185.42 40.64 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "c6b345ef-15a0-4e45-8ed7-5951a4f19a5a")
+		)
+		(pin "2"
+			(uuid "6313c1d7-8197-4a9a-8d4f-c7f6d7d86ab4")
+		)
+		(instances
+			(project "vbench-pod"
+				(path "/745fcf4b-2e0b-4fc4-95c0-f2e3fd40beb9/3b6fbda2-fc40-469d-a8f6-0fdb43fb58b6"
+					(reference "R194")
 					(unit 1)
 				)
 			)
@@ -10740,6 +10761,252 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:R")
+		(at 170.18 40.64 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "b90338e7-2bdd-4a58-bc49-f09f2d0c6c03")
+		(property "Reference" "R193"
+			(at 172.72 39.37 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "4.7k"
+			(at 172.72 41.91 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+			(at 170.18 40.64 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 170.18 40.64 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 170.18 40.64 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Part #" ""
+			(at 170.18 40.64 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MFR. Part #" ""
+			(at 170.18 40.64 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C25900"
+			(at 170.18 40.64 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KiLib_Generator" "SMD_2terminal_chip_molded"
+			(at 170.18 40.64 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Arrow Part Number" ""
+			(at 170.18 40.64 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Arrow Price/Stock" ""
+			(at 170.18 40.64 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Height" ""
+			(at 170.18 40.64 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer_Name" ""
+			(at 170.18 40.64 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer_Part_Number" ""
+			(at 170.18 40.64 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Mouser Part Number" ""
+			(at 170.18 40.64 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Mouser Price/Stock" ""
+			(at 170.18 40.64 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "ProductID" ""
+			(at 170.18 40.64 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pins" ""
+			(at 170.18 40.64 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S3.3" ""
+			(at 170.18 40.64 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S4.1" ""
+			(at 170.18 40.64 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "ec1ef899-f654-4015-9b9a-4fc6176925fa")
+		)
+		(pin "2"
+			(uuid "e66714f8-151e-4fc6-a042-72eeb3f9743c")
+		)
+		(instances
+			(project "vbench-pod"
+				(path "/745fcf4b-2e0b-4fc4-95c0-f2e3fd40beb9/3b6fbda2-fc40-469d-a8f6-0fdb43fb58b6"
+					(reference "R193")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 165.1 176.53 0)
 		(unit 1)
@@ -12250,6 +12517,84 @@
 			(project "vbench-pod"
 				(path "/745fcf4b-2e0b-4fc4-95c0-f2e3fd40beb9/3b6fbda2-fc40-469d-a8f6-0fdb43fb58b6"
 					(reference "#PWR0508")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+3V3")
+		(at 185.42 36.83 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "ea178a39-d475-433e-b20a-9be4a44c9b81")
+		(property "Reference" "#PWR0547"
+			(at 185.42 36.83 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "+3V3"
+			(at 185.42 33.274 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 185.42 36.83 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 185.42 36.83 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3V3\""
+			(at 185.42 36.83 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "76fa17f1-ec93-4c80-b2a0-c1d40db13f80")
+		)
+		(instances
+			(project "vbench-pod"
+				(path "/745fcf4b-2e0b-4fc4-95c0-f2e3fd40beb9/3b6fbda2-fc40-469d-a8f6-0fdb43fb58b6"
+					(reference "#PWR0547")
 					(unit 1)
 				)
 			)
