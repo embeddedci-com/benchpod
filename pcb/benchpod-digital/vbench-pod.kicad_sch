@@ -13368,6 +13368,16 @@
 		)
 		(uuid "03a383a3-db4e-4719-b137-8738825a5aa8")
 	)
+	(label "MOD_ADC_SDO"
+		(at 113.03 99.06 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "0768702f-a0e1-4358-ae21-fd507ca15fbc")
+	)
 	(label "CAN_PIN_N"
 		(at 189.23 148.59 270)
 		(effects
@@ -13398,6 +13408,16 @@
 		)
 		(uuid "07c15382-75ad-4056-a8a6-9a86af5e7b39")
 	)
+	(label "MOD_DAC_SCLK"
+		(at 152.4 27.94 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "0842a29d-debf-4aad-9e18-524bb3378fc2")
+	)
 	(label "ICE_STM32_OTHER2"
 		(at 134.62 203.2 180)
 		(effects
@@ -13407,6 +13427,16 @@
 			(justify right bottom)
 		)
 		(uuid "09c04e8c-2e85-44c9-8616-1dfb8b19643c")
+	)
+	(label "BRIDGE_PWR_EN"
+		(at 373.38 203.2 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "0c1812cb-a8bb-4950-bae0-728f496b3db3")
 	)
 	(label "SWDIO"
 		(at 373.38 152.4 0)
@@ -13457,6 +13487,16 @@
 			(justify right bottom)
 		)
 		(uuid "146241e6-a289-483b-a2ac-065463b41687")
+	)
+	(label "MOD_I2C_SCL"
+		(at 330.2 78.74 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "1585e689-fcc7-4844-a045-41421910574e")
 	)
 	(label "ICE_SS_PSRAM"
 		(at 134.62 205.74 180)
@@ -13598,6 +13638,26 @@
 		)
 		(uuid "20b777c8-0c19-4d73-88c5-1f4d869a1528")
 	)
+	(label "MOD_DAC_DIN"
+		(at 92.71 91.44 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "20fd05bc-28a6-48aa-b130-8961b4b59e2b")
+	)
+	(label "BRIDGE_PWR_PG"
+		(at 373.38 198.12 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "22a11f04-05c5-4e65-9dfc-81d862c359e8")
+	)
 	(label "DAC_DIN"
 		(at 134.62 208.28 180)
 		(effects
@@ -13638,6 +13698,16 @@
 		)
 		(uuid "27aaacc5-76a1-40a7-9623-373222670fbe")
 	)
+	(label "MOD_PWR_PG"
+		(at 373.38 213.36 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "29a9759c-7c7b-46d9-9370-28ad79ddc2da")
+	)
 	(label "LA_OUT1"
 		(at 55.88 85.09 0)
 		(effects
@@ -13657,6 +13727,16 @@
 			(justify left bottom)
 		)
 		(uuid "2b3ceb8d-c83b-42ae-b4e5-085e4891b0e1")
+	)
+	(label "MOD_PWR_PG"
+		(at 203.2 40.64 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "2dab7ce9-0c6d-4948-a0e7-2939d4d5ebe7")
 	)
 	(label "STM32_BOOT0"
 		(at 394.97 68.58 0)
@@ -13737,6 +13817,16 @@
 			(justify right bottom)
 		)
 		(uuid "32898cc9-fae3-4ba8-9307-861f6d709ef5")
+	)
+	(label "MOD_PWR_EN"
+		(at 373.38 218.44 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "346ab06e-3ba5-4a23-a6fa-e87ebdc16c6f")
 	)
 	(label "FDCAN1_TX"
 		(at 373.38 127 0)
@@ -13838,6 +13928,16 @@
 		)
 		(uuid "3840c0aa-fe60-4514-bfc8-d75728b4ec2d")
 	)
+	(label "MOD_ADC_SCLK"
+		(at 152.4 35.56 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "38cf14e5-e901-4b54-b580-793547612a47")
+	)
 	(label "ICE_CLOCK"
 		(at 158.75 228.6 0)
 		(effects
@@ -13867,6 +13967,16 @@
 			(justify left bottom)
 		)
 		(uuid "3ae07b82-46dc-482a-905d-c1c42a4f09b4")
+	)
+	(label "BRIDGE_PWR_FLT#"
+		(at 203.2 45.72 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "3b44c9fa-8350-4fc3-95c6-e3ae8b319ebb")
 	)
 	(label "LA_VCCIO"
 		(at 85.09 137.16 180)
@@ -13928,6 +14038,16 @@
 		)
 		(uuid "3fcc8bfa-e6b8-468b-9d1f-6f279b386a56")
 	)
+	(label "MOD_DAC_SCLK"
+		(at 92.71 96.52 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "4019a146-f08a-4b78-8dc7-2a0b33545dc0")
+	)
 	(label "STM32_VDD"
 		(at 330.2 93.98 180)
 		(effects
@@ -13957,6 +14077,16 @@
 			(justify right bottom)
 		)
 		(uuid "4413048b-5fa9-40c9-a0c0-e0a9462b8df6")
+	)
+	(label "MOD_ADC_SDI"
+		(at 113.03 93.98 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "4443ba56-6555-4835-9eb4-bbcbd6c93f37")
 	)
 	(label "DAC_SYNC"
 		(at 134.62 210.82 180)
@@ -14078,6 +14208,26 @@
 		)
 		(uuid "4e7de1b7-4354-4029-bf4a-5f9babefba12")
 	)
+	(label "MOD_ADC_SDO"
+		(at 152.4 38.1 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "4f09fd0c-6485-43aa-90ab-aff3dbfac84f")
+	)
+	(label "MOD_PWR_FLT#"
+		(at 373.38 215.9 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "4f45a96c-f70b-4908-8a95-4d5b15a286cf")
+	)
 	(label "ICE_SCLK"
 		(at 330.2 106.68 180)
 		(effects
@@ -14137,6 +14287,16 @@
 			(justify right bottom)
 		)
 		(uuid "540b6c6c-b9f2-41bf-a20a-2e5cefb79f55")
+	)
+	(label "MOD_PWR_EN"
+		(at 203.2 35.56 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "54d158e8-ac3d-4f2e-b2a1-d196c68756ae")
 	)
 	(label "LA_OUT11"
 		(at 55.88 110.49 0)
@@ -14258,6 +14418,16 @@
 		)
 		(uuid "5e4896c3-8538-4d3f-91b1-5b3ce961d865")
 	)
+	(label "MOD_I2C_SDA"
+		(at 152.4 45.72 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "5e72d5d9-4fa8-43a6-849f-fe04bf058f5a")
+	)
 	(label "P_USB_D-"
 		(at 373.38 157.48 0)
 		(effects
@@ -14357,6 +14527,16 @@
 			(justify left bottom)
 		)
 		(uuid "6cdfd579-0406-4178-ac29-9ac2a8934474")
+	)
+	(label "MOD_DAC_SYNC"
+		(at 152.4 33.02 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "6ce1001a-2a74-48eb-8ba2-7625bd3aad7c")
 	)
 	(label "LA_OUT14"
 		(at 40.64 189.23 180)
@@ -14468,6 +14648,16 @@
 		)
 		(uuid "74021733-ef83-4385-95e7-07a183d5290e")
 	)
+	(label "MOD_SPARE"
+		(at 373.38 210.82 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "77620e6f-09c6-478e-88b9-6ac5fb525ac4")
+	)
 	(label "PH1"
 		(at 330.2 111.76 180)
 		(effects
@@ -14497,6 +14687,16 @@
 			(justify left bottom)
 		)
 		(uuid "790c6ee8-337a-4955-9000-831421d56dab")
+	)
+	(label "MOD_RESET#"
+		(at 203.2 27.94 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "7955be28-d5ef-464f-bba0-a64c881dfc31")
 	)
 	(label "NRST_CONTROL"
 		(at 227.33 214.63 0)
@@ -14528,6 +14728,16 @@
 		)
 		(uuid "7b39ad8a-0cce-42c2-a696-f6d17a6e0ed8")
 	)
+	(label "BRIDGE_PWR_FLT#"
+		(at 373.38 200.66 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "7cdb7302-22d3-46dc-ad83-38016639dc2e")
+	)
 	(label "ICE_CRESET"
 		(at 73.66 186.69 180)
 		(effects
@@ -14537,6 +14747,16 @@
 			(justify right bottom)
 		)
 		(uuid "7d273d26-11be-48f8-929d-783c8c332f08")
+	)
+	(label "BRIDGE_PWR_PG"
+		(at 203.2 48.26 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "7d867dfc-50ae-4d69-ac1a-2d9b401e3366")
 	)
 	(label "STM32_VDD"
 		(at 373.38 86.36 0)
@@ -14578,6 +14798,16 @@
 		)
 		(uuid "82ea363c-f7ad-4a2d-877c-1924f1cfbd56")
 	)
+	(label "MOD_PRESENT#"
+		(at 373.38 220.98 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "8442bfd0-5aec-447f-a1a2-887772ea4ea7")
+	)
 	(label "CAN-"
 		(at 208.28 199.39 0)
 		(effects
@@ -14618,6 +14848,16 @@
 		)
 		(uuid "86ea87ff-ac6f-4186-8310-89ba05b76408")
 	)
+	(label "MOD_I2C_SCL"
+		(at 152.4 48.26 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "872b3146-8221-41ea-9b36-a8905138eb26")
+	)
 	(label "ICE_IO2"
 		(at 34.29 269.24 180)
 		(effects
@@ -14637,6 +14877,16 @@
 			(justify left bottom)
 		)
 		(uuid "8c19b928-5183-4b15-8138-712b9320ea8b")
+	)
+	(label "MOD_DAC_SYNC"
+		(at 113.03 88.9 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "8e66e805-991d-4ca7-859b-d51ab6706e5f")
 	)
 	(label "LA_OUT4"
 		(at 55.88 92.71 0)
@@ -14798,6 +15048,16 @@
 		)
 		(uuid "9d3513ed-90bb-4f82-87a3-c9a882a195c0")
 	)
+	(label "MOD_ADC_CNVST"
+		(at 152.4 43.18 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "a01a6741-bd73-4c60-b8b3-5bd875fd75f2")
+	)
 	(label "LA_OUT5"
 		(at 40.64 212.09 180)
 		(effects
@@ -14847,6 +15107,16 @@
 			(justify left bottom)
 		)
 		(uuid "a735951e-67bf-4495-8227-363318cef920")
+	)
+	(label "MOD_ADC_SDI"
+		(at 152.4 40.64 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "a93520b0-2ccb-4c03-9326-e92834dc7536")
 	)
 	(label "ICE_SS"
 		(at 16.51 257.81 0)
@@ -14987,6 +15257,26 @@
 			(justify right bottom)
 		)
 		(uuid "b4d50d55-9852-4fe5-86d2-9d76fbf75d2a")
+	)
+	(label "MOD_ADC_CNVST"
+		(at 113.03 104.14 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "b4fa2e2d-4e70-48ee-a559-f0577013e6cd")
+	)
+	(label "MOD_RESET#"
+		(at 373.38 223.52 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "b6371910-a441-477c-adc9-c3d445481d79")
 	)
 	(label "ESP32_DATAREADY"
 		(at 330.2 170.18 180)
@@ -15138,6 +15428,16 @@
 		)
 		(uuid "c2c3696d-0b2b-40b2-986a-3e8ba1dfdfd0")
 	)
+	(label "BRIDGE_PWR_EN"
+		(at 203.2 43.18 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "c3edab7d-c8f0-4156-8abd-091a164ffa48")
+	)
 	(label "LA_OUT14"
 		(at 55.88 118.11 0)
 		(effects
@@ -15218,6 +15518,16 @@
 		)
 		(uuid "cacfccd8-8602-4651-9e20-da60fa3ed1ac")
 	)
+	(label "MOD_ADC_SCLK"
+		(at 92.71 101.6 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "caff789f-d1b4-4822-8816-c14edf8695ea")
+	)
 	(label "STM32_VCAP1"
 		(at 391.16 29.21 0)
 		(effects
@@ -15237,6 +15547,16 @@
 			(justify right bottom)
 		)
 		(uuid "cea56606-5f59-4208-9855-68d79025bc06")
+	)
+	(label "MOD_SPARE"
+		(at 203.2 33.02 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "ceeaaa93-34b0-4edf-9b4f-4fc618c11115")
 	)
 	(label "CAN_TERM_CTRL"
 		(at 214.63 142.24 0)
@@ -15368,6 +15688,16 @@
 		)
 		(uuid "ddb256f8-a61c-4b56-b666-e39979b4776c")
 	)
+	(label "MOD_PRESENT#"
+		(at 203.2 30.48 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "ded94307-9dfe-4f0b-a132-c49e4c421b70")
+	)
 	(label "RMII_RXD1"
 		(at 330.2 165.1 180)
 		(effects
@@ -15397,6 +15727,16 @@
 			(justify left bottom)
 		)
 		(uuid "e186d093-368a-4e3d-9ecd-4bc964332ecf")
+	)
+	(label "MOD_I2C_SDA"
+		(at 330.2 76.2 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "e1bf509c-31b0-4aab-953f-3e998fe4ac5f")
 	)
 	(label "ICE_IO3"
 		(at 83.82 204.47 180)
@@ -15518,6 +15858,16 @@
 		)
 		(uuid "ef29a1de-4bee-4ac0-b592-5e388174dd6d")
 	)
+	(label "MOD_PWR_FLT#"
+		(at 203.2 38.1 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "f1493f76-1099-464f-aad0-acc83ec5bf5d")
+	)
 	(label "LA_INPUT3"
 		(at 193.04 179.07 180)
 		(effects
@@ -15537,6 +15887,16 @@
 			(justify right bottom)
 		)
 		(uuid "f1d04ced-c3e0-4f9a-9d31-e3adf79e12e4")
+	)
+	(label "MOD_DAC_DIN"
+		(at 152.4 30.48 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "f56869ee-9634-4179-adb4-a7449947878a")
 	)
 	(label "ESP32_TX"
 		(at 373.38 160.02 0)
@@ -49383,366 +49743,6 @@
 				)
 			)
 		)
-	)
-	(label "BRIDGE_PWR_EN"
-		(at 373.38 203.2 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "0c1812cb-a8bb-4950-bae0-728f496b3db3")
-	)
-	(label "MOD_ADC_SCLK"
-		(at 92.71 101.6 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "caff789f-d1b4-4822-8816-c14edf8695ea")
-	)
-	(label "MOD_SPARE"
-		(at 373.38 210.82 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "77620e6f-09c6-478e-88b9-6ac5fb525ac4")
-	)
-	(label "MOD_PRESENT#"
-		(at 373.38 220.98 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "8442bfd0-5aec-447f-a1a2-887772ea4ea7")
-	)
-	(label "MOD_ADC_SDI"
-		(at 113.03 93.98 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "4443ba56-6555-4835-9eb4-bbcbd6c93f37")
-	)
-	(label "MOD_PWR_EN"
-		(at 373.38 218.44 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "346ab06e-3ba5-4a23-a6fa-e87ebdc16c6f")
-	)
-	(label "BRIDGE_PWR_PG"
-		(at 373.38 198.12 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "22a11f04-05c5-4e65-9dfc-81d862c359e8")
-	)
-	(label "MOD_PWR_FLT#"
-		(at 373.38 215.9 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "4f45a96c-f70b-4908-8a95-4d5b15a286cf")
-	)
-	(label "MOD_ADC_CNVST"
-		(at 113.03 104.14 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "b4fa2e2d-4e70-48ee-a559-f0577013e6cd")
-	)
-	(label "MOD_RESET#"
-		(at 373.38 223.52 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "b6371910-a441-477c-adc9-c3d445481d79")
-	)
-	(label "MOD_ADC_SDO"
-		(at 113.03 99.06 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "0768702f-a0e1-4358-ae21-fd507ca15fbc")
-	)
-	(label "MOD_PWR_PG"
-		(at 373.38 213.36 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "29a9759c-7c7b-46d9-9370-28ad79ddc2da")
-	)
-	(label "BRIDGE_PWR_FLT#"
-		(at 373.38 200.66 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "7cdb7302-22d3-46dc-ad83-38016639dc2e")
-	)
-	(label "MOD_DAC_SCLK"
-		(at 92.71 96.52 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "4019a146-f08a-4b78-8dc7-2a0b33545dc0")
-	)
-	(label "MOD_DAC_DIN"
-		(at 92.71 91.44 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "20fd05bc-28a6-48aa-b130-8961b4b59e2b")
-	)
-	(label "MOD_DAC_SYNC"
-		(at 113.03 88.9 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "8e66e805-991d-4ca7-859b-d51ab6706e5f")
-	)
-	(label "MOD_I2C_SDA"
-		(at 330.2 76.2 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "e1bf509c-31b0-4aab-953f-3e998fe4ac5f")
-	)
-	(label "MOD_I2C_SCL"
-		(at 330.2 78.74 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "1585e689-fcc7-4844-a045-41421910574e")
-	)
-	(label "MOD_DAC_SCLK"
-		(at 152.4 27.94 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "0842a29d-debf-4aad-9e18-524bb3378fc2")
-	)
-	(label "MOD_DAC_DIN"
-		(at 152.4 30.48 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "f56869ee-9634-4179-adb4-a7449947878a")
-	)
-	(label "MOD_DAC_SYNC"
-		(at 152.4 33.02 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "6ce1001a-2a74-48eb-8ba2-7625bd3aad7c")
-	)
-	(label "MOD_ADC_SCLK"
-		(at 152.4 35.56 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "38cf14e5-e901-4b54-b580-793547612a47")
-	)
-	(label "MOD_ADC_SDO"
-		(at 152.4 38.1 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "4f09fd0c-6485-43aa-90ab-aff3dbfac84f")
-	)
-	(label "MOD_ADC_SDI"
-		(at 152.4 40.64 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "a93520b0-2ccb-4c03-9326-e92834dc7536")
-	)
-	(label "MOD_ADC_CNVST"
-		(at 152.4 43.18 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "a01a6741-bd73-4c60-b8b3-5bd875fd75f2")
-	)
-	(label "MOD_I2C_SDA"
-		(at 152.4 45.72 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "5e72d5d9-4fa8-43a6-849f-fe04bf058f5a")
-	)
-	(label "MOD_I2C_SCL"
-		(at 152.4 48.26 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "872b3146-8221-41ea-9b36-a8905138eb26")
-	)
-	(label "MOD_RESET#"
-		(at 203.2 27.94 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "7955be28-d5ef-464f-bba0-a64c881dfc31")
-	)
-	(label "MOD_PRESENT#"
-		(at 203.2 30.48 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "ded94307-9dfe-4f0b-a132-c49e4c421b70")
-	)
-	(label "MOD_SPARE"
-		(at 203.2 33.02 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "ceeaaa93-34b0-4edf-9b4f-4fc618c11115")
-	)
-	(label "MOD_PWR_EN"
-		(at 203.2 35.56 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "54d158e8-ac3d-4f2e-b2a1-d196c68756ae")
-	)
-	(label "MOD_PWR_FLT#"
-		(at 203.2 38.1 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "f1493f76-1099-464f-aad0-acc83ec5bf5d")
-	)
-	(label "MOD_PWR_PG"
-		(at 203.2 40.64 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "2dab7ce9-0c6d-4948-a0e7-2939d4d5ebe7")
-	)
-	(label "BRIDGE_PWR_EN"
-		(at 203.2 43.18 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "c3edab7d-c8f0-4156-8abd-091a164ffa48")
-	)
-	(label "BRIDGE_PWR_FLT#"
-		(at 203.2 45.72 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "3b44c9fa-8350-4fc3-95c6-e3ae8b319ebb")
-	)
-	(label "BRIDGE_PWR_PG"
-		(at 203.2 48.26 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "7d867dfc-50ae-4d69-ac1a-2d9b401e3366")
 	)
 	(sheet_instances
 		(path "/"

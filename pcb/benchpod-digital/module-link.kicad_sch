@@ -2116,6 +2116,17 @@
 		)
 		(uuid "132f2428-308d-4b49-a61a-1b7584863b81")
 	)
+	(hierarchical_label "MOD_DAC_SCLK"
+		(shape output)
+		(at 195.58 92.71 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "2235efa6-8df2-4180-a54b-e00f30f669f5")
+	)
 	(hierarchical_label "MOD_PWR_EN"
 		(shape output)
 		(at 71.12 81.28 180)
@@ -2193,6 +2204,17 @@
 		)
 		(uuid "59549052-32e7-4686-8fd6-3767c7315202")
 	)
+	(hierarchical_label "MOD_ADC_SCLK"
+		(shape output)
+		(at 195.58 102.87 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "68160829-6857-4982-a803-51da52120f00")
+	)
 	(hierarchical_label "MOD_PWR_PG"
 		(shape input)
 		(at 93.98 59.69 270)
@@ -2259,38 +2281,16 @@
 		)
 		(uuid "88ed2a8e-b861-45d8-8ce6-c74205a30d43")
 	)
-	(hierarchical_label "MOD_ADC_SDO"
-		(shape input)
-		(at 195.58 102.87 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "946a580c-9d4d-4977-9211-57e6b83a8571")
-	)
 	(hierarchical_label "MOD_DAC_DIN"
 		(shape output)
-		(at 195.58 92.71 180)
+		(at 195.58 90.17 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify right)
 		)
-		(uuid "996aeb80-7f7b-4c94-87b4-6d17d221f7ae")
-	)
-	(hierarchical_label "MOD_ADC_SDI"
-		(shape output)
-		(at 195.58 105.41 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "9f81d05d-bdf5-404e-a970-bff20ee96133")
+		(uuid "90bcbbc2-546a-4494-ac30-8f0821e5db98")
 	)
 	(hierarchical_label "BRIDGE_PWR_PG"
 		(shape input)
@@ -2303,28 +2303,6 @@
 		)
 		(uuid "abb63aa7-e4c0-44c3-b57a-91e7c7a2f1e0")
 	)
-	(hierarchical_label "MOD_DAC_SCLK"
-		(shape output)
-		(at 195.58 90.17 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "be62a39b-bd83-4c8a-a413-75ba7778ede4")
-	)
-	(hierarchical_label "MOD_ADC_SCLK"
-		(shape output)
-		(at 195.58 100.33 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "c6b9ee39-4db0-4e78-b449-ba9d76386344")
-	)
 	(hierarchical_label "MOD_I2C_SDA"
 		(shape bidirectional)
 		(at 170.18 44.45 270)
@@ -2335,6 +2313,17 @@
 			(justify right)
 		)
 		(uuid "d810dab2-67f7-499a-b3ca-0d2c2871bcd5")
+	)
+	(hierarchical_label "MOD_ADC_SDO"
+		(shape input)
+		(at 195.58 105.41 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "db53fc8d-add5-4d44-9e1f-a054e9c3a91d")
 	)
 	(hierarchical_label "MOD_RESET#"
 		(shape output)
@@ -2368,6 +2357,17 @@
 			(justify right)
 		)
 		(uuid "ec9e5322-8fed-4538-9d48-cff90536439e")
+	)
+	(hierarchical_label "MOD_ADC_SDI"
+		(shape output)
+		(at 195.58 100.33 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "ef4f5113-4f95-4e3b-b8c2-60d12b81b607")
 	)
 	(hierarchical_label "MOD_PWR_FLT#"
 		(shape input)
