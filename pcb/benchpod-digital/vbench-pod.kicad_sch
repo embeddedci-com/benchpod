@@ -2972,7 +2972,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "lcsc_imported:APS6404L-3SQR-ZR"
+		(symbol "lcsc_imported:APS6404L-3SQR-SN_C5333729"
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -2988,7 +2988,7 @@
 					)
 				)
 			)
-			(property "Value" "APS6404L-3SQR-ZR"
+			(property "Value" "APS6404L-3SQR-SN"
 				(at 0 -2.54 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -2998,7 +2998,7 @@
 					)
 				)
 			)
-			(property "Footprint" "lcsc_footprints:C3040877_USON-8_L3_0-W2_0-P0_50-BL-EP"
+			(property "Footprint" "lcsc_footprints:C5333729_SOIC-8_L4.9-W3.9-P1.27-LS6.0-BL"
 				(at 0 -10.16 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -3009,7 +3009,7 @@
 					)
 				)
 			)
-			(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2411220136_AP-Memory-APS6404L-3SQR-ZR_C3040877.pdf"
+			(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2304140030_AP-Memory-APS6404L-3SQR-SN_C5333729.pdf"
 				(at -2.286 0.127 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -3020,7 +3020,7 @@
 					)
 				)
 			)
-			(property "Description" "APS6404L-3SQR-ZR"
+			(property "Description" "APS6404L-3SQR-SN"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -3031,7 +3031,7 @@
 					)
 				)
 			)
-			(property "LCSC" "C3040877"
+			(property "LCSC" "C5333729"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -3053,7 +3053,7 @@
 					)
 				)
 			)
-			(symbol "APS6404L-3SQR-ZR_1_1"
+			(symbol "APS6404L-3SQR-SN_C5333729_1_1"
 				(rectangle
 					(start -11.43 6.35)
 					(end 11.43 -6.35)
@@ -3213,24 +3213,6 @@
 						)
 					)
 					(number "8"
-						(effects
-							(font
-								(size 1 1)
-							)
-						)
-					)
-				)
-				(pin unspecified line
-					(at 0 8.89 270)
-					(length 2.54)
-					(name "EP"
-						(effects
-							(font
-								(size 1 1)
-							)
-						)
-					)
-					(number "9"
 						(effects
 							(font
 								(size 1 1)
@@ -11806,16 +11788,6 @@
 	)
 	(wire
 		(pts
-			(xy 205.74 248.92) (xy 208.28 248.92)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "7234f160-8fd4-448d-83b8-1509f547f3d3")
-	)
-	(wire
-		(pts
 			(xy 289.56 29.21) (xy 278.13 29.21)
 		)
 		(stroke
@@ -12363,16 +12335,6 @@
 			(type default)
 		)
 		(uuid "9fb2b060-cc2e-4f1d-8765-94943d8ed7f8")
-	)
-	(wire
-		(pts
-			(xy 205.74 248.92) (xy 205.74 250.19)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a1838ed1-aa8f-46ac-b0ba-3e5ff9f39fe8")
 	)
 	(wire
 		(pts
@@ -19127,82 +19089,6 @@
 			(project "vbench-pod"
 				(path "/745fcf4b-2e0b-4fc4-95c0-f2e3fd40beb9"
 					(reference "#PWR087")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 208.28 248.92 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "20780e8c-6758-485e-9d0f-9b7938e3c3a6")
-		(property "Reference" "#PWR047"
-			(at 208.28 255.27 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "GND"
-			(at 212.09 250.19 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 208.28 248.92 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 208.28 248.92 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 208.28 248.92 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "5049e8e6-a0cd-42c4-8d40-c68d23701ca5")
-		)
-		(instances
-			(project "vbench-pod"
-				(path "/745fcf4b-2e0b-4fc4-95c0-f2e3fd40beb9"
-					(reference "#PWR047")
 					(unit 1)
 				)
 			)
@@ -46253,7 +46139,7 @@
 		)
 	)
 	(symbol
-		(lib_id "lcsc_imported:APS6404L-3SQR-ZR")
+		(lib_id "lcsc_imported:APS6404L-3SQR-SN_C5333729")
 		(at 205.74 259.08 0)
 		(unit 1)
 		(body_style 1)
@@ -46274,7 +46160,7 @@
 				)
 			)
 		)
-		(property "Value" "APS6404L-3SQR-ZR"
+		(property "Value" "APS6404L-3SQR-SN"
 			(at 205.74 270.51 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -46284,7 +46170,7 @@
 				)
 			)
 		)
-		(property "Footprint" "lcsc_footprints:C3040877_USON-8_L3_0-W2_0-P0_50-BL-EP"
+		(property "Footprint" "lcsc_footprints:C5333729_SOIC-8_L4.9-W3.9-P1.27-LS6.0-BL"
 			(at 205.74 269.24 0)
 			(hide yes)
 			(show_name no)
@@ -46295,7 +46181,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2411220136_AP-Memory-APS6404L-3SQR-ZR_C3040877.pdf"
+		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2304140030_AP-Memory-APS6404L-3SQR-SN_C5333729.pdf"
 			(at 203.454 258.953 0)
 			(hide yes)
 			(show_name no)
@@ -46306,7 +46192,7 @@
 				)
 			)
 		)
-		(property "Description" "APS6404L-3SQR-ZR"
+		(property "Description" "APS6404L-3SQR-SN"
 			(at 205.74 259.08 0)
 			(hide yes)
 			(show_name no)
@@ -46317,7 +46203,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C3040877"
+		(property "LCSC" "C5333729"
 			(at 205.74 259.08 0)
 			(hide yes)
 			(show_name no)
@@ -46353,9 +46239,6 @@
 		)
 		(pin "8"
 			(uuid "ba2dc2e5-7e74-4f01-bbce-3ce4a13258e4")
-		)
-		(pin "9"
-			(uuid "e0df8e59-3564-4e7f-ba73-9cba9008e8ba")
 		)
 		(pin "2"
 			(uuid "e49dc451-e21a-4473-a0bc-de8a182d93f5")
