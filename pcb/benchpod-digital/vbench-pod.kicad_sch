@@ -14306,6 +14306,16 @@
 		)
 		(uuid "5a3ea29c-0b17-4103-a05f-a278426ffe59")
 	)
+	(label "SWO"
+		(at 275.59 218.44 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "5a8a7242-8c88-4006-8a42-b3bb011e9e31")
+	)
 	(label "LA_INPUT9"
 		(at 193.04 186.69 180)
 		(effects
@@ -14796,6 +14806,16 @@
 		)
 		(uuid "8e66e805-991d-4ca7-859b-d51ab6706e5f")
 	)
+	(label "SWCLK"
+		(at 262.89 215.9 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "8fbfd458-5f46-4151-9474-10abe270fe98")
+	)
 	(label "LA_OUT4"
 		(at 55.88 92.71 0)
 		(effects
@@ -14815,16 +14835,6 @@
 			(justify right bottom)
 		)
 		(uuid "9085fecc-c0a6-439d-bc6a-1b518b5b7abb")
-	)
-	(label "SWCLK"
-		(at 275.59 218.44 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "90d8b051-1d6d-47f9-a14c-d8e0229b8451")
 	)
 	(label "RMII_NRST"
 		(at 330.2 53.34 180)
@@ -15205,16 +15215,6 @@
 			(justify right bottom)
 		)
 		(uuid "b71d34da-e8ee-4e46-bed7-dd88d941016b")
-	)
-	(label "SWO"
-		(at 262.89 215.9 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "b76d02f9-5ebe-45ee-8df2-da66dc6ebe61")
 	)
 	(label "STM32_VDD"
 		(at 375.92 29.21 0)
