@@ -3752,7 +3752,10 @@
 		)
 		(embedded_fonts no)
 	)
-	(symbol "KH-BNC50-3511_C2837587"
+	(symbol "BNC-KYWE-295-W4-N_C41416668"
+		(pin_numbers
+			(hide yes)
+		)
 		(pin_names
 			(offset 1.016)
 			(hide yes)
@@ -3768,7 +3771,7 @@
 				)
 			)
 		)
-		(property "Value" "KH-BNC50-3511"
+		(property "Value" "BNC-KYWE-295-W4-N"
 			(at 0 -6.35 0)
 			(effects
 				(font
@@ -3776,7 +3779,7 @@
 				)
 			)
 		)
-		(property "Footprint" "lcsc_footprints:C2837587_ANT-TH_KH-BNC50-3511"
+		(property "Footprint" "lcsc_footprints:C41416668_BNC-TH_BNC-KYWE-295-W4-N"
 			(at 0 -8.89 0)
 			(hide yes)
 			(effects
@@ -3785,7 +3788,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.lcsc.com/datasheet/C2837587.pdf"
+		(property "Datasheet" "https://www.lcsc.com/datasheet/C41416668.pdf"
 			(at 0 -11.43 0)
 			(hide yes)
 			(effects
@@ -3794,7 +3797,7 @@
 				)
 			)
 		)
-		(property "Description" "BNC 50 ohm, right angle, through hole"
+		(property "Description" "BNC 50 ohm right angle, lead-free (SAMZO)"
 			(at 0 -13.97 0)
 			(hide yes)
 			(effects
@@ -3803,7 +3806,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C2837587"
+		(property "LCSC" "C41416668"
 			(at 0 -16.51 0)
 			(hide yes)
 			(effects
@@ -3812,9 +3815,9 @@
 				)
 			)
 		)
-		(symbol "KH-BNC50-3511_C2837587_0_1"
+		(symbol "BNC-KYWE-295-W4-N_C41416668_0_1"
 			(rectangle
-				(start -5.08 3.81)
+				(start -6.35 3.81)
 				(end 1.27 -1.27)
 				(stroke
 					(width 0)
@@ -3824,23 +3827,30 @@
 					(type background)
 				)
 			)
-			(circle
-				(center -1.905 1.27)
-				(radius 1.27)
-				(stroke
-					(width 0)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
 		)
-		(symbol "KH-BNC50-3511_C2837587_1_1"
+		(symbol "BNC-KYWE-295-W4-N_C41416668_1_1"
 			(pin passive line
 				(at 3.81 1.27 180)
 				(length 2.54)
 				(name "OUT"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "5"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at -5.08 -3.81 90)
+				(length 2.54)
+				(name "GND"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -3856,7 +3866,7 @@
 				)
 			)
 			(pin passive line
-				(at -1.27 -3.81 90)
+				(at -3.81 -3.81 90)
 				(length 2.54)
 				(name "GND"
 					(effects
@@ -3874,9 +3884,9 @@
 				)
 			)
 			(pin passive line
-				(at -3.81 -3.81 90)
+				(at -2.54 -3.81 90)
 				(length 2.54)
-				(name "MNT"
+				(name "GND"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -3892,9 +3902,9 @@
 				)
 			)
 			(pin passive line
-				(at 1.27 -3.81 90)
+				(at -1.27 -3.81 90)
 				(length 2.54)
-				(name "MNT"
+				(name "GND"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -3902,6 +3912,136 @@
 					)
 				)
 				(number "4"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+		)
+		(embedded_fonts no)
+	)
+	(symbol "BAV199LT1G_C145516"
+		(pin_names
+			(offset 1.016)
+		)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(property "Reference" "D"
+			(at 0 6.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "BAV199"
+			(at 0 -6.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "lcsc_footprints:C145516_SOT-23_L2.9-W1.3-P1.90-LS2.4-BR"
+			(at 0 -8.89 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://www.lcsc.com/datasheet/C145516.pdf"
+			(at 0 -11.43 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Low-leakage series diode pair (input clamp)"
+			(at 0 -13.97 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C145516"
+			(at 0 -16.51 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(symbol "BAV199LT1G_C145516_0_1"
+			(rectangle
+				(start -5.08 3.81)
+				(end 5.08 0)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type background)
+				)
+			)
+		)
+		(symbol "BAV199LT1G_C145516_1_1"
+			(pin passive line
+				(at -7.62 2.54 0)
+				(length 2.54)
+				(name "A"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 7.62 2.54 180)
+				(length 2.54)
+				(name "K"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 0 -2.54 90)
+				(length 2.54)
+				(name "K/A"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "3"
 					(effects
 						(font
 							(size 1.27 1.27)
