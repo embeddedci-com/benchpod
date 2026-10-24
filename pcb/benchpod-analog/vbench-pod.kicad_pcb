@@ -6095,7 +6095,7 @@
 	(footprint "lcsc_footprints:C41416668_BNC-TH_BNC-KYWE-295-W4-N"
 		(layer "F.Cu")
 		(uuid "1680eb4c-54d4-4ee1-9976-62fe91c69e4a")
-		(at 53.909 26.357 180)
+		(at 53.91 23.78 180)
 		(property "Reference" "J10"
 			(at -14.936 0.494 90)
 			(layer "F.SilkS")
@@ -43104,7 +43104,7 @@
 	(footprint "lcsc_footprints:C7246_CONN-TH_WJ15EDGRC-3.81-6P"
 		(layer "F.Cu")
 		(uuid "94ceaabc-912a-4740-bf2c-10fe646d99c5")
-		(at 114.371 27.799 180)
+		(at 115.221999 25.53 180)
 		(descr "WJ15EDGRC-3.81-6P")
 		(property "Reference" "J11"
 			(at 0 0 0)
@@ -53728,10 +53728,10 @@
 	(footprint "lcsc_footprints:C8387_CONN-TH_2P-P3.81_WJ15EDGRC-3.81-2P"
 		(layer "F.Cu")
 		(uuid "baa45b21-3b6e-4780-80d3-9d5c3ca197a6")
-		(at 74.634 21.849)
+		(at 74.634 25.53 180)
 		(descr "WJ15EDGRC-3.81-2P")
 		(property "Reference" "J8"
-			(at 0 2.975 0)
+			(at 0 2.975 180)
 			(layer "F.SilkS")
 			(uuid "37d81ce1-9eed-4a86-bec0-5ec7c39f66a7")
 			(effects
@@ -53742,7 +53742,7 @@
 			)
 		)
 		(property "Value" "WJ15EDGRC-3.81-02P"
-			(at 0 4 0)
+			(at 0 4 180)
 			(layer "F.Fab")
 			(uuid "edfa30dd-e267-4a86-8f77-2a6e52f4c824")
 			(effects
@@ -53753,7 +53753,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.lcsc.com/datasheet/C8387.pdf"
-			(at 0 0 0)
+			(at 0 0 180)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "7da84dc0-81df-4346-825a-ef7169f2ff05")
@@ -53764,7 +53764,7 @@
 			)
 		)
 		(property "Description" "Generic screw terminal, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 0 0 0)
+			(at 0 0 180)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "e129d5cc-3b8e-486b-995d-2fd6def7bc92")
@@ -53775,18 +53775,19 @@
 			)
 		)
 		(property "LCSC Part" "C8465"
-			(at 0 0 0)
+			(at 0 0 180)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "a84044ef-1f0d-4d5d-9256-1e982517dc60")
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
 		(property "LCSC Part #" "C8465"
-			(at 0 0 0)
+			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -53799,7 +53800,7 @@
 			)
 		)
 		(property "MFR. Part #" "WJ500V-5.08-2P"
-			(at 0 0 0)
+			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -53812,7 +53813,7 @@
 			)
 		)
 		(property "LCSC" "C8387"
-			(at 0 0 0)
+			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -53825,7 +53826,7 @@
 			)
 		)
 		(property "Arrow Part Number" ""
-			(at 0 0 0)
+			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -53838,7 +53839,7 @@
 			)
 		)
 		(property "Arrow Price/Stock" ""
-			(at 0 0 0)
+			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -53851,7 +53852,7 @@
 			)
 		)
 		(property "Height" ""
-			(at 0 0 0)
+			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -53864,7 +53865,7 @@
 			)
 		)
 		(property "Manufacturer_Name" ""
-			(at 0 0 0)
+			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -53877,7 +53878,7 @@
 			)
 		)
 		(property "Manufacturer_Part_Number" ""
-			(at 0 0 0)
+			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -53890,7 +53891,7 @@
 			)
 		)
 		(property "Mouser Part Number" ""
-			(at 0 0 0)
+			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -53903,7 +53904,7 @@
 			)
 		)
 		(property "Mouser Price/Stock" ""
-			(at 0 0 0)
+			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -53916,7 +53917,7 @@
 			)
 		)
 		(property "ProductID" ""
-			(at 0 0 0)
+			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -53929,7 +53930,7 @@
 			)
 		)
 		(property "Sim.Pins" ""
-			(at 0 0 0)
+			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -53942,7 +53943,7 @@
 			)
 		)
 		(property "KLC_S3.3" ""
-			(at 0 0 0)
+			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -53955,7 +53956,7 @@
 			)
 		)
 		(property "KLC_S4.1" ""
-			(at 0 0 0)
+			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -53980,24 +53981,14 @@
 		(attr through_hole)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
-			(start -4.25 -1.6)
-			(end -4.25 7.55)
+			(start 4.25 7.55)
+			(end 4.25 -1.6)
 			(stroke
 				(width 0.25)
 				(type solid)
 			)
 			(layer "F.SilkS")
-			(uuid "274d4333-1463-4dbf-a827-8198e4357688")
-		)
-		(fp_line
-			(start -4.25 7.55)
-			(end 4.25 7.55)
-			(stroke
-				(width 0.25)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "2360da42-dcf9-49fa-9546-c304a18f24ae")
+			(uuid "cff6547a-aa8e-49ae-a049-68d0128a80ee")
 		)
 		(fp_line
 			(start 4.25 -1.6)
@@ -54010,14 +54001,24 @@
 			(uuid "6cefa6b3-051d-40f3-bb59-1b070ca84a22")
 		)
 		(fp_line
-			(start 4.25 7.55)
-			(end 4.25 -1.6)
+			(start -4.25 7.55)
+			(end 4.25 7.55)
 			(stroke
 				(width 0.25)
 				(type solid)
 			)
 			(layer "F.SilkS")
-			(uuid "cff6547a-aa8e-49ae-a049-68d0128a80ee")
+			(uuid "2360da42-dcf9-49fa-9546-c304a18f24ae")
+		)
+		(fp_line
+			(start -4.25 -1.6)
+			(end -4.25 7.55)
+			(stroke
+				(width 0.25)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "274d4333-1463-4dbf-a827-8198e4357688")
 		)
 		(fp_circle
 			(center -4.25 7.55)
@@ -54031,24 +54032,14 @@
 			(uuid "303efcd2-f5db-4a59-a2b4-7e5df6b10861")
 		)
 		(fp_line
-			(start -4.25 -1.6)
-			(end 4.25 -1.6)
+			(start 4.25 7.55)
+			(end -4.25 7.55)
 			(stroke
 				(width 0.05)
 				(type solid)
 			)
 			(layer "F.CrtYd")
-			(uuid "4ac88b51-2aa0-4d6f-8409-9949173382fd")
-		)
-		(fp_line
-			(start -4.25 7.55)
-			(end -4.25 -1.6)
-			(stroke
-				(width 0.05)
-				(type solid)
-			)
-			(layer "F.CrtYd")
-			(uuid "3207bcee-2bc7-4e23-bf4e-c3222a27da5c")
+			(uuid "373895a9-35e5-4a21-846e-02688687e4e6")
 		)
 		(fp_line
 			(start 4.25 -1.6)
@@ -54061,17 +54052,27 @@
 			(uuid "8501a005-25b1-4084-8572-82485587be59")
 		)
 		(fp_line
-			(start 4.25 7.55)
-			(end -4.25 7.55)
+			(start -4.25 7.55)
+			(end -4.25 -1.6)
 			(stroke
 				(width 0.05)
 				(type solid)
 			)
 			(layer "F.CrtYd")
-			(uuid "373895a9-35e5-4a21-846e-02688687e4e6")
+			(uuid "3207bcee-2bc7-4e23-bf4e-c3222a27da5c")
+		)
+		(fp_line
+			(start -4.25 -1.6)
+			(end 4.25 -1.6)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "4ac88b51-2aa0-4d6f-8409-9949173382fd")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 0 0 0)
+			(at 0 0 180)
 			(layer "F.Fab")
 			(uuid "967dc38e-742e-4a52-9cdd-57bf27189f08")
 			(effects
@@ -54082,7 +54083,7 @@
 			)
 		)
 		(pad "1" thru_hole rect
-			(at -1.91 0)
+			(at -1.91 0 180)
 			(size 2.2 2.2)
 			(drill 1.259992)
 			(layers "*.Cu" "*.Mask")
@@ -54093,7 +54094,7 @@
 			(uuid "3761a662-8af0-402c-92f0-d14198445482")
 		)
 		(pad "2" thru_hole circle
-			(at 1.91 0)
+			(at 1.91 0 180)
 			(size 2.2 2.2)
 			(drill 1.259992)
 			(layers "*.Cu" "*.Mask")
@@ -54119,10 +54120,10 @@
 	(footprint "lcsc_footprints:C8387_CONN-TH_2P-P3.81_WJ15EDGRC-3.81-2P"
 		(layer "F.Cu")
 		(uuid "bc23759f-c074-45c6-8c4f-ca4806d42e9d")
-		(at 91.118 21.79)
+		(at 91.118 25.53 180)
 		(descr "WJ15EDGRC-3.81-2P")
 		(property "Reference" "J9"
-			(at 0 2.975 0)
+			(at 0 2.975 180)
 			(layer "F.SilkS")
 			(uuid "90dd3cf4-0384-4497-a2d9-29f5314704d5")
 			(effects
@@ -54133,7 +54134,7 @@
 			)
 		)
 		(property "Value" "WJ15EDGRC-3.81-02P"
-			(at 0 4 0)
+			(at 0 4 180)
 			(layer "F.Fab")
 			(uuid "2212b332-564c-410f-b7cf-aaf84286b9ab")
 			(effects
@@ -54144,7 +54145,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.lcsc.com/datasheet/C8387.pdf"
-			(at 0 0 0)
+			(at 0 0 180)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "0a9afd7a-ffc9-4d4a-a8d4-519843b8ecbf")
@@ -54155,7 +54156,7 @@
 			)
 		)
 		(property "Description" "Generic screw terminal, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 0 0 0)
+			(at 0 0 180)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "38f55c53-7f35-47a6-9afc-9c79c6545b96")
@@ -54166,18 +54167,19 @@
 			)
 		)
 		(property "LCSC Part" "C8465"
-			(at 0 0 0)
+			(at 0 0 180)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "330e1138-dcf8-4632-8b29-f2764bba869b")
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
 		(property "LCSC Part #" "C8465"
-			(at 0 0 0)
+			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -54190,7 +54192,7 @@
 			)
 		)
 		(property "MFR. Part #" "WJ500V-5.08-2P"
-			(at 0 0 0)
+			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -54203,7 +54205,7 @@
 			)
 		)
 		(property "LCSC" "C8387"
-			(at 0 0 0)
+			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -54216,7 +54218,7 @@
 			)
 		)
 		(property "Arrow Part Number" ""
-			(at 0 0 0)
+			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -54229,7 +54231,7 @@
 			)
 		)
 		(property "Arrow Price/Stock" ""
-			(at 0 0 0)
+			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -54242,7 +54244,7 @@
 			)
 		)
 		(property "Height" ""
-			(at 0 0 0)
+			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -54255,7 +54257,7 @@
 			)
 		)
 		(property "Manufacturer_Name" ""
-			(at 0 0 0)
+			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -54268,7 +54270,7 @@
 			)
 		)
 		(property "Manufacturer_Part_Number" ""
-			(at 0 0 0)
+			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -54281,7 +54283,7 @@
 			)
 		)
 		(property "Mouser Part Number" ""
-			(at 0 0 0)
+			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -54294,7 +54296,7 @@
 			)
 		)
 		(property "Mouser Price/Stock" ""
-			(at 0 0 0)
+			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -54307,7 +54309,7 @@
 			)
 		)
 		(property "ProductID" ""
-			(at 0 0 0)
+			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -54320,7 +54322,7 @@
 			)
 		)
 		(property "Sim.Pins" ""
-			(at 0 0 0)
+			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -54333,7 +54335,7 @@
 			)
 		)
 		(property "KLC_S3.3" ""
-			(at 0 0 0)
+			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -54346,7 +54348,7 @@
 			)
 		)
 		(property "KLC_S4.1" ""
-			(at 0 0 0)
+			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -54371,24 +54373,14 @@
 		(attr through_hole)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
-			(start -4.25 -1.6)
-			(end -4.25 7.55)
+			(start 4.25 7.55)
+			(end 4.25 -1.6)
 			(stroke
 				(width 0.25)
 				(type solid)
 			)
 			(layer "F.SilkS")
-			(uuid "73c528ec-dbdd-471e-b71c-13bba75b8ee8")
-		)
-		(fp_line
-			(start -4.25 7.55)
-			(end 4.25 7.55)
-			(stroke
-				(width 0.25)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "2e33441d-63d5-4817-ac1e-52adad14b3cd")
+			(uuid "ebae7650-59c1-4271-a50f-555361141811")
 		)
 		(fp_line
 			(start 4.25 -1.6)
@@ -54401,14 +54393,24 @@
 			(uuid "04cdf0f8-75a3-43df-b67e-7cfe108867b8")
 		)
 		(fp_line
-			(start 4.25 7.55)
-			(end 4.25 -1.6)
+			(start -4.25 7.55)
+			(end 4.25 7.55)
 			(stroke
 				(width 0.25)
 				(type solid)
 			)
 			(layer "F.SilkS")
-			(uuid "ebae7650-59c1-4271-a50f-555361141811")
+			(uuid "2e33441d-63d5-4817-ac1e-52adad14b3cd")
+		)
+		(fp_line
+			(start -4.25 -1.6)
+			(end -4.25 7.55)
+			(stroke
+				(width 0.25)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "73c528ec-dbdd-471e-b71c-13bba75b8ee8")
 		)
 		(fp_circle
 			(center -4.25 7.55)
@@ -54422,24 +54424,14 @@
 			(uuid "dff55b41-ac78-4c32-8dc2-4741011563f9")
 		)
 		(fp_line
-			(start -4.25 -1.6)
-			(end 4.25 -1.6)
+			(start 4.25 7.55)
+			(end -4.25 7.55)
 			(stroke
 				(width 0.05)
 				(type solid)
 			)
 			(layer "F.CrtYd")
-			(uuid "420c46db-0359-4999-86cb-cb64c49ee589")
-		)
-		(fp_line
-			(start -4.25 7.55)
-			(end -4.25 -1.6)
-			(stroke
-				(width 0.05)
-				(type solid)
-			)
-			(layer "F.CrtYd")
-			(uuid "68a8e8e9-a04c-4371-a829-9fedbea1399d")
+			(uuid "cebf3b33-c899-4745-bf1e-07dd03368255")
 		)
 		(fp_line
 			(start 4.25 -1.6)
@@ -54452,17 +54444,27 @@
 			(uuid "33bdda43-24d8-47ad-ad48-77cd13125302")
 		)
 		(fp_line
-			(start 4.25 7.55)
-			(end -4.25 7.55)
+			(start -4.25 7.55)
+			(end -4.25 -1.6)
 			(stroke
 				(width 0.05)
 				(type solid)
 			)
 			(layer "F.CrtYd")
-			(uuid "cebf3b33-c899-4745-bf1e-07dd03368255")
+			(uuid "68a8e8e9-a04c-4371-a829-9fedbea1399d")
+		)
+		(fp_line
+			(start -4.25 -1.6)
+			(end 4.25 -1.6)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "420c46db-0359-4999-86cb-cb64c49ee589")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 0 0 0)
+			(at 0 0 180)
 			(layer "F.Fab")
 			(uuid "e4347921-6401-41b0-8784-2ab6de3682d7")
 			(effects
@@ -54473,7 +54475,7 @@
 			)
 		)
 		(pad "1" thru_hole rect
-			(at -1.91 0)
+			(at -1.91 0 180)
 			(size 2.2 2.2)
 			(drill 1.259992)
 			(layers "*.Cu" "*.Mask")
@@ -54484,7 +54486,7 @@
 			(uuid "118ba3eb-ea73-4820-864f-f4b93340de1d")
 		)
 		(pad "2" thru_hole circle
-			(at 1.91 0)
+			(at 1.91 0 180)
 			(size 2.2 2.2)
 			(drill 1.259992)
 			(layers "*.Cu" "*.Mask")
@@ -72249,8 +72251,8 @@
 	)
 	(gr_poly
 		(pts
-			(xy 38.778 97.097) (xy 49.995 97.032) (xy 49.91 65.031) (xy 39.026 64.992) (xy 39 20.18) (xy 137.589 20.116)
-			(xy 137.69 138.273) (xy 38.812 138.358)
+			(xy 39 20.18) (xy 46.41 20.18) (xy 46.41 17.98) (xy 61.41 17.98) (xy 61.41 20.18) (xy 137.5 20.18)
+			(xy 137.5 138.18) (xy 39 138.18) (xy 39 97) (xy 50 97) (xy 50 65) (xy 39 65)
 		)
 		(stroke
 			(width 0.1)
@@ -76152,6 +76154,14 @@
 		(uuid "599490df-83db-4980-bc9e-2b49c7ad6a08")
 	)
 	(segment
+		(start 53.704 35.346)
+		(end 53.704 42.346)
+		(width 0.3586)
+		(layer "F.Cu")
+		(net "/analog to digital v2/RELAY1_IN")
+		(uuid "ac785239-dffe-4856-8071-825e4f4a9523")
+	)
+	(segment
 		(start 100.821659 112.132427)
 		(end 99.061659 110.372427)
 		(width 0.2)
@@ -76790,14 +76800,6 @@
 		(layer "B.Cu")
 		(net "5VA")
 		(uuid "bcc59b19-3b3c-4398-b7bf-9a06881ba862")
-	)
-	(segment
-		(start 53.704 35.346)
-		(end 53.704 42.346)
-		(width 0.3586)
-		(layer "F.Cu")
-		(net "/analog to digital v2/RELAY1_IN")
-		(uuid "ac785239-dffe-4856-8071-825e4f4a9523")
 	)
 	(segment
 		(start 70.384001 122.447)
