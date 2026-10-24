@@ -1158,7 +1158,7 @@
 	(footprint "lcsc_footprints:C5259145_CONN-TH_2P-P3.81_DB2ERC-3.81-2P-BK"
 		(layer "F.Cu")
 		(uuid "04015382-b035-4adb-9406-eb9c7bcba194")
-		(at 74.634 24.271 180)
+		(at 74.634 24.181 180)
 		(property "Reference" "J8"
 			(at 0 2.975 180)
 			(layer "F.SilkS")
@@ -52097,7 +52097,7 @@
 	(footprint "lcsc_footprints:C5259145_CONN-TH_2P-P3.81_DB2ERC-3.81-2P-BK"
 		(layer "F.Cu")
 		(uuid "b70d5ed1-f3dc-42a0-8d41-0edf0b2c9355")
-		(at 91.118 24.271 180)
+		(at 91.118 24.181 180)
 		(property "Reference" "J9"
 			(at 0 2.975 180)
 			(layer "F.SilkS")
@@ -62214,7 +62214,7 @@
 	(footprint "lcsc_footprints:C5244107_HDR-TH_DB2ERC-3.81-6P-BK"
 		(layer "F.Cu")
 		(uuid "dc838769-b118-4b47-9fb0-f923d251887f")
-		(at 115.211999 24.271 180)
+		(at 115.211999 24.181 180)
 		(descr "DORABO DB2ERC-3.81-6P-BK, 6-pin 3.81 mm pluggable terminal, black (LCSC C5244107)")
 		(property "Reference" "J11"
 			(at 0 0 0)
