@@ -108937,7 +108937,7 @@
 	(footprint "lcsc:USB-C_SMD-TYPE-C-31-M-12_1"
 		(layer "F.Cu")
 		(uuid "fe78931d-7150-412f-a62d-a21d49245b69")
-		(at 118.992 129.519)
+		(at 118.992 131.739999)
 		(property "Reference" "USBC1"
 			(at 0 -6.474 0)
 			(layer "F.SilkS")
@@ -109858,16 +109858,18 @@
 			)
 		)
 	)
-	(gr_rect
-		(start 57.051 15.255)
-		(end 155.551 133.255)
+	(gr_poly
+		(pts
+			(xy 57.051 15.255) (xy 155.551 15.255) (xy 155.551 133.255) (xy 124.492 133.255) (xy 124.492 135.454999)
+			(xy 113.492 135.454999) (xy 113.492 133.255) (xy 57.051 133.255)
+		)
 		(stroke
 			(width 0.05)
-			(type solid)
+			(type default)
 		)
 		(fill no)
 		(layer "Edge.Cuts")
-		(uuid "1e860e17-1d8a-47c4-baad-0815e17c1686")
+		(uuid "b4206649-ac41-4e65-a04f-844fe1cf7c08")
 	)
 	(gr_text "LA2"
 		(at 86.675 26.606 0)
