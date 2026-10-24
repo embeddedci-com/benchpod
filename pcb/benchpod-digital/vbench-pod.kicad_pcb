@@ -79288,7 +79288,7 @@
 	(footprint "lcsc_footprints:C456018_USB-A-TH_AF-WJDG"
 		(layer "F.Cu")
 		(uuid "b0b7e30c-fe7f-4f65-b133-d87238644dd0")
-		(at 142.870998 23.323 180)
+		(at 142.870998 24.723 180)
 		(property "Reference" "USB1"
 			(at 0 -5.355 0)
 			(layer "F.SilkS")
@@ -88958,7 +88958,7 @@
 	(footprint "lcsc_footprints:C456018_USB-A-TH_AF-WJDG"
 		(layer "F.Cu")
 		(uuid "c9506b8f-9fd2-44c8-91c5-24748a133c39")
-		(at 84.397 125.126)
+		(at 84.397 123.726)
 		(property "Reference" "USB2"
 			(at 0.049 -3.533 0)
 			(layer "F.SilkS")
