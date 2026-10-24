@@ -1343,7 +1343,7 @@
 	(footprint "lcsc:RJ45-TH_HR911105A"
 		(layer "F.Cu")
 		(uuid "0468511f-7fd7-47bb-97bb-803272bc95a4")
-		(at 140.767569 122.389)
+		(at 140.767569 124.109)
 		(descr "RJ45-LED")
 		(property "Reference" "J7"
 			(at 0 -10.895 0)
@@ -17781,7 +17781,7 @@
 	(footprint "lcsc_footprints:C5259145_CONN-TH_2P-P3.81_DB2ERC-3.81-2P-BK"
 		(layer "F.Cu")
 		(uuid "2160d24f-c1f2-4958-b44f-03a6ee55c484")
-		(at 65.080999 21.166 180)
+		(at 65.080999 19.346 180)
 		(property "Reference" "J6"
 			(at 0 -4 180)
 			(layer "F.SilkS")
@@ -24145,7 +24145,7 @@
 	(footprint "lcsc_footprints:C5259145_CONN-TH_2P-P3.81_DB2ERC-3.81-2P-BK"
 		(layer "F.Cu")
 		(uuid "2e6adc8a-1af3-444d-a26f-f676d5062c9d")
-		(at 77.571 21.166 180)
+		(at 77.571 19.346 180)
 		(property "Reference" "J5"
 			(at 0 -4 0)
 			(layer "F.SilkS")
@@ -40067,7 +40067,7 @@
 	(footprint "lcsc_footprints:C2682221_CONN-TH_X9555WR-2X13-6TV01"
 		(layer "F.Cu")
 		(uuid "537208ec-5c9e-4a7d-97b2-9eb9edea1c5c")
-		(at 106.301 25.599 180)
+		(at 106.301 23.649 180)
 		(property "Reference" "J1"
 			(at 0 -5.27 0)
 			(layer "F.SilkS")
@@ -60930,7 +60930,7 @@
 	(footprint "lcsc_footprints:C5259145_CONN-TH_2P-P3.81_DB2ERC-3.81-2P-BK"
 		(layer "F.Cu")
 		(uuid "7f3b75f7-e448-41e2-840a-aa1e9cfa058e")
-		(at 102.584499 127.309)
+		(at 102.584499 129.099)
 		(property "Reference" "J4"
 			(at 0 -4 0)
 			(layer "F.SilkS")
@@ -79288,7 +79288,7 @@
 	(footprint "lcsc_footprints:C456018_USB-A-TH_AF-WJDG"
 		(layer "F.Cu")
 		(uuid "b0b7e30c-fe7f-4f65-b133-d87238644dd0")
-		(at 142.870998 24.823 180)
+		(at 142.870998 23.323 180)
 		(property "Reference" "USB1"
 			(at 0 -5.355 0)
 			(layer "F.SilkS")
@@ -88958,7 +88958,7 @@
 	(footprint "lcsc_footprints:C456018_USB-A-TH_AF-WJDG"
 		(layer "F.Cu")
 		(uuid "c9506b8f-9fd2-44c8-91c5-24748a133c39")
-		(at 84.397 123.576)
+		(at 84.397 125.126)
 		(property "Reference" "USB2"
 			(at 0.049 -3.533 0)
 			(layer "F.SilkS")
@@ -109860,8 +109860,9 @@
 	)
 	(gr_poly
 		(pts
-			(xy 57.051 15.255) (xy 155.551 15.255) (xy 155.551 133.255) (xy 124.492 133.255) (xy 124.492 135.454999)
-			(xy 113.492 135.454999) (xy 113.492 133.255) (xy 57.051 133.255)
+			(xy 57.051 15.255) (xy 82.316 15.255) (xy 82.316 13.055) (xy 85.316 13.055) (xy 85.316 15.255) (xy 127.286 15.255)
+			(xy 127.286 13.055) (xy 129.535999 13.055) (xy 129.535999 15.255) (xy 155.551 15.255) (xy 155.551 133.255)
+			(xy 124.492 133.255) (xy 124.492 135.455) (xy 113.492 135.455) (xy 113.492 133.255) (xy 57.051 133.255)
 		)
 		(stroke
 			(width 0.05)
