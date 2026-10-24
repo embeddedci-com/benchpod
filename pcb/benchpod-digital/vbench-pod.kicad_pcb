@@ -1343,7 +1343,7 @@
 	(footprint "lcsc:RJ45-TH_HR911105A"
 		(layer "F.Cu")
 		(uuid "0468511f-7fd7-47bb-97bb-803272bc95a4")
-		(at 140.767569 120.189)
+		(at 140.767569 122.389)
 		(descr "RJ45-LED")
 		(property "Reference" "J7"
 			(at 0 -10.895 0)
@@ -13816,6 +13816,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -17780,7 +17781,7 @@
 	(footprint "lcsc_footprints:C5259145_CONN-TH_2P-P3.81_DB2ERC-3.81-2P-BK"
 		(layer "F.Cu")
 		(uuid "2160d24f-c1f2-4958-b44f-03a6ee55c484")
-		(at 64.604 23.366 180)
+		(at 65.080999 21.166 180)
 		(property "Reference" "J6"
 			(at 0 -4 180)
 			(layer "F.SilkS")
@@ -18254,6 +18255,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -24143,7 +24145,7 @@
 	(footprint "lcsc_footprints:C5259145_CONN-TH_2P-P3.81_DB2ERC-3.81-2P-BK"
 		(layer "F.Cu")
 		(uuid "2e6adc8a-1af3-444d-a26f-f676d5062c9d")
-		(at 77.869 23.366 180)
+		(at 77.571 21.166 180)
 		(property "Reference" "J5"
 			(at 0 -4 0)
 			(layer "F.SilkS")
@@ -38716,6 +38718,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -40064,7 +40067,7 @@
 	(footprint "lcsc_footprints:C2682221_CONN-TH_X9555WR-2X13-6TV01"
 		(layer "F.Cu")
 		(uuid "537208ec-5c9e-4a7d-97b2-9eb9edea1c5c")
-		(at 106.373 27.799 180)
+		(at 106.301 25.599 180)
 		(property "Reference" "J1"
 			(at 0 -5.27 0)
 			(layer "F.SilkS")
@@ -46768,6 +46771,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -50650,7 +50654,7 @@
 	(footprint "Capacitor_SMD:C_0805_2012Metric"
 		(layer "F.Cu")
 		(uuid "66365e2e-d636-4153-a446-4a715405618e")
-		(at 70.21 22.569 90)
+		(at 70.21 24.169 90)
 		(descr "Capacitor SMD 0805 (2012 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf, https://docs.google.com/spreadsheets/d/1BsfQQcO9C6DZCsRaXUlFlo91Tg2WpOkGARC1WS5S8t0/edit?usp=sharing)")
 		(tags "capacitor")
 		(property "Reference" "C65"
@@ -60926,7 +60930,7 @@
 	(footprint "lcsc_footprints:C5259145_CONN-TH_2P-P3.81_DB2ERC-3.81-2P-BK"
 		(layer "F.Cu")
 		(uuid "7f3b75f7-e448-41e2-840a-aa1e9cfa058e")
-		(at 104.102 125.109)
+		(at 102.584499 127.309)
 		(property "Reference" "J4"
 			(at 0 -4 0)
 			(layer "F.SilkS")
@@ -66668,7 +66672,7 @@
 	(footprint "Capacitor_SMD:C_0805_2012Metric"
 		(layer "F.Cu")
 		(uuid "8f46b434-f394-4c7d-bbe3-72be2ca236a4")
-		(at 72.281 22.565 90)
+		(at 72.281 24.165 90)
 		(descr "Capacitor SMD 0805 (2012 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf, https://docs.google.com/spreadsheets/d/1BsfQQcO9C6DZCsRaXUlFlo91Tg2WpOkGARC1WS5S8t0/edit?usp=sharing)")
 		(tags "capacitor")
 		(property "Reference" "C64"
@@ -79284,7 +79288,7 @@
 	(footprint "lcsc_footprints:C456018_USB-A-TH_AF-WJDG"
 		(layer "F.Cu")
 		(uuid "b0b7e30c-fe7f-4f65-b133-d87238644dd0")
-		(at 143.363 27.023 180)
+		(at 144.370998 24.823 180)
 		(property "Reference" "USB1"
 			(at 0 -5.355 0)
 			(layer "F.SilkS")
@@ -84739,6 +84743,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -88953,7 +88958,7 @@
 	(footprint "lcsc_footprints:C456018_USB-A-TH_AF-WJDG"
 		(layer "F.Cu")
 		(uuid "c9506b8f-9fd2-44c8-91c5-24748a133c39")
-		(at 84.397 121.376)
+		(at 84.397 123.576)
 		(property "Reference" "USB2"
 			(at 0.049 -3.533 0)
 			(layer "F.SilkS")
@@ -108156,7 +108161,7 @@
 	(footprint "lcsc_footprints:C2827295_LED-SMD_4P-L3.2-W1.5_P4-1204RGBWS2-1.5T-A"
 		(layer "F.Cu")
 		(uuid "fd66d59f-3306-4438-a631-4301ae8f870a")
-		(at 131.368 16.684)
+		(at 132.430999 16.684)
 		(property "Reference" "LED1"
 			(at -0.34 1.633 0)
 			(layer "F.SilkS")
@@ -108932,7 +108937,7 @@
 	(footprint "lcsc:USB-C_SMD-TYPE-C-31-M-12_1"
 		(layer "F.Cu")
 		(uuid "fe78931d-7150-412f-a62d-a21d49245b69")
-		(at 118.992 128.019)
+		(at 118.992 129.519)
 		(property "Reference" "USBC1"
 			(at 0 -6.474 0)
 			(layer "F.SilkS")
@@ -118061,14 +118066,6 @@
 		(uuid "77a6ed0d-9f78-4afa-a354-c2c513f7c2c0")
 	)
 	(via
-		(at 134.237 17.038)
-		(size 0.6)
-		(drill 0.3)
-		(layers "F.Cu" "B.Cu")
-		(net "GND")
-		(uuid "77ff591f-609a-4a5d-848b-257a944a2ca6")
-	)
-	(via
 		(at 84.644 52.297)
 		(size 0.6)
 		(drill 0.3)
@@ -119473,14 +119470,6 @@
 		(layers "F.Cu" "B.Cu")
 		(net "GND")
 		(uuid "bf36cdf0-fa66-4116-82d5-2715a410c96b")
-	)
-	(via
-		(at 72.094 25.835)
-		(size 0.6)
-		(drill 0.3)
-		(layers "F.Cu" "B.Cu")
-		(net "GND")
-		(uuid "bf916f6f-da2e-4da6-b846-f22c89ec32aa")
 	)
 	(via
 		(at 58.613 58.618938)
@@ -123267,6 +123256,14 @@
 		(layers "F.Cu" "B.Cu")
 		(net "+3V3")
 		(uuid "779933e1-eca4-4447-8b73-eddc808c415f")
+	)
+	(via
+		(at 134.237 17.038)
+		(size 0.6)
+		(drill 0.3)
+		(layers "F.Cu" "B.Cu")
+		(net "GND")
+		(uuid "77ff591f-609a-4a5d-848b-257a944a2ca6")
 	)
 	(via
 		(at 135.113 23.643)
@@ -132411,6 +132408,14 @@
 		(layers "F.Cu" "B.Cu")
 		(net "/Power/INA_IN_P2")
 		(uuid "6a9bbca0-e69b-48b9-a1f5-9469cd2e4a4c")
+	)
+	(via
+		(at 72.094 25.835)
+		(size 0.6)
+		(drill 0.3)
+		(layers "F.Cu" "B.Cu")
+		(net "GND")
+		(uuid "bf916f6f-da2e-4da6-b846-f22c89ec32aa")
 	)
 	(via
 		(at 72.198339 37.406204)
@@ -144389,6 +144394,22 @@
 		(uuid "fc6e2ea5-3c60-42dc-a40b-3ffe776e10d7")
 	)
 	(segment
+		(start 117.348 93.001)
+		(end 117.348 88.201)
+		(width 0.2)
+		(layer "F.Cu")
+		(net "/SWCLK")
+		(uuid "c566ca48-e6aa-4c52-b79a-155f948c59db")
+	)
+	(segment
+		(start 112.744 83.597)
+		(end 117.348 88.201)
+		(width 0.2)
+		(layer "F.Cu")
+		(net "/SWCLK")
+		(uuid "ce262b6e-5400-4ce6-be9a-119ed968f233")
+	)
+	(segment
 		(start 115.908 94.101)
 		(end 115.908 88.384026)
 		(width 0.2)
@@ -144451,22 +144472,6 @@
 		(layer "F.Cu")
 		(net "/SWO")
 		(uuid "e3e6fa95-598b-4dc8-a594-59ea4bc5f437")
-	)
-	(segment
-		(start 117.348 93.001)
-		(end 117.348 88.201)
-		(width 0.2)
-		(layer "F.Cu")
-		(net "/SWCLK")
-		(uuid "c566ca48-e6aa-4c52-b79a-155f948c59db")
-	)
-	(segment
-		(start 112.744 83.597)
-		(end 117.348 88.201)
-		(width 0.2)
-		(layer "F.Cu")
-		(net "/SWCLK")
-		(uuid "ce262b6e-5400-4ce6-be9a-119ed968f233")
 	)
 	(segment
 		(start 110.256182 83.447)
