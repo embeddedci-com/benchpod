@@ -6892,7 +6892,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "WJ15EDGRC-3.81-02P"
+		(property "Value" "DB2ERC-3.81-2P-BK"
 			(at 63.246 150.876 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6903,7 +6903,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "lcsc_footprints:C8387_CONN-TH_2P-P3.81_WJ15EDGRC-3.81-2P"
+		(property "Footprint" "lcsc_footprints:C5259145_CONN-TH_2P-P3.81_DB2ERC-3.81-2P-BK"
 			(at 53.34 154.94 0)
 			(hide yes)
 			(show_name no)
@@ -6914,7 +6914,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.lcsc.com/datasheet/C8387.pdf"
+		(property "Datasheet" "https://www.lcsc.com/datasheet/C5259145.pdf"
 			(at 53.34 154.94 0)
 			(hide yes)
 			(show_name no)
@@ -6936,7 +6936,7 @@
 				)
 			)
 		)
-		(property "LCSC Part #" "C8465"
+		(property "LCSC Part #" "C5259145"
 			(at 53.34 154.94 0)
 			(hide yes)
 			(show_name no)
@@ -6947,7 +6947,7 @@
 				)
 			)
 		)
-		(property "MFR. Part #" "WJ500V-5.08-2P"
+		(property "MFR. Part #" "DB2ERC-3.81-2P-BK"
 			(at 53.34 154.94 0)
 			(hide yes)
 			(show_name no)
@@ -6958,7 +6958,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C8387"
+		(property "LCSC" "C5259145"
 			(at 53.34 154.94 0)
 			(hide yes)
 			(show_name no)
@@ -6969,7 +6969,7 @@
 				)
 			)
 		)
-		(property "LCSC Part" "C8465"
+		(property "LCSC Part" "C5259145"
 			(at 53.34 154.94 0)
 			(hide yes)
 			(show_name no)
@@ -7013,7 +7013,7 @@
 				)
 			)
 		)
-		(property "Manufacturer_Name" ""
+		(property "Manufacturer_Name" "DORABO"
 			(at 53.34 154.94 0)
 			(hide yes)
 			(show_name no)
@@ -7024,7 +7024,7 @@
 				)
 			)
 		)
-		(property "Manufacturer_Part_Number" ""
+		(property "Manufacturer_Part_Number" "DB2ERC-3.81-2P-BK"
 			(at 53.34 154.94 0)
 			(hide yes)
 			(show_name no)

@@ -21081,7 +21081,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "WJ15EDGRC-3.81-02P"
+		(property "Value" "DB2ERC-3.81-2P-BK"
 			(at 116.332 246.126 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -21092,7 +21092,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "lcsc_footprints:C8387_CONN-TH_2P-P3.81_WJ15EDGRC-3.81-2P"
+		(property "Footprint" "lcsc_footprints:C5259145_CONN-TH_2P-P3.81_DB2ERC-3.81-2P-BK"
 			(at 133.35 240.03 0)
 			(hide yes)
 			(show_name no)
@@ -21103,7 +21103,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.lcsc.com/datasheet/C8387.pdf"
+		(property "Datasheet" "https://www.lcsc.com/datasheet/C5259145.pdf"
 			(at 133.35 240.03 0)
 			(hide yes)
 			(show_name no)
@@ -21125,7 +21125,7 @@
 				)
 			)
 		)
-		(property "LCSC Part #" "C8465"
+		(property "LCSC Part #" "C5259145"
 			(at 133.35 240.03 0)
 			(hide yes)
 			(show_name no)
@@ -21136,7 +21136,7 @@
 				)
 			)
 		)
-		(property "MFR. Part #" "WJ500V-5.08-2P"
+		(property "MFR. Part #" "DB2ERC-3.81-2P-BK"
 			(at 133.35 240.03 0)
 			(hide yes)
 			(show_name no)
@@ -21147,7 +21147,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C8387"
+		(property "LCSC" "C5259145"
 			(at 133.35 240.03 0)
 			(hide yes)
 			(show_name no)
@@ -21158,7 +21158,7 @@
 				)
 			)
 		)
-		(property "LCSC Part" "C8465"
+		(property "LCSC Part" "C5259145"
 			(at 133.35 240.03 0)
 			(hide yes)
 			(show_name no)
@@ -21202,7 +21202,7 @@
 				)
 			)
 		)
-		(property "Manufacturer_Name" ""
+		(property "Manufacturer_Name" "DORABO"
 			(at 133.35 240.03 0)
 			(hide yes)
 			(show_name no)
@@ -21213,7 +21213,7 @@
 				)
 			)
 		)
-		(property "Manufacturer_Part_Number" ""
+		(property "Manufacturer_Part_Number" "DB2ERC-3.81-2P-BK"
 			(at 133.35 240.03 0)
 			(hide yes)
 			(show_name no)
@@ -22389,7 +22389,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "WJ15EDGRC-3.81-06P"
+		(property "Value" "DB2ERC-3.81-6P-BK"
 			(at 322.58 74.93 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -22400,7 +22400,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "lcsc_footprints:C7246_CONN-TH_WJ15EDGRC-3.81-6P"
+		(property "Footprint" "lcsc_footprints:C5244107_HDR-TH_DB2ERC-3.81-6P-BK"
 			(at 320.04 62.23 0)
 			(hide yes)
 			(show_name no)
@@ -22411,7 +22411,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.lcsc.com/datasheet/C7246.pdf"
+		(property "Datasheet" "https://www.lcsc.com/datasheet/C5244107.pdf"
 			(at 320.04 62.23 0)
 			(hide yes)
 			(show_name no)
@@ -22422,7 +22422,7 @@
 				)
 			)
 		)
-		(property "Description" "DAC outputs: 1 0-3.3V, 3 0-5V, 5 +-12V, 2/4/6 GND (3.81 mm pluggable, green)"
+		(property "Description" "DAC outputs: 1 0-3.3V, 3 0-5V, 5 +-12V, 2/4/6 GND (3.81 mm pluggable, black)"
 			(at 320.04 62.23 0)
 			(hide yes)
 			(show_name no)
@@ -22433,7 +22433,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C7246"
+		(property "LCSC" "C5244107"
 			(at 320.04 62.23 0)
 			(hide yes)
 			(show_name no)
