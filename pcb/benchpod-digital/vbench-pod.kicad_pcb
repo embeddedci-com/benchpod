@@ -79288,7 +79288,7 @@
 	(footprint "lcsc_footprints:C456018_USB-A-TH_AF-WJDG"
 		(layer "F.Cu")
 		(uuid "b0b7e30c-fe7f-4f65-b133-d87238644dd0")
-		(at 144.370998 24.823 180)
+		(at 142.870998 24.823 180)
 		(property "Reference" "USB1"
 			(at 0 -5.355 0)
 			(layer "F.SilkS")
@@ -108161,7 +108161,7 @@
 	(footprint "lcsc_footprints:C2827295_LED-SMD_4P-L3.2-W1.5_P4-1204RGBWS2-1.5T-A"
 		(layer "F.Cu")
 		(uuid "fd66d59f-3306-4438-a631-4301ae8f870a")
-		(at 132.430999 16.684)
+		(at 131.680999 16.684)
 		(property "Reference" "LED1"
 			(at -0.34 1.633 0)
 			(layer "F.SilkS")
