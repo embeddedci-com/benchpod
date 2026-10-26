@@ -5037,7 +5037,7 @@
 	)
 	(wire
 		(pts
-			(xy 29.21 77.47) (xy 43.18 77.47)
+			(xy 29.21 77.47) (xy 31.75 77.47)
 		)
 		(stroke
 			(width 0)
@@ -5074,6 +5074,16 @@
 			(type default)
 		)
 		(uuid "1ede4ea9-8774-4949-acdb-7b04ca2cf1d8")
+	)
+	(wire
+		(pts
+			(xy 39.37 77.47) (xy 43.18 77.47)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "206a8bc1-2948-4649-8515-58ba1ede6c93")
 	)
 	(wire
 		(pts
@@ -5547,7 +5557,7 @@
 	)
 	(wire
 		(pts
-			(xy 27.94 80.01) (xy 43.18 80.01)
+			(xy 27.94 88.9) (xy 34.29 88.9)
 		)
 		(stroke
 			(width 0)
@@ -5694,6 +5704,16 @@
 			(type default)
 		)
 		(uuid "c6460ad9-68fd-47f8-bc53-9a35fa79ca89")
+	)
+	(wire
+		(pts
+			(xy 34.29 88.9) (xy 43.18 80.01)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c69ca593-b4f1-4f34-a31c-829939396e3b")
 	)
 	(wire
 		(pts
@@ -6200,7 +6220,7 @@
 	)
 	(hierarchical_label "RMII_MDC"
 		(shape input)
-		(at 27.94 80.01 180)
+		(at 27.94 88.9 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8615,6 +8635,140 @@
 			(project "vbench-pod"
 				(path "/745fcf4b-2e0b-4fc4-95c0-f2e3fd40beb9/0c40e001-2f3c-4e38-99cd-bf6c5858d9e0"
 					(reference "C31")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 35.56 77.47 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "3a5f9c5e-640e-4520-bf31-68580607a400")
+		(property "Reference" "R27"
+			(at 35.56 79.756 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "33"
+			(at 35.56 82.296 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+			(at 35.56 79.248 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 35.56 77.47 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 35.56 77.47 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C25105"
+			(at 35.56 77.47 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "ProductID" ""
+			(at 35.56 77.47 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pins" ""
+			(at 35.56 77.47 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S3.3" ""
+			(at 35.56 77.47 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S4.1" ""
+			(at 35.56 77.47 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "6c4971a6-891d-445b-96b2-027a773c503e")
+		)
+		(pin "2"
+			(uuid "410ea6da-c6b2-461c-b58e-f8abca00a98c")
+		)
+		(instances
+			(project "vbench-pod"
+				(path "/745fcf4b-2e0b-4fc4-95c0-f2e3fd40beb9/0c40e001-2f3c-4e38-99cd-bf6c5858d9e0"
+					(reference "R27")
 					(unit 1)
 				)
 			)
