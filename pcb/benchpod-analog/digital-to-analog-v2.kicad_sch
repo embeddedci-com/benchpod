@@ -8088,12 +8088,12 @@
 		(uuid "1d5142d2-25cd-409c-a67c-24fa41ad3e5c")
 	)
 	(label "BUFFER_VMID"
-		(at 218.44 173.99 0)
+		(at 218.44 173.99 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left bottom)
+			(justify right bottom)
 		)
 		(uuid "20f2f269-5788-431e-8c51-26aecb9072a3")
 	)
