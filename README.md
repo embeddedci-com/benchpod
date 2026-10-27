@@ -56,6 +56,8 @@ below to get the git tag with the exact design files for your board:
 | BenchPod v3-r1 | Analog + digital | `analog-v3r1` | `pcb/benchpod` | STM32H563ZGT6 and INA226 like the digital board. Monitors the pod's own current (INA226 at 0x41). The 5.5 V analog rail comes from a 7 V boost instead of the 14 V rail, so U50 no longer runs hot. TPS65131 compensation caps fixed. THS4551 and TPS7A2050 in their smaller packages (RUN, DQN). |
 | BenchPod v3r2-Digital | Digital only | `digital-v3r2` | `pcb/benchpod-digital` | Monitors the pod's own current (INA226 at 0x41). |
 | BenchPod v3-r2 | Analog + digital | `analog-v3r2` | `pcb/benchpod` | One DAC8554 quad DAC (a channel per output) replaces the DAC8551 and its two TMUX1104 muxes. The ±14 V supply starts off and the firmware switches it on. 0.1 % resistors around the ADC driver for a smaller zero offset between pods. Fixed 9.1 pF ADC compensation instead of the trimmer. SWD and USART2 on DNP 2x2 headers instead of H1-H3. More ESD clamps (USB CC, +1V8, LA_VCCIO, the 0-5 V SMA). Board revision strap 2.70 V. |
+| BenchPod v3r3-Digital | Digital only | `digital-v3r3` | `pcb/benchpod-digital` | 24-pin FFC connector (CN1) for the analog module. The module 5 V and the USB-A bridge 5 V are switched by SY6280AAC power switches, with TVS diodes on the 5 V outputs. 3.3 V buck becomes a TPS62130A with a 2.2 uH inductor. PSRAM in SOP-8. Ethernet EMI changes from the Microchip and TI reference designs: RJ45 chassis ground straight to GND, center taps fed through a 0 ohm resistor, 8.2 pF on the four data lines, a flow-through TPD4E05U06 ESD clamp. 100 nF + 470 pF at the J4, J5 and J6 terminals. Connectors placed for the enclosure. |
+| BenchPod v3-r3-analog | Analog module | `analog-v3r3` | `pcb/benchpod-analog` | First analog module: the analog section on its own board, connected to the v3r3 digital board by a 24-pin FFC (CN1). Front-panel connectors for the enclosure: a lead-free BNC for the ADC input (ready for 10x probes), pluggable terminal blocks for the DAC outputs (one 6-pin block) and the 4-20 mA loop. Module ID EEPROM. +3V3 from an AP2112K-3.3. |
 
 To get the files for your board, check out its tag:
 
@@ -63,7 +65,7 @@ To get the files for your board, check out its tag:
 git checkout analog-v3r1
 ```
 
-Every tag holds both KiCad projects; use the folder from the table. Older boards: `v1.0.0` and
+Every tag holds all KiCad projects; use the folder from the table. Older boards: `v1.0.0` and
 `v1.0.1` are v1, `v2.0.0` is v2.
 
 The v3 tags used to be named `v3.0.0` (now `analog-v3`), `v3.0.1-digital` (now `digital-v3`),
