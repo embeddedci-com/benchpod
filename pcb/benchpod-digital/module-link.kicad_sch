@@ -7614,7 +7614,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "SMAJ5.0A_C2925443"
+		(property "Value" "SMAJ5.0A"
 			(at 116.84 173.99 0)
 			(show_name no)
 			(do_not_autoplace no)
