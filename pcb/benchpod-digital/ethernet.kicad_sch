@@ -748,6 +748,337 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "lcsc_imported:TPD4E05U06DQAR"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "D"
+				(at 0 10.16 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "TPD4E05U06DQAR"
+				(at 0 -10.16 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "lcsc_footprints:C138714_USON-10_L2.5-W1.0-P0.50-BL"
+				(at 0 -12.7 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" "https://lcsc.com/product-detail/TVS_TI_TPD4E05U06DQAR_TPD4E05U06DQAR_C138714.html"
+				(at 0 -15.24 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "LCSC" "C138714"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Manufacturer" "TI(德州仪器)"
+				(at 0 -17.78 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "MPN" "TPD4E05U06DQAR"
+				(at 0 -20.32 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "LCSC Part" "C138714"
+				(at 0 -22.86 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "ESD Protection Devices"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "TPD4E05U06DQAR_0_1"
+				(rectangle
+					(start -7.62 8.13)
+					(end 7.62 -8.13)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(circle
+					(center -6.35 6.86)
+					(radius 0.38)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center -6.35 6.86)
+					(radius 0.38)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at -10.16 5.08 0)
+					(length 2.54)
+					(name "D1+"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -10.16 2.54 0)
+					(length 2.54)
+					(name "D1-"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -10.16 0 0)
+					(length 2.54)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -10.16 -2.54 0)
+					(length 2.54)
+					(name "D2+"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -10.16 -5.08 0)
+					(length 2.54)
+					(name "D2-"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 10.16 -5.08 180)
+					(length 2.54)
+					(name "NC"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 10.16 -2.54 180)
+					(length 2.54)
+					(name "NC"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 10.16 0 180)
+					(length 2.54)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "8"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 10.16 2.54 180)
+					(length 2.54)
+					(name "NC"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "9"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 10.16 5.08 180)
+					(length 2.54)
+					(name "NC"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "10"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "lcsc_lib:HR911105A_C12074"
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -4822,337 +5153,7 @@
 			)
 			(embedded_fonts no)
 		)
-	
-        	(symbol "lcsc_imported:TPD4E05U06DQAR"
-    		(exclude_from_sim no)
-    		(in_bom yes)
-    		(on_board yes)
-    		(in_pos_files yes)
-    		(duplicate_pin_numbers_are_jumpers no)
-    		(property "Reference" "D"
-    			(at 0 10.16 0)
-    			(show_name no)
-    			(do_not_autoplace no)
-    			(effects
-    				(font
-    					(size 1.27 1.27)
-    				)
-    			)
-    		)
-    		(property "Value" "TPD4E05U06DQAR"
-    			(at 0 -10.16 0)
-    			(show_name no)
-    			(do_not_autoplace no)
-    			(effects
-    				(font
-    					(size 1.27 1.27)
-    				)
-    			)
-    		)
-    		(property "Footprint" "lcsc_footprints:C138714_USON-10_L2.5-W1.0-P0.50-BL"
-    			(at 0 -12.7 0)
-    			(show_name no)
-    			(do_not_autoplace no)
-    			(hide yes)
-    			(effects
-    				(font
-    					(size 1.27 1.27)
-    				)
-    			)
-    		)
-    		(property "Datasheet" "https://lcsc.com/product-detail/TVS_TI_TPD4E05U06DQAR_TPD4E05U06DQAR_C138714.html"
-    			(at 0 -15.24 0)
-    			(show_name no)
-    			(do_not_autoplace no)
-    			(hide yes)
-    			(effects
-    				(font
-    					(size 1.27 1.27)
-    				)
-    			)
-    		)
-    		(property "LCSC" "C138714"
-    			(at 0 0 0)
-    			(hide yes)
-    			(effects
-    				(font
-    					(size 1.27 1.27)
-    				)
-    			)
-    		)
-    		(property "Description" ""
-    			(at 0 0 0)
-    			(show_name no)
-    			(do_not_autoplace no)
-    			(hide yes)
-    			(effects
-    				(font
-    					(size 1.27 1.27)
-    				)
-    			)
-    		)
-    		(property "Manufacturer" "TI(德州仪器)"
-    			(at 0 -17.78 0)
-    			(show_name no)
-    			(do_not_autoplace no)
-    			(hide yes)
-    			(effects
-    				(font
-    					(size 1.27 1.27)
-    				)
-    			)
-    		)
-    		(property "MPN" "TPD4E05U06DQAR"
-    			(at 0 -20.32 0)
-    			(show_name no)
-    			(do_not_autoplace no)
-    			(hide yes)
-    			(effects
-    				(font
-    					(size 1.27 1.27)
-    				)
-    			)
-    		)
-    		(property "LCSC Part" "C138714"
-    			(at 0 -22.86 0)
-    			(show_name no)
-    			(do_not_autoplace no)
-    			(hide yes)
-    			(effects
-    				(font
-    					(size 1.27 1.27)
-    				)
-    			)
-    		)
-    		(property "ki_keywords" "ESD Protection Devices"
-    			(at 0 0 0)
-    			(show_name no)
-    			(do_not_autoplace no)
-    			(hide yes)
-    			(effects
-    				(font
-    					(size 1.27 1.27)
-    				)
-    			)
-    		)
-    		(symbol "TPD4E05U06DQAR_0_1"
-    			(rectangle
-    				(start -7.62 8.13)
-    				(end 7.62 -8.13)
-    				(stroke
-    					(width 0)
-    					(type default)
-    				)
-    				(fill
-    					(type background)
-    				)
-    			)
-    			(circle
-    				(center -6.35 6.86)
-    				(radius 0.38)
-    				(stroke
-    					(width 0)
-    					(type default)
-    				)
-    				(fill
-    					(type none)
-    				)
-    			)
-    			(circle
-    				(center -6.35 6.86)
-    				(radius 0.38)
-    				(stroke
-    					(width 0)
-    					(type default)
-    				)
-    				(fill
-    					(type none)
-    				)
-    			)
-    			(pin passive line
-    				(at -10.16 5.08 0)
-    				(length 2.54)
-    				(name "D1+"
-    					(effects
-    						(font
-    							(size 1.27 1.27)
-    						)
-    					)
-    				)
-    				(number "1"
-    					(effects
-    						(font
-    							(size 1.27 1.27)
-    						)
-    					)
-    				)
-    			)
-    			(pin passive line
-    				(at -10.16 2.54 0)
-    				(length 2.54)
-    				(name "D1-"
-    					(effects
-    						(font
-    							(size 1.27 1.27)
-    						)
-    					)
-    				)
-    				(number "2"
-    					(effects
-    						(font
-    							(size 1.27 1.27)
-    						)
-    					)
-    				)
-    			)
-    			(pin passive line
-    				(at -10.16 0 0)
-    				(length 2.54)
-    				(name "GND"
-    					(effects
-    						(font
-    							(size 1.27 1.27)
-    						)
-    					)
-    				)
-    				(number "3"
-    					(effects
-    						(font
-    							(size 1.27 1.27)
-    						)
-    					)
-    				)
-    			)
-    			(pin passive line
-    				(at -10.16 -2.54 0)
-    				(length 2.54)
-    				(name "D2+"
-    					(effects
-    						(font
-    							(size 1.27 1.27)
-    						)
-    					)
-    				)
-    				(number "4"
-    					(effects
-    						(font
-    							(size 1.27 1.27)
-    						)
-    					)
-    				)
-    			)
-    			(pin passive line
-    				(at -10.16 -5.08 0)
-    				(length 2.54)
-    				(name "D2-"
-    					(effects
-    						(font
-    							(size 1.27 1.27)
-    						)
-    					)
-    				)
-    				(number "5"
-    					(effects
-    						(font
-    							(size 1.27 1.27)
-    						)
-    					)
-    				)
-    			)
-    			(pin passive line
-    				(at 10.16 -5.08 180)
-    				(length 2.54)
-    				(name "NC"
-    					(effects
-    						(font
-    							(size 1.27 1.27)
-    						)
-    					)
-    				)
-    				(number "6"
-    					(effects
-    						(font
-    							(size 1.27 1.27)
-    						)
-    					)
-    				)
-    			)
-    			(pin passive line
-    				(at 10.16 -2.54 180)
-    				(length 2.54)
-    				(name "NC"
-    					(effects
-    						(font
-    							(size 1.27 1.27)
-    						)
-    					)
-    				)
-    				(number "7"
-    					(effects
-    						(font
-    							(size 1.27 1.27)
-    						)
-    					)
-    				)
-    			)
-    			(pin passive line
-    				(at 10.16 0 180)
-    				(length 2.54)
-    				(name "GND"
-    					(effects
-    						(font
-    							(size 1.27 1.27)
-    						)
-    					)
-    				)
-    				(number "8"
-    					(effects
-    						(font
-    							(size 1.27 1.27)
-    						)
-    					)
-    				)
-    			)
-    			(pin passive line
-    				(at 10.16 2.54 180)
-    				(length 2.54)
-    				(name "NC"
-    					(effects
-    						(font
-    							(size 1.27 1.27)
-    						)
-    					)
-    				)
-    				(number "9"
-    					(effects
-    						(font
-    							(size 1.27 1.27)
-    						)
-    					)
-    				)
-    			)
-    			(pin passive line
-    				(at 10.16 5.08 180)
-    				(length 2.54)
-    				(name "NC"
-    					(effects
-    						(font
-    							(size 1.27 1.27)
-    						)
-    					)
-    				)
-    				(number "10"
-    					(effects
-    						(font
-    							(size 1.27 1.27)
-    						)
-    					)
-    				)
-    			)
-    		)
-    		(embedded_fonts no)
-    	)
-  )
+	)
 	(junction
 		(at 208.28 80.01)
 		(diameter 0)
@@ -6033,6 +6034,16 @@
 	)
 	(wire
 		(pts
+			(xy 143.51 132.08) (xy 133.35 132.08)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cdc01746-64ca-462c-9054-9d338c224950")
+	)
+	(wire
+		(pts
 			(xy 113.03 80.01) (xy 113.03 82.55)
 		)
 		(stroke
@@ -6163,6 +6174,16 @@
 	)
 	(wire
 		(pts
+			(xy 163.83 132.08) (xy 173.99 132.08)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "efbc25a6-a7fe-4a62-9fa1-8be3856cd435")
+	)
+	(wire
+		(pts
 			(xy 78.74 20.32) (xy 81.28 20.32)
 		)
 		(stroke
@@ -6261,6 +6282,16 @@
 		)
 		(uuid "0670dbc3-9f89-44b8-aecb-9a0df2fc9d57")
 	)
+	(label "RXP"
+		(at 143.51 137.16 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "075c60a3-ee2a-4be8-b4c2-6b484b7ededb")
+	)
 	(label "CHSGND"
 		(at 214.63 67.31 180)
 		(effects
@@ -6291,6 +6322,16 @@
 		)
 		(uuid "3dc634a5-e361-4470-bdff-86fb5188dcd7")
 	)
+	(label "TXN"
+		(at 163.83 127 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "420cebe9-40a7-436c-8544-d2a7c5a0c8f4")
+	)
 	(label "TXP"
 		(at 76.2 43.18 90)
 		(effects
@@ -6300,6 +6341,16 @@
 			(justify left bottom)
 		)
 		(uuid "44dabe91-65fc-47fc-b7a6-6e7259fd8f56")
+	)
+	(label "TXP"
+		(at 163.83 129.54 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "4d51f34e-2f3d-45fe-b6c9-82037786a9cd")
 	)
 	(label "VDDA"
 		(at 114.3 52.07 0)
@@ -6320,6 +6371,16 @@
 			(justify left bottom)
 		)
 		(uuid "54b4f9a8-274b-4c57-95f0-3f59fc97fdd2")
+	)
+	(label "RXN"
+		(at 143.51 134.62 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "607b1f88-31c5-4850-a20a-3f3edcadf60d")
 	)
 	(label "YELLOW_LED"
 		(at 134.62 63.5 0)
@@ -6361,6 +6422,16 @@
 		)
 		(uuid "90c589d1-4725-4693-8c83-67bf044f4f9a")
 	)
+	(label "TXP"
+		(at 143.51 129.54 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "9518b62e-bc83-4867-ab42-b14b7bc7492b")
+	)
 	(label "RXP"
 		(at 214.63 49.53 180)
 		(effects
@@ -6390,6 +6461,26 @@
 			(justify right bottom)
 		)
 		(uuid "acef7103-c75c-4d13-8646-545b5d0d16ca")
+	)
+	(label "TXN"
+		(at 143.51 127 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "aed1c133-4b0e-4eae-b0d1-e4a752d4ee79")
+	)
+	(label "RXN"
+		(at 163.83 134.62 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "b438d4e2-6012-4a07-9577-930406f0b413")
 	)
 	(label "RXN"
 		(at 243.84 137.16 90)
@@ -6440,6 +6531,16 @@
 			(justify right bottom)
 		)
 		(uuid "c93fa1c6-ded6-444c-89b0-badb59ac872d")
+	)
+	(label "RXP"
+		(at 163.83 137.16 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "cc58dec4-1cd8-4afb-bbdf-764f5f15d36b")
 	)
 	(label "VDDA"
 		(at 205.74 137.16 90)
@@ -14195,6 +14296,120 @@
 		)
 	)
 	(symbol
+		(lib_id "lcsc_imported:TPD4E05U06DQAR")
+		(at 153.67 132.08 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "c3760016-4708-4ac5-b157-56b7f3434365")
+		(property "Reference" "D4"
+			(at 153.67 142.24 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "TPD4E05U06DQAR"
+			(at 153.67 121.92 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "lcsc_footprints:C138714_USON-10_L2.5-W1.0-P0.50-BL"
+			(at 153.67 119.38 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://lcsc.com/product-detail/TVS_TI_TPD4E05U06DQAR_TPD4E05U06DQAR_C138714.html"
+			(at 153.67 116.84 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 153.67 132.08 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C138714"
+			(at 153.67 132.08 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "90c1c773-cc72-40af-89c4-eddde8d3c074")
+		)
+		(pin "10"
+			(uuid "022de67e-fa2b-4039-9910-68c18ca63cde")
+		)
+		(pin "2"
+			(uuid "7b367b08-774a-4663-bc75-6d28137f363a")
+		)
+		(pin "3"
+			(uuid "95e1f251-6465-41a6-8838-05deec3b724e")
+		)
+		(pin "4"
+			(uuid "befe16e1-eaa7-4ff7-8a91-604fd7456ab5")
+		)
+		(pin "5"
+			(uuid "9fce344e-94dd-4843-8dfb-c05ddef7ba38")
+		)
+		(pin "6"
+			(uuid "609dea4c-3d8b-4e1f-b321-d56c35cd6608")
+		)
+		(pin "7"
+			(uuid "f831f8cb-14d3-4bbc-912a-e4d206eef979")
+		)
+		(pin "8"
+			(uuid "f9714686-2fa7-42ff-bb7a-202de1c4d524")
+		)
+		(pin "9"
+			(uuid "aedf556a-8140-47ab-9d73-e41f3138d3c7")
+		)
+		(instances
+			(project "vbench-pod"
+				(path "/745fcf4b-2e0b-4fc4-95c0-f2e3fd40beb9/0c40e001-2f3c-4e38-99cd-bf6c5858d9e0"
+					(reference "D4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R")
 		(at 83.82 149.86 180)
 		(unit 1)
@@ -15656,6 +15871,83 @@
 	)
 	(symbol
 		(lib_id "power:GND")
+		(at 133.35 132.08 0)
+		(mirror y)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "f135a834-377a-4205-a085-22a4382f5406")
+		(property "Reference" "#PWR0107"
+			(at 133.35 138.43 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 137.16 133.35 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 133.35 132.08 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 133.35 132.08 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 133.35 132.08 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "012e87b8-cf9b-4e75-b8e6-a38645f784cc")
+		)
+		(instances
+			(project "vbench-pod"
+				(path "/745fcf4b-2e0b-4fc4-95c0-f2e3fd40beb9/0c40e001-2f3c-4e38-99cd-bf6c5858d9e0"
+					(reference "#PWR0107")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
 		(at 151.13 44.45 0)
 		(mirror y)
 		(unit 1)
@@ -16146,6 +16438,83 @@
 	)
 	(symbol
 		(lib_id "power:GND")
+		(at 173.99 132.08 0)
+		(mirror y)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "fb9ec425-0ee9-48ab-9ac5-762ebd9d6dc6")
+		(property "Reference" "#PWR0105"
+			(at 173.99 138.43 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 177.8 133.35 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 173.99 132.08 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 173.99 132.08 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 173.99 132.08 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "6d9fa64f-7471-4d73-ad23-cc62b2719727")
+		)
+		(instances
+			(project "vbench-pod"
+				(path "/745fcf4b-2e0b-4fc4-95c0-f2e3fd40beb9/0c40e001-2f3c-4e38-99cd-bf6c5858d9e0"
+					(reference "#PWR0105")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
 		(at 214.63 95.25 0)
 		(mirror y)
 		(unit 1)
@@ -16466,335 +16835,4 @@
 			)
 		)
 	)
-  (symbol (lib_id "lcsc_imported:TPD4E05U06DQAR") (at 153.67 132.08 0) (unit 1)
-    (body_style 1) (exclude_from_sim no) (in_bom yes) (on_board yes) (in_pos_files yes) (dnp no)
-    (uuid "c3760016-4708-4ac5-b157-56b7f3434365")
-    (property "Reference" "D4"
-      (at 153.67 142.24 0)
-      (show_name no)
-      (do_not_autoplace no)
-      (effects
-    				(font
-    					(size 1.27 1.27)
-    				)
-    			)
-    )
-    (property "Value" "TPD4E05U06DQAR"
-      (at 153.67 121.92 0)
-      (show_name no)
-      (do_not_autoplace no)
-      (effects
-    				(font
-    					(size 1.27 1.27)
-    				)
-    			)
-    )
-    (property "Footprint" "lcsc_footprints:C138714_USON-10_L2.5-W1.0-P0.50-BL"
-      (at 153.67 119.38 0)
-      (hide yes)
-      (show_name no)
-      (do_not_autoplace no)
-      (effects
-    				(font
-    					(size 1.27 1.27)
-    				)
-    			)
-    )
-    (property "Datasheet" "https://lcsc.com/product-detail/TVS_TI_TPD4E05U06DQAR_TPD4E05U06DQAR_C138714.html"
-      (at 153.67 116.84 0)
-      (hide yes)
-      (show_name no)
-      (do_not_autoplace no)
-      (effects
-    				(font
-    					(size 1.27 1.27)
-    				)
-    			)
-    )
-    (property "Description" ""
-      (at 153.67 132.08 0)
-      (hide yes)
-      (show_name no)
-      (do_not_autoplace no)
-      (effects
-    				(font
-    					(size 1.27 1.27)
-    				)
-    			)
-    )
-    (property "LCSC" "C138714" (at 153.67 132.08 0)
-      (effects (font (size 1.27 1.27)) (hide yes))
-    )
-    (pin "1" (uuid "90c1c773-cc72-40af-89c4-eddde8d3c074"))
-    (pin "10" (uuid "022de67e-fa2b-4039-9910-68c18ca63cde"))
-    (pin "2" (uuid "7b367b08-774a-4663-bc75-6d28137f363a"))
-    (pin "3" (uuid "95e1f251-6465-41a6-8838-05deec3b724e"))
-    (pin "4" (uuid "befe16e1-eaa7-4ff7-8a91-604fd7456ab5"))
-    (pin "5" (uuid "9fce344e-94dd-4843-8dfb-c05ddef7ba38"))
-    (pin "6" (uuid "609dea4c-3d8b-4e1f-b321-d56c35cd6608"))
-    (pin "7" (uuid "f831f8cb-14d3-4bbc-912a-e4d206eef979"))
-    (pin "8" (uuid "f9714686-2fa7-42ff-bb7a-202de1c4d524"))
-    (pin "9" (uuid "aedf556a-8140-47ab-9d73-e41f3138d3c7"))
-    (instances
-      (project "vbench-pod"
-        (path "/745fcf4b-2e0b-4fc4-95c0-f2e3fd40beb9/0c40e001-2f3c-4e38-99cd-bf6c5858d9e0"
-          (reference "D4")
-          (unit 1)
-        )
-      )
-    )
-  )
-	(label "TXP"
-		(at 143.51 127.0 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "b812b84f-abdf-4a29-bbc5-b59ab05a59b7")
-	)
-	(label "TXN"
-		(at 143.51 129.54 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "0dafe013-e36d-4655-9c7b-52d67aa3acfc")
-	)
-	(label "RXP"
-		(at 143.51 134.62 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "b738d79d-0be0-4256-8ccc-f68a12545573")
-	)
-	(label "RXN"
-		(at 143.51 137.16 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "e37a240a-1351-4f1d-91c3-291c1677db3a")
-	)
-	(label "TXP"
-		(at 163.83 127.0 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "9c4ce725-64f3-4739-a1b1-ddbbdfb7b1c6")
-	)
-	(label "TXN"
-		(at 163.83 129.54 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "ba632735-074d-4127-8874-d350305cb465")
-	)
-	(label "RXP"
-		(at 163.83 134.62 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "49369bf3-1aa0-43ae-a1e3-3cd54b269b75")
-	)
-	(label "RXN"
-		(at 163.83 137.16 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "a44cbd20-fb52-4bb1-b0f0-166c207fa72d")
-	)
-	(wire
-		(pts
-			(xy 143.51 132.08) (xy 133.35 132.08)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "cdc01746-64ca-462c-9054-9d338c224950")
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 133.35 132.08 0)
-		(mirror y)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "f135a834-377a-4205-a085-22a4382f5406")
-		(property "Reference" "#PWR0107"
-			(at 133.35 138.43 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "GND"
-			(at 137.16 133.35 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 133.35 132.08 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 133.35 132.08 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 133.35 132.08 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "012e87b8-cf9b-4e75-b8e6-a38645f784cc")
-		)
-		(instances
-			(project "vbench-pod"
-				(path "/745fcf4b-2e0b-4fc4-95c0-f2e3fd40beb9/0c40e001-2f3c-4e38-99cd-bf6c5858d9e0"
-					(reference "#PWR0107")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(wire
-		(pts
-			(xy 163.83 132.08) (xy 173.99 132.08)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "efbc25a6-a7fe-4a62-9fa1-8be3856cd435")
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 173.99 132.08 0)
-		(mirror y)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "fb9ec425-0ee9-48ab-9ac5-762ebd9d6dc6")
-		(property "Reference" "#PWR0105"
-			(at 173.99 138.43 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "GND"
-			(at 177.8 133.35 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 173.99 132.08 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 173.99 132.08 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 173.99 132.08 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "6d9fa64f-7471-4d73-ad23-cc62b2719727")
-		)
-		(instances
-			(project "vbench-pod"
-				(path "/745fcf4b-2e0b-4fc4-95c0-f2e3fd40beb9/0c40e001-2f3c-4e38-99cd-bf6c5858d9e0"
-					(reference "#PWR0105")
-					(unit 1)
-				)
-			)
-		)
-	))
+)
