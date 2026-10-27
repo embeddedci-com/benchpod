@@ -6253,6 +6253,17 @@
 				)
 			)
 		)
+		(property "JLC_DNF" ""
+			(at 185.42 137.16 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "656818de-b3c0-4011-8946-f1b98187d78e")
 		)
@@ -6854,6 +6865,17 @@
 				)
 			)
 		)
+		(property "JLC_DNF" ""
+			(at 171.45 53.34 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "e4149624-28e4-47fa-8522-4924ff063349")
 		)
@@ -7101,6 +7123,17 @@
 				)
 			)
 		)
+		(property "JLC_DNF" ""
+			(at 53.34 154.94 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "fa6261fa-c13f-48c4-b3f2-8604818593bc")
 		)
@@ -7246,6 +7279,17 @@
 				)
 			)
 		)
+		(property "JLC_DNF" ""
+			(at 152.4 35.56 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "230b6ea6-afba-46fb-acca-0a1fb7f56d7c")
 		)
@@ -7370,6 +7414,17 @@
 			)
 		)
 		(property "KLC_S4.1" ""
+			(at 241.3 104.14 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "JLC_DNF" ""
 			(at 241.3 104.14 90)
 			(hide yes)
 			(show_name no)
@@ -7627,6 +7682,17 @@
 			)
 		)
 		(property "KLC_S4.1" ""
+			(at 173.99 137.16 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "JLC_DNF" ""
 			(at 173.99 137.16 0)
 			(hide yes)
 			(show_name no)
@@ -7895,6 +7961,17 @@
 				)
 			)
 		)
+		(property "JLC_DNF" ""
+			(at 58.42 81.28 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "3c4bd68a-39f2-4f42-ba55-7b698665fad9")
 		)
@@ -8065,6 +8142,17 @@
 		)
 		(property "Manufacturer" "VISHAY(威世)"
 			(at 209.55 83.82 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "JLC_DNF" ""
+			(at 209.55 83.82 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8276,6 +8364,17 @@
 			)
 		)
 		(property "KLC_S4.1" ""
+			(at 181.61 99.06 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "JLC_DNF" ""
 			(at 181.61 99.06 90)
 			(hide yes)
 			(show_name no)
@@ -8521,6 +8620,17 @@
 			)
 		)
 		(property "LCSC" "C307331"
+			(at 55.88 116.84 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "JLC_DNF" ""
 			(at 55.88 116.84 0)
 			(hide yes)
 			(show_name no)
@@ -8843,6 +8953,17 @@
 			)
 		)
 		(property "KLC_S4.1" ""
+			(at 154.94 123.19 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "JLC_DNF" ""
 			(at 154.94 123.19 90)
 			(hide yes)
 			(show_name no)
@@ -9266,6 +9387,17 @@
 				)
 			)
 		)
+		(property "JLC_DNF" ""
+			(at 245.11 36.83 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "8cf20e63-1593-44fc-8e21-fb62539294a1")
 		)
@@ -9675,6 +9807,17 @@
 				)
 			)
 		)
+		(property "JLC_DNF" ""
+			(at 234.95 36.83 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "058bb35c-a085-4573-b13d-26dd1cf75aa3")
 		)
@@ -9799,6 +9942,17 @@
 			)
 		)
 		(property "KLC_S4.1" ""
+			(at 256.54 106.68 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "JLC_DNF" ""
 			(at 256.54 106.68 90)
 			(hide yes)
 			(show_name no)
@@ -10056,6 +10210,17 @@
 			)
 		)
 		(property "KLC_S4.1" ""
+			(at 193.04 86.36 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "JLC_DNF" ""
 			(at 193.04 86.36 0)
 			(hide yes)
 			(show_name no)
@@ -10401,6 +10566,17 @@
 				)
 			)
 		)
+		(property "JLC_DNF" ""
+			(at 243.84 138.43 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "07e3d1a3-576d-4ce7-946b-7307280f84cb")
 		)
@@ -10603,6 +10779,17 @@
 			)
 		)
 		(property "KLC_S4.1" ""
+			(at 271.78 109.22 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "JLC_DNF" ""
 			(at 271.78 109.22 90)
 			(hide yes)
 			(show_name no)
@@ -11176,6 +11363,17 @@
 				)
 			)
 		)
+		(property "JLC_DNF" ""
+			(at 196.85 30.48 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "feffd567-eacb-44dc-a003-44a4e26835fe")
 		)
@@ -11544,6 +11742,17 @@
 				)
 			)
 		)
+		(property "JLC_DNF" ""
+			(at 181.61 113.03 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "39459334-a604-4ded-9c3c-f9fb7719d3a8")
 		)
@@ -11801,6 +12010,17 @@
 				)
 			)
 		)
+		(property "JLC_DNF" ""
+			(at 186.69 30.48 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "7af90f14-7d46-4836-bd15-2548caf68a9f")
 		)
@@ -11960,6 +12180,17 @@
 			)
 		)
 		(property "LCSC" "C870575"
+			(at 87.63 158.75 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "JLC_DNF" ""
 			(at 87.63 158.75 0)
 			(hide yes)
 			(show_name no)
@@ -12227,6 +12458,17 @@
 				)
 			)
 		)
+		(property "JLC_DNF" ""
+			(at 71.12 81.28 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "46aff007-4e21-4925-b24f-a058d7c82149")
 		)
@@ -12351,6 +12593,17 @@
 			)
 		)
 		(property "KLC_S4.1" ""
+			(at 92.71 36.83 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "JLC_DNF" ""
 			(at 92.71 36.83 90)
 			(hide yes)
 			(show_name no)
@@ -12685,6 +12938,17 @@
 				)
 			)
 		)
+		(property "JLC_DNF" ""
+			(at 153.67 96.52 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "4a778fa2-3e0d-40ee-9ad7-84bb0434fb8e")
 		)
@@ -12813,6 +13077,17 @@
 			)
 		)
 		(property "KLC_S4.1" ""
+			(at 256.54 46.99 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "JLC_DNF" ""
 			(at 256.54 46.99 90)
 			(hide yes)
 			(show_name no)
@@ -13080,6 +13355,17 @@
 				)
 			)
 		)
+		(property "JLC_DNF" ""
+			(at 222.25 85.09 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "23f2d9bc-1fa4-4a89-a519-73319feae7fd")
 		)
@@ -13238,6 +13524,17 @@
 			)
 		)
 		(property "KLC_S4.1" ""
+			(at 214.63 41.91 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "JLC_DNF" ""
 			(at 214.63 41.91 0)
 			(hide yes)
 			(show_name no)
@@ -13504,6 +13801,17 @@
 			)
 		)
 		(property "KLC_S4.1" ""
+			(at 232.41 138.43 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "JLC_DNF" ""
 			(at 232.41 138.43 0)
 			(hide yes)
 			(show_name no)
@@ -13837,6 +14145,17 @@
 				)
 			)
 		)
+		(property "JLC_DNF" ""
+			(at 257.81 151.13 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "7"
 			(uuid "d6eb4724-6618-4270-a1d5-246715dc480b")
 		)
@@ -13989,6 +14308,17 @@
 				)
 			)
 		)
+		(property "JLC_DNF" ""
+			(at 152.4 45.72 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "1c6c42cd-6633-4d9c-9fe3-99c0f5813753")
 		)
@@ -14115,6 +14445,17 @@
 			)
 		)
 		(property "KLC_S4.1" ""
+			(at 113.03 97.79 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "JLC_DNF" ""
 			(at 113.03 97.79 0)
 			(hide yes)
 			(show_name no)
@@ -14283,6 +14624,17 @@
 			)
 		)
 		(property "LCSC" "C145516"
+			(at 185.42 49.53 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "JLC_DNF" ""
 			(at 185.42 49.53 0)
 			(hide yes)
 			(show_name no)
@@ -14553,6 +14905,17 @@
 				)
 			)
 		)
+		(property "JLC_DNF" ""
+			(at 241.3 85.09 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "29f0b18a-1f3f-4546-b725-9a7e9c69b597")
 		)
@@ -14677,6 +15040,17 @@
 			)
 		)
 		(property "KLC_S4.1" ""
+			(at 252.73 95.25 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "JLC_DNF" ""
 			(at 252.73 95.25 90)
 			(hide yes)
 			(show_name no)
@@ -14945,6 +15319,17 @@
 				)
 			)
 		)
+		(property "JLC_DNF" ""
+			(at 110.49 118.11 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "a2e86609-c48a-45a9-93da-29323b54096c")
 		)
@@ -15082,6 +15467,17 @@
 				)
 			)
 		)
+		(property "JLC_DNF" ""
+			(at 48.26 118.11 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "52a160ed-0cd2-43fe-be73-48d87dcd9e30")
 		)
@@ -15208,6 +15604,17 @@
 			)
 		)
 		(property "KLC_S4.1" ""
+			(at 123.19 97.79 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "JLC_DNF" ""
 			(at 123.19 97.79 0)
 			(hide yes)
 			(show_name no)
@@ -15421,6 +15828,17 @@
 			)
 		)
 		(property "KLC_S4.1" ""
+			(at 31.75 110.49 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "JLC_DNF" ""
 			(at 31.75 110.49 0)
 			(hide yes)
 			(show_name no)
@@ -15646,6 +16064,17 @@
 				)
 			)
 		)
+		(property "JLC_DNF" ""
+			(at 158.75 53.34 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "ac76adc7-0049-46df-8cc0-1218685ebcd6")
 		)
@@ -15782,6 +16211,17 @@
 				)
 			)
 		)
+		(property "JLC_DNF" ""
+			(at 41.91 110.49 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "0230542f-a199-4120-b2e2-7de4edd5e474")
 		)
@@ -15874,6 +16314,17 @@
 			)
 		)
 		(property "Manufacturer" "TI(德州仪器)"
+			(at 73.66 105.41 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "JLC_DNF" ""
 			(at 73.66 105.41 0)
 			(hide yes)
 			(show_name no)
@@ -15990,6 +16441,17 @@
 			)
 		)
 		(property "LCSC" "C41416668"
+			(at 38.1 38.1 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "JLC_DNF" ""
 			(at 38.1 38.1 0)
 			(hide yes)
 			(show_name no)
@@ -16266,6 +16728,17 @@
 				)
 			)
 		)
+		(property "JLC_DNF" ""
+			(at 180.34 86.36 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "84e5293c-23b7-42db-a494-439f34080fc1")
 		)
@@ -16423,6 +16896,17 @@
 			)
 		)
 		(property "KLC_S4.1" ""
+			(at 220.98 104.14 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "JLC_DNF" ""
 			(at 220.98 104.14 0)
 			(hide yes)
 			(show_name no)
@@ -16747,6 +17231,17 @@
 				)
 			)
 		)
+		(property "JLC_DNF" ""
+			(at 193.04 105.41 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "a736323a-0083-42a4-a096-01e8725ada83")
 		)
@@ -16915,6 +17410,17 @@
 				)
 			)
 		)
+		(property "JLC_DNF" ""
+			(at 199.39 149.86 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "7"
 			(uuid "5bc370be-d98f-4cb0-92d3-b7c7a092a72a")
 		)
@@ -17049,6 +17555,17 @@
 			)
 		)
 		(property "LCSC" "C5353135"
+			(at 99.06 160.02 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "JLC_DNF" ""
 			(at 99.06 160.02 90)
 			(hide yes)
 			(show_name no)

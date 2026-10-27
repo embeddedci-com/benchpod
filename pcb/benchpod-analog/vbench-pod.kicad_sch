@@ -2946,6 +2946,17 @@
 				)
 			)
 		)
+		(property "JLC_DNF" ""
+			(at 256.54 88.9 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "fcd475cc-46ec-4efe-93f0-e38a8d1f4f5c")
 		)
@@ -3251,6 +3262,17 @@
 			)
 		)
 		(property "Description" "Mounting Hole with connection"
+			(at 265.43 273.05 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "JLC_DNF" ""
 			(at 265.43 273.05 0)
 			(hide yes)
 			(show_name no)
@@ -4361,6 +4383,17 @@
 				)
 			)
 		)
+		(property "JLC_DNF" ""
+			(at 271.78 101.6 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "5c505e6d-78ed-4447-90d4-921881f39085")
 		)
@@ -4539,6 +4572,17 @@
 				)
 			)
 		)
+		(property "JLC_DNF" ""
+			(at 246.38 279.4 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "8cc9b2d1-b1eb-4ec5-b392-584c99a3a13b")
 		)
@@ -4618,6 +4662,17 @@
 				)
 			)
 		)
+		(property "JLC_DNF" ""
+			(at 265.43 279.4 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "b26a0aad-5408-4844-8c70-9f42ff4789ce")
 		)
@@ -4687,6 +4742,17 @@
 			)
 		)
 		(property "Description" "Mounting Hole with connection"
+			(at 246.38 273.05 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "JLC_DNF" ""
 			(at 246.38 273.05 0)
 			(hide yes)
 			(show_name no)
@@ -4865,6 +4931,17 @@
 			)
 		)
 		(property "Manufacturer" "kinghelm"
+			(at 228.6 101.6 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "JLC_DNF" ""
 			(at 228.6 101.6 0)
 			(hide yes)
 			(show_name no)
