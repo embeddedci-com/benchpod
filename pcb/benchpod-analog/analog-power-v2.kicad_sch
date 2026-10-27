@@ -25300,7 +25300,7 @@
 				)
 			)
 		)
-		(property "Value" "LM7705MM/NOPB"
+		(property "Value" "LM7705MMX/NOPB"
 			(at 327.66 200.66 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -25354,7 +25354,7 @@
 				)
 			)
 		)
-		(property "MPN" "LM7705MM/NOPB"
+		(property "MPN" "LM7705MMX/NOPB"
 			(at 327.66 233.68 0)
 			(hide yes)
 			(show_name no)
@@ -25365,7 +25365,7 @@
 				)
 			)
 		)
-		(property "LCSC Part" "C129980"
+		(property "LCSC Part" "C2070761"
 			(at 327.66 236.22 0)
 			(hide yes)
 			(show_name no)
@@ -25376,7 +25376,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C129980"
+		(property "LCSC" "C2070761"
 			(at 327.66 212.09 0)
 			(hide yes)
 			(show_name no)

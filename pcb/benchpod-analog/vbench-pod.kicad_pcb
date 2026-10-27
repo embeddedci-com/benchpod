@@ -21181,7 +21181,7 @@
 				)
 			)
 		)
-		(property "Value" "LM7705MM/NOPB"
+		(property "Value" "LM7705MMX/NOPB"
 			(at 0 6.146 0)
 			(layer "F.Fab")
 			(uuid "90aa72cc-11ef-4c92-aa74-bea1dbaf7e17")
@@ -21214,7 +21214,7 @@
 				)
 			)
 		)
-		(property "LCSC Part" "C129980"
+		(property "LCSC Part" "C2070761"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -21239,7 +21239,7 @@
 				)
 			)
 		)
-		(property "MPN" "LM7705MM/NOPB"
+		(property "MPN" "LM7705MMX/NOPB"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -21252,7 +21252,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C129980"
+		(property "LCSC" "C2070761"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -53273,7 +53273,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C2297586"
+		(property "LCSC" "C20617868"
 			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -71631,7 +71631,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C2297586"
+		(property "LCSC" "C20617868"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
