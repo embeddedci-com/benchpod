@@ -3983,7 +3983,7 @@
 	)
 	(text "Compensated divider: R90 x (C140 + ~0.3 pF stray) = R91 x (C72 + ~7 pF).\nFixed 9.1 pF replaces the v3 2-6 pF trimmer (measured 2026-10-20)."
 		(exclude_from_sim no)
-		(at 166.624 24.638 0)
+		(at 176.784 18.542 0)
 		(effects
 			(font
 				(size 1.27 1.27)
