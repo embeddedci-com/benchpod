@@ -5513,6 +5513,16 @@
 				(justify right)
 			)
 		)
+		(pin "LOW_RANGE_EN" input
+			(at 171.45 113.03 0)
+			(uuid "8a666f55-2345-456f-a15c-3cd1a884b5a0")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
 		(pin "CAL_PATH_EN" input
 			(at 171.45 104.14 0)
 			(uuid "afb4df8e-bc95-437b-abae-13fc84f4d627")
@@ -5640,6 +5650,16 @@
 				(justify right)
 			)
 		)
+		(pin "LOW_RANGE_EN" input
+			(at 137.16 93.98 0)
+			(uuid "1eaa6d43-1579-46cf-8b6c-4453b1d66fbd")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
 		(pin "CAL_PATH_EN" input
 			(at 137.16 91.44 0)
 			(uuid "70878b36-0eb3-4f7e-8a9e-0e7cb7602561")
@@ -5712,6 +5732,26 @@
 				)
 			)
 		)
+	)
+	(label "LOW_RANGE_EN"
+		(at 171.45 113.03 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "f1db8f2c-0fe6-458e-b857-83c7dfd276bc")
+	)
+	(label "LOW_RANGE_EN"
+		(at 137.16 93.98 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "5aa19ba3-f6c7-4f03-b7c0-65e7ddef492e")
 	)
 	(sheet_instances
 		(path "/"
