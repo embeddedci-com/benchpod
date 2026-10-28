@@ -2659,6 +2659,16 @@
 		)
 		(uuid "58255a6a-4727-46c3-8b56-000965c9a977")
 	)
+	(label "LOW_RANGE_EN"
+		(at 137.16 93.98 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "5aa19ba3-f6c7-4f03-b7c0-65e7ddef492e")
+	)
 	(label "I2C0_SCL"
 		(at 287.02 101.6 0)
 		(effects
@@ -2868,6 +2878,16 @@
 			(justify left bottom)
 		)
 		(uuid "eac22bf6-e979-4f77-bb9e-6c7086c116cd")
+	)
+	(label "LOW_RANGE_EN"
+		(at 171.45 113.03 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "f1db8f2c-0fe6-458e-b857-83c7dfd276bc")
 	)
 	(symbol
 		(lib_id "Device:C")
@@ -5732,26 +5752,6 @@
 				)
 			)
 		)
-	)
-	(label "LOW_RANGE_EN"
-		(at 171.45 113.03 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "f1db8f2c-0fe6-458e-b857-83c7dfd276bc")
-	)
-	(label "LOW_RANGE_EN"
-		(at 137.16 93.98 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "5aa19ba3-f6c7-4f03-b7c0-65e7ddef492e")
 	)
 	(sheet_instances
 		(path "/"
