@@ -20294,6 +20294,7 @@
 		(property "Reference" "U30"
 			(at 0.203 0.034 0)
 			(layer "F.SilkS")
+			(hide yes)
 			(uuid "43ec8c90-2829-40ff-82e3-725d6cc4b440")
 			(effects
 				(font
@@ -78697,7 +78698,7 @@
 			(justify left bottom)
 		)
 	)
-	(gr_text "BenchPod v3-r3-analog"
+	(gr_text "BenchPod v3-r4-analog"
 		(at 50.082 124.716 0)
 		(layer "F.SilkS")
 		(uuid "0948cec0-69e3-4e0c-a6ed-a7a479600aae")
