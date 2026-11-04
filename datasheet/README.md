@@ -15,6 +15,7 @@ Source of the BenchPod product datasheet (PDF). Edit `datasheet.md`, then run `m
 make            # figures + BenchPod-datasheet.pdf
 make pdf        # PDF only
 make geometry   # after a new board tag: update the tags in figures/extract_geometry.py first
+make upload     # publish the PDF to the website's Downloads page (needs the Spaces S3_* variables)
 ```
 
 Needs Python 3 and Google Chrome (set `CHROME=` for another Chromium). The first `make` creates `.venv`.
