@@ -49,7 +49,7 @@ It is built from two stacked boards: a **digital board** (power, flashing, logic
 
 | | |
 |---|---|
-| Power input | 5 V DC, USB-C, 0.26 A idle |
+| Power input | 5 V DC, USB-C, from a computer or USB-C power source |
 | DUT power | Switched 5 V (2 A) and external 2.7-20 V (3 A) outputs, current monitoring |
 | Logic analyzer / GPIO | 14 channels, 1.8 V or 3.3 V, up to 12 MS/s, 48 MS/s change capture |
 | Protocols | SWD (CMSIS-DAP), UART, SPI, I2C sensor emulation, GPS emulation, CAN |
@@ -202,9 +202,9 @@ Typical values at 25 °C, with the pod powered from a 5 V USB-C supply.
 
 | Parameter | Value |
 |---|---|
-| Supply input | 5 V DC via HOST / POWER (USB-C), protected by an eFuse |
-| Current consumption | 0.26 A idle; under 0.5 A with all functions running (DUT power not included) |
-| DUT 5V output | 5 V from the input, switched, current limit about 2 A, shared with DUT 5V (USB-A) |
+| Supply input | 5 V DC via HOST / POWER (USB-C), protected by an eFuse. No power adapter is included: BenchPod runs from the computer's USB-C port |
+| Current consumption | About 0.26 A idle; under 0.5 A with all functions running (DUT power not included). Measured on the previous board revision |
+| DUT 5V output | 5 V from the input, switched, current limit about 2 A, shared with DUT 5V (USB-A). Together with the pod's own draw, limited by what the computer's USB-C port supplies (often 1.5 A or 3 A) |
 | EXT SUPPLY IN | 2.7-20 V DC, for example 3.3 V, 12 V or 19 V. Below about 2.5 V the output stays off, so it cannot pass 1.8 V. Above about 21.8 V the output switches off |
 | DUT EXT output | Switched EXT SUPPLY IN, current limit about 3 A |
 | DUT current monitoring | On both DUT outputs: about 83 µA resolution on DUT 5V, 125 µA on DUT EXT |
@@ -290,7 +290,7 @@ Typical values at 25 °C, with the pod powered from a 5 V USB-C supply.
 | ETHERNET | 10/100 Mbit/s, RJ45 with magnetics, no PoE |
 | USB | USB 2.0 full speed device: network adapter, console, firmware update |
 | Cloud | Secure WebSocket (TLS) connection to embeddedci.com |
-| Firmware update | Over the network or the cloud (signed, checksummed images) or over USB |
+| Firmware update | Over the network or the cloud (SHA-256 checked images) or over USB |
 
 </div>
 <div class="keep" markdown="1">
@@ -426,7 +426,7 @@ benchpod flash-self --network     # over the network or the USB network adapter
 benchpod flash-self --enter-dfu   # over USB, through the bootloader
 ```
 
-Images are signed and checked before they are installed. To recover a pod that does not start, hold BOOT and tap RESET to enter the bootloader, run `benchpod flash-self`, then tap RESET again.
+Images are checked (SHA-256) before they are installed. To recover a pod that does not start, hold BOOT and tap RESET to enter the bootloader, run `benchpod flash-self`, then tap RESET again.
 
 ## Support
 
