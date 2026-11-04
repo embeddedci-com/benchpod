@@ -50,7 +50,7 @@ It is built from two stacked boards: a **digital board** (power, flashing, logic
 | | |
 |---|---|
 | Power input | 5 V DC, USB-C, 0.26 A idle |
-| DUT power | Switched 5 V (2 A) and external 5-20 V (3 A) outputs, current monitoring |
+| DUT power | Switched 5 V (2 A) and external 2.7-20 V (3 A) outputs, current monitoring |
 | Logic analyzer / GPIO | 14 channels, 1.8 V or 3.3 V, up to 12 MS/s, 48 MS/s change capture |
 | Protocols | SWD (CMSIS-DAP), UART, SPI, I2C sensor emulation, GPS emulation, CAN |
 | ADC | 16-bit, 400 kS/s, ±30 V, BNC |
@@ -102,7 +102,7 @@ The analog module has no processor. The FPGA reads the ADC and writes the DAC ov
 | I/O HEADER | 2x13, 2.54 mm | 14 logic analyzer / GPIO channels, CAN, DUT reset, reference voltages |
 | DUT 5V | 2-pin terminal block, 3.81 mm | Switched 5 V supply for the DUT |
 | DUT 5V (USB-A) | USB-A | Same switched 5 V supply as DUT 5V, power only |
-| EXT SUPPLY IN | 2-pin terminal block, 3.81 mm | External DUT supply input, 5-20 V |
+| EXT SUPPLY IN | 2-pin terminal block, 3.81 mm | External DUT supply input, 2.7-20 V |
 | DUT EXT | 2-pin terminal block, 3.81 mm | Switched external supply for the DUT |
 | BRIDGE POWER | USB-A | 5 V for the optional Wi-Fi bridge, power only |
 | STATUS LED | RGB LED | Pod status |
@@ -178,7 +178,7 @@ All terminal blocks are pluggable, 3.81 mm pitch. Pins are listed left to right,
 |---|---|
 | DUT EXT | + , GND |
 | DUT 5V | + , GND |
-| EXT SUPPLY IN | + (5-20 V), GND |
+| EXT SUPPLY IN | + (2.7-20 V), GND |
 | 4-20 mA IN | + (input), GND |
 | 4-20 mA OUT | + (to loop supply plus), - (loop return) |
 | DAC OUT | 0-3.3 V, GND, 0-5 V, GND, ±12 V, GND |
@@ -205,7 +205,7 @@ Typical values at 25 °C, with the pod powered from a 5 V USB-C supply.
 | Supply input | 5 V DC via HOST / POWER (USB-C), protected by an eFuse |
 | Current consumption | 0.26 A idle; under 0.5 A with all functions running (DUT power not included) |
 | DUT 5V output | 5 V from the input, switched, current limit about 2 A, shared with DUT 5V (USB-A) |
-| EXT SUPPLY IN | 5-20 V DC |
+| EXT SUPPLY IN | 2.7-20 V DC, for example 3.3 V, 12 V or 19 V. Below about 2.5 V the output stays off, so it cannot pass 1.8 V. Above about 21.8 V the output switches off |
 | DUT EXT output | Switched EXT SUPPLY IN, current limit about 3 A |
 | DUT current monitoring | On both DUT outputs: about 83 µA resolution on DUT 5V, 125 µA on DUT EXT |
 | BRIDGE POWER output | 5 V, current limit about 1 A |
@@ -363,7 +363,7 @@ The EMC test plan, a separate document, describes the operating mode, monitoring
 |---|---|---|
 | HOST / POWER | DC power port and signal port | 5 V in; USB 2.0 full speed |
 | ETHERNET | Wired network port | 10/100 Mbit/s, no PoE |
-| EXT SUPPLY IN | DC power port (input) | 5-20 V |
+| EXT SUPPLY IN | DC power port (input) | 2.7-20 V |
 | DUT 5V, DUT 5V (USB-A), DUT EXT | DC power ports (output) | To the DUT |
 | BRIDGE POWER | DC power port (output) | To the Wi-Fi bridge |
 | I/O HEADER | Signal port | Logic level 1.8 / 3.3 V, CAN |
