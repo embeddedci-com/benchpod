@@ -1,0 +1,53 @@
+/* Print stylesheet for the BenchPod datasheet (US Letter). */
+@page {
+  size: Letter;
+  margin: 16mm 15mm 18mm 15mm;
+  @bottom-left { font: 7.5pt Helvetica, Arial, sans-serif; color: #6b7785; }
+  @bottom-right { content: "Page " counter(page) " of " counter(pages); font: 7.5pt Helvetica, Arial, sans-serif; color: #6b7785; }
+}
+@page :first { @bottom-left { content: none; } }
+
+:root { --ink: #1d2733; --muted: #6b7785; --accent: #0e6e7e; --rule: #d5dbe1; --band: #f2f5f7; }
+html { -webkit-print-color-adjust: exact; print-color-adjust: exact; }
+body { font: 9pt/1.42 Helvetica, Arial, sans-serif; color: var(--ink); background: #fff; margin: 0; }
+
+/* Cover block */
+.cover { border-bottom: 2.5pt solid var(--accent); padding-bottom: 6mm; margin-bottom: 6mm; }
+.cover .brand { font-size: 8pt; letter-spacing: .14em; text-transform: uppercase; color: var(--accent); font-weight: 700; }
+.cover h1 { font-size: 26pt; margin: 2mm 0 0; letter-spacing: -.01em; }
+.cover .subtitle { font-size: 12pt; color: var(--muted); margin-top: 1mm; }
+.cover .meta { font-size: 8pt; color: var(--muted); margin-top: 3mm; }
+
+/* Two-column overview */
+.columns { display: grid; grid-template-columns: 1fr 1fr; gap: 7mm; }
+.columns h3:first-child { margin-top: 0; }
+
+h2 { font-size: 13pt; color: var(--accent); margin: 7mm 0 2.5mm; padding-bottom: 1.2mm; border-bottom: .6pt solid var(--rule);
+     break-after: avoid; }
+h3 { font-size: 10pt; margin: 4.5mm 0 1.5mm; break-after: avoid; }
+p { margin: 0 0 2mm; }
+ul { margin: 0 0 2mm; padding-left: 4.5mm; }
+li { margin: .4mm 0; }
+a { color: var(--accent); text-decoration: none; }
+strong { font-weight: 700; }
+
+table { width: 100%; border-collapse: collapse; margin: 1.5mm 0 3mm; font-size: 8.3pt; break-inside: avoid; }
+th { text-align: left; background: var(--accent); color: #fff; font-weight: 700; padding: 1.3mm 2mm; }
+td { padding: 1.1mm 2mm; border-bottom: .5pt solid var(--rule); vertical-align: top; }
+tr:nth-child(even) td { background: var(--band); }
+td:first-child { font-weight: 600; white-space: nowrap; }
+table.pins td:first-child { text-align: center; width: 9mm; }
+
+figure { margin: 2mm 0 4mm; text-align: center; break-inside: avoid; }
+figure img { max-width: 100%; }
+figure.pair { display: grid; grid-template-columns: 1fr 1fr; gap: 4mm; align-items: end; }
+figure.pair img { width: 100%; }
+figcaption { font-size: 7.8pt; color: var(--muted); margin-top: 1.5mm; grid-column: 1 / -1; }
+
+.note { border-left: 2pt solid var(--accent); background: var(--band); padding: 2mm 3mm; margin: 2mm 0 3mm; font-size: 8.3pt; }
+.page-break { break-before: page; }
+.keep { break-inside: avoid; }
+.small { font-size: 7.8pt; color: var(--muted); }
+table.glance td:first-child, h2 + table td:first-child { width: 34%; }
+thead:has(th:empty) { display: none; }
+figure.board img { width: 92mm; }
