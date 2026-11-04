@@ -51,3 +51,7 @@ figcaption { font-size: 7.8pt; color: var(--muted); margin-top: 1.5mm; grid-colu
 table.glance td:first-child, h2 + table td:first-child { width: 34%; }
 thead:has(th:empty) { display: none; }
 figure.board img { width: 92mm; }
+pre { background: var(--band); border-left: 2pt solid var(--accent); padding: 2mm 3mm; margin: 1.5mm 0 3mm;
+      font: 7.8pt/1.4 Menlo, "SF Mono", Consolas, monospace; white-space: pre-wrap; break-inside: avoid; }
+code { font: 0.9em Menlo, "SF Mono", Consolas, monospace; }
+pre code { font: inherit; }

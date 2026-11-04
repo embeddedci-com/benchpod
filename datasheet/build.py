@@ -32,7 +32,7 @@ def chrome():
 def main():
     src = open(os.path.join(HERE, "datasheet.md"), encoding="utf-8").read()
     meta = dict(re.findall(r"^<!--\s*(\w+):\s*(.*?)\s*-->$", src, re.M))
-    body = markdown.markdown(src, extensions=["tables", "attr_list", "md_in_html", "sane_lists"])
+    body = markdown.markdown(src, extensions=["tables", "attr_list", "md_in_html", "sane_lists", "fenced_code"])
     html = f"""<!doctype html>
 <html lang="en"><head><meta charset="utf-8">
 <title>{meta.get('title', 'BenchPod datasheet')}</title>

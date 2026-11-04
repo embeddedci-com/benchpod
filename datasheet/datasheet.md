@@ -351,6 +351,86 @@ The Wi-Fi bridge connects BenchPod to a Wi-Fi network. It plugs into the pod's E
 
 Documentation: [embeddedci.com/docs](https://embeddedci.com/docs/start-here)
 
+## Getting started
+
+<div class="keep" markdown="1">
+
+### 1. Connect and set up
+
+Plug HOST / POWER into a computer with a USB-C cable, and ETHERNET into the network (or set up Wi-Fi with the optional bridge). Install the CLI and run the guided setup. It finds the pod, waits for its network address, asks for the DUT's I/O voltage (1.8 V or 3.3 V) and registers the pod to your account.
+
+```
+brew trust embeddedci-com/tap
+brew install --cask embeddedci-com/tap/benchpod
+benchpod setup
+```
+
+Linux and Windows downloads: [embeddedci.com/downloads](https://www.embeddedci.com/downloads). `benchpod discover` shows every pod it finds on USB and on the network.
+
+</div>
+<div class="keep" markdown="1">
+
+### 2. Wire the DUT
+
+For a first flash, three wires on the I/O HEADER are enough:
+
+| I/O HEADER pin | Signal | DUT |
+|---|---|---|
+| 11 | LA11 | SWCLK |
+| 12 | LA12 | SWDIO |
+| 15 | GND | GND |
+
+Add the DUT's UART on two more channels to see its console, and power it from DUT 5V or DUT EXT. Record which signal is on which channel once, in the wiring profile in the web app; tests and tools read it from there.
+
+</div>
+<div class="keep" markdown="1">
+
+### 3. Run a first test
+
+```
+pip install "embeddedci[pytest]"
+pytest --benchpod-connection=usb
+```
+
+```python
+def test_pod_is_alive(benchpod):
+    assert benchpod.ping()
+
+def test_target_flashes_and_boots(benchpod_target, firmware):
+    assert benchpod_target.flash(file=firmware, target="target/stm32f4x.cfg").ok
+    boot = benchpod_target.power_cycle_and_capture(duration=5.0, until="APP_OK")
+    assert boot.matched, boot.text
+```
+
+The connection can be `usb`, the pod's network address, or `embeddedci:<name>` through the cloud (for CI).
+
+</div>
+
+## Usage notes
+
+- **Set the I/O voltage first.** The pod refuses flashing, UART, logic analyzer captures, pull resistors and I2C emulation until the I/O voltage matches the DUT (1.8 V or 3.3 V). Never connect an LA channel to a signal above the selected I/O voltage.
+- **One owner per channel.** A channel used as GPIO must be released before UART, flashing or I2C emulation can use it; the error message names the command that frees it.
+- **Pull resistors** on LA1-LA8 work at 3.3 V I/O. For I2C, use LA1-LA6 (pull-ups), or add external pull-ups on LA9-LA14.
+- **DUT EXT** passes the voltage on EXT SUPPLY IN (2.7-20 V) to the DUT. Use DUT 5V when the DUT runs from 5 V.
+- **DAC OUT**: connect the DUT to the one output its pin tolerates. A 3.3 V MCU pin belongs on 0-3.3 V; the 0-5 V and ±12 V outputs can exceed it.
+- **4-20 mA OUT** needs its own floating 12-30 V loop supply. Nothing in the loop may connect to the pod's ground, so it cannot loop back into 4-20 mA IN or be powered from the pod's own outputs.
+- **ADC IN** readings within a few millivolts of 0 V show a small step of about 3 counts. This comes from the ADC and is not removed by calibration.
+
+## Firmware updates
+
+New firmware is published on [embeddedci.com/downloads](https://www.embeddedci.com/downloads). Update a pod from the web app (over the network or the cloud), or from the CLI:
+
+```
+benchpod flash-self --network     # over the network or the USB network adapter
+benchpod flash-self --enter-dfu   # over USB, through the bootloader
+```
+
+Images are signed and checked before they are installed. To recover a pod that does not start, hold BOOT and tap RESET to enter the bootloader, run `benchpod flash-self`, then tap RESET again.
+
+## Support
+
+Documentation: [embeddedci.com/docs](https://embeddedci.com/docs/start-here), including the full pin-out, the Python SDK and troubleshooting. Contact: hello@embeddedci.com.
+
 ## Information for test labs
 
 The EMC test plan, a separate document, describes the operating mode, monitoring and setup.
