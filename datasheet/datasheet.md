@@ -339,6 +339,8 @@ The Wi-Fi bridge connects BenchPod to a Wi-Fi network. It plugs into the pod's E
 | Size | About 70 x 52 mm, bare board |
 | Firmware | Updated through the pod, signed images |
 
+Full specifications: the BenchPod Wi-Fi bridge datasheet.
+
 ## Software
 
 | Tool | Use |

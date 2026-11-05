@@ -1,9 +1,9 @@
 PY := .venv/bin/python
 KICAD_PY ?= /Applications/KiCad/KiCad.app/Contents/Frameworks/Python.framework/Versions/Current/bin/python3
 
-.PHONY: all pdf figures geometry upload clean
+.PHONY: all pdf bridge figures geometry upload clean
 
-all: figures pdf
+all: figures pdf bridge
 
 $(PY):
 	python3 -m venv .venv && $(PY) -m pip -q install -r requirements.txt
@@ -18,6 +18,10 @@ figures: $(PY)
 pdf: $(PY)
 	$(PY) build.py
 
+# The Wi-Fi bridge accessory has its own datasheet (wifi-bridge.md). Not on the Downloads page yet.
+bridge: $(PY)
+	$(PY) build.py wifi-bridge.md
+
 # Publish the PDF for the website's Downloads page. Needs the Spaces credentials in the environment
 # (S3_ENDPOINT, S3_BUCKET, S3_ACCESS_KEY_ID, S3_SECRET_ACCESS_KEY, as the server uses them).
 upload: pdf
@@ -27,4 +31,4 @@ upload: pdf
 		--cache-control "public, max-age=3600"
 
 clean:
-	rm -f datasheet.html BenchPod-datasheet.pdf
+	rm -f datasheet.html BenchPod-datasheet.pdf wifi-bridge.html BenchPod-WiFi-bridge-datasheet.pdf
