@@ -16,9 +16,10 @@ Source of the BenchPod product datasheet and the Wi-Fi bridge accessory datashee
 ```bash
 make            # figures + both PDFs
 make pdf        # BenchPod-datasheet.pdf only
-make bridge     # BenchPod-WiFi-bridge-datasheet.pdf only (not on the Downloads page)
+make bridge     # BenchPod-WiFi-bridge-datasheet.pdf only
 make geometry   # after a new board tag: update the tags in figures/extract_geometry.py first
 make upload     # publish the PDF to the website's Downloads page (needs the Spaces S3_* variables)
+make upload-bridge  # same for the Wi-Fi bridge datasheet
 ```
 
 Needs Python 3 and Google Chrome (set `CHROME=` for another Chromium). The first `make` creates `.venv`.

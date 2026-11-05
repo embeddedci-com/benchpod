@@ -1,7 +1,7 @@
 PY := .venv/bin/python
 KICAD_PY ?= /Applications/KiCad/KiCad.app/Contents/Frameworks/Python.framework/Versions/Current/bin/python3
 
-.PHONY: all pdf bridge figures geometry upload clean
+.PHONY: all pdf bridge figures geometry upload upload-bridge clean
 
 all: figures pdf bridge
 
@@ -18,7 +18,7 @@ figures: $(PY)
 pdf: $(PY)
 	$(PY) build.py
 
-# The Wi-Fi bridge accessory has its own datasheet (wifi-bridge.md). Not on the Downloads page yet.
+# The Wi-Fi bridge accessory has its own datasheet (wifi-bridge.md).
 bridge: $(PY)
 	$(PY) build.py wifi-bridge.md
 
@@ -27,6 +27,13 @@ bridge: $(PY)
 upload: pdf
 	AWS_ACCESS_KEY_ID="$$S3_ACCESS_KEY_ID" AWS_SECRET_ACCESS_KEY="$$S3_SECRET_ACCESS_KEY" AWS_DEFAULT_REGION=us-east-1 \
 	aws s3 cp BenchPod-datasheet.pdf "s3://$$S3_BUCKET/public/downloads/BenchPod-datasheet.pdf" \
+		--endpoint-url "$$S3_ENDPOINT" --acl public-read --content-type application/pdf \
+		--cache-control "public, max-age=3600"
+
+# Publish the bridge datasheet next to the BenchPod one (same Spaces credentials as `upload`).
+upload-bridge: bridge
+	AWS_ACCESS_KEY_ID="$$S3_ACCESS_KEY_ID" AWS_SECRET_ACCESS_KEY="$$S3_SECRET_ACCESS_KEY" AWS_DEFAULT_REGION=us-east-1 \
+	aws s3 cp BenchPod-WiFi-bridge-datasheet.pdf "s3://$$S3_BUCKET/public/downloads/BenchPod-WiFi-bridge-datasheet.pdf" \
 		--endpoint-url "$$S3_ENDPOINT" --acl public-read --content-type application/pdf \
 		--cache-control "public, max-age=3600"
 
