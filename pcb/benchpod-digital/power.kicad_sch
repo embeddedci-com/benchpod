@@ -1295,14 +1295,14 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "lcsc_imported:SMAJ20A_C41376408"
+		(symbol "lcsc_lib:SMAJ36CA_C19077551"
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
 			(in_pos_files yes)
 			(duplicate_pin_numbers_are_jumpers no)
 			(property "Reference" "D"
-				(at 0 1.27 0)
+				(at 0 5.08 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(effects
@@ -1311,8 +1311,8 @@
 					)
 				)
 			)
-			(property "Value" "SMAJ20A_C41376408"
-				(at 0 -2.54 0)
+			(property "Value" "SMAJ36CA_C19077551"
+				(at 0 -5.08 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(effects
@@ -1321,7 +1321,18 @@
 					)
 				)
 			)
-			(property "Footprint" "lcsc_footprints:C41376408_SMA_L4_3-W2_6-LS5_2-RD"
+			(property "Footprint" "easyeda2kicad:SMA_L4.3-W2.6-LS5.0-BI"
+				(at 0 -7.62 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" "https://www.lcsc.com/datasheet/C19077551.pdf"
 				(at 0 -10.16 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -1332,29 +1343,7 @@
 					)
 				)
 			)
-			(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2411041728_hongjiacheng-SMAJ20A_C41376408.pdf"
-				(at -2.286 0.127 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Description" "SMAJ20A_C41376408"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "LCSC" "C41376408"
+			(property "Description" ""
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -1366,6 +1355,39 @@
 				)
 			)
 			(property "Manufacturer" "R+O(宏嘉诚)"
+				(at 0 -12.7 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "MPN" "SMAJ36CA"
+				(at 0 -15.24 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "LCSC Part" "C19077551"
+				(at 0 -17.78 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "TVS"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -1376,10 +1398,22 @@
 					)
 				)
 			)
-			(symbol "SMAJ20A_C41376408_1_1"
+			(symbol "SMAJ36CA_C19077551_0_1"
 				(polyline
 					(pts
-						(xy -1.27 -1.524) (xy -1.27 1.524)
+						(xy -2.54 1.27) (xy 0 0) (xy -2.54 -1.27) (xy -2.54 1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(polyline
+					(pts
+						(xy -0.51 2.03) (xy -0.51 2.03) (xy 0 1.52) (xy 0 -1.52) (xy 0.25 -1.78) (xy 0.51 -2.03)
 					)
 					(stroke
 						(width 0)
@@ -1391,7 +1425,7 @@
 				)
 				(polyline
 					(pts
-						(xy 1.27 1.524) (xy -1.27 0) (xy 1.27 -1.524) (xy 1.27 1.524)
+						(xy 2.54 1.27) (xy 0 0) (xy 2.54 -1.27) (xy 2.54 1.27)
 					)
 					(stroke
 						(width 0)
@@ -1403,36 +1437,36 @@
 				)
 				(pin unspecified line
 					(at -5.08 0 0)
-					(length 3.81)
+					(length 2.54)
 					(name "1"
 						(effects
 							(font
-								(size 1 1)
+								(size 1.27 1.27)
 							)
 						)
 					)
 					(number "1"
 						(effects
 							(font
-								(size 1 1)
+								(size 1.27 1.27)
 							)
 						)
 					)
 				)
 				(pin unspecified line
 					(at 5.08 0 180)
-					(length 3.81)
+					(length 2.54)
 					(name "2"
 						(effects
 							(font
-								(size 1 1)
+								(size 1.27 1.27)
 							)
 						)
 					)
 					(number "2"
 						(effects
 							(font
-								(size 1 1)
+								(size 1.27 1.27)
 							)
 						)
 					)
@@ -19332,7 +19366,7 @@
 		)
 	)
 	(symbol
-		(lib_id "lcsc_imported:SMAJ20A_C41376408")
+		(lib_id "lcsc_lib:SMAJ36CA_C19077551")
 		(at 43.18 187.96 0)
 		(unit 1)
 		(body_style 1)
@@ -19353,7 +19387,7 @@
 				)
 			)
 		)
-		(property "Value" "SMAJ20A"
+		(property "Value" "SMAJ22CA"
 			(at 43.18 184.15 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -19374,7 +19408,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2411041728_hongjiacheng-SMAJ20A_C41376408.pdf"
+		(property "Datasheet" "https://datasheet.lcsc.com/datasheet/pdf/40219cfd91ddff7816ff7ad89af3a8cb.pdf?productCode=C5353129"
 			(at 40.894 187.833 0)
 			(hide yes)
 			(show_name no)
@@ -19385,7 +19419,7 @@
 				)
 			)
 		)
-		(property "Description" "SMAJ20A_C41376408"
+		(property "Description" "SMAJ22CA bidirectional TVS, 22 V standoff"
 			(at 43.18 187.96 0)
 			(hide yes)
 			(show_name no)
@@ -19396,7 +19430,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C5353170"
+		(property "LCSC" "C5353129"
 			(at 43.18 187.96 0)
 			(hide yes)
 			(show_name no)
@@ -19418,7 +19452,7 @@
 				)
 			)
 		)
-		(property "MPN" "SMAJ20A"
+		(property "MPN" "SMAJ22CA"
 			(at 43.18 187.96 0)
 			(hide yes)
 			(show_name no)

@@ -86051,7 +86051,7 @@
 				)
 			)
 		)
-		(property "Value" "SMAJ20A"
+		(property "Value" "SMAJ22CA"
 			(at 0 4 90)
 			(layer "F.Fab")
 			(uuid "286217d2-157b-41ff-83c5-1071058e7e20")
@@ -86062,7 +86062,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2411041728_hongjiacheng-SMAJ20A_C41376408.pdf"
+		(property "Datasheet" "https://datasheet.lcsc.com/datasheet/pdf/40219cfd91ddff7816ff7ad89af3a8cb.pdf?productCode=C5353129"
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -86073,7 +86073,7 @@
 				)
 			)
 		)
-		(property "Description" "SMAJ20A_C41376408"
+		(property "Description" "SMAJ22CA bidirectional TVS, 22 V standoff"
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -86084,7 +86084,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C5353170"
+		(property "LCSC" "C5353129"
 			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -86110,7 +86110,7 @@
 				)
 			)
 		)
-		(property "MPN" "SMAJ20A"
+		(property "MPN" "SMAJ22CA"
 			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.Fab")
