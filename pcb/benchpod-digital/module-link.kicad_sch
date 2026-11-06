@@ -6018,7 +6018,7 @@
 				)
 			)
 		)
-		(property "MPN" "CL21B105KBFNNNE"
+		(property "MPN" "CL05A105KA5NQNC"
 			(at 152.4 121.92 0)
 			(hide yes)
 			(show_name no)
@@ -6029,7 +6029,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C1518208"
+		(property "LCSC" "C52923"
 			(at 152.4 121.92 0)
 			(hide yes)
 			(show_name no)
@@ -7244,7 +7244,7 @@
 				)
 			)
 		)
-		(property "MPN" "CL21B105KBFNNNE"
+		(property "MPN" "CL05A105KA5NQNC"
 			(at 152.4 172.72 0)
 			(hide yes)
 			(show_name no)
@@ -7255,7 +7255,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C1518208"
+		(property "LCSC" "C52923"
 			(at 152.4 172.72 0)
 			(hide yes)
 			(show_name no)

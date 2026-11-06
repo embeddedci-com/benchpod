@@ -4972,7 +4972,7 @@
 				)
 			)
 		)
-		(property "MPN" "CL21B105KBFNNNE"
+		(property "MPN" "CL05A105KA5NQNC"
 			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -4985,7 +4985,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C1518208"
+		(property "LCSC" "C52923"
 			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -5510,7 +5510,7 @@
 				)
 			)
 		)
-		(property "MPN" "CL21B105KBFNNNE"
+		(property "MPN" "CL05A105KA5NQNC"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -5523,7 +5523,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C1518208"
+		(property "LCSC" "C52923"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -7086,7 +7086,7 @@
 				)
 			)
 		)
-		(property "MPN" "CL21B105KBFNNNE"
+		(property "MPN" "CL05A105KA5NQNC"
 			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -7099,7 +7099,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C1518208"
+		(property "LCSC" "C52923"
 			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -8954,7 +8954,7 @@
 				)
 			)
 		)
-		(property "MPN" "CL21B105KBFNNNE"
+		(property "MPN" "CL05A105KA5NQNC"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -8967,7 +8967,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C1518208"
+		(property "LCSC" "C52923"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -12463,7 +12463,7 @@
 				)
 			)
 		)
-		(property "MPN" "CL21B105KBFNNNE"
+		(property "MPN" "CL05A105KA5NQNC"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -12476,7 +12476,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C1518208"
+		(property "LCSC" "C52923"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -12806,7 +12806,7 @@
 				)
 			)
 		)
-		(property "MPN" "CL21B105KBFNNNE"
+		(property "MPN" "CL05A105KA5NQNC"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -12819,7 +12819,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C1518208"
+		(property "LCSC" "C52923"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -21766,7 +21766,7 @@
 				)
 			)
 		)
-		(property "MPN" "CL21B105KBFNNNE"
+		(property "MPN" "CL05A105KA5NQNC"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -21779,7 +21779,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C1518208"
+		(property "LCSC" "C52923"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -35030,7 +35030,7 @@
 				)
 			)
 		)
-		(property "MPN" "CL21B105KBFNNNE"
+		(property "MPN" "CL05A105KA5NQNC"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -35043,7 +35043,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C1518208"
+		(property "LCSC" "C52923"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -43296,7 +43296,7 @@
 				)
 			)
 		)
-		(property "MPN" "CL21B105KBFNNNE"
+		(property "MPN" "CL05A105KA5NQNC"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -43309,7 +43309,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C1518208"
+		(property "LCSC" "C52923"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -55791,7 +55791,7 @@
 				)
 			)
 		)
-		(property "MPN" "CL21B105KBFNNNE"
+		(property "MPN" "CL05A105KA5NQNC"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -55804,7 +55804,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C1518208"
+		(property "LCSC" "C52923"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -59218,7 +59218,7 @@
 				)
 			)
 		)
-		(property "MPN" "CL21B105KBFNNNE"
+		(property "MPN" "CL05A105KA5NQNC"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -59231,7 +59231,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C1518208"
+		(property "LCSC" "C52923"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -60065,7 +60065,7 @@
 				)
 			)
 		)
-		(property "MPN" "CL21B105KBFNNNE"
+		(property "MPN" "CL05A105KA5NQNC"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -60078,7 +60078,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C1518208"
+		(property "LCSC" "C52923"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -62380,7 +62380,7 @@
 				)
 			)
 		)
-		(property "MPN" "CL21B105KBFNNNE"
+		(property "MPN" "CL05A105KA5NQNC"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -62393,7 +62393,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C1518208"
+		(property "LCSC" "C52923"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -64402,7 +64402,7 @@
 				)
 			)
 		)
-		(property "MPN" "CL21B105KBFNNNE"
+		(property "MPN" "CL05A105KA5NQNC"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -64415,7 +64415,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C1518208"
+		(property "LCSC" "C52923"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -70933,7 +70933,7 @@
 				)
 			)
 		)
-		(property "MPN" "CL21B105KBFNNNE"
+		(property "MPN" "CL05A105KA5NQNC"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -70946,7 +70946,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C1518208"
+		(property "LCSC" "C52923"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -73009,7 +73009,7 @@
 				)
 			)
 		)
-		(property "MPN" "CL21B105KBFNNNE"
+		(property "MPN" "CL05A105KA5NQNC"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -73022,7 +73022,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C1518208"
+		(property "LCSC" "C52923"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -99881,7 +99881,7 @@
 				)
 			)
 		)
-		(property "MPN" "CL21B105KBFNNNE"
+		(property "MPN" "CL05A105KA5NQNC"
 			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -99894,7 +99894,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C1518208"
+		(property "LCSC" "C52923"
 			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -105302,7 +105302,7 @@
 				)
 			)
 		)
-		(property "MPN" "CL21B105KBFNNNE"
+		(property "MPN" "CL05A105KA5NQNC"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -105315,7 +105315,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C1518208"
+		(property "LCSC" "C52923"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -107606,7 +107606,7 @@
 				)
 			)
 		)
-		(property "MPN" "CL21B105KBFNNNE"
+		(property "MPN" "CL05A105KA5NQNC"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -107619,7 +107619,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C1518208"
+		(property "LCSC" "C52923"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -108881,7 +108881,7 @@
 				)
 			)
 		)
-		(property "MPN" "CL21B105KBFNNNE"
+		(property "MPN" "CL05A105KA5NQNC"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -108894,7 +108894,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C1518208"
+		(property "LCSC" "C52923"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -111455,7 +111455,7 @@
 				)
 			)
 		)
-		(property "MPN" "CL21B105KBFNNNE"
+		(property "MPN" "CL05A105KA5NQNC"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -111468,7 +111468,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C1518208"
+		(property "LCSC" "C52923"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")

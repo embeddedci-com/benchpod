@@ -9442,7 +9442,7 @@
 				)
 			)
 		)
-		(property "MPN" "CL21B105KBFNNNE"
+		(property "MPN" "CL05A105KA5NQNC"
 			(at 274.32 200.66 0)
 			(hide yes)
 			(show_name no)
@@ -9453,7 +9453,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C1518208"
+		(property "LCSC" "C52923"
 			(at 274.32 200.66 0)
 			(hide yes)
 			(show_name no)
@@ -9711,7 +9711,7 @@
 				)
 			)
 		)
-		(property "MPN" "CL21B105KBFNNNE"
+		(property "MPN" "CL05A105KA5NQNC"
 			(at 210.82 46.99 0)
 			(hide yes)
 			(show_name no)
@@ -9722,7 +9722,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C1518208"
+		(property "LCSC" "C52923"
 			(at 210.82 46.99 0)
 			(hide yes)
 			(show_name no)
@@ -12459,7 +12459,7 @@
 				)
 			)
 		)
-		(property "MPN" "CL21B105KBFNNNE"
+		(property "MPN" "CL05A105KA5NQNC"
 			(at 43.18 99.06 0)
 			(hide yes)
 			(show_name no)
@@ -12470,7 +12470,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C1518208"
+		(property "LCSC" "C52923"
 			(at 43.18 99.06 0)
 			(hide yes)
 			(show_name no)
@@ -21473,7 +21473,7 @@
 				)
 			)
 		)
-		(property "MPN" "CL21B105KBFNNNE"
+		(property "MPN" "CL05A105KA5NQNC"
 			(at 276.86 96.52 0)
 			(hide yes)
 			(show_name no)
@@ -21484,7 +21484,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C1518208"
+		(property "LCSC" "C52923"
 			(at 276.86 96.52 0)
 			(hide yes)
 			(show_name no)
