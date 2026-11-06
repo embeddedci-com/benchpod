@@ -30418,7 +30418,7 @@
 				)
 			)
 		)
-		(property "Value" "TPS62130ARGTR"
+		(property "Value" "TPS62130RGTR"
 			(at 0 5.5 180)
 			(layer "F.Fab")
 			(uuid "49cc5309-2b24-445e-98d0-9855ed462b32")
@@ -30440,7 +30440,7 @@
 				)
 			)
 		)
-		(property "Description" "3A Step-Down Converter, 3-17V input (TPS62130ARGTR)"
+		(property "Description" "3A Step-Down Converter, 3-17V input (TPS62130RGTR)"
 			(at 0 0 180)
 			(layer "F.Fab")
 			(hide yes)
@@ -30451,7 +30451,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C337502"
+		(property "LCSC" "C43590"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")

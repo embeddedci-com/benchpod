@@ -23465,7 +23465,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "TPS62130ARGTR"
+		(property "Value" "TPS62130RGTR"
 			(at 234.95 25.4 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -23498,7 +23498,7 @@
 				)
 			)
 		)
-		(property "Description" "3A Step-Down Converter, 3-17V input (TPS62130ARGTR)"
+		(property "Description" "3A Step-Down Converter, 3-17V input (TPS62130RGTR)"
 			(at 231.14 36.83 0)
 			(hide yes)
 			(show_name no)
@@ -23509,7 +23509,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C337502"
+		(property "LCSC" "C43590"
 			(at 231.14 36.83 0)
 			(hide yes)
 			(show_name no)
