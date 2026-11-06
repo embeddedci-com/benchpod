@@ -5,6 +5,343 @@
 	(uuid "5b05a9ab-e1df-4a13-a6ac-27be62b59b56")
 	(paper "A3")
 	(lib_symbols
+		(symbol "lcsc_lib:SS34_C8678"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "D"
+				(at 0 5.08 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "SS34_C8678"
+				(at 0 -5.08 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "easyeda2kicad:SMA_L4.3-W2.6-LS5.2-RD"
+				(at 0 -7.62 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" "https://lcsc.com/product-detail/Schottky-Barrier-Diodes-SBD_SS34_C8678.html"
+				(at 0 -10.16 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "SS34"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Manufacturer" "MDD(辰达半导体)"
+				(at 0 -12.7 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "MPN" "SS34"
+				(at 0 -15.24 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "LCSC Part" "C8678"
+				(at 0 -17.78 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "Schottky Barrier Diodes (SBD)"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "SS34_C8678_0_1"
+				(polyline
+					(pts
+						(xy -1.27 0) (xy -1.27 2.03) (xy -1.78 2.03) (xy -1.78 1.78)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.27 0) (xy -1.27 -2.03) (xy -0.76 -2.03) (xy -0.76 -1.78)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 1.52) (xy -1.27 0) (xy 1.27 -1.78) (xy 1.27 1.52)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(pin unspecified line
+					(at -5.08 0 0)
+					(length 3.81)
+					(name "K"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 5.08 0 180)
+					(length 3.81)
+					(name "A"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "lcsc_lib:AL5809-25P1-7"
+			(pin_names
+				(offset 1.016)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "U"
+				(at 0 5.08 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "AL5809-25P1-7"
+				(at 0 -5.08 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "lcsc:POWERDI-123_L2.7-W1.6-LS3.7-RD"
+				(at 0 -7.62 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" "https://www.lcsc.com/datasheet/C2678668.pdf"
+				(at 0 -10.16 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Manufacturer" "DIODES(美台)"
+				(at 0 -12.7 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "MPN" "AL5809-25P1-7"
+				(at 0 -15.24 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "LCSC Part" "C2678668"
+				(at 0 -17.78 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "LED Drivers"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "AL5809-25P1-7_0_1"
+				(rectangle
+					(start -2.54 2.54)
+					(end 2.54 -2.54)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(pin passive line
+					(at -5.08 0 0)
+					(length 2.54)
+					(name "In"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 0 180)
+					(length 2.54)
+					(name "Out"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "Connector:Screw_Terminal_01x02"
 			(pin_names
 				(offset 1.016)
@@ -3880,9 +4217,9 @@
 		)
 		(uuid "4a259302-095c-4dc1-9c3b-3f9230df1515")
 	)
-	(text "±0.1% ±25ppm 125mW"
+	(text "±0.1% ±25ppm 250mW"
 		(exclude_from_sim no)
-		(at 73.914 159.258 0)
+		(at 118.11 163.83 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4015,12 +4352,6 @@
 		(uuid "04913f61-b78e-46b8-be08-ec4ef076ea04")
 	)
 	(junction
-		(at 99.06 154.94)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "0504a03e-c898-494f-8977-cf466a37cb5f")
-	)
-	(junction
 		(at 193.04 109.22)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -4147,12 +4478,6 @@
 		(uuid "70433e61-a5f8-499c-a5b0-bad3afbfb808")
 	)
 	(junction
-		(at 87.63 154.94)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "7e7f76eb-4b57-4c77-9aa7-ac879b7c5f84")
-	)
-	(junction
 		(at 58.42 77.47)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -4237,12 +4562,6 @@
 		(uuid "dbb12c2a-d13f-4443-b1bb-46981a53cbd8")
 	)
 	(junction
-		(at 87.63 165.1)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "e047e636-06b4-4f09-a8a4-ecaa3a655d57")
-	)
-	(junction
 		(at 185.42 44.45)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -4285,6 +4604,114 @@
 	(no_connect
 		(at 62.23 102.87)
 		(uuid "7e24209e-038d-46ea-89d6-481ad8e16cdf")
+	)
+	(wire
+		(pts
+			(xy 58.42 154.94) (xy 66.04 154.94)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8964b062-1931-4502-ad10-e8496b2c6093")
+	)
+	(wire
+		(pts
+			(xy 66.04 154.94) (xy 71.12 154.94)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "62aabecf-eb8c-4cd5-ac89-517c8aaab6ee")
+	)
+	(wire
+		(pts
+			(xy 81.28 154.94) (xy 86.36 154.94)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d0b1d087-d605-4375-946c-af79d859e461")
+	)
+	(wire
+		(pts
+			(xy 96.52 154.94) (xy 104.14 154.94)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "afa691f8-fb58-4012-8efa-eeeefb420552")
+	)
+	(wire
+		(pts
+			(xy 104.14 154.94) (xy 111.76 154.94)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "49f2d85a-f531-4358-a54b-82bfbc309fe6")
+	)
+	(wire
+		(pts
+			(xy 58.42 165.1) (xy 66.04 165.1)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cb6fc984-b2de-45c9-8360-b4eb8ef2cd48")
+	)
+	(wire
+		(pts
+			(xy 66.04 165.1) (xy 77.47 165.1)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "862341d7-3f67-4715-8a7a-e1096a8cbe91")
+	)
+	(wire
+		(pts
+			(xy 77.47 165.1) (xy 104.14 165.1)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8a9da2dc-980d-4454-aad9-8fc10f81e8ac")
+	)
+	(wire
+		(pts
+			(xy 104.14 165.1) (xy 104.14 162.56)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7b71a148-d721-4ed6-b595-d674ac288a79")
+	)
+	(junction
+		(at 66.04 154.94)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "2b303f85-c822-4998-8a6f-1d82e22df961")
+	)
+	(junction
+		(at 104.14 154.94)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "2e1d2c39-77a5-4993-82d9-8e6ccb4dbade")
+	)
+	(junction
+		(at 66.04 165.1)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "61624fbe-6479-4298-ae11-2aedc2202a94")
 	)
 	(wire
 		(pts
@@ -4568,16 +4995,6 @@
 	)
 	(wire
 		(pts
-			(xy 87.63 165.1) (xy 87.63 162.56)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "3284c88f-dd4e-4c75-a6d8-6f4bb00f8431")
-	)
-	(wire
-		(pts
 			(xy 171.45 44.45) (xy 171.45 48.26)
 		)
 		(stroke
@@ -4838,16 +5255,6 @@
 	)
 	(wire
 		(pts
-			(xy 87.63 165.1) (xy 99.06 165.1)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "5f6f9a9c-c995-4622-a43e-e6a37759cb8f")
-	)
-	(wire
-		(pts
 			(xy 199.39 101.6) (xy 199.39 104.14)
 		)
 		(stroke
@@ -4855,16 +5262,6 @@
 			(type default)
 		)
 		(uuid "6145b9d2-7087-46ec-b625-4595cc87f91b")
-	)
-	(wire
-		(pts
-			(xy 77.47 165.1) (xy 87.63 165.1)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "639727da-40be-49bf-8442-6fe7bee17a1a")
 	)
 	(wire
 		(pts
@@ -4928,16 +5325,6 @@
 	)
 	(wire
 		(pts
-			(xy 58.42 165.1) (xy 77.47 165.1)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "68945219-8f8d-403b-a255-9660dfc7a8a1")
-	)
-	(wire
-		(pts
 			(xy 175.26 204.47) (xy 185.42 204.47)
 		)
 		(stroke
@@ -4965,16 +5352,6 @@
 			(type default)
 		)
 		(uuid "73d237ff-caab-43a6-b4b5-bcb8f17d99ca")
-	)
-	(wire
-		(pts
-			(xy 99.06 154.94) (xy 105.41 154.94)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "7a9157f0-77ec-4b1a-a175-9880f9b11cd7")
 	)
 	(wire
 		(pts
@@ -5128,16 +5505,6 @@
 	)
 	(wire
 		(pts
-			(xy 87.63 154.94) (xy 99.06 154.94)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "9075cac3-77ee-46b3-9f77-3c13b5f2a423")
-	)
-	(wire
-		(pts
 			(xy 234.95 101.6) (xy 241.3 95.25)
 		)
 		(stroke
@@ -5155,16 +5522,6 @@
 			(type default)
 		)
 		(uuid "93391662-cbb4-4dd7-ba69-52f46955d64c")
-	)
-	(wire
-		(pts
-			(xy 58.42 154.94) (xy 87.63 154.94)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "93f8ec09-9e14-4681-b388-9185a6ae78f4")
 	)
 	(wire
 		(pts
@@ -5847,7 +6204,7 @@
 		(uuid "051ce227-bd2a-4034-8080-fe2720aac51f")
 	)
 	(label "AMP_MEASURE_IN"
-		(at 105.41 154.94 0)
+		(at 111.76 154.94 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -13571,7 +13928,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 87.63 158.75 0)
+		(at 104.14 158.75 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -13582,7 +13939,7 @@
 		(fields_autoplaced yes)
 		(uuid "9931ac96-c93e-46cc-9a4e-e8a1d6c62a32")
 		(property "Reference" "R81"
-			(at 90.17 157.4799 0)
+			(at 106.68 157.48 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -13593,7 +13950,7 @@
 			)
 		)
 		(property "Value" "249"
-			(at 90.17 160.0199 0)
+			(at 106.68 160.02 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -13604,7 +13961,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_1206_3216Metric"
-			(at 85.852 158.75 90)
+			(at 102.36 158.75 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13615,7 +13972,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 87.63 158.75 0)
+			(at 104.14 158.75 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13626,7 +13983,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 87.63 158.75 0)
+			(at 104.14 158.75 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13637,7 +13994,7 @@
 			)
 		)
 		(property "LCSC" "C870575"
-			(at 87.63 158.75 0)
+			(at 104.14 158.75 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13648,7 +14005,7 @@
 			)
 		)
 		(property "JLC_DNF" ""
-			(at 87.63 158.75 0)
+			(at 104.14 158.75 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -19733,7 +20090,7 @@
 	)
 	(symbol
 		(lib_id "lcsc_lib:SMAJ36CA_C19077551")
-		(at 99.06 160.02 270)
+		(at 66.04 160.02 270)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -19744,7 +20101,7 @@
 		(fields_autoplaced yes)
 		(uuid "ff7c2ce4-81b8-4557-8666-11a73568b068")
 		(property "Reference" "D6"
-			(at 102.87 158.7499 90)
+			(at 69.85 158.75 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -19755,7 +20112,7 @@
 			)
 		)
 		(property "Value" "SMAJ36CA"
-			(at 102.87 161.2899 90)
+			(at 69.85 161.29 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -19766,7 +20123,7 @@
 			)
 		)
 		(property "Footprint" "lcsc:SMA_L4.3-W2.6-LS5.0-BI"
-			(at 91.44 160.02 0)
+			(at 58.42 160.02 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -19777,7 +20134,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.lcsc.com/datasheet/C19077551.pdf"
-			(at 88.9 160.02 0)
+			(at 55.88 160.02 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -19788,7 +20145,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 99.06 160.02 0)
+			(at 66.04 160.02 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -19799,7 +20156,7 @@
 			)
 		)
 		(property "Manufacturer" "FOSAN"
-			(at 86.36 160.02 0)
+			(at 53.34 160.02 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -19810,7 +20167,7 @@
 			)
 		)
 		(property "MPN" "SMAJ36CA"
-			(at 83.82 160.02 0)
+			(at 50.80 160.02 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -19821,7 +20178,7 @@
 			)
 		)
 		(property "LCSC Part" "C5353135"
-			(at 81.28 160.02 0)
+			(at 48.26 160.02 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -19832,7 +20189,7 @@
 			)
 		)
 		(property "LCSC" "C5353135"
-			(at 99.06 160.02 90)
+			(at 66.04 160.02 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -19843,7 +20200,7 @@
 			)
 		)
 		(property "JLC_DNF" ""
-			(at 99.06 160.02 90)
+			(at 66.04 160.02 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -20207,5 +20564,251 @@
 			(justify left bottom)
 		)
 		(uuid "87f9df89-0edd-40ba-aa3d-22b7d034d110")
+	)
+	(symbol
+		(lib_id "lcsc_lib:SS34_C8678")
+		(at 76.2 154.94 180)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "f22ed7a3-2724-4384-815e-010d6e47ba3f")
+		(property "Reference" "D23"
+			(at 76.2 148.59 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SS34"
+			(at 76.2 151.13 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "lcsc:SMA_L4.3-W2.6-LS5.2-RD"
+			(at 76.20 154.94 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://lcsc.com/product-detail/Schottky-Barrier-Diodes-SBD_SS34_C8678.html"
+			(at 76.20 154.94 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "SS34, reverse protection for 4-20 mA IN"
+			(at 76.20 154.94 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "FOSAN"
+			(at 76.20 154.94 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "SS34"
+			(at 76.20 154.94 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Part" "C3014011"
+			(at 76.20 154.94 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C3014011"
+			(at 76.20 154.94 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "c1f57db0-b86c-4e2a-bb33-38ead53ba66a")
+		)
+		(pin "2"
+			(uuid "bb55ff6b-477a-4119-b7b7-497354b4d7bb")
+		)
+		(instances
+			(project "vbench-pod"
+				(path "/745fcf4b-2e0b-4fc4-95c0-f2e3fd40beb9/912decfe-2152-478c-90a9-82a2e6c8d6ce"
+					(reference "D23")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "lcsc_lib:AL5809-25P1-7")
+		(at 91.44 154.94 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "efda3c2f-1633-4b8f-9005-55ae9ce5230b")
+		(property "Reference" "U62"
+			(at 91.44 148.59 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "AL5809-25P1-7"
+			(at 91.44 151.13 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "lcsc:POWERDI-123_L2.7-W1.6-LS3.7-RD"
+			(at 91.44 154.94 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://www.lcsc.com/datasheet/C2678668.pdf"
+			(at 91.44 154.94 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "25 mA current limiter: keeps R81 within rating when a supply is wired straight to 4-20 mA IN"
+			(at 91.44 154.94 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "Diodes Incorporated"
+			(at 91.44 154.94 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "AL5809-25P1-7"
+			(at 91.44 154.94 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Part" "C2678668"
+			(at 91.44 154.94 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C2678668"
+			(at 91.44 154.94 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "ab981052-cf63-4aa6-bd28-b8c4b957a185")
+		)
+		(pin "2"
+			(uuid "6a352210-6301-4124-8527-3057b4a179d8")
+		)
+		(instances
+			(project "vbench-pod"
+				(path "/745fcf4b-2e0b-4fc4-95c0-f2e3fd40beb9/912decfe-2152-478c-90a9-82a2e6c8d6ce"
+					(reference "U62")
+					(unit 1)
+				)
+			)
+		)
 	)
 )
