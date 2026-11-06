@@ -419,6 +419,28 @@ The connection can be `usb`, the pod's network address, or `embeddedci:<name>` t
 - **4-20 mA OUT** needs its own floating 12-30 V loop supply. Nothing in the loop may connect to the pod's ground, so it cannot loop back into 4-20 mA IN or be powered from the pod's own outputs.
 - **ADC IN** readings within a few millivolts of 0 V show a small step of about 3 counts. This comes from the ADC and is not removed by calibration.
 
+<div class="keep" markdown="1">
+
+## Safety
+
+| Port | Rating | Never |
+|---|---|---|
+| ADC IN | ±30 V | Mains, or any circuit connected to mains. The BNC shell is the pod's ground and connects to the computer through USB |
+| EXT SUPPLY IN | 2.7-20 V DC | More than 20 V (no 24 V supplies), or + and GND swapped |
+| 4-20 mA IN | Current input, up to 24 mA | A supply wired straight to it, with no transmitter in the loop |
+| 4-20 mA OUT | External floating loop supply, 12-30 V | More than 30 V, or anything in the loop tied to the pod's ground |
+| DUT 5V, DUT EXT, BRIDGE POWER, DAC OUT | Outputs | A supply or voltage connected to an output |
+| LA1-LA14 | 1.8 V or 3.3 V, as set | A signal above the I/O voltage set |
+
+- **DUT power can switch on at any time**, from tests, CI, AI agents or the web app. Unplug the DUT power plug before touching or reworking the DUT.
+- Several terminal blocks take the same plug: check each plug before inserting it. Use wires rated for 2 A (DUT 5V) and 3 A (DUT EXT).
+- Power from a computer or a CE or FCC marked USB-C power supply, 5 V, at least 1.5 A (3 A when DUT 5V is used).
+- Indoor, dry, on a non-conductive surface (case, stand or standoffs). Not a toy: keep away from children.
+
+Full safety rules: [embeddedci.com/docs/benchpod-safety](https://www.embeddedci.com/docs/benchpod-safety).
+
+</div>
+
 ## Firmware updates
 
 New firmware is published on [embeddedci.com/downloads](https://www.embeddedci.com/downloads). Update a pod from the web app (over the network or the cloud), or from the CLI:
