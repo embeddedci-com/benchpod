@@ -4146,6 +4146,168 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "lcsc_lib:PESD2CAN,215"
+    (in_bom yes)
+    (on_board yes)
+    (property
+      "Reference"
+      "D"
+      (id 0)
+      (at 0 7.62 0)
+      (effects (font (size 1.27 1.27) ) )
+    )
+    (property
+      "Value"
+      "PESD2CAN,215"
+      (id 1)
+      (at 0 -7.62 0)
+      (effects (font (size 1.27 1.27) ) )
+    )
+    (property
+      "Footprint"
+      "easyeda2kicad:SOT-23-3_L2.9-W1.3-P1.90-LS2.4-BR"
+      (id 2)
+      (at 0 -10.16 0)
+      (effects (font (size 1.27 1.27) ) hide)
+    )
+    (property
+      "Datasheet"
+      "https://lcsc.com/product-detail/Diodes-ESD_NXP_PESD2CAN-215_PESD2CAN-215_C75176.html"
+      (id 3)
+      (at 0 -12.70 0)
+      (effects (font (size 1.27 1.27) ) hide)
+    )
+    (property
+      "Manufacturer"
+      "Nexperia(安世)"
+      (id 4)
+      (at 0 -15.24 0)
+      (effects (font (size 1.27 1.27) ) hide)
+    )
+    (property
+      "MPN"
+      "PESD2CAN,215"
+      (id 5)
+      (at 0 -17.78 0)
+      (effects (font (size 1.27 1.27) ) hide)
+    )
+    (property
+      "LCSC Part"
+      "C75176"
+      (id 6)
+      (at 0 -20.32 0)
+      (effects (font (size 1.27 1.27) ) hide)
+    )
+    (property
+      "ki_keywords"
+      "ESD Protection Devices"
+      (id 8)
+      (at 0 -22.86 0)
+      (effects (font (size 1.27 1.27) ) hide)
+    )
+    (symbol "PESD2CAN,215_0_1"
+      (rectangle
+        (start -7.62 5.08)
+        (end 7.62 -5.08)
+        (stroke (width 0) (type default))
+        (fill (type background))
+      )
+      (circle
+        (center 5.08 -0.00)
+        (radius 0.13)
+        (stroke (width 0) (type default))
+        (fill (type none))
+      )
+      (polyline
+        (pts
+          (xy -2.54 4.32) (xy -5.08 2.54) (xy -2.54 0.76) (xy -2.54 4.32)
+        )
+        (stroke (width 0) (type default))
+        (fill (type background))
+      )
+      (polyline
+        (pts
+          (xy 0.00 0.76) (xy 2.54 2.54) (xy 0.00 4.32) (xy 0.00 0.76)
+        )
+        (stroke (width 0) (type default))
+        (fill (type background))
+      )
+      (polyline
+        (pts
+          (xy -2.54 -0.76) (xy -5.08 -2.54) (xy -2.54 -4.32) (xy -2.54 -0.76)
+        )
+        (stroke (width 0) (type default))
+        (fill (type background))
+      )
+      (polyline
+        (pts
+          (xy 0.00 -4.32) (xy 2.54 -2.54) (xy 0.00 -0.76) (xy 0.00 -4.32)
+        )
+        (stroke (width 0) (type default))
+        (fill (type background))
+      )
+      (polyline
+        (pts
+          (xy -5.08 4.57) (xy -5.08 0.76) (xy -4.57 0.76)
+        )
+        (stroke (width 0) (type default))
+        (fill (type none))
+      )
+      (polyline
+        (pts
+          (xy 2.54 0.51) (xy 2.54 4.32) (xy 2.03 4.32)
+        )
+        (stroke (width 0) (type default))
+        (fill (type none))
+      )
+      (polyline
+        (pts
+          (xy -5.08 -0.51) (xy -5.08 -4.32) (xy -4.57 -4.32)
+        )
+        (stroke (width 0) (type default))
+        (fill (type none))
+      )
+      (polyline
+        (pts
+          (xy 2.54 -4.57) (xy 2.54 -0.76) (xy 2.03 -0.76)
+        )
+        (stroke (width 0) (type default))
+        (fill (type none))
+      )
+      (polyline
+        (pts
+          (xy -7.62 2.54) (xy 5.08 2.54) (xy 5.08 -2.54) (xy -7.62 -2.54)
+        )
+        (stroke (width 0) (type default))
+        (fill (type none))
+      )
+      (polyline
+        (pts
+          (xy 7.62 -0.00) (xy 5.08 -0.00)
+        )
+        (stroke (width 0) (type default))
+        (fill (type none))
+      )
+      (pin unspecified line
+        (at -12.70 2.54 0)
+        (length 5.08)
+        (name "1" (effects (font (size 1.27 1.27))))
+        (number "1" (effects (font (size 1.27 1.27))))
+      )
+      (pin unspecified line
+        (at -12.70 -2.54 0)
+        (length 5.08)
+        (name "2" (effects (font (size 1.27 1.27))))
+        (number "2" (effects (font (size 1.27 1.27))))
+      )
+      (pin unspecified line
+        (at 12.70 -0.00 180)
+        (length 5.08)
+        (name "3" (effects (font (size 1.27 1.27))))
+        (number "3" (effects (font (size 1.27 1.27))))
+      )
+    )
+  )
 	)
 	(text "C0G/NP0 cap"
 		(exclude_from_sim no)
@@ -20586,7 +20748,7 @@
 				)
 			)
 		)
-		(property "Value" "SS34"
+		(property "Value" "BAV21WS"
 			(at 76.2 151.13 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -20596,7 +20758,7 @@
 				)
 			)
 		)
-		(property "Footprint" "lcsc:SMA_L4.3-W2.6-LS5.2-RD"
+		(property "Footprint" "Diode_SMD:D_SOD-323"
 			(at 76.20 154.94 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -20607,7 +20769,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://lcsc.com/product-detail/Schottky-Barrier-Diodes-SBD_SS34_C8678.html"
+		(property "Datasheet" "https://www.lcsc.com/datasheet/C7420334.pdf"
 			(at 76.20 154.94 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -20618,7 +20780,7 @@
 				)
 			)
 		)
-		(property "Description" "SS34, reverse protection for 4-20 mA IN"
+		(property "Description" "BAV21WS (250 V, 5 pF), series diode for 4-20 mA IN; low capacitance limits ESD coupling into U62"
 			(at 76.20 154.94 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -20629,7 +20791,7 @@
 				)
 			)
 		)
-		(property "Manufacturer" "FOSAN"
+		(property "Manufacturer" "hongjiacheng"
 			(at 76.20 154.94 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -20640,7 +20802,7 @@
 				)
 			)
 		)
-		(property "MPN" "SS34"
+		(property "MPN" "BAV21WS"
 			(at 76.20 154.94 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -20651,7 +20813,7 @@
 				)
 			)
 		)
-		(property "LCSC Part" "C3014011"
+		(property "LCSC Part" "C7420334"
 			(at 76.20 154.94 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -20662,7 +20824,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C3014011"
+		(property "LCSC" "C7420334"
 			(at 76.20 154.94 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -20806,6 +20968,465 @@
 			(project "vbench-pod"
 				(path "/745fcf4b-2e0b-4fc4-95c0-f2e3fd40beb9/912decfe-2152-478c-90a9-82a2e6c8d6ce"
 					(reference "U62")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "lcsc_lib:SS34_C8678")
+		(at 154.94 157.48 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "aebfb6a1-3cfc-4a28-9ddb-0e533dbb77ec")
+		(property "Reference" "D27"
+			(at 152.4 153.67 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "BAV21WS"
+			(at 152.4 161.29 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Diode_SMD:D_SOD-323"
+			(at 154.94 157.48 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://www.lcsc.com/datasheet/C7420334.pdf"
+			(at 154.94 157.48 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "BAV21WS bypass across U62 (anode Out, cathode In): limits U62 reverse during ESD"
+			(at 154.94 157.48 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "hongjiacheng"
+			(at 154.94 157.48 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "BAV21WS"
+			(at 154.94 157.48 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Part" "C7420334"
+			(at 154.94 157.48 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C7420334"
+			(at 154.94 157.48 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "6679cf2c-7e1b-4bd9-950f-9b9f56b63baf")
+		)
+		(pin "2"
+			(uuid "b85b33a8-416e-4cf4-881e-6d8eccac363c")
+		)
+		(instances
+			(project "vbench-pod"
+				(path "/745fcf4b-2e0b-4fc4-95c0-f2e3fd40beb9/912decfe-2152-478c-90a9-82a2e6c8d6ce"
+					(reference "D27")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(label "LIM_IN"
+		(at 149.86 157.48 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "e2af5b5c-00ae-44f6-9dcb-f8ab3a9ee207")
+	)
+	(label "AMP_MEASURE_IN"
+		(at 160.02 157.48 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "b47b8b82-858b-44f7-9cfb-db3d5dfe2983")
+	)
+	(wire
+		(pts
+			(xy 83.82 154.94) (xy 83.82 160.02)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e7afe9ca-9509-4656-91f1-e6bfceba7e2f")
+	)
+	(junction
+		(at 83.82 154.94)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "78c9de0f-d7cc-43dc-96a7-c5e635f08c1f")
+	)
+	(label "LIM_IN"
+		(at 83.82 160.02 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "972e23e4-03cf-4056-bd36-a2104c6d8177")
+	)
+	(symbol
+		(lib_id "lcsc_lib:PESD2CAN,215")
+		(at 50.8 57.15 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "bedca88b-ceb4-4e18-a8b9-01d633da5405")
+		(property "Reference" "D28"
+			(at 45.72 52.07 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "H36VLT2B"
+			(at 45.72 64.77 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
+			(at 50.8 57.15 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://www.lcsc.com/datasheet/C20615828.pdf"
+			(at 50.8 57.15 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "ESD clamp at the BNC center: 36 V standoff, 18 pF max, place at J10"
+			(at 50.8 57.15 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C20615828"
+			(at 50.8 57.15 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "JLC_DNF" ""
+			(at 50.8 57.15 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "2beee7a6-9bd6-4eca-b709-40bd590f3bea")
+		)
+		(pin "2"
+			(uuid "8a13ea3b-2683-4f31-bbca-4d0517b3f706")
+		)
+		(pin "3"
+			(uuid "ff6b1405-c7c3-45d3-b6f5-d8245f469885")
+		)
+		(instances
+			(project "vbench-pod"
+				(path "/745fcf4b-2e0b-4fc4-95c0-f2e3fd40beb9/912decfe-2152-478c-90a9-82a2e6c8d6ce"
+					(reference "D28")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(label "RELAY1_IN"
+		(at 38.1 54.61 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "d91f7911-c418-4dc1-af5d-815a331b04ff")
+	)
+	(wire
+		(pts
+			(xy 38.1 59.69) (xy 38.1 62.23)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4bfc84f7-13b8-4dd2-b05d-d4de92d06b44")
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 38.1 62.23 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "ba28aada-0c2d-428e-bbf1-c6d4bb980fa6")
+		(property "Reference" "#PWR0901"
+			(at 38.1 55.88 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 38.1 66.04 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 38.1 62.23 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 38.1 62.23 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 55.88 120.65 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "1a8d1edb-6a15-4f03-bc84-cd9aa06d9300")
+		)
+		(instances
+			(project "vbench-pod"
+				(path "/745fcf4b-2e0b-4fc4-95c0-f2e3fd40beb9/912decfe-2152-478c-90a9-82a2e6c8d6ce"
+					(reference "#PWR0901")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(wire
+		(pts
+			(xy 63.5 57.15) (xy 63.5 59.69)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "044ba1aa-675c-4e01-ae76-870b1c407a38")
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 63.5 59.69 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "b20c9290-ea18-46d8-a199-f77eca23844f")
+		(property "Reference" "#PWR0902"
+			(at 63.5 53.34 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 63.5 63.5 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 63.5 59.69 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 63.5 59.69 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 55.88 120.65 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "c37f0fb2-0734-4543-b536-fb4341ddc5a9")
+		)
+		(instances
+			(project "vbench-pod"
+				(path "/745fcf4b-2e0b-4fc4-95c0-f2e3fd40beb9/912decfe-2152-478c-90a9-82a2e6c8d6ce"
+					(reference "#PWR0902")
 					(unit 1)
 				)
 			)
