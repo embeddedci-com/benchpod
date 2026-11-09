@@ -18014,7 +18014,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://lcsc.com/product-detail/Others_Omron-Electronics__Omron-Electronics-G6K-2F-Y-DC5-BY-OMR-C_C231389.html"
+		(property "Datasheet" "https://www.lcsc.com/product-detail/signal-relays_omron-electronics-g6k-2f-y-tr-dc5-by-omr-c_C231390.html"
 			(at 287.02 109.22 0)
 			(hide yes)
 			(show_name no)
@@ -18047,7 +18047,7 @@
 				)
 			)
 		)
-		(property "MPN" "G6K-2F-Y DC5 BY OMZ/C"
+		(property "MPN" "G6K-2F-Y-TR DC5 BY OMR/C"
 			(at 281.94 109.22 0)
 			(hide yes)
 			(show_name no)
@@ -18058,7 +18058,7 @@
 				)
 			)
 		)
-		(property "LCSC Part" "C231389"
+		(property "LCSC Part" "C231390"
 			(at 279.4 109.22 0)
 			(hide yes)
 			(show_name no)
@@ -18069,7 +18069,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C231389"
+		(property "LCSC" "C231390"
 			(at 304.8 109.22 90)
 			(hide yes)
 			(show_name no)
@@ -24109,7 +24109,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://lcsc.com/product-detail/Others_Omron-Electronics__Omron-Electronics-G6K-2F-Y-DC5-BY-OMR-C_C231389.html"
+		(property "Datasheet" "https://www.lcsc.com/product-detail/signal-relays_omron-electronics-g6k-2f-y-tr-dc5-by-omr-c_C231390.html"
 			(at 281.94 213.36 0)
 			(hide yes)
 			(show_name no)
@@ -24142,7 +24142,7 @@
 				)
 			)
 		)
-		(property "MPN" "G6K-2F-Y DC5 BY OMZ/C"
+		(property "MPN" "G6K-2F-Y-TR DC5 BY OMR/C"
 			(at 276.86 213.36 0)
 			(hide yes)
 			(show_name no)
@@ -24153,7 +24153,7 @@
 				)
 			)
 		)
-		(property "LCSC Part" "C231389"
+		(property "LCSC Part" "C231390"
 			(at 274.32 213.36 0)
 			(hide yes)
 			(show_name no)
@@ -24164,7 +24164,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C231389"
+		(property "LCSC" "C231390"
 			(at 299.72 213.36 90)
 			(hide yes)
 			(show_name no)

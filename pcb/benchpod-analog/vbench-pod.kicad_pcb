@@ -537,7 +537,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://lcsc.com/product-detail/Others_Omron-Electronics__Omron-Electronics-G6K-2F-Y-DC5-BY-OMR-C_C231389.html"
+		(property "Datasheet" "https://www.lcsc.com/product-detail/signal-relays_omron-electronics-g6k-2f-y-tr-dc5-by-omr-c_C231390.html"
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -559,7 +559,7 @@
 				)
 			)
 		)
-		(property "LCSC Part" "C231389"
+		(property "LCSC Part" "C231390"
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -583,7 +583,7 @@
 				)
 			)
 		)
-		(property "MPN" "G6K-2F-Y DC5 BY OMZ/C"
+		(property "MPN" "G6K-2F-Y-TR DC5 BY OMR/C"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -596,7 +596,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C231389"
+		(property "LCSC" "C231390"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -5870,7 +5870,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://lcsc.com/product-detail/Others_Omron-Electronics__Omron-Electronics-G6K-2F-Y-DC5-BY-OMR-C_C231389.html"
+		(property "Datasheet" "https://www.lcsc.com/product-detail/signal-relays_omron-electronics-g6k-2f-y-tr-dc5-by-omr-c_C231390.html"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -5892,7 +5892,7 @@
 				)
 			)
 		)
-		(property "LCSC Part" "C231389"
+		(property "LCSC Part" "C231390"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -5917,7 +5917,7 @@
 				)
 			)
 		)
-		(property "MPN" "G6K-2F-Y DC5 BY OMZ/C"
+		(property "MPN" "G6K-2F-Y-TR DC5 BY OMR/C"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -5930,7 +5930,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C231389"
+		(property "LCSC" "C231390"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -16878,7 +16878,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://lcsc.com/product-detail/Others_Omron-Electronics__Omron-Electronics-G6K-2F-Y-DC5-BY-OMR-C_C231389.html"
+		(property "Datasheet" "https://www.lcsc.com/product-detail/signal-relays_omron-electronics-g6k-2f-y-tr-dc5-by-omr-c_C231390.html"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -16900,7 +16900,7 @@
 				)
 			)
 		)
-		(property "LCSC Part" "C231389"
+		(property "LCSC Part" "C231390"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -16925,7 +16925,7 @@
 				)
 			)
 		)
-		(property "MPN" "G6K-2F-Y DC5 BY OMZ/C"
+		(property "MPN" "G6K-2F-Y-TR DC5 BY OMR/C"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -16938,7 +16938,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C231389"
+		(property "LCSC" "C231390"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -58702,7 +58702,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://lcsc.com/product-detail/Others_Omron-Electronics__Omron-Electronics-G6K-2F-Y-DC5-BY-OMR-C_C231389.html"
+		(property "Datasheet" "https://www.lcsc.com/product-detail/signal-relays_omron-electronics-g6k-2f-y-tr-dc5-by-omr-c_C231390.html"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -58724,7 +58724,7 @@
 				)
 			)
 		)
-		(property "LCSC Part" "C231389"
+		(property "LCSC Part" "C231390"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -58749,7 +58749,7 @@
 				)
 			)
 		)
-		(property "MPN" "G6K-2F-Y DC5 BY OMZ/C"
+		(property "MPN" "G6K-2F-Y-TR DC5 BY OMR/C"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -58762,7 +58762,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C231389"
+		(property "LCSC" "C231390"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -64035,7 +64035,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://lcsc.com/product-detail/Others_Omron-Electronics__Omron-Electronics-G6K-2F-Y-DC5-BY-OMR-C_C231389.html"
+		(property "Datasheet" "https://www.lcsc.com/product-detail/signal-relays_omron-electronics-g6k-2f-y-tr-dc5-by-omr-c_C231390.html"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -64057,7 +64057,7 @@
 				)
 			)
 		)
-		(property "LCSC Part" "C231389"
+		(property "LCSC Part" "C231390"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -64082,7 +64082,7 @@
 				)
 			)
 		)
-		(property "MPN" "G6K-2F-Y DC5 BY OMZ/C"
+		(property "MPN" "G6K-2F-Y-TR DC5 BY OMR/C"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -64095,7 +64095,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C231389"
+		(property "LCSC" "C231390"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
