@@ -410,7 +410,7 @@ The connection can be `usb`, the pod's network address, or `embeddedci:<name>` t
 
 ## Usage notes
 
-- **Indoor use, short cables.** BenchPod is for indoor use. Keep every cable under 3 m, except ETHERNET, which may be longer but stays inside the building.
+- **Indoor use, short cables.** BenchPod is for indoor use. Keep every cable under 3 m, except ETHERNET: up to 30 m, indoors, to a switch or router in the same building.
 - **Set the I/O voltage first.** The pod refuses flashing, UART, logic analyzer captures, pull resistors and I2C emulation until the I/O voltage matches the DUT (1.8 V or 3.3 V). Never connect an LA channel to a signal above the selected I/O voltage.
 - **One owner per channel.** A channel used as GPIO must be released before UART, flashing or I2C emulation can use it; the error message names the command that frees it.
 - **Pull resistors** on LA1-LA8 work at 3.3 V I/O. For I2C, use LA1-LA6 (pull-ups), or add external pull-ups on LA9-LA14.
@@ -474,7 +474,7 @@ The EMC test plan, a separate document, describes the operating mode, monitoring
 | I/O HEADER | Signal port | Logic level 1.8 / 3.3 V, CAN |
 | ADC IN, DAC OUT, 4-20 mA IN, 4-20 mA OUT | Signal ports | Analog, ±30 V maximum |
 
-There is no mains port: BenchPod runs from 5 V USB-C. Indoor use only. Cables: 3 m maximum on every port except ETHERNET, which stays inside the building.
+There is no mains port: BenchPod runs from 5 V USB-C. Indoor use only. Cables: 3 m maximum on every port except ETHERNET, which is up to 30 m, indoors, to a switch or router in the same building.
 
 </div>
 <div class="keep" markdown="1">
