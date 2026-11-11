@@ -4429,7 +4429,7 @@
 		)
 		(uuid "9def459c-a4f2-4330-8618-f00b73b064ff")
 	)
-	(text "ADC input: 1 Mohm (R90 + R91), about 15-20 pF at the BNC,\nfor 1x leads and 10x scope probes. Overvoltage: R90 (1206,\n200 V) limits the current, D22 clamps the OPA810 input to\nits rails. Check the divider compensation on the first board."
+	(text "ADC input: 1 Mohm (R90 + R91), about 15-20 pF at the BNC,\nfor 1x leads and 10x scope probes. Overvoltage: R90 (0805,\n150 V, 300 V overload) limits the current, D22 clamps the OPA810 input to\nits rails. Check the divider compensation on the first board."
 		(exclude_from_sim no)
 		(at 60.96 52.07 0)
 		(effects
@@ -16496,7 +16496,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_1206_3216Metric"
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 152.4 47.498 90)
 			(hide yes)
 			(show_name no)
@@ -16529,7 +16529,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C870935"
+		(property "LCSC" "C865698"
 			(at 152.4 45.72 90)
 			(hide yes)
 			(show_name no)
