@@ -35,7 +35,7 @@ It is built from two stacked boards: a **digital board** (power, flashing, logic
 - **DUT power**: switched 5 V and external supply outputs, current monitoring
 - **Flash and debug**: on-board CMSIS-DAP probe (SWD), works with OpenOCD targets
 - **14-channel logic analyzer / GPIO** at 1.8 V or 3.3 V
-- **Protocols**: UART, I2C (sensor emulation), SPI, CAN
+- **Protocols**: UART, I2C (sensor emulation), SPI, CAN and CAN FD
 - **16-bit ADC**, 400 kS/s, ±30 V, BNC input
 - **16-bit DAC**, outputs 0-3.3 V, 0-5 V and ±12 V
 - **4-20 mA** input and output
@@ -52,7 +52,7 @@ It is built from two stacked boards: a **digital board** (power, flashing, logic
 | Power input | 5 V DC, USB-C, from a computer or USB-C power source |
 | DUT power | Switched 5 V (2 A) and external 2.7-20 V (3 A) outputs, current monitoring |
 | Logic analyzer / GPIO | 14 channels, 1.8 V or 3.3 V, up to 12 MS/s, 48 MS/s change capture |
-| Protocols | SWD (CMSIS-DAP), UART, SPI, I2C sensor emulation, GPS emulation, CAN |
+| Protocols | SWD (CMSIS-DAP), UART, SPI, I2C sensor emulation, GPS emulation, CAN and CAN FD |
 | ADC | 16-bit, 400 kS/s, ±30 V, BNC |
 | DAC | 16-bit, 0-3.3 V, 0-5 V and ±12 V outputs, up to 889 kS/s |
 | Current loop | 4-20 mA input and two-wire 4-20 mA output |
@@ -168,7 +168,7 @@ The I/O HEADER is a keyed, shrouded 2x13 right-angle header with 2.54 mm pitch, 
 - **LA1-LA14**: logic analyzer and GPIO channels. Any channel can carry UART, SWD, SPI, I2C or a GPIO; the wiring profile in the web app records which signal is on which channel.
 - **LA_REF**: reference output at the selected I/O voltage (1.8 V or 3.3 V).
 - **DUT RESET**: dedicated reset line to the DUT, used when flashing and by reset commands.
-- **CAN high / CAN low**: CAN bus through an on-board transceiver, with a switchable termination.
+- **CAN high / CAN low**: CAN or CAN FD bus through an on-board transceiver, with a switchable termination.
 
 ### Terminal blocks
 
@@ -237,7 +237,7 @@ Typical values at 25 °C, with the pod powered from a 5 V USB-C supply.
 | SPI | Master, modes 0-3, up to 6 MHz |
 | I2C | Sensor emulation: BMP280, BME280, SHT4x, MPU-6050 |
 | GPS | NMEA 0183 emulation over UART, up to 10 Hz |
-| CAN | Classic CAN, 10 kbit/s to 1 Mbit/s, switchable termination |
+| CAN | Classic CAN and CAN FD: 10 kbit/s to 1 Mbit/s arbitration, CAN FD data phase up to 8 Mbit/s (for example 2 or 5 Mbit/s) with up to 64-byte frames, switchable termination |
 
 </div>
 <div class="keep" markdown="1">
