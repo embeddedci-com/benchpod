@@ -15,4 +15,4 @@ them to your own signals. For a shrouded IDC box header, use the same footprint 
 
 Pins 17 and 18 are the pod's own 3.3 V and 1.8 V rails: leave them unconnected on your board.
 
-MIT, like the rest of this repository.
+Licensed like the rest of this repository (CERN-OHL-W v2).
