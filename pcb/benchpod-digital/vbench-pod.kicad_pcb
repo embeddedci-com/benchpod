@@ -27058,7 +27058,7 @@
 				)
 			)
 		)
-		(property "Value" "W25Q64JVSSIQ"
+		(property "Value" "W25Q128JVSIQ"
 			(at 2.46 7.03 90)
 			(layer "F.Fab")
 			(uuid "6b5dd81c-4f8c-4928-937d-fb9afd11c214")
@@ -27069,7 +27069,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "W25Q64JVSSIQ"
+		(property "Datasheet" "W25Q128JVSIQ"
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -27091,7 +27091,7 @@
 				)
 			)
 		)
-		(property "LCSC Part" "C179171"
+		(property "LCSC Part" "C97521"
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -27103,7 +27103,7 @@
 				)
 			)
 		)
-		(property "MPN" "W25Q64JVSSIQ"
+		(property "MPN" "W25Q128JVSIQ"
 			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -27116,7 +27116,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C179171"
+		(property "LCSC" "C97521"
 			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.Fab")

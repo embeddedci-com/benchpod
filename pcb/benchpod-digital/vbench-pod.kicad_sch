@@ -23170,7 +23170,7 @@
 				)
 			)
 		)
-		(property "Value" "W25Q64JVSSIQ"
+		(property "Value" "W25Q128JVSIQ"
 			(at 91.948 261.874 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -23192,7 +23192,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "W25Q64JVSSIQ"
+		(property "Datasheet" "W25Q128JVSIQ"
 			(at 53.34 257.81 0)
 			(hide yes)
 			(show_name no)
@@ -23215,7 +23215,7 @@
 				)
 			)
 		)
-		(property "MPN" "W25Q64JVSSIQ"
+		(property "MPN" "W25Q128JVSIQ"
 			(at 53.34 257.81 0)
 			(hide yes)
 			(show_name no)
@@ -23226,7 +23226,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C179171"
+		(property "LCSC" "C97521"
 			(at 53.34 257.81 0)
 			(hide yes)
 			(show_name no)
@@ -23259,7 +23259,7 @@
 				)
 			)
 		)
-		(property "LCSC Part" "C179171"
+		(property "LCSC Part" "C97521"
 			(at 53.34 257.81 0)
 			(hide yes)
 			(show_name no)
