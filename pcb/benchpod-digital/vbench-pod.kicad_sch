@@ -10631,10 +10631,6 @@
 		(uuid "831297d6-08a4-4fb5-a469-022a4a6336cb")
 	)
 	(no_connect
-		(at 373.38 167.64)
-		(uuid "862047e8-c7b4-4bf0-9c20-34e7174230d7")
-	)
-	(no_connect
 		(at 330.2 200.66)
 		(uuid "8e35b806-fa98-449b-9cc5-c1b26c53965e")
 	)
@@ -50957,6 +50953,8 @@
 				(justify right)
 			)
 		)
+		(pin "USB1_D+" bidirectional (at 38.1 36.83 0) (uuid "d0ab9e6c-372e-49b2-87c5-7d263ff4df73") (effects (font (size 1.27 1.27)) (justify right)))
+		(pin "USB1_D-" bidirectional (at 38.1 39.37 0) (uuid "f6f9821a-35b7-47e3-92f1-477bc507f250") (effects (font (size 1.27 1.27)) (justify right)))
 		(instances
 			(project "vbench-pod"
 				(path "/745fcf4b-2e0b-4fc4-95c0-f2e3fd40beb9"
@@ -51063,6 +51061,9 @@
 				(justify right)
 			)
 		)
+		(pin "USB_SEL" input (at 113.03 39.37 0) (uuid "63f8a0cf-3a98-46f7-96ba-70cc7c825e46") (effects (font (size 1.27 1.27)) (justify right)))
+		(pin "USB1_D+" bidirectional (at 92.71 27.94 180) (uuid "4c9b8352-c040-4938-8272-47e44f3fd7ed") (effects (font (size 1.27 1.27)) (justify left)))
+		(pin "USB1_D-" bidirectional (at 92.71 30.48 180) (uuid "09d4b0a0-1e90-493f-961b-325b9adf916a") (effects (font (size 1.27 1.27)) (justify left)))
 		(instances
 			(project "vbench-pod"
 				(path "/745fcf4b-2e0b-4fc4-95c0-f2e3fd40beb9"
@@ -51694,6 +51695,13 @@
 			)
 		)
 	)
+	(label "USB_SEL" (at 113.03 39.37 0) (effects (font (size 1.27 1.27)) (justify left bottom)) (uuid "335eaa48-2f55-4589-a4cb-89487689e0e1"))
+	(label "USB1_D+" (at 92.71 27.94 180) (effects (font (size 1.27 1.27)) (justify right bottom)) (uuid "c0029b58-c8d4-4603-af01-71fd25707a37"))
+	(label "USB1_D-" (at 92.71 30.48 180) (effects (font (size 1.27 1.27)) (justify right bottom)) (uuid "b75a47e0-bafb-4af2-b255-f0d4397d8cdd"))
+	(label "USB1_D+" (at 38.1 36.83 0) (effects (font (size 1.27 1.27)) (justify left bottom)) (uuid "50c82395-bb18-4623-ba04-ce51746111b3"))
+	(label "USB1_D-" (at 38.1 39.37 0) (effects (font (size 1.27 1.27)) (justify left bottom)) (uuid "6e56808a-c1f7-4596-9c7e-9c6a6fbb6be1"))
+	(label "USB_SEL" (at 373.38 167.64 0) (effects (font (size 1.27 1.27)) (justify left bottom)) (uuid "3360eb12-fef9-4047-be9f-808e1fdb846f"))
+
 	(sheet_instances
 		(path "/"
 			(page "1")
