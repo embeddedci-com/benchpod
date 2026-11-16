@@ -2634,16 +2634,6 @@
 		)
 		(uuid "024b5947-c959-49e0-957c-5cf6772bb61c")
 	)
-	(label "MOD_RESET#_CN1"
-		(at 132.08 25.4 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "055e0456-d0ca-463c-9950-162dc20382d0")
-	)
 	(label "+5V_MOD"
 		(at 195.58 77.47 180)
 		(effects
@@ -2653,16 +2643,6 @@
 			(justify right bottom)
 		)
 		(uuid "0abdfba8-0351-49d6-80b6-b7ad8fe0b956")
-	)
-	(label "MOD_I2C_SCL_CN1"
-		(at 132.08 20.32 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "0b996b29-05cf-4b2f-a175-19bfa0cefefe")
 	)
 	(label "BR_USB_DPDM"
 		(at 175.26 149.86 0)
@@ -2704,6 +2684,16 @@
 		)
 		(uuid "20bea2b6-93ee-4f26-8d40-b0334bedc3b3")
 	)
+	(label "MOD_RESET#_CN1"
+		(at 132.08 20.32 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "3ae3576f-6d4b-44a4-ae01-c10ab83205b3")
+	)
 	(label "+5V_MOD"
 		(at 87.63 95.25 270)
 		(effects
@@ -2743,6 +2733,16 @@
 			(justify left bottom)
 		)
 		(uuid "69ac69cc-b68a-43bd-867d-8ff1441cd3f8")
+	)
+	(label "MOD_I2C_SCL_CN1"
+		(at 132.08 25.4 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "71a8bede-2c04-4b34-970d-7842fd54a0e6")
 	)
 	(label "+5V_BRIDGE"
 		(at 87.63 156.21 270)
@@ -2914,17 +2914,6 @@
 		)
 		(uuid "ff5132ed-1a63-484f-8697-6785752d2d7c")
 	)
-	(hierarchical_label "MOD_DAC_DIN"
-		(shape bidirectional)
-		(at 214.63 45.72 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "09ed729e-a417-4bbb-9e64-c2ea87ffa935")
-	)
 	(hierarchical_label "MOD_RESET#"
 		(shape bidirectional)
 		(at 241.3 144.78 270)
@@ -2991,17 +2980,6 @@
 		)
 		(uuid "281be262-2ede-4c26-8a18-457caf285a14")
 	)
-	(hierarchical_label "MOD_ADC_SDO"
-		(shape bidirectional)
-		(at 38.1 25.4 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "2a75f8bf-2389-4720-9c49-e82270128835")
-	)
 	(hierarchical_label "MOD_ADC_CNVST"
 		(shape output)
 		(at 195.58 110.49 180)
@@ -3024,16 +3002,16 @@
 		)
 		(uuid "454ba537-e27f-424f-b92a-263661654a5a")
 	)
-	(hierarchical_label "MOD_DAC_SCLK"
+	(hierarchical_label "MOD_ADC_SCLK"
 		(shape bidirectional)
-		(at 214.63 50.8 180)
+		(at 38.1 25.4 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify right)
 		)
-		(uuid "4fac5b82-5ea6-4c7b-90e0-6aa317cd52a2")
+		(uuid "50d94911-93c7-4c74-b24e-704bd5dd3265")
 	)
 	(hierarchical_label "MOD_PRESENT#"
 		(shape input)
@@ -3057,7 +3035,7 @@
 		)
 		(uuid "68160829-6857-4982-a803-51da52120f00")
 	)
-	(hierarchical_label "MOD_ADC_SCLK"
+	(hierarchical_label "MOD_ADC_SDO"
 		(shape bidirectional)
 		(at 38.1 20.32 180)
 		(effects
@@ -3066,7 +3044,7 @@
 			)
 			(justify right)
 		)
-		(uuid "6ca7f2fd-e1d9-4ab2-a689-d0428f7ef31e")
+		(uuid "6d3680c4-91f2-428a-8d7d-100665ff041a")
 	)
 	(hierarchical_label "BRIDGE_PWR_EN"
 		(shape output)
@@ -3122,6 +3100,28 @@
 			(justify right)
 		)
 		(uuid "b3086e5a-2e82-486d-9397-56b79d3546c6")
+	)
+	(hierarchical_label "MOD_DAC_SCLK"
+		(shape bidirectional)
+		(at 214.63 45.72 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "bc52ce4a-728f-4ec7-b822-9651341fe057")
+	)
+	(hierarchical_label "MOD_DAC_DIN"
+		(shape bidirectional)
+		(at 214.63 50.8 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "c0326058-4d06-4a02-b4e0-2c4f3b6aa96e")
 	)
 	(hierarchical_label "BRIDGE_PWR_EN"
 		(shape output)
@@ -7745,7 +7745,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 215.75 48.26 0)
+			(at 216.916 48.26 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects

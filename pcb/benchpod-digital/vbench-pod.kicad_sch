@@ -14309,6 +14309,16 @@
 		)
 		(uuid "3ae07b82-46dc-482a-905d-c1c42a4f09b4")
 	)
+	(label "CAN+"
+		(at 241.3 238.76 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "3b43bae7-f537-4756-b01a-30161073ff84")
+	)
 	(label "LA_VCCIO"
 		(at 80.01 137.16 180)
 		(effects
@@ -14428,16 +14438,6 @@
 			(justify right bottom)
 		)
 		(uuid "44db3782-749d-4d01-a481-10cf6fa195dc")
-	)
-	(label "CAN+"
-		(at 241.3 238.76 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "456154a6-e777-4549-9728-35d502e7b379")
 	)
 	(label "RMII_TXD1"
 		(at 248.92 127 0)
@@ -15088,16 +15088,6 @@
 			(justify right bottom)
 		)
 		(uuid "7b39ad8a-0cce-42c2-a696-f6d17a6e0ed8")
-	)
-	(label "CAN-"
-		(at 241.3 233.68 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "7ce88d7e-2785-4daf-855d-4bd1fc728dcc")
 	)
 	(label "ICE_CRESET"
 		(at 73.66 186.69 180)
@@ -15948,6 +15938,16 @@
 			(justify left bottom)
 		)
 		(uuid "d4b3867c-5132-4f48-a661-feab9f89189e")
+	)
+	(label "CAN-"
+		(at 241.3 233.68 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "d4e0fdab-ac61-424f-bca4-4f8af464729c")
 	)
 	(label "DAC_SYNC"
 		(at 125.73 91.44 0)
