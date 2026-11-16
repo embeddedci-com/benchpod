@@ -4471,7 +4471,7 @@
 		)
 		(uuid "257a6037-2af1-46d1-8956-2b5ff4a4165f")
 	)
-	(hierarchical_label "P_USB_D-"
+	(hierarchical_label "P_USB_D+"
 		(shape input)
 		(at 245.11 40.64 0)
 		(effects
@@ -4515,7 +4515,7 @@
 		)
 		(uuid "dadcc925-5fc1-49ba-9481-4c01d32440ab")
 	)
-	(hierarchical_label "P_USB_D+"
+	(hierarchical_label "P_USB_D-"
 		(shape input)
 		(at 245.11 38.1 0)
 		(effects
@@ -14023,10 +14023,10 @@
 		(pin "10" (uuid "16c0f574-7e69-439b-ab20-fe2a309c5072"))
 		(instances (project "vbench-pod" (path "/745fcf4b-2e0b-4fc4-95c0-f2e3fd40beb9/6e16e19c-a558-4ab3-b333-eb07c45a4c12" (reference "U64") (unit 1))))
 	)
-	(label "USB_D+" (at 224.79 33.02 180) (effects (font (size 1.27 1.27)) (justify right bottom)) (uuid "e6ad860a-07da-4cba-a867-eb362ebca7f0"))
-	(label "USB_D-" (at 224.79 35.56 180) (effects (font (size 1.27 1.27)) (justify right bottom)) (uuid "650fa84b-b83c-43e7-b2c9-32bfd86db40e"))
-	(label "USB1_D+" (at 224.79 38.1 180) (effects (font (size 1.27 1.27)) (justify right bottom)) (uuid "94fc3d12-5946-4717-8d96-0f18e4fc3e51"))
-	(label "USB1_D-" (at 224.79 40.64 180) (effects (font (size 1.27 1.27)) (justify right bottom)) (uuid "051b7926-e76e-4576-854e-614971cf30ef"))
+	(label "USB_D-" (at 224.79 33.02 180) (effects (font (size 1.27 1.27)) (justify right bottom)) (uuid "e6ad860a-07da-4cba-a867-eb362ebca7f0"))
+	(label "USB_D+" (at 224.79 35.56 180) (effects (font (size 1.27 1.27)) (justify right bottom)) (uuid "650fa84b-b83c-43e7-b2c9-32bfd86db40e"))
+	(label "USB1_D-" (at 224.79 38.1 180) (effects (font (size 1.27 1.27)) (justify right bottom)) (uuid "94fc3d12-5946-4717-8d96-0f18e4fc3e51"))
+	(label "USB1_D+" (at 224.79 40.64 180) (effects (font (size 1.27 1.27)) (justify right bottom)) (uuid "051b7926-e76e-4576-854e-614971cf30ef"))
 	(wire (pts (xy 224.79 43.18) (xy 222.25 43.18)) (stroke (width 0) (type default)) (uuid "f8cc8be4-fd4c-4c6e-bfd7-21f8de17e297"))
 	(symbol
 		(lib_id "power:GND")
