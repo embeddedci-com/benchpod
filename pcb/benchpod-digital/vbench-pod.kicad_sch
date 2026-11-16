@@ -4407,6 +4407,309 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "lcsc_lib:PESD2CAN,215"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "D"
+				(at 0 7.62 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "PESD2CAN,215"
+				(at 0 -7.62 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "easyeda2kicad:SOT-23-3_L2.9-W1.3-P1.90-LS2.4-BR"
+				(at 0 -10.16 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" "https://lcsc.com/product-detail/Diodes-ESD_NXP_PESD2CAN-215_PESD2CAN-215_C75176.html"
+				(at 0 -12.7 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Manufacturer" "Nexperia(安世)"
+				(at 0 -15.24 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "MPN" "PESD2CAN,215"
+				(at 0 -17.78 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "LCSC Part" "C75176"
+				(at 0 -20.32 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "ESD Protection Devices"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "PESD2CAN,215_0_1"
+				(rectangle
+					(start -7.62 5.08)
+					(end 7.62 -5.08)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(polyline
+					(pts
+						(xy -7.62 2.54) (xy 5.08 2.54) (xy 5.08 -2.54) (xy -7.62 -2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -5.08 4.57) (xy -5.08 0.76) (xy -4.57 0.76)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -5.08 -0.51) (xy -5.08 -4.32) (xy -4.57 -4.32)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -2.54 4.32) (xy -5.08 2.54) (xy -2.54 0.76) (xy -2.54 4.32)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(polyline
+					(pts
+						(xy -2.54 -0.76) (xy -5.08 -2.54) (xy -2.54 -4.32) (xy -2.54 -0.76)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 0.76) (xy 2.54 2.54) (xy 0 4.32) (xy 0 0.76)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 -4.32) (xy 2.54 -2.54) (xy 0 -0.76) (xy 0 -4.32)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 0.51) (xy 2.54 4.32) (xy 2.03 4.32)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 -4.57) (xy 2.54 -0.76) (xy 2.03 -0.76)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 5.08 0)
+					(radius 0.13)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 7.62 0) (xy 5.08 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin unspecified line
+					(at -12.7 2.54 0)
+					(length 5.08)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at -12.7 -2.54 0)
+					(length 5.08)
+					(name "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 12.7 0 180)
+					(length 5.08)
+					(name "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "lcsc_lib:S4-3528RGBTA-A"
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -9654,168 +9957,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "lcsc_lib:PESD2CAN,215"
-    (in_bom yes)
-    (on_board yes)
-    (property
-      "Reference"
-      "D"
-      (id 0)
-      (at 0 7.62 0)
-      (effects (font (size 1.27 1.27) ) )
-    )
-    (property
-      "Value"
-      "PESD2CAN,215"
-      (id 1)
-      (at 0 -7.62 0)
-      (effects (font (size 1.27 1.27) ) )
-    )
-    (property
-      "Footprint"
-      "easyeda2kicad:SOT-23-3_L2.9-W1.3-P1.90-LS2.4-BR"
-      (id 2)
-      (at 0 -10.16 0)
-      (effects (font (size 1.27 1.27) ) hide)
-    )
-    (property
-      "Datasheet"
-      "https://lcsc.com/product-detail/Diodes-ESD_NXP_PESD2CAN-215_PESD2CAN-215_C75176.html"
-      (id 3)
-      (at 0 -12.70 0)
-      (effects (font (size 1.27 1.27) ) hide)
-    )
-    (property
-      "Manufacturer"
-      "Nexperia(安世)"
-      (id 4)
-      (at 0 -15.24 0)
-      (effects (font (size 1.27 1.27) ) hide)
-    )
-    (property
-      "MPN"
-      "PESD2CAN,215"
-      (id 5)
-      (at 0 -17.78 0)
-      (effects (font (size 1.27 1.27) ) hide)
-    )
-    (property
-      "LCSC Part"
-      "C75176"
-      (id 6)
-      (at 0 -20.32 0)
-      (effects (font (size 1.27 1.27) ) hide)
-    )
-    (property
-      "ki_keywords"
-      "ESD Protection Devices"
-      (id 8)
-      (at 0 -22.86 0)
-      (effects (font (size 1.27 1.27) ) hide)
-    )
-    (symbol "PESD2CAN,215_0_1"
-      (rectangle
-        (start -7.62 5.08)
-        (end 7.62 -5.08)
-        (stroke (width 0) (type default))
-        (fill (type background))
-      )
-      (circle
-        (center 5.08 -0.00)
-        (radius 0.13)
-        (stroke (width 0) (type default))
-        (fill (type none))
-      )
-      (polyline
-        (pts
-          (xy -2.54 4.32) (xy -5.08 2.54) (xy -2.54 0.76) (xy -2.54 4.32)
-        )
-        (stroke (width 0) (type default))
-        (fill (type background))
-      )
-      (polyline
-        (pts
-          (xy 0.00 0.76) (xy 2.54 2.54) (xy 0.00 4.32) (xy 0.00 0.76)
-        )
-        (stroke (width 0) (type default))
-        (fill (type background))
-      )
-      (polyline
-        (pts
-          (xy -2.54 -0.76) (xy -5.08 -2.54) (xy -2.54 -4.32) (xy -2.54 -0.76)
-        )
-        (stroke (width 0) (type default))
-        (fill (type background))
-      )
-      (polyline
-        (pts
-          (xy 0.00 -4.32) (xy 2.54 -2.54) (xy 0.00 -0.76) (xy 0.00 -4.32)
-        )
-        (stroke (width 0) (type default))
-        (fill (type background))
-      )
-      (polyline
-        (pts
-          (xy -5.08 4.57) (xy -5.08 0.76) (xy -4.57 0.76)
-        )
-        (stroke (width 0) (type default))
-        (fill (type none))
-      )
-      (polyline
-        (pts
-          (xy 2.54 0.51) (xy 2.54 4.32) (xy 2.03 4.32)
-        )
-        (stroke (width 0) (type default))
-        (fill (type none))
-      )
-      (polyline
-        (pts
-          (xy -5.08 -0.51) (xy -5.08 -4.32) (xy -4.57 -4.32)
-        )
-        (stroke (width 0) (type default))
-        (fill (type none))
-      )
-      (polyline
-        (pts
-          (xy 2.54 -4.57) (xy 2.54 -0.76) (xy 2.03 -0.76)
-        )
-        (stroke (width 0) (type default))
-        (fill (type none))
-      )
-      (polyline
-        (pts
-          (xy -7.62 2.54) (xy 5.08 2.54) (xy 5.08 -2.54) (xy -7.62 -2.54)
-        )
-        (stroke (width 0) (type default))
-        (fill (type none))
-      )
-      (polyline
-        (pts
-          (xy 7.62 -0.00) (xy 5.08 -0.00)
-        )
-        (stroke (width 0) (type default))
-        (fill (type none))
-      )
-      (pin unspecified line
-        (at -12.70 2.54 0)
-        (length 5.08)
-        (name "1" (effects (font (size 1.27 1.27))))
-        (number "1" (effects (font (size 1.27 1.27))))
-      )
-      (pin unspecified line
-        (at -12.70 -2.54 0)
-        (length 5.08)
-        (name "2" (effects (font (size 1.27 1.27))))
-        (number "2" (effects (font (size 1.27 1.27))))
-      )
-      (pin unspecified line
-        (at 12.70 -0.00 180)
-        (length 5.08)
-        (name "3" (effects (font (size 1.27 1.27))))
-        (number "3" (effects (font (size 1.27 1.27))))
-      )
-    )
-  )
 	)
 	(text "bleeder\nresistor"
 		(exclude_from_sim no)
@@ -11497,6 +11638,16 @@
 			(type default)
 		)
 		(uuid "3d23ba0e-eb89-4d41-9d37-66f5d405cdcb")
+	)
+	(wire
+		(pts
+			(xy 266.7 236.22) (xy 266.7 238.76)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3d2de337-0dd6-4090-9376-3e712a139f21")
 	)
 	(wire
 		(pts
@@ -13988,6 +14139,26 @@
 		)
 		(uuid "32898cc9-fae3-4ba8-9307-861f6d709ef5")
 	)
+	(label "USB_SEL"
+		(at 113.03 39.37 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "335eaa48-2f55-4589-a4cb-89487689e0e1")
+	)
+	(label "USB_SEL"
+		(at 373.38 167.64 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "3360eb12-fef9-4047-be9f-808e1fdb846f")
+	)
 	(label "MOD_PWR_EN"
 		(at 373.38 218.44 0)
 		(effects
@@ -14258,6 +14429,16 @@
 		)
 		(uuid "44db3782-749d-4d01-a481-10cf6fa195dc")
 	)
+	(label "CAN+"
+		(at 241.3 238.76 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "456154a6-e777-4549-9728-35d502e7b379")
+	)
 	(label "RMII_TXD1"
 		(at 248.92 127 0)
 		(effects
@@ -14407,6 +14588,16 @@
 			(justify left bottom)
 		)
 		(uuid "50bcd568-0bb4-441a-ac79-1fa7fc1cd141")
+	)
+	(label "USB1_D+"
+		(at 38.1 36.83 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "50c82395-bb18-4623-ba04-ce51746111b3")
 	)
 	(label "ICE_STM32_CS0"
 		(at 83.82 196.85 180)
@@ -14718,6 +14909,16 @@
 		)
 		(uuid "6daff7c1-a9b4-4bc9-8098-1b1b2b916ec7")
 	)
+	(label "USB1_D-"
+		(at 38.1 39.37 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "6e56808a-c1f7-4596-9c7e-9c6a6fbb6be1")
+	)
 	(label "LA_OUT12"
 		(at 40.64 191.77 180)
 		(effects
@@ -14887,6 +15088,16 @@
 			(justify right bottom)
 		)
 		(uuid "7b39ad8a-0cce-42c2-a696-f6d17a6e0ed8")
+	)
+	(label "CAN-"
+		(at 241.3 233.68 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "7ce88d7e-2785-4daf-855d-4bd1fc728dcc")
 	)
 	(label "ICE_CRESET"
 		(at 73.66 186.69 180)
@@ -15438,6 +15649,16 @@
 		)
 		(uuid "b71d34da-e8ee-4e46-bed7-dd88d941016b")
 	)
+	(label "USB1_D-"
+		(at 92.71 30.48 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "b75a47e0-bafb-4af2-b255-f0d4397d8cdd")
+	)
 	(label "STM32_VDD"
 		(at 375.92 29.21 0)
 		(effects
@@ -15517,6 +15738,16 @@
 			(justify left bottom)
 		)
 		(uuid "bff755e8-b6d5-46ed-9f6a-e4fef3dadf5f")
+	)
+	(label "USB1_D+"
+		(at 92.71 27.94 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "c0029b58-c8d4-4603-af01-71fd25707a37")
 	)
 	(label "LA_OUT7"
 		(at 55.88 100.33 0)
@@ -39601,6 +39832,177 @@
 		)
 	)
 	(symbol
+		(lib_id "lcsc_lib:PESD2CAN,215")
+		(at 254 236.22 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "a4502f5e-9d9b-4b93-a977-bf422e01aad6")
+		(property "Reference" "D25"
+			(at 248.92 229.87 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "H24VNT2B"
+			(at 248.92 243.84 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
+			(at 254 247.65 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://www.lcsc.com/datasheet/C20615827.pdf"
+			(at 254 250.19 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "CAN ESD clamp, 24 V standoff; place at J1 with a short GND"
+			(at 254 236.22 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "hongjiacheng"
+			(at 254 252.73 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "H24VNT2B"
+			(at 254 255.27 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Part" "C20615827"
+			(at 254 257.81 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C20615827"
+			(at 254 236.22 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "ProductID" ""
+			(at 254 236.22 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pins" ""
+			(at 254 236.22 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S3.3" ""
+			(at 254 236.22 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S4.1" ""
+			(at 254 236.22 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "8e96a639-5a9d-4a82-ad62-b40fad50b131")
+		)
+		(pin "2"
+			(uuid "e79b0c5d-0be1-4d03-93a9-a32df73cb6aa")
+		)
+		(pin "3"
+			(uuid "4941cd45-e81e-4355-870e-fbd33738b722")
+		)
+		(instances
+			(project "vbench-pod"
+				(path "/745fcf4b-2e0b-4fc4-95c0-f2e3fd40beb9"
+					(reference "D25")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 208.28 204.47 90)
 		(unit 1)
@@ -49799,6 +50201,83 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GND")
+		(at 266.7 238.76 0)
+		(mirror y)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "fb898df3-4688-40aa-ac68-c8b28042ed85")
+		(property "Reference" "#PWR0901"
+			(at 266.7 245.11 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 263.144 239.776 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 266.7 238.76 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 266.7 238.76 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 266.7 238.76 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "8038dee3-44a8-427e-a239-2eb9186b8f67")
+		)
+		(instances
+			(project "vbench-pod"
+				(path "/745fcf4b-2e0b-4fc4-95c0-f2e3fd40beb9"
+					(reference "#PWR0901")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R")
 		(at 320.04 86.36 90)
 		(unit 1)
@@ -50953,8 +51432,26 @@
 				(justify right)
 			)
 		)
-		(pin "USB1_D+" bidirectional (at 38.1 36.83 0) (uuid "d0ab9e6c-372e-49b2-87c5-7d263ff4df73") (effects (font (size 1.27 1.27)) (justify right)))
-		(pin "USB1_D-" bidirectional (at 38.1 39.37 0) (uuid "f6f9821a-35b7-47e3-92f1-477bc507f250") (effects (font (size 1.27 1.27)) (justify right)))
+		(pin "USB1_D+" bidirectional
+			(at 38.1 36.83 0)
+			(uuid "d0ab9e6c-372e-49b2-87c5-7d263ff4df73")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "USB1_D-" bidirectional
+			(at 38.1 39.37 0)
+			(uuid "f6f9821a-35b7-47e3-92f1-477bc507f250")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
 		(instances
 			(project "vbench-pod"
 				(path "/745fcf4b-2e0b-4fc4-95c0-f2e3fd40beb9"
@@ -51061,9 +51558,36 @@
 				(justify right)
 			)
 		)
-		(pin "USB_SEL" input (at 113.03 39.37 0) (uuid "63f8a0cf-3a98-46f7-96ba-70cc7c825e46") (effects (font (size 1.27 1.27)) (justify right)))
-		(pin "USB1_D+" bidirectional (at 92.71 27.94 180) (uuid "4c9b8352-c040-4938-8272-47e44f3fd7ed") (effects (font (size 1.27 1.27)) (justify left)))
-		(pin "USB1_D-" bidirectional (at 92.71 30.48 180) (uuid "09d4b0a0-1e90-493f-961b-325b9adf916a") (effects (font (size 1.27 1.27)) (justify left)))
+		(pin "USB_SEL" input
+			(at 113.03 39.37 0)
+			(uuid "63f8a0cf-3a98-46f7-96ba-70cc7c825e46")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "USB1_D+" bidirectional
+			(at 92.71 27.94 180)
+			(uuid "4c9b8352-c040-4938-8272-47e44f3fd7ed")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "USB1_D-" bidirectional
+			(at 92.71 30.48 180)
+			(uuid "09d4b0a0-1e90-493f-961b-325b9adf916a")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
 		(instances
 			(project "vbench-pod"
 				(path "/745fcf4b-2e0b-4fc4-95c0-f2e3fd40beb9"
@@ -51417,291 +51941,6 @@
 			)
 		)
 	)
-	(symbol
-		(lib_id "lcsc_lib:PESD2CAN,215")
-		(at 254 236.22 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "a4502f5e-9d9b-4b93-a977-bf422e01aad6")
-		(property "Reference" "D25"
-			(at 248.92 229.87 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "H24VNT2B"
-			(at 248.92 243.84 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
-			(at 254 247.65 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" "https://www.lcsc.com/datasheet/C20615827.pdf"
-			(at 254 250.19 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "CAN ESD clamp, 24 V standoff; place at J1 with a short GND"
-			(at 254 236.22 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Manufacturer" "hongjiacheng"
-			(at 254 252.73 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "MPN" "H24VNT2B"
-			(at 254 255.27 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "LCSC Part" "C20615827"
-			(at 254 257.81 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "LCSC" "C20615827"
-			(at 254 236.22 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "ProductID" ""
-			(at 254 236.22 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Pins" ""
-			(at 254 236.22 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "KLC_S3.3" ""
-			(at 254 236.22 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "KLC_S4.1" ""
-			(at 254 236.22 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "8e96a639-5a9d-4a82-ad62-b40fad50b131")
-		)
-		(pin "2"
-			(uuid "e79b0c5d-0be1-4d03-93a9-a32df73cb6aa")
-		)
-		(pin "3"
-			(uuid "4941cd45-e81e-4355-870e-fbd33738b722")
-		)
-		(instances
-			(project "vbench-pod"
-				(path "/745fcf4b-2e0b-4fc4-95c0-f2e3fd40beb9"
-					(reference "D25")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(label "CAN+"
-		(at 241.3 233.68 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "e2b87238-f127-4f92-a689-4095b2f71bf0")
-	)
-	(label "CAN-"
-		(at 241.3 238.76 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "4bb97b15-fbdb-423f-904b-cb13ac5107ea")
-	)
-	(wire
-		(pts
-			(xy 266.7 236.22) (xy 266.7 238.76)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "3d2de337-0dd6-4090-9376-3e712a139f21")
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 266.7 238.76 0)
-		(mirror y)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "fb898df3-4688-40aa-ac68-c8b28042ed85")
-		(property "Reference" "#PWR0901"
-			(at 266.7 245.11 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "GND"
-			(at 263.144 239.776 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 266.7 238.76 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 266.7 238.76 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 266.7 238.76 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "8038dee3-44a8-427e-a239-2eb9186b8f67")
-		)
-		(instances
-			(project "vbench-pod"
-				(path "/745fcf4b-2e0b-4fc4-95c0-f2e3fd40beb9"
-					(reference "#PWR0901")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(label "USB_SEL" (at 113.03 39.37 0) (effects (font (size 1.27 1.27)) (justify left bottom)) (uuid "335eaa48-2f55-4589-a4cb-89487689e0e1"))
-	(label "USB1_D+" (at 92.71 27.94 180) (effects (font (size 1.27 1.27)) (justify right bottom)) (uuid "c0029b58-c8d4-4603-af01-71fd25707a37"))
-	(label "USB1_D-" (at 92.71 30.48 180) (effects (font (size 1.27 1.27)) (justify right bottom)) (uuid "b75a47e0-bafb-4af2-b255-f0d4397d8cdd"))
-	(label "USB1_D+" (at 38.1 36.83 0) (effects (font (size 1.27 1.27)) (justify left bottom)) (uuid "50c82395-bb18-4623-ba04-ce51746111b3"))
-	(label "USB1_D-" (at 38.1 39.37 0) (effects (font (size 1.27 1.27)) (justify left bottom)) (uuid "6e56808a-c1f7-4596-9c7e-9c6a6fbb6be1"))
-	(label "USB_SEL" (at 373.38 167.64 0) (effects (font (size 1.27 1.27)) (justify left bottom)) (uuid "3360eb12-fef9-4047-be9f-808e1fdb846f"))
-
 	(sheet_instances
 		(path "/"
 			(page "1")
