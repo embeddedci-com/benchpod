@@ -3119,6 +3119,337 @@
 		      )
 		    )
 		  )
+		(symbol "lcsc_imported:TPD4E05U06DQAR"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "D"
+				(at 0 10.16 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "TPD4E05U06DQAR"
+				(at 0 -10.16 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "lcsc_footprints:C138714_USON-10_L2.5-W1.0-P0.50-BL"
+				(at 0 -12.7 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" "https://lcsc.com/product-detail/TVS_TI_TPD4E05U06DQAR_TPD4E05U06DQAR_C138714.html"
+				(at 0 -15.24 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "LCSC" "C138714"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Manufacturer" "TI(德州仪器)"
+				(at 0 -17.78 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "MPN" "TPD4E05U06DQAR"
+				(at 0 -20.32 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "LCSC Part" "C138714"
+				(at 0 -22.86 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "ESD Protection Devices"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "TPD4E05U06DQAR_0_1"
+				(rectangle
+					(start -7.62 8.13)
+					(end 7.62 -8.13)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(circle
+					(center -6.35 6.86)
+					(radius 0.38)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center -6.35 6.86)
+					(radius 0.38)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at -10.16 5.08 0)
+					(length 2.54)
+					(name "D1+"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -10.16 2.54 0)
+					(length 2.54)
+					(name "D1-"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -10.16 0 0)
+					(length 2.54)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -10.16 -2.54 0)
+					(length 2.54)
+					(name "D2+"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -10.16 -5.08 0)
+					(length 2.54)
+					(name "D2-"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 10.16 -5.08 180)
+					(length 2.54)
+					(name "NC"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 10.16 -2.54 180)
+					(length 2.54)
+					(name "NC"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 10.16 0 180)
+					(length 2.54)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "8"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 10.16 2.54 180)
+					(length 2.54)
+					(name "NC"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "9"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 10.16 5.08 180)
+					(length 2.54)
+					(name "NC"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "10"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 	)
 	(text "USB-C"
 		(exclude_from_sim no)
@@ -14192,7 +14523,7 @@
 		(instances (project "vbench-pod" (path "/745fcf4b-2e0b-4fc4-95c0-f2e3fd40beb9/6e16e19c-a558-4ab3-b333-eb07c45a4c12" (reference "#PWR0913") (unit 1))))
 	)
 	(symbol
-		(lib_id "lcsc_lib:USBLC6-4SC6")
+		(lib_id "lcsc_imported:TPD4E05U06DQAR")
 		(at 241.3 68.58 0)
 		(unit 1)
 		(body_style 1)
@@ -14201,28 +14532,29 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "83419004-8c09-4ecb-8597-0cb0431873fe")
+		(uuid "b702ca5a-9ef9-49db-adb1-f81988128996")
 		(property "Reference" "D26"
-			(at 259.08 73.66 0)
+			(at 241.3 78.74 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
-				) (justify left))
+				)
+			)
 		)
-		(property "Value" "USBLC6-4SC6"
-			(at 259.08 81.28 0)
+		(property "Value" "TPD4E05U06DQAR"
+			(at 241.3 58.42 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
-				) (justify left))
+				)
+			)
 		)
-		(property "Footprint" "lcsc:SOT-23-6_L2.9-W1.6-P0.95-LS2.8-BL"
-			(at 241.3 85.09 0)
+		(property "Footprint" "lcsc_footprints:C138714_USON-10_L2.5-W1.0-P0.50-BL"
+			(at 241.3 55.88 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14232,8 +14564,8 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://lcsc.com/product-detail/Diodes-ESD_STMicroelectronics_USBLC6-4SC6_USBLC6-4SC6_C111212.html"
-			(at 241.3 87.63 0)
+		(property "Datasheet" "https://lcsc.com/product-detail/TVS_TI_TPD4E05U06DQAR_TPD4E05U06DQAR_C138714.html"
+			(at 241.3 53.34 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14254,8 +14586,8 @@
 				)
 			)
 		)
-		(property "Manufacturer" "ST(意法半导体)"
-			(at 241.3 90.17 0)
+		(property "LCSC" "C138714"
+			(at 241.3 68.58 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14264,59 +14596,42 @@
 					(size 1.27 1.27)
 				)
 			)
-		)
-		(property "MPN" "USBLC6-4SC6"
-			(at 241.3 92.71 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "LCSC" "C111212"
-			(at 241.3 95.25 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "4"
-			(uuid "6d1deb1f-419e-449e-a206-3a43afaa5c69")
-		)
-		(pin "5"
-			(uuid "0b439d1b-bfba-47f5-9abf-43923e7e4454")
-		)
-		(pin "6"
-			(uuid "60663dd6-b6e1-46b4-a742-c5b23c22ab9e")
-		)
-		(pin "2"
-			(uuid "31591ee3-e4c7-49fc-8f52-cd2720baa2fb")
-		)
-		(pin "3"
-			(uuid "3770420e-e0de-484b-89bd-fc4b0729acd0")
 		)
 		(pin "1"
-			(uuid "871fbf40-45f3-483f-a535-341b70160b0c")
+			(uuid "3d54079f-6023-484d-94b9-2b68da17a254")
 		)
-		(instances
-			(project "vbench-pod"
-				(path "/745fcf4b-2e0b-4fc4-95c0-f2e3fd40beb9/6e16e19c-a558-4ab3-b333-eb07c45a4c12"
-					(reference "D26")
-					(unit 1)
-				)
-			)
+		(pin "10"
+			(uuid "31cae0e2-56c8-47aa-bd33-65ef0283321e")
 		)
+		(pin "2"
+			(uuid "97608fb5-054a-4b81-85e5-2706775f5f1d")
+		)
+		(pin "3"
+			(uuid "23883a5f-6b98-42f5-ac1b-9585c27e9d2e")
+		)
+		(pin "4"
+			(uuid "505a8f4d-4112-45b5-a228-da961c10c7fc")
+		)
+		(pin "5"
+			(uuid "72cffc25-4a12-4257-af2e-94a0510e4c6c")
+		)
+		(pin "6"
+			(uuid "2fbbbe45-3843-47e7-8f75-0e58f09a04fc")
+		)
+		(pin "7"
+			(uuid "ceed602c-bc05-480b-92f4-b463ff042039")
+		)
+		(pin "8"
+			(uuid "76946455-02a5-4a78-b51d-8f4b0994d53b")
+		)
+		(pin "9"
+			(uuid "9f4395fc-a0a0-45b1-a127-351a0fdd16aa")
+		)
+		(instances (project "vbench-pod" (path "/745fcf4b-2e0b-4fc4-95c0-f2e3fd40beb9/6e16e19c-a558-4ab3-b333-eb07c45a4c12" (reference "D26") (unit 1))))
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 223.52 68.58 0)
+		(at 226.06 68.58 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -14325,32 +14640,13 @@
 		(in_pos_files no)
 		(dnp no)
 		(uuid "4f8f217f-875c-4b50-b182-d25dcb8b3ebb")
-		(property "Reference" "#PWR0914" (at 223.52 74.93 0) (hide yes) (show_name no) (do_not_autoplace no) (effects (font (size 1.27 1.27))))
-		(property "Value" "GND" (at 223.52 73.66 0) (show_name no) (do_not_autoplace no) (effects (font (size 1.27 1.27))))
-		(property "Footprint" "" (at 223.52 68.58 0) (hide yes) (show_name no) (do_not_autoplace no) (effects (font (size 1.27 1.27))))
-		(property "Datasheet" "" (at 223.52 68.58 0) (hide yes) (show_name no) (do_not_autoplace no) (effects (font (size 1.27 1.27))))
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground" (at 223.52 68.58 0) (hide yes) (show_name no) (do_not_autoplace no) (effects (font (size 1.27 1.27))))
+		(property "Reference" "#PWR0914" (at 226.06 74.93 0) (hide yes) (show_name no) (do_not_autoplace no) (effects (font (size 1.27 1.27))))
+		(property "Value" "GND" (at 226.06 73.66 0) (show_name no) (do_not_autoplace no) (effects (font (size 1.27 1.27))))
+		(property "Footprint" "" (at 226.06 68.58 0) (hide yes) (show_name no) (do_not_autoplace no) (effects (font (size 1.27 1.27))))
+		(property "Datasheet" "" (at 226.06 68.58 0) (hide yes) (show_name no) (do_not_autoplace no) (effects (font (size 1.27 1.27))))
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground" (at 226.06 68.58 0) (hide yes) (show_name no) (do_not_autoplace no) (effects (font (size 1.27 1.27))))
 		(pin "1" (uuid "2a8aa1af-f3ec-4b94-be23-2a663a57a6fd"))
 		(instances (project "vbench-pod" (path "/745fcf4b-2e0b-4fc4-95c0-f2e3fd40beb9/6e16e19c-a558-4ab3-b333-eb07c45a4c12" (reference "#PWR0914") (unit 1))))
-	)
-	(symbol
-		(lib_id "power:+5V")
-		(at 259.08 66.04 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom no)
-		(on_board no)
-		(in_pos_files no)
-		(dnp no)
-		(uuid "e317ce34-fa8a-4039-8c24-e54a7e8ec3c8")
-		(property "Reference" "#PWR0915" (at 259.08 59.69 0) (hide yes) (show_name no) (do_not_autoplace no) (effects (font (size 1.27 1.27))))
-		(property "Value" "+5V" (at 259.08 62.23 0) (show_name no) (do_not_autoplace no) (effects (font (size 1.27 1.27))))
-		(property "Footprint" "" (at 259.08 66.04 0) (hide yes) (show_name no) (do_not_autoplace no) (effects (font (size 1.27 1.27))))
-		(property "Datasheet" "" (at 259.08 66.04 0) (hide yes) (show_name no) (do_not_autoplace no) (effects (font (size 1.27 1.27))))
-		(property "Description" "Power symbol creates a global label with name \"+5V\"" (at 259.08 66.04 0) (hide yes) (show_name no) (do_not_autoplace no) (effects (font (size 1.27 1.27))))
-		(pin "1" (uuid "dc59565d-a610-4815-adef-0789767e9049"))
-		(instances (project "vbench-pod" (path "/745fcf4b-2e0b-4fc4-95c0-f2e3fd40beb9/6e16e19c-a558-4ab3-b333-eb07c45a4c12" (reference "#PWR0915") (unit 1))))
 	)
 	(symbol
 		(lib_id "Device:R")
@@ -14437,11 +14733,33 @@
 		(instances (project "vbench-pod" (path "/745fcf4b-2e0b-4fc4-95c0-f2e3fd40beb9/6e16e19c-a558-4ab3-b333-eb07c45a4c12" (reference "#PWR0917") (unit 1))))
 	)
 	(text "USB host pull-downs" (exclude_from_sim no) (at 186.69 97.79 0) (effects (font (size 1.27 1.27)) (justify left bottom)) (uuid "e655d995-33ca-44a8-86e5-328ca4a70544"))
-	(hierarchical_label "USB1_D+" (shape bidirectional) (at 226.06 59.69 180) (effects (font (size 1.27 1.27)) (justify right)) (uuid "ad957c9f-26fd-447f-9e74-cb8ab180b8b5"))
-	(hierarchical_label "USB1_D-" (shape bidirectional) (at 226.06 77.47 180) (effects (font (size 1.27 1.27)) (justify right)) (uuid "532cf225-b0a5-412c-b98e-7127b1abdd05"))
-	(wire (pts (xy 226.06 68.58) (xy 223.52 68.58)) (stroke (width 0) (type default)) (uuid "b0f8096f-82b1-4a89-9b06-4da5079af790"))
-	(wire (pts (xy 256.54 68.58) (xy 259.08 68.58)) (stroke (width 0) (type default)) (uuid "d1375f92-d012-4794-b69f-cc0b90f614c6"))
-	(wire (pts (xy 259.08 68.58) (xy 259.08 66.04)) (stroke (width 0) (type default)) (uuid "2be1e2bc-6373-4096-aaf8-54044d2e2aae"))
-	(no_connect (at 256.54 59.69) (uuid "565ab1c0-8685-42fc-9fb9-f57d21e32a95"))
-	(no_connect (at 256.54 77.47) (uuid "d51d48f8-f890-462e-a6d8-4e971ad3177b"))
+	(hierarchical_label "USB1_D+" (shape bidirectional) (at 231.14 63.5 180) (effects (font (size 1.27 1.27)) (justify right)) (uuid "1ba8eef7-c829-4555-a86b-8684744f1dcb"))
+	(hierarchical_label "USB1_D-" (shape bidirectional) (at 231.14 66.04 180) (effects (font (size 1.27 1.27)) (justify right)) (uuid "c65d6bb4-bc10-4483-9b76-8cb0a0aabe45"))
+	(label "USB1_D+" (at 251.46 63.5 0) (effects (font (size 1.27 1.27)) (justify left bottom)) (uuid "281826aa-639f-4468-8c79-7ca87a5d4682"))
+	(label "USB1_D-" (at 251.46 66.04 0) (effects (font (size 1.27 1.27)) (justify left bottom)) (uuid "af60c0dc-45ef-4241-a4bf-90462fafe0b9"))
+	(wire (pts (xy 231.14 68.58) (xy 226.06 68.58)) (stroke (width 0) (type default)) (uuid "4bc09e3a-0c34-480f-b767-33eb7522da61"))
+	(wire (pts (xy 251.46 68.58) (xy 256.54 68.58)) (stroke (width 0) (type default)) (uuid "dac60acb-f76e-4704-a4fb-57931cd40abe"))
+	(no_connect (at 231.14 71.12) (uuid "8e3d1d47-e528-4ab6-ae58-fcbf94f64d91"))
+	(no_connect (at 231.14 73.66) (uuid "e3359cba-e481-415b-9527-5243725e0f3c"))
+	(no_connect (at 251.46 71.12) (uuid "2ffc6644-e42c-4e80-ab9b-e015c0c49780"))
+	(no_connect (at 251.46 73.66) (uuid "e3b6ae07-79cb-4864-8f96-297f85c77804"))
+	(symbol
+		(lib_id "power:GND")
+		(at 256.54 68.58 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board no)
+		(in_pos_files no)
+		(dnp no)
+		(uuid "8dfdf2a6-dc78-4067-9ab6-9c9cc8c613d2")
+		(property "Reference" "#PWR0918" (at 256.54 74.93 0) (hide yes) (show_name no) (do_not_autoplace no) (effects (font (size 1.27 1.27))))
+		(property "Value" "GND" (at 256.54 73.66 0) (show_name no) (do_not_autoplace no) (effects (font (size 1.27 1.27))))
+		(property "Footprint" "" (at 256.54 68.58 0) (hide yes) (show_name no) (do_not_autoplace no) (effects (font (size 1.27 1.27))))
+		(property "Datasheet" "" (at 256.54 68.58 0) (hide yes) (show_name no) (do_not_autoplace no) (effects (font (size 1.27 1.27))))
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground" (at 256.54 68.58 0) (hide yes) (show_name no) (do_not_autoplace no) (effects (font (size 1.27 1.27))))
+		(pin "1" (uuid "c5d23735-97af-46de-b4be-6739e20373bd"))
+		(instances (project "vbench-pod" (path "/745fcf4b-2e0b-4fc4-95c0-f2e3fd40beb9/6e16e19c-a558-4ab3-b333-eb07c45a4c12" (reference "#PWR0918") (unit 1))))
+	)
 )
