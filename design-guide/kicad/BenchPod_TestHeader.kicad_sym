@@ -114,10 +114,10 @@
 					)
 				)
 			)
-			(pin input line
+			(pin passive line
 				(at -12.7 12.7 0)
 				(length 2.54)
-				(name "LA3_UART_RX"
+				(name "LA3_GPIO1"
 					(effects
 						(font
 							(size 1.016 1.016)
@@ -132,10 +132,10 @@
 					)
 				)
 			)
-			(pin output line
+			(pin input line
 				(at 12.7 12.7 180)
 				(length 2.54)
-				(name "LA4_UART_TX"
+				(name "LA4_UART_RX"
 					(effects
 						(font
 							(size 1.016 1.016)
@@ -150,10 +150,10 @@
 					)
 				)
 			)
-			(pin bidirectional line
+			(pin output line
 				(at -12.7 10.16 0)
 				(length 2.54)
-				(name "LA5_SWDIO"
+				(name "LA5_UART_TX"
 					(effects
 						(font
 							(size 1.016 1.016)
@@ -168,10 +168,10 @@
 					)
 				)
 			)
-			(pin input line
+			(pin passive line
 				(at 12.7 10.16 180)
 				(length 2.54)
-				(name "LA6_SWCLK"
+				(name "LA6_GPIO2"
 					(effects
 						(font
 							(size 1.016 1.016)
@@ -258,10 +258,10 @@
 					)
 				)
 			)
-			(pin output line
+			(pin input line
 				(at -12.7 2.54 0)
 				(length 2.54)
-				(name "LA11_SPI_MISO"
+				(name "LA11_SWCLK"
 					(effects
 						(font
 							(size 1.016 1.016)
@@ -276,10 +276,10 @@
 					)
 				)
 			)
-			(pin input line
+			(pin bidirectional line
 				(at 12.7 2.54 180)
 				(length 2.54)
-				(name "LA12_SPI_CS"
+				(name "LA12_SWDIO"
 					(effects
 						(font
 							(size 1.016 1.016)
@@ -294,10 +294,10 @@
 					)
 				)
 			)
-			(pin passive line
+			(pin output line
 				(at -12.7 0 0)
 				(length 2.54)
-				(name "LA13_GPIO1"
+				(name "LA13_SPI_MISO"
 					(effects
 						(font
 							(size 1.016 1.016)
@@ -312,10 +312,10 @@
 					)
 				)
 			)
-			(pin passive line
+			(pin input line
 				(at 12.7 0 180)
 				(length 2.54)
-				(name "LA14_GPIO2"
+				(name "LA14_SPI_CS"
 					(effects
 						(font
 							(size 1.016 1.016)

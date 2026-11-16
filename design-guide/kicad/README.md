@@ -9,7 +9,7 @@ https://embeddedci.com/docs/design-for-benchpod
 - `BenchPod_TestHeader.pretty/BenchPod_TestHeader_2x13_P2.54mm_Vertical.kicad_mod`: footprint (through hole, pin 1 square)
 
 Add both to KiCad (Preferences, Manage Symbol Libraries and Manage Footprint Libraries) under the nickname
-`BenchPod_TestHeader`. The symbol's pin names are a suggested assignment of the pod's LA channels; rename
+`BenchPod_TestHeader`. The symbol's pin names are a suggested assignment of the pod's LA channels (UART on LA4/LA5 and SWD on LA11/LA12, the pod's default wiring); rename
 them to your own signals. For a shrouded IDC box header, use the same footprint with a
 2x13 2.54 mm box header part (for example the 2x13 right-angle or vertical box header you stock).
 
