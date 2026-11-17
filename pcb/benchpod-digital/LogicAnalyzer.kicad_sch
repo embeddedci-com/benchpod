@@ -23068,7 +23068,7 @@
 					(justify left)
 				)
     )
-    (property "Value" "1u"
+    (property "Value" "10u"
       (at 297.815 208.28 0)
       (show_name no)
       (do_not_autoplace no)
@@ -23079,7 +23079,7 @@
 					(justify left)
 				)
     )
-    (property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+    (property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
       (at 298.145 207.01 0)
       (hide yes)
       (show_name no)
@@ -23112,7 +23112,7 @@
 					)
 				)
     )
-    (property "LCSC" "C52923"
+    (property "LCSC" "C96446"
       (at 297.18 210.82 0)
       (hide yes)
       (effects (font (size 1.27 1.27)))
@@ -24292,7 +24292,7 @@
 		)
 		(uuid "c61adb06-cad8-4742-ad4c-b14a82b47924")
 	)
-	(text "LSF0108 clamps between the 330R and the FPGA: A side = FPGA (LA_VCCIO), B side = connector, 5 V tolerant.\nEN + RefB biased from +5V through 200k (needs RefB >= RefA + 0.8 V). Unused channel 8 of U66 left open.\nU66 channel 7 clamps NRST (J1.22). TVS VDD pins (U22/U23/U25/U34, U28) left floating: internal zener clamps, no back-feed into +3V3."
+	(text "LSF0108 clamps between the 330R and the FPGA: A side = FPGA (LA_VCCIO), B side = connector, 5 V tolerant.\nEN + RefB biased from +5V through 200k (needs RefB >= RefA + 0.8 V). Unused channel 8 of U66 left open.\nU66 channel 7 clamps NRST (J1.22). TVS VDD pins (U22/U23/U25/U34, U28) left open (Semtech option 3: internal TVS as reference), no back-feed into +3V3."
 		(exclude_from_sim no)
 		(at 304.8 30.48 0)
 		(effects
@@ -24314,7 +24314,7 @@
 		)
 		(uuid "7dd6c43b-68dd-4db0-ae07-37e62108212b")
 	)
-	(text "VREF_SEL (PG5): high (default, R208) = LA_VCCIO as before, low = VREF_5V. Same polarity as U8.\nVREF_5V_EN (PG6): SY6280 on, default off (R209). Current limit 6800/33k = ~200 mA.\nSelect low with EN off = pin 21 off. Check TPS2116 reverse blocking for 5 V forced into pin 21."
+	(text "VREF_SEL (PG5): high (default, R208) = LA_VCCIO as before, low = VREF_5V. Same polarity as U8.\nVREF_5V_EN (PG6): SY6280 on, default off (R209, EN must not float). Current limit 6800/33k = ~200 mA. C286 10u per SY6280 app note.\nSelect low with EN off = pin 21 off. TPS2116 blocks reverse current (VOUT > VIN + 42 mV); U34 clamps VREF_OUT."
 		(exclude_from_sim no)
 		(at 287.02 195.58 0)
 		(effects
