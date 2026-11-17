@@ -51746,6 +51746,56 @@
 				(justify right)
 			)
 		)
+		(pin "VREF_OUT" output
+			(at 55.88 74.93 0)
+			(uuid "afc8ca84-ebd6-416a-944f-bbfe8253b08a")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "VREF_SEL" input
+			(at 55.88 77.47 0)
+			(uuid "6b996308-5e65-462b-be7f-be59ddcad449")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "VREF_5V_EN" input
+			(at 55.88 80.01 0)
+			(uuid "5a891ea4-5337-4589-b2cf-3ec2d7a29097")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "NRST_B" bidirectional
+			(at 25.4 115.57 180)
+			(uuid "616ee632-5984-43b6-aa25-991d3b60000d")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "NRST_A" bidirectional
+			(at 25.4 118.11 180)
+			(uuid "1052db2f-9b13-4275-9041-b67d959eff57")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
 		(instances
 			(project "vbench-pod"
 				(path "/745fcf4b-2e0b-4fc4-95c0-f2e3fd40beb9"
@@ -51757,69 +51807,6 @@
 	(no_connect
 		(at 184.15 217.17)
 		(uuid "e14f8942-80e4-4390-936c-e547f042a914")
-	)
-	(global_label "VREF_OUT"
-		(shape bidirectional)
-		(at 184.15 201.93 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "7aac120a-0853-4427-ae0e-8797d24bf912")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 184.15 201.93 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "VREF_SEL"
-		(shape bidirectional)
-		(at 373.38 190.5 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "484acc4f-16f8-4eaa-b678-446a903ac0ac")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 373.38 190.5 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "VREF_5V_EN"
-		(shape bidirectional)
-		(at 373.38 187.96 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "192fc97a-91f3-43ca-b607-574b5294fae3")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 373.38 187.96 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 	)
 	(wire
 		(pts
@@ -51840,27 +51827,6 @@
 			(type default)
 		)
 		(uuid "6cfb5e34-eae9-46b0-aad7-e41af1dfeb31")
-	)
-	(global_label "NRST_B"
-		(shape bidirectional)
-		(at 285.75 86.36 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "f854e1f2-4121-4ed6-8f7a-1cba227d397a")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 285.75 86.36 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 	)
 	(wire
 		(pts
@@ -51898,27 +51864,6 @@
 		(color 0 0 0 0)
 		(uuid "585886a7-73b6-47ef-a41d-669dca100ac1")
 	)
-	(global_label "NRST_A"
-		(shape bidirectional)
-		(at 309.88 86.36 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "de21e81d-6d35-4de9-b437-f6e0c34f4fda")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 309.88 86.36 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-	)
 	(label "NRST_CONTROL"
 		(at 273.05 86.36 90)
 		(effects
@@ -51928,6 +51873,106 @@
 			(justify left bottom)
 		)
 		(uuid "1bd3f774-e930-4ddf-9fdf-a4da1ee99946")
+	)
+	(label "VREF_OUT"
+		(at 184.15 201.93 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "b006779a-cf66-41d3-887e-3c5b883930fa")
+	)
+	(label "VREF_SEL"
+		(at 373.38 190.5 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "a977cc65-278a-4ec9-9e44-741d84773d22")
+	)
+	(label "VREF_5V_EN"
+		(at 373.38 187.96 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "f2ddeda6-3707-4cab-a6b4-770df3de4f94")
+	)
+	(label "NRST_B"
+		(at 285.75 86.36 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "6062282f-ed0b-4ed3-b7d5-59a8383998e1")
+	)
+	(label "NRST_A"
+		(at 309.88 86.36 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "6ad17fda-67aa-43a4-a572-be35a57d645e")
+	)
+	(label "VREF_OUT"
+		(at 55.88 74.93 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "6d6be7cc-b8e5-4f78-b264-1e8e24946217")
+	)
+	(label "VREF_SEL"
+		(at 55.88 77.47 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "9c58b554-7884-4d93-9f35-409301c05c99")
+	)
+	(label "VREF_5V_EN"
+		(at 55.88 80.01 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "59d8e274-fdd4-49b0-97bf-c3f61c4b1e56")
+	)
+	(label "NRST_B"
+		(at 25.4 115.57 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "26f4e7a1-92fd-4ca7-a828-4ea8b3af7ee5")
+	)
+	(label "NRST_A"
+		(at 25.4 118.11 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "12b12a76-7246-4dc0-a919-617b402b4420")
 	)
 	(sheet_instances
 		(path "/"
