@@ -10278,6 +10278,12 @@
 		(uuid "5782241a-ace6-4ea0-8570-cf040277438a")
 	)
 	(junction
+		(at 312.42 86.36)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "585886a7-73b6-47ef-a41d-669dca100ac1")
+	)
+	(junction
 		(at 60.96 129.54)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -10816,6 +10822,10 @@
 		(uuid "d7aed99e-740b-46aa-a658-eccd00dfbecb")
 	)
 	(no_connect
+		(at 184.15 217.17)
+		(uuid "e14f8942-80e4-4390-936c-e547f042a914")
+	)
+	(no_connect
 		(at 373.38 119.38)
 		(uuid "e84e1653-0acf-469f-9d39-64210111d18b")
 	)
@@ -11261,6 +11271,16 @@
 	)
 	(wire
 		(pts
+			(xy 312.42 86.36) (xy 309.88 86.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1ab54756-6798-4f38-9bfd-00ce43e39a5c")
+	)
+	(wire
+		(pts
 			(xy 125.73 91.44) (xy 121.92 91.44)
 		)
 		(stroke
@@ -11368,6 +11388,16 @@
 			(type default)
 		)
 		(uuid "21333c79-e6ef-4931-a431-6b396b1331e1")
+	)
+	(wire
+		(pts
+			(xy 312.42 83.82) (xy 312.42 86.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "21e7fc42-534a-4670-a618-7bb28fdd3a38")
 	)
 	(wire
 		(pts
@@ -11831,6 +11861,16 @@
 	)
 	(wire
 		(pts
+			(xy 275.59 86.36) (xy 273.05 86.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5342aa0d-f912-443f-9fa0-78435b232c5a")
+	)
+	(wire
+		(pts
 			(xy 166.37 140.97) (xy 168.91 140.97)
 		)
 		(stroke
@@ -12068,6 +12108,16 @@
 			(type default)
 		)
 		(uuid "6ccd88bd-e16f-4446-b294-5bb87437b8cc")
+	)
+	(wire
+		(pts
+			(xy 283.21 86.36) (xy 285.75 86.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6cfb5e34-eae9-46b0-aad7-e41af1dfeb31")
 	)
 	(wire
 		(pts
@@ -12911,6 +12961,16 @@
 	)
 	(wire
 		(pts
+			(xy 330.2 86.36) (xy 312.42 86.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bb3f51a6-1b8e-4be3-8362-e8c4ab040028")
+	)
+	(wire
+		(pts
 			(xy 86.36 140.97) (xy 86.36 143.51)
 		)
 		(stroke
@@ -13729,6 +13789,16 @@
 		)
 		(uuid "119521f5-40f8-4a21-aa97-7436de85cee6")
 	)
+	(label "NRST_A"
+		(at 25.4 118.11 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "12b12a76-7246-4dc0-a919-617b402b4420")
+	)
 	(label "ICE_SPI_SI"
 		(at 83.82 219.71 180)
 		(effects
@@ -13829,6 +13899,16 @@
 		)
 		(uuid "1ab69ed0-7710-409c-90f3-1858f8bd837d")
 	)
+	(label "NRST_CONTROL"
+		(at 273.05 86.36 90)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "1bd3f774-e930-4ddf-9fdf-a4da1ee99946")
+	)
 	(label "STM32_VDD"
 		(at 373.38 177.8 0)
 		(effects
@@ -13908,6 +13988,16 @@
 			(justify right bottom)
 		)
 		(uuid "25164a05-877e-4102-9b2d-f18001f1fcb6")
+	)
+	(label "NRST_B"
+		(at 25.4 115.57 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "26f4e7a1-92fd-4ca7-a828-4ea8b3af7ee5")
 	)
 	(label "LA_OUT6"
 		(at 55.88 97.79 0)
@@ -14609,6 +14699,16 @@
 		)
 		(uuid "597ba53f-099b-4b11-b55b-9d0fda4c6368")
 	)
+	(label "VREF_5V_EN"
+		(at 55.88 80.01 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "59d8e274-fdd4-49b0-97bf-c3f61c4b1e56")
+	)
 	(label "LA_OUT13"
 		(at 40.64 186.69 180)
 		(effects
@@ -14678,6 +14778,16 @@
 			(justify right bottom)
 		)
 		(uuid "5e72d5d9-4fa8-43a6-849f-fe04bf058f5a")
+	)
+	(label "NRST_B"
+		(at 285.75 86.36 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "6062282f-ed0b-4ed3-b7d5-59a8383998e1")
 	)
 	(label "P_USB_D-"
 		(at 373.38 157.48 0)
@@ -14759,6 +14869,16 @@
 		)
 		(uuid "6a57a6b4-3c76-4639-b988-ee818fb9b413")
 	)
+	(label "NRST_A"
+		(at 309.88 86.36 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "6ad17fda-67aa-43a4-a572-be35a57d645e")
+	)
 	(label "CAN-"
 		(at 157.48 157.48 0)
 		(effects
@@ -14798,6 +14918,16 @@
 			(justify right bottom)
 		)
 		(uuid "6d1301e1-51eb-4810-aa91-7aed759fc97e")
+	)
+	(label "VREF_OUT"
+		(at 55.88 74.93 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "6d6be7cc-b8e5-4f78-b264-1e8e24946217")
 	)
 	(label "USB1_D-"
 		(at 38.1 39.37 0)
@@ -15269,6 +15399,16 @@
 		)
 		(uuid "9bf5b293-7306-4071-9241-a706861113df")
 	)
+	(label "VREF_SEL"
+		(at 55.88 77.47 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "9c58b554-7884-4d93-9f35-409301c05c99")
+	)
 	(label "USART2_RX"
 		(at 373.38 109.22 0)
 		(effects
@@ -15349,6 +15489,16 @@
 		)
 		(uuid "a93520b0-2ccb-4c03-9326-e92834dc7536")
 	)
+	(label "VREF_SEL"
+		(at 373.38 190.5 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "a977cc65-278a-4ec9-9e44-741d84773d22")
+	)
 	(label "ICE_SS"
 		(at 16.51 257.81 0)
 		(effects
@@ -15418,6 +15568,16 @@
 			(justify right bottom)
 		)
 		(uuid "af6d75ae-eb3c-4ca3-b979-f9afd7a83f23")
+	)
+	(label "VREF_OUT"
+		(at 184.15 201.93 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "b006779a-cf66-41d3-887e-3c5b883930fa")
 	)
 	(label "LA_OUT9"
 		(at 40.64 199.39 180)
@@ -16128,6 +16288,16 @@
 			(justify right bottom)
 		)
 		(uuid "f1d04ced-c3e0-4f9a-9d31-e3adf79e12e4")
+	)
+	(label "VREF_5V_EN"
+		(at 373.38 187.96 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "f2ddeda6-3707-4cab-a6b4-770df3de4f94")
 	)
 	(label "MOD_DAC_DIN"
 		(at 152.4 30.48 180)
@@ -51803,176 +51973,6 @@
 				)
 			)
 		)
-	)
-	(no_connect
-		(at 184.15 217.17)
-		(uuid "e14f8942-80e4-4390-936c-e547f042a914")
-	)
-	(wire
-		(pts
-			(xy 275.59 86.36) (xy 273.05 86.36)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "5342aa0d-f912-443f-9fa0-78435b232c5a")
-	)
-	(wire
-		(pts
-			(xy 283.21 86.36) (xy 285.75 86.36)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "6cfb5e34-eae9-46b0-aad7-e41af1dfeb31")
-	)
-	(wire
-		(pts
-			(xy 330.2 86.36) (xy 312.42 86.36)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "bb3f51a6-1b8e-4be3-8362-e8c4ab040028")
-	)
-	(wire
-		(pts
-			(xy 312.42 86.36) (xy 309.88 86.36)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "1ab54756-6798-4f38-9bfd-00ce43e39a5c")
-	)
-	(wire
-		(pts
-			(xy 312.42 83.82) (xy 312.42 86.36)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "21e7fc42-534a-4670-a618-7bb28fdd3a38")
-	)
-	(junction
-		(at 312.42 86.36)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "585886a7-73b6-47ef-a41d-669dca100ac1")
-	)
-	(label "NRST_CONTROL"
-		(at 273.05 86.36 90)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "1bd3f774-e930-4ddf-9fdf-a4da1ee99946")
-	)
-	(label "VREF_OUT"
-		(at 184.15 201.93 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "b006779a-cf66-41d3-887e-3c5b883930fa")
-	)
-	(label "VREF_SEL"
-		(at 373.38 190.5 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "a977cc65-278a-4ec9-9e44-741d84773d22")
-	)
-	(label "VREF_5V_EN"
-		(at 373.38 187.96 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "f2ddeda6-3707-4cab-a6b4-770df3de4f94")
-	)
-	(label "NRST_B"
-		(at 285.75 86.36 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "6062282f-ed0b-4ed3-b7d5-59a8383998e1")
-	)
-	(label "NRST_A"
-		(at 309.88 86.36 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "6ad17fda-67aa-43a4-a572-be35a57d645e")
-	)
-	(label "VREF_OUT"
-		(at 55.88 74.93 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "6d6be7cc-b8e5-4f78-b264-1e8e24946217")
-	)
-	(label "VREF_SEL"
-		(at 55.88 77.47 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "9c58b554-7884-4d93-9f35-409301c05c99")
-	)
-	(label "VREF_5V_EN"
-		(at 55.88 80.01 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "59d8e274-fdd4-49b0-97bf-c3f61c4b1e56")
-	)
-	(label "NRST_B"
-		(at 25.4 115.57 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "26f4e7a1-92fd-4ca7-a828-4ea8b3af7ee5")
-	)
-	(label "NRST_A"
-		(at 25.4 118.11 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "12b12a76-7246-4dc0-a919-617b402b4420")
 	)
 	(sheet_instances
 		(path "/"
