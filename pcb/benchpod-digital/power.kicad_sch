@@ -3899,7 +3899,7 @@
 		)
 		(uuid "6f1e9b78-7948-4251-b795-96e4aed1ac24")
 	)
-	(text "~3A limit"
+	(text "~3.5A limit"
 		(exclude_from_sim no)
 		(at 119.888 142.24 0)
 		(effects
@@ -26614,7 +26614,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "1.10k"
+		(property "Value" "953"
 			(at 115.57 147.3199 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -26735,7 +26735,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C25860"
+		(property "LCSC" "C113475"
 			(at 113.03 146.05 0)
 			(hide yes)
 			(show_name no)
