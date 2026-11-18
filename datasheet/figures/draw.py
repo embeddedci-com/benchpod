@@ -2,7 +2,10 @@
 
     .venv/bin/python figures/draw.py
 
-Writes figures/ports-digital.svg, figures/ports-analog.svg and figures/mechanical.svg.
+Writes figures/ports-digital.svg, figures/ports-analog.svg, figures/mechanical.svg and
+figures/block-diagram.svg for the two-board BenchPod (datasheet.md), and figures/ports-single.svg,
+figures/mechanical-single.svg and figures/block-diagram-single.svg for the v3 single board
+(datasheet-v3.md).
 Port names live here and in datasheet.md; board reference designators never reach the figures.
 """
 import json
@@ -29,8 +32,18 @@ NAMES = {
         "J10": "FACTORY DEBUG", "J11": "FACTORY DEBUG",
     },
     "analog": {"J10": "ADC IN (BNC)", "J8": "4-20 mA IN", "J9": "4-20 mA OUT", "J11": "DAC OUT", "CN1": "MODULE LINK"},
+    "single": {
+        "J1": "I/O HEADER", "J7": "ETHERNET", "USBC1": "HOST / POWER (USB-C)", "J5": "DUT 5V",
+        "USB1": "DUT 5V (USB-A)", "J6": "DUT EXT", "J4": "EXT SUPPLY IN", "J9": "4-20 mA OUT",
+        "RF1": "DAC 0-3.3 V", "RF2": "DAC 0-5 V", "RF3": "DAC ±12 V", "RF4": "ADC IN", "J8": "4-20 mA IN",
+        "LED1": "STATUS LED", "SW1": "RESET", "SW2": "BOOT", "U4": "WI-FI",
+        "J10": "FACTORY DEBUG", "J11": "FACTORY DEBUG",
+    },
 }
-TITLES = {"digital": "Digital board", "analog": "Analog module"}
+TITLES = {"digital": "Digital board", "analog": "Analog module", "single": "BenchPod v3"}
+# Edge names around the port figures: (top, bottom). The single board has no enclosure, so no front edge.
+EDGES = {"digital": ("FRONT EDGE", "REAR EDGE"), "analog": ("FRONT EDGE", "REAR EDGE"),
+         "single": ("I/O HEADER EDGE", "")}
 
 
 def bounds(b):
@@ -88,13 +101,18 @@ def ports_figure(b, out):
     fig, ax = plt.subplots(figsize=(4.9, 5.5))  # printed at about 1:1 (125 mm wide)
     draw_board(ax, b)
     margin = 34
+    # Connectors that overhang the board edge (the single board's SMAs) push the side labels out.
+    px0, px1 = x0, x1
+    if b == "single":
+        px0 = min([x0] + [p["box"][0] for p in d["parts"].values()])
+        px1 = max([x1] + [p["box"][0] + p["box"][2] for p in d["parts"].values()])
     for side, items in sides.items():
         if not items:
             continue
         if side in ("top", "bottom"):
             placed = spread([(it, it[1]) for it in items], x0 - 12, x1 + 12, 24)
             for k, ((name, mx, my, pts), lx) in enumerate(placed):
-                row = k % (3 if len(placed) > 5 else 2) if len(placed) > 3 else 0
+                row = k % (3 if len(placed) > 5 else 2) if len(placed) > (2 if b == "single" else 3) else 0
                 ly = (y0 - 10 - row * 8) if side == "top" else (y1 + 10 + row * 8)
                 for px, py in pts:
                     ax.plot([px, px, lx], [py, ly + (3 if side == "top" else -3), ly], color=ACCENT, lw=0.7, zorder=6)
@@ -102,15 +120,17 @@ def ports_figure(b, out):
                 label(ax, lx, ly, name)
         else:
             placed = spread([(it, it[2]) for it in items], y0, y1, 9)
-            lx = x1 + 8 if side == "right" else x0 - 8
+            lx = px1 + 8 if side == "right" else px0 - (4 if b == "single" else 8)
             for (name, mx, my, pts), ly in placed:
                 for px, py in pts:
                     ax.plot([px, lx], [py, ly], color=ACCENT, lw=0.7, zorder=6)
                     ax.add_patch(Circle((px, py), 0.9, fc=ACCENT, ec="none", zorder=6))
                 label(ax, lx, ly, name, ha="left" if side == "right" else "right")
-    ax.text((x0 + x1) / 2, y0 - 36, "FRONT EDGE", ha="center", fontsize=6.5, color=MUTED)
-    ax.text((x0 + x1) / 2, y1 + 36, "REAR EDGE", ha="center", fontsize=6.5, color=MUTED)
-    ax.set_xlim(x0 - margin, x1 + 45)
+    top_edge, bottom_edge = EDGES[b]
+    ax.text((x0 + x1) / 2, y0 - 36, top_edge, ha="center", fontsize=6.5, color=MUTED)
+    if bottom_edge:
+        ax.text((x0 + x1) / 2, y1 + 36, bottom_edge, ha="center", fontsize=6.5, color=MUTED)
+    ax.set_xlim(px0 - margin, px1 + 45)
     ax.set_ylim(y1 + 40, y0 - 40)
     ax.set_aspect("equal")
     ax.axis("off")
@@ -156,6 +176,36 @@ def mechanical(out):
         ax.set_ylim(y1 + 20, y0 - 18)
         ax.set_aspect("equal")
         ax.axis("off")
+    fig.savefig(out, bbox_inches="tight", pad_inches=0.05)
+    plt.close(fig)
+
+
+def mechanical_single(out):
+    """The v3 single board: outline, holes and the SMA overhang on the analog edge."""
+    b = "single"
+    x0, y0, x1, y1 = bounds(b)
+    fig, ax = plt.subplots(figsize=(5.6, 5.2))
+    draw_board(ax, b, parts=False)
+    for ref in ("RF1", "RF2", "RF3", "RF4"):
+        x, y, w, h = G[b]["parts"][ref]["box"]
+        ax.add_patch(Rectangle((x, y), w, h, fc=PART, ec=PART_EDGE, lw=0.7, zorder=3))
+    hs = G[b]["holes"]
+    top = sorted((h for h in hs if h["y"] < (y0 + y1) / 2), key=lambda h: h["x"])
+    bot = sorted((h for h in hs if h["y"] >= (y0 + y1) / 2), key=lambda h: h["x"])
+    tl, tr, bl = top[0], top[1], bot[0]
+    sma_x = min(G[b]["parts"][r]["box"][0] for r in ("RF1", "RF2", "RF3", "RF4"))
+    dim(ax, (x0, y0), (x1, y0), -9, f"{x1 - x0:.2f}")
+    dim(ax, (sma_x, y1), (x1, y1), 9, f"{x1 - sma_x:.2f} with SMA connectors")
+    dim(ax, (x1, y0), (x1, y1), 9, f"{y1 - y0:.2f}", vertical=True)
+    dim(ax, (tl["x"], tl["y"]), (tr["x"], tr["y"]), (y1 - tl["y"]) + 20, f"{tr['x'] - tl['x']:.2f}")
+    dim(ax, (tl["x"], tl["y"]), (bl["x"], bl["y"]), -(tl["x"] - sma_x) - 9, f"{bl['y'] - tl['y']:.2f}",
+        vertical=True)
+    ax.text(tl["x"] + 4, tl["y"] + 4, f"4x {tl['d']:.1f} mm", fontsize=6.5, color=MUTED, va="top")
+    ax.text((x0 + x1) / 2, (y0 + y1) / 2, TITLES[b], ha="center", va="center", fontsize=9, color=MUTED)
+    ax.set_xlim(sma_x - 22, x1 + 18)
+    ax.set_ylim(y1 + 31, y0 - 18)
+    ax.set_aspect("equal")
+    ax.axis("off")
     fig.savefig(out, bbox_inches="tight", pad_inches=0.05)
     plt.close(fig)
 
@@ -251,8 +301,101 @@ def block_diagram(out):
     fig.savefig(out, bbox_inches="tight", pad_inches=0.05)
     plt.close(fig)
 
+def block_diagram_single(out):
+    """Block diagram of the v3 single board: the digital and analog sections on one board, Wi-Fi on board."""
+    fig, ax = plt.subplots(figsize=(7.2, 5.0))
+    ax.set_xlim(0, 150)
+    ax.set_ylim(100, 0)
+    ax.axis("off")
+
+    def region(x, y, w, h, title):
+        ax.add_patch(FancyBboxPatch((x, y), w, h, boxstyle="round,pad=0,rounding_size=2", fc="#f6f8f9",
+                                    ec=MUTED, lw=0.8, ls=(0, (4, 2)), zorder=1))
+        ax.text(x + 2, y + 3.2, title, fontsize=7.5, color=MUTED, weight="bold", va="center", zorder=2)
+
+    def box(x, y, w, h, title, sub=""):
+        ax.add_patch(FancyBboxPatch((x, y), w, h, boxstyle="round,pad=0,rounding_size=1.2", fc="#dfe8ef",
+                                    ec=PART_EDGE, lw=0.8, zorder=4))
+        ax.text(x + w / 2, y + h / 2 - (1.7 if sub else 0), title, ha="center", va="center", fontsize=7.2,
+                weight="bold", color=INK, zorder=5)
+        if sub:
+            ax.text(x + w / 2, y + h / 2 + 2.3, sub, ha="center", va="center", fontsize=5.6, color=MUTED, zorder=5)
+
+    def port(x, y, text, ha="left"):
+        ax.text(x, y, text, ha=ha, va="center", fontsize=6.2, color="white", weight="bold", zorder=6,
+                bbox=dict(boxstyle="round,pad=0.3,rounding_size=0.8", fc=ACCENT, ec="none"))
+
+    def wire(pts, text="", tx=None, ty=None):
+        xs, ys = zip(*pts)
+        ax.plot(xs, ys, color=INK, lw=0.8, zorder=3)
+        if text:
+            ax.text(tx, ty, text, ha="center", va="center", fontsize=5.4, color=MUTED, zorder=5,
+                    bbox=dict(boxstyle="square,pad=0.15", fc="#f6f8f9", ec="none"))
+
+    region(26, 4, 94, 94, "BENCHPOD v3 (ONE BOARD)")
+    ax.plot([28, 118], [66, 66], color=MUTED, lw=0.6, ls=(0, (2, 2)), zorder=2)
+    ax.text(30, 69, "ANALOG SECTION", fontsize=6.5, color=MUTED, weight="bold", va="center", zorder=2)
+
+    box(32, 12, 30, 17, "MCU", "STM32H563, 250 MHz")
+    box(84, 12, 30, 17, "FPGA", "iCE40UP5K, 48 MHz")
+    box(64, 34, 26, 9, "PSRAM", "8 MB, shared")
+    box(94, 34, 20, 9, "I/O level", "1.8 / 3.3 V")
+    box(32, 48, 30, 9, "DUT power", "eFuses, current monitors")
+    box(94, 47, 20, 9, "CAN", "transceiver")
+    box(64, 50, 26, 9, "Wi-Fi", "ESP32-C3, 2.4 GHz")
+
+    box(32, 73, 26, 10, "ADC", "16-bit, 400 kS/s")
+    box(64, 73, 26, 10, "DAC", "16-bit")
+    box(96, 73, 20, 10, "Relays", "signal routing")
+    box(32, 87, 26, 9, "Input front end", "±30 V")
+    box(64, 87, 26, 9, "Output stages", "0-3.3 V, 0-5 V, ±12 V")
+    box(96, 87, 20, 9, "4-20 mA", "input, output")
+
+    port(1, 17, "HOST / POWER")
+    port(1, 25, "ETHERNET")
+    port(1, 52.5, "EXT SUPPLY IN")
+    wire([(20.5, 17), (32, 17)], "USB", 26.5, 17)
+    wire([(16.5, 25), (32, 25)], "10/100", 25, 25)
+    wire([(21, 52.5), (32, 52.5)])
+    wire([(62, 20.5), (84, 20.5)], "SPI", 73, 20.5)
+    wire([(40, 29), (40, 48)])
+    wire([(58, 29), (58, 38.5), (64, 38.5)])
+    wire([(92, 29), (92, 38.5), (90, 38.5)])
+    wire([(104, 29), (104, 34)])
+    wire([(50, 29), (50, 45), (104, 45), (104, 47)])
+    wire([(55, 29), (55, 54.5), (64, 54.5)], "UART", 59.5, 54.5)
+    port(126, 38.5, "I/O HEADER")
+    wire([(114, 38.5), (126, 38.5)], "LA1-LA14", 120, 35.6)
+    wire([(114, 51.5), (122, 51.5), (122, 38.5)])
+    ax.text(123.5, 49, "CAN, DUT RESET", fontsize=5.2, color=MUTED, ha="left", va="center", zorder=5)
+    port(126, 59, "DUT 5V")
+    port(126, 66, "DUT EXT")
+    wire([(47, 57), (47, 62), (124, 62), (124, 59), (126, 59)])
+    wire([(124, 62), (124, 66), (126, 66)])
+    # analog section, straight from the FPGA (ADC, DAC) and the MCU (relays)
+    wire([(110, 29), (110, 31.5), (118, 31.5), (118, 70.5), (77, 70.5), (77, 73)])
+    wire([(45, 70.5), (77, 70.5)])
+    wire([(45, 70.5), (45, 73)])
+    wire([(106, 70.5), (106, 73)])
+    wire([(45, 83), (45, 87)])
+    wire([(77, 83), (77, 87)])
+    wire([(106, 83), (106, 87)])
+    port(126, 80, "ADC IN")
+    port(126, 88, "DAC OUT")
+    port(126, 96, "4-20 mA IN / OUT")
+    wire([(58, 91.5), (64, 91.5)])
+    wire([(116, 91.5), (121, 91.5), (121, 80), (126, 80)])
+    wire([(121, 88), (126, 88)])
+    wire([(121, 91.5), (121, 96), (126, 96)])
+    fig.savefig(out, bbox_inches="tight", pad_inches=0.05)
+    plt.close(fig)
+
+
 if __name__ == "__main__":
     ports_figure("digital", os.path.join(HERE, "ports-digital.svg"))
     ports_figure("analog", os.path.join(HERE, "ports-analog.svg"))
     mechanical(os.path.join(HERE, "mechanical.svg"))
     block_diagram(os.path.join(HERE, "block-diagram.svg"))
+    ports_figure("single", os.path.join(HERE, "ports-single.svg"))
+    mechanical_single(os.path.join(HERE, "mechanical-single.svg"))
+    block_diagram_single(os.path.join(HERE, "block-diagram-single.svg"))

@@ -17,7 +17,7 @@
 
 BenchPod sits next to the embedded board under test (the DUT) and does what an engineer does at the bench: it powers the DUT, flashes its firmware, reads its console, and measures and drives its signals. Tests run on real hardware, started from a laptop, a CI pipeline or an AI agent, over Ethernet, USB or the EmbeddedCI cloud.
 
-It is built from two stacked boards: a **digital board** (power, flashing, logic analyzer, network) and an **analog module** (ADC, DAC, 4-20 mA). It is professional lab equipment for electronics developers, supplied as a bare board assembly.
+It is built from two stacked boards: a **digital board** (power, flashing, logic analyzer, network) and an **analog module** (ADC, DAC, 4-20 mA). It is professional lab equipment for electronics developers, supplied as a bare board assembly. The earlier single-board BenchPod (silkscreen BenchPod v3-r1 or v3-r2) has its own datasheet, the BenchPod v3 datasheet.
 
 ### Typical uses
 

@@ -20,11 +20,15 @@ REPO = os.path.abspath(os.path.join(os.path.dirname(__file__), "..", ".."))
 BOARDS = {
     "digital": ("refs/tags/digital-v3r3", "pcb/benchpod-digital/vbench-pod.kicad_pcb"),
     "analog": ("refs/tags/analog-v3r4", "pcb/benchpod-analog/vbench-pod.kicad_pcb"),
+    # The single analog + digital board (v3-r1 and v3-r2 share the outline and connector positions).
+    "single": ("refs/tags/analog-v3r2", "pcb/benchpod/vbench-pod.kicad_pcb"),
 }
 # Footprints the datasheet shows. Everything else on the board is left out of the figures.
 PARTS = {
     "digital": ["J1", "J4", "J5", "J6", "J7", "USB1", "USB2", "USBC1", "LED1", "SW1", "SW2", "CN1", "J10", "J11"],
     "analog": ["J8", "J9", "J10", "J11", "CN1"],
+    "single": ["J1", "J4", "J5", "J6", "J7", "J8", "J9", "J10", "J11", "USB1", "USBC1", "LED1", "SW1", "SW2",
+               "RF1", "RF2", "RF3", "RF4", "U4"],
 }
 
 T = pcbnew.ToMM
@@ -46,6 +50,10 @@ def board_geometry(brd, refs):
         if d.GetLayer() == pcbnew.Edge_Cuts and d.GetShapeStr() == "Polygon":
             o = d.GetPolyShape().Outline(0)
             outline = [[round(T(o.CPoint(i).x), 3), round(T(o.CPoint(i).y), 3)] for i in range(o.PointCount())]
+        elif d.GetLayer() == pcbnew.Edge_Cuts and d.GetShapeStr() == "Rect" and not outline:
+            a, b = d.GetStart(), d.GetEnd()
+            x0, y0, x1, y1 = (round(T(v), 3) for v in (min(a.x, b.x), min(a.y, b.y), max(a.x, b.x), max(a.y, b.y)))
+            outline = [[x0, y0], [x1, y0], [x1, y1], [x0, y1]]
     if not outline:
         sys.exit("no Edge.Cuts polygon found")
     holes, parts = [], {}
