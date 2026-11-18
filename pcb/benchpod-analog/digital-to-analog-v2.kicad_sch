@@ -13022,6 +13022,203 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:C")
+		(at 236.22 81.28 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "bc21d166-b757-421c-b1b4-e25dbfdfb2a6")
+		(property "Reference" "C275"
+			(at 243.84 76.708 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "22p"
+			(at 243.84 79.248 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+			(at 240.03 80.3148 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 236.22 81.28 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 236.22 81.28 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C1555"
+			(at 236.22 81.28 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "ProductID" ""
+			(at 236.22 81.28 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pins" ""
+			(at 236.22 81.28 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S3.3" ""
+			(at 236.22 81.28 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S4.1" ""
+			(at 236.22 81.28 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "JLC_DNF" ""
+			(at 236.22 81.28 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "106f6652-061d-4fba-a5a3-863e104c7f65")
+		)
+		(pin "2"
+			(uuid "639a1056-e1f9-463e-b458-209e9fda358c")
+		)
+		(instances
+			(project "vbench-pod"
+				(path "/745fcf4b-2e0b-4fc4-95c0-f2e3fd40beb9/3913e297-993d-4cdf-98cd-f72d75fe1f7c"
+					(reference "C275")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(wire
+		(pts
+			(xy 232.41 81.28) (xy 229.87 81.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3a3b52d2-7724-4fc4-a719-d6737c6b1596")
+	)
+	(wire
+		(pts
+			(xy 229.87 81.28) (xy 229.87 88.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "33ca5d84-c3f8-4647-af78-71c147039ee6")
+	)
+	(wire
+		(pts
+			(xy 240.03 81.28) (xy 243.84 81.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "39eaa36d-d48c-41c9-b35d-c5c6a3844d5e")
+	)
+	(wire
+		(pts
+			(xy 243.84 81.28) (xy 243.84 88.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7c786a74-4aab-4179-af7d-2753b82c4bc0")
+	)
+	(junction
+		(at 229.87 88.9)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "46da9f06-f549-4f40-9a68-7e6d3f5744bf")
+	)
+	(junction
+		(at 243.84 88.9)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "3aae167a-8d36-41ae-add0-2aa076f3155e")
+	)
+	(symbol
 		(lib_id "Device:R")
 		(at 49.53 215.9 90)
 		(unit 1)

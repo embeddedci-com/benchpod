@@ -6192,7 +6192,7 @@
 		)
 		(uuid "2dc06273-4213-447f-94ad-6970b774b0de")
 	)
-	(label "A8_MUX"
+	(label "A7_MUX"
 		(at 320.04 71.12 180)
 		(effects
 			(font
@@ -6322,7 +6322,7 @@
 		)
 		(uuid "4dddea88-8599-4f0d-8247-8f486bfbdb92")
 	)
-	(label "A7_MUX"
+	(label "A8_MUX"
 		(at 119.38 167.64 180)
 		(effects
 			(font
@@ -6442,7 +6442,7 @@
 		)
 		(uuid "65b672e3-332c-4c3d-8daa-051612bbc703")
 	)
-	(label "A8_MUX"
+	(label "A7_MUX"
 		(at 139.7 175.26 0)
 		(effects
 			(font
@@ -6542,7 +6542,7 @@
 		)
 		(uuid "7978bcfe-3d15-479e-a9a6-1d104cecb31a")
 	)
-	(label "CTRL8"
+	(label "CTRL7"
 		(at 115.57 172.72 180)
 		(effects
 			(font
@@ -6632,7 +6632,7 @@
 		)
 		(uuid "843bdbf1-6241-448d-b6a9-484524b9840e")
 	)
-	(label "CTRL7"
+	(label "CTRL8"
 		(at 168.91 170.18 0)
 		(effects
 			(font
@@ -6742,7 +6742,7 @@
 		)
 		(uuid "a337603e-079d-4d22-93dc-b79de143d803")
 	)
-	(label "A7_MUX"
+	(label "A8_MUX"
 		(at 320.04 73.66 180)
 		(effects
 			(font
@@ -7012,7 +7012,7 @@
 		)
 		(uuid "c99d5928-1720-4a00-84a4-28da6f3ed211")
 	)
-	(label "A8_B"
+	(label "A7_B"
 		(at 340.36 71.12 0)
 		(effects
 			(font
@@ -7062,7 +7062,7 @@
 		)
 		(uuid "e0cae53e-8ca5-4974-9196-45c6c10ece42")
 	)
-	(label "A7_B"
+	(label "A8_B"
 		(at 340.36 73.66 0)
 		(effects
 			(font
