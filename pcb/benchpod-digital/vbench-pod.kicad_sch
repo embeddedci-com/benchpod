@@ -10949,9 +10949,25 @@
 		(at 194.31 224.79)
 		(uuid "6d83b0c0-551c-4b14-b900-68b4f9645c2e")
 	)
-	(no_connect
-		(at 373.38 185.42)
-		(uuid "6dd68c6f-2bfe-4fb4-8175-88a672a91254")
+	(label "PULL_RST"
+		(at 55.88 82.55 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "5a5d80f5-f861-4d51-a855-1869593cdf11")
+	)
+	(label "PULL_RST"
+		(at 373.38 185.42 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "b0df3e72-096b-418e-af64-ce7db0363d95")
 	)
 	(no_connect
 		(at 330.2 88.9)
@@ -51663,6 +51679,16 @@
 		(pin "VREF_5V_EN" input
 			(at 55.88 80.01 0)
 			(uuid "5a891ea4-5337-4589-b2cf-3ec2d7a29097")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "PULL_RST" input
+			(at 55.88 82.55 0)
+			(uuid "8350b057-d170-4e93-a88b-c29f4b3f4a3a")
 			(effects
 				(font
 					(size 1.27 1.27)
