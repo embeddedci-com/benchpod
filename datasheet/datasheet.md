@@ -174,7 +174,8 @@ The I/O HEADER is a keyed, shrouded 2x13 right-angle header with 2.54 mm pitch, 
 
 - **LA1-LA14**: logic analyzer and GPIO channels. Any channel can carry UART, SWD, SPI, I2C or a GPIO; the wiring profile in the web app records which signal is on which channel.
 - **LA_REF**: reference output at the selected I/O voltage (1.8 V or 3.3 V).
-- **LA_REF, from digital board v3r4**: a switchable reference output. It follows the selected I/O voltage, or switches to a 5 V option, which is the USB supply (about 4.4 to 5.1 V). The pull resistors connect to this pin, so a signal above the selected voltage can lift it. The pod reads the pin's voltage back. Current it can supply: TODO (measure on first boards).
+- **LA_REF (pin 21), from digital board v3r4**: reference output. Pin 21 outputs the selected I/O voltage (1.8 V, 3.3 V or 5 V). Set the pod to the highest logic voltage present on the connected lines. If a line carries a voltage above the selected one, pin 21 rises toward that voltage and no longer matches the setting; the pod reports this as a warning. Pin 21 is a reference, not a supply for the DUT. The 5 V setting is the USB supply (about 4.4 to 5.1 V). How far pin 21 rises: **TODO (measure on first boards)**.
+- **Logic inputs, from digital board v3r4**: 5 V tolerant at every I/O voltage setting, so 5 V on a line does no harm. Mixed 3.3 V and 5 V lines: select 5 V and leave the pod's pull-ups off on the 3.3 V lines (they pull to 5 V in that mode). Mixed 1.8 V and 5 V lines are not supported.
 - **DUT RESET**: dedicated reset line to the DUT, used when flashing and by reset commands.
 - **CAN high / CAN low**: CAN or CAN FD bus through an on-board transceiver, with a switchable termination.
 
