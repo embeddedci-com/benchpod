@@ -948,6 +948,10 @@
     [
       "3b6fbda2-fc40-469d-a8f6-0fdb43fb58b6",
       "Module link, bridge power"
+    ],
+    [
+      "5f5cb8c4-f908-4057-9292-dab73b13c2b1",
+      "LA pulls"
     ]
   ],
   "text_variables": {},
