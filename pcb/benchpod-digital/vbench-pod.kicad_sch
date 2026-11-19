@@ -10878,6 +10878,10 @@
 		(uuid "fb2b4a42-d962-481a-ad9b-b2ad2ca4ca60")
 	)
 	(no_connect
+		(at 330.2 137.16)
+		(uuid "33b7acf2-5392-4c4d-9da8-0bcc9b5bbc6e")
+	)
+	(no_connect
 		(at 214.63 217.17)
 		(uuid "02dada40-fb85-4980-8761-5aa6023ca786")
 	)
@@ -14470,16 +14474,6 @@
 			(justify left bottom)
 		)
 		(uuid "38f079ff-008a-4fd8-bb86-9c0d4ee3d797")
-	)
-	(label "ESP32_EN"
-		(at 330.2 175.26 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "394a5c69-25ba-43c7-b0c6-b60712e59ace")
 	)
 	(label "USART2_TX"
 		(at 274.32 200.66 0)
@@ -46621,7 +46615,7 @@
 		(uuid "7ffcbe7b-a907-408b-8872-87a7bcdd68b6")
 	)
 	(label "VREF_SENSE"
-		(at 330.2 137.16 180)
+		(at 330.2 175.26 180)
 		(effects
 			(font
 				(size 1.27 1.27)
