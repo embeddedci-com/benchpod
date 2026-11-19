@@ -2155,7 +2155,7 @@
 				)
 			)
 		)
-		(property "Manufacturer_Name" ""
+		(property "Manufacturer_Name" "UNI-ROYAL"
 			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -2168,7 +2168,7 @@
 				)
 			)
 		)
-		(property "Manufacturer_Part_Number" ""
+		(property "Manufacturer_Part_Number" "PS03W4F1000T5E"
 			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -2207,7 +2207,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C22775"
+		(property "LCSC" "C2784878"
 			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -7341,7 +7341,7 @@
 				)
 			)
 		)
-		(property "Manufacturer_Name" ""
+		(property "Manufacturer_Name" "UNI-ROYAL"
 			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -7354,7 +7354,7 @@
 				)
 			)
 		)
-		(property "Manufacturer_Part_Number" ""
+		(property "Manufacturer_Part_Number" "PS03W4F1000T5E"
 			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -7393,7 +7393,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C22775"
+		(property "LCSC" "C2784878"
 			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -9487,7 +9487,7 @@
 				)
 			)
 		)
-		(property "Manufacturer_Name" ""
+		(property "Manufacturer_Name" "UNI-ROYAL"
 			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -9500,7 +9500,7 @@
 				)
 			)
 		)
-		(property "Manufacturer_Part_Number" ""
+		(property "Manufacturer_Part_Number" "PS03W4F1000T5E"
 			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -9539,7 +9539,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C22775"
+		(property "LCSC" "C2784878"
 			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -14159,7 +14159,7 @@
 				)
 			)
 		)
-		(property "Manufacturer_Name" ""
+		(property "Manufacturer_Name" "UNI-ROYAL"
 			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -14172,7 +14172,7 @@
 				)
 			)
 		)
-		(property "Manufacturer_Part_Number" ""
+		(property "Manufacturer_Part_Number" "PS03W4F1000T5E"
 			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -14211,7 +14211,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C22775"
+		(property "LCSC" "C2784878"
 			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -26477,7 +26477,7 @@
 				)
 			)
 		)
-		(property "Manufacturer_Name" ""
+		(property "Manufacturer_Name" "UNI-ROYAL"
 			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -26490,7 +26490,7 @@
 				)
 			)
 		)
-		(property "Manufacturer_Part_Number" ""
+		(property "Manufacturer_Part_Number" "PS03W4F1000T5E"
 			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -26529,7 +26529,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C22775"
+		(property "LCSC" "C2784878"
 			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -39938,7 +39938,7 @@
 				)
 			)
 		)
-		(property "Manufacturer_Name" ""
+		(property "Manufacturer_Name" "UNI-ROYAL"
 			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -39951,7 +39951,7 @@
 				)
 			)
 		)
-		(property "Manufacturer_Part_Number" ""
+		(property "Manufacturer_Part_Number" "PS03W4F1000T5E"
 			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -39990,7 +39990,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C22775"
+		(property "LCSC" "C2784878"
 			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -40241,7 +40241,7 @@
 				)
 			)
 		)
-		(property "Manufacturer_Name" ""
+		(property "Manufacturer_Name" "UNI-ROYAL"
 			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -40254,7 +40254,7 @@
 				)
 			)
 		)
-		(property "Manufacturer_Part_Number" ""
+		(property "Manufacturer_Part_Number" "PS03W4F1000T5E"
 			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -40293,7 +40293,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C22775"
+		(property "LCSC" "C2784878"
 			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -42753,7 +42753,7 @@
 				)
 			)
 		)
-		(property "Manufacturer_Name" ""
+		(property "Manufacturer_Name" "UNI-ROYAL"
 			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -42766,7 +42766,7 @@
 				)
 			)
 		)
-		(property "Manufacturer_Part_Number" ""
+		(property "Manufacturer_Part_Number" "PS03W4F1000T5E"
 			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -42805,7 +42805,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C22775"
+		(property "LCSC" "C2784878"
 			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -52058,7 +52058,7 @@
 				)
 			)
 		)
-		(property "Manufacturer_Name" ""
+		(property "Manufacturer_Name" "UNI-ROYAL"
 			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -52071,7 +52071,7 @@
 				)
 			)
 		)
-		(property "Manufacturer_Part_Number" ""
+		(property "Manufacturer_Part_Number" "PS03W4F1000T5E"
 			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -52110,7 +52110,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C22775"
+		(property "LCSC" "C2784878"
 			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -66570,7 +66570,7 @@
 				)
 			)
 		)
-		(property "Manufacturer_Name" ""
+		(property "Manufacturer_Name" "UNI-ROYAL"
 			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -66583,7 +66583,7 @@
 				)
 			)
 		)
-		(property "Manufacturer_Part_Number" ""
+		(property "Manufacturer_Part_Number" "PS03W4F1000T5E"
 			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -66622,7 +66622,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C22775"
+		(property "LCSC" "C2784878"
 			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -67811,7 +67811,7 @@
 				)
 			)
 		)
-		(property "Manufacturer_Name" ""
+		(property "Manufacturer_Name" "UNI-ROYAL"
 			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -67824,7 +67824,7 @@
 				)
 			)
 		)
-		(property "Manufacturer_Part_Number" ""
+		(property "Manufacturer_Part_Number" "PS03W4F1000T5E"
 			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -67863,7 +67863,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C22775"
+		(property "LCSC" "C2784878"
 			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -68114,7 +68114,7 @@
 				)
 			)
 		)
-		(property "Manufacturer_Name" ""
+		(property "Manufacturer_Name" "UNI-ROYAL"
 			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -68127,7 +68127,7 @@
 				)
 			)
 		)
-		(property "Manufacturer_Part_Number" ""
+		(property "Manufacturer_Part_Number" "PS03W4F1000T5E"
 			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -68166,7 +68166,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C22775"
+		(property "LCSC" "C2784878"
 			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -94162,7 +94162,7 @@
 				)
 			)
 		)
-		(property "Manufacturer_Name" ""
+		(property "Manufacturer_Name" "UNI-ROYAL"
 			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -94175,7 +94175,7 @@
 				)
 			)
 		)
-		(property "Manufacturer_Part_Number" ""
+		(property "Manufacturer_Part_Number" "PS03W4F1000T5E"
 			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -94214,7 +94214,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C22775"
+		(property "LCSC" "C2784878"
 			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -101858,7 +101858,7 @@
 				)
 			)
 		)
-		(property "Manufacturer_Name" ""
+		(property "Manufacturer_Name" "UNI-ROYAL"
 			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -101871,7 +101871,7 @@
 				)
 			)
 		)
-		(property "Manufacturer_Part_Number" ""
+		(property "Manufacturer_Part_Number" "PS03W4F1000T5E"
 			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -101910,7 +101910,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C22775"
+		(property "LCSC" "C2784878"
 			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -117334,7 +117334,7 @@
 				)
 			)
 		)
-		(property "Manufacturer_Name" ""
+		(property "Manufacturer_Name" "UNI-ROYAL"
 			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -117347,7 +117347,7 @@
 				)
 			)
 		)
-		(property "Manufacturer_Part_Number" ""
+		(property "Manufacturer_Part_Number" "PS03W4F1000T5E"
 			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -117386,7 +117386,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C22775"
+		(property "LCSC" "C2784878"
 			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.Fab")
