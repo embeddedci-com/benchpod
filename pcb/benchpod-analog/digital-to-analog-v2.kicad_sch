@@ -25621,7 +25621,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "305c9d70-efea-4654-b6f6-b53cd6debf71")
-		(property "Reference" "#PWR0901"
+		(property "Reference" "#PWR0909"
 			(at 111.76 259.08 0)
 			(hide yes)
 			(show_name no)
@@ -25681,7 +25681,7 @@
 		(instances
 			(project "vbench-pod"
 				(path "/745fcf4b-2e0b-4fc4-95c0-f2e3fd40beb9/3913e297-993d-4cdf-98cd-f72d75fe1f7c"
-					(reference "#PWR0901")
+					(reference "#PWR0909")
 					(unit 1)
 				)
 			)
@@ -25864,7 +25864,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "d71eb1c6-6715-4969-b14b-14cf3680a387")
-		(property "Reference" "#PWR0902"
+		(property "Reference" "#PWR0910"
 			(at 147.32 245.11 0)
 			(hide yes)
 			(show_name no)
@@ -25924,7 +25924,7 @@
 		(instances
 			(project "vbench-pod"
 				(path "/745fcf4b-2e0b-4fc4-95c0-f2e3fd40beb9/3913e297-993d-4cdf-98cd-f72d75fe1f7c"
-					(reference "#PWR0902")
+					(reference "#PWR0910")
 					(unit 1)
 				)
 			)

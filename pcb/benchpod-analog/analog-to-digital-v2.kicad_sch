@@ -14111,7 +14111,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "249"
+		(property "Value" "100"
 			(at 106.68 160.02 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14155,7 +14155,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C870575"
+		(property "LCSC" "C728670"
 			(at 104.14 158.75 0)
 			(hide yes)
 			(show_name no)
@@ -20871,7 +20871,7 @@
 				)
 			)
 		)
-		(property "Value" "AL5809-25P1-7"
+		(property "Value" "AL5809-30QP1-7"
 			(at 91.44 151.13 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -20892,7 +20892,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.lcsc.com/datasheet/C2678668.pdf"
+		(property "Datasheet" "https://www.lcsc.com/datasheet/C2678648.pdf"
 			(at 91.44 154.94 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -20903,7 +20903,7 @@
 				)
 			)
 		)
-		(property "Description" "25 mA current limiter: keeps R81 within rating when a supply is wired straight to 4-20 mA IN"
+		(property "Description" "30 mA current limiter: keeps R81 within rating when a supply is wired straight to 4-20 mA IN"
 			(at 91.44 154.94 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -20925,7 +20925,7 @@
 				)
 			)
 		)
-		(property "MPN" "AL5809-25P1-7"
+		(property "MPN" "AL5809-30QP1-7"
 			(at 91.44 154.94 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -20936,7 +20936,7 @@
 				)
 			)
 		)
-		(property "LCSC Part" "C2678668"
+		(property "LCSC Part" "C2678648"
 			(at 91.44 154.94 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -20947,7 +20947,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C2678668"
+		(property "LCSC" "C2678648"
 			(at 91.44 154.94 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -21164,7 +21164,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "H36VLT2B"
+		(property "Value" "ESD2CAN36DBZRQ1"
 			(at 45.72 64.77 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -21186,7 +21186,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.lcsc.com/datasheet/C20615828.pdf"
+		(property "Datasheet" "https://www.ti.com/lit/ds/symlink/esd2can36-q1.pdf"
 			(at 50.8 57.15 0)
 			(hide yes)
 			(show_name no)
@@ -21197,7 +21197,7 @@
 				)
 			)
 		)
-		(property "Description" "ESD clamp at the BNC center: 36 V standoff, 18 pF max, place at J10"
+		(property "Description" "ESD clamp at the BNC center: 36 V standoff, 3.5 pF max, place at J10"
 			(at 50.8 57.15 0)
 			(hide yes)
 			(show_name no)
@@ -21208,7 +21208,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C20615828"
+		(property "LCSC" "C36382904"
 			(at 50.8 57.15 0)
 			(hide yes)
 			(show_name no)
