@@ -2947,7 +2947,7 @@
 		)
 		(uuid "16db0802-9cfc-48d1-81e4-af03a50873c4")
 	)
-	(hierarchical_label "MOD_DAC_SCLK"
+	(hierarchical_label "MOD_DAC_DIN"
 		(shape output)
 		(at 195.58 92.71 180)
 		(effects
@@ -3068,7 +3068,7 @@
 		)
 		(uuid "88ed2a8e-b861-45d8-8ce6-c74205a30d43")
 	)
-	(hierarchical_label "MOD_DAC_DIN"
+	(hierarchical_label "MOD_DAC_SCLK"
 		(shape output)
 		(at 195.58 90.17 180)
 		(effects

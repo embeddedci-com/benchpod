@@ -3070,7 +3070,7 @@
 		)
 		(uuid "117019f3-6308-4ce8-a8bd-73ae209f97a7")
 	)
-	(label "DAC_SCLK_CN1"
+	(label "DAC_DIN_CN1"
 		(at 218.44 90.17 180)
 		(effects
 			(font
@@ -3440,7 +3440,7 @@
 		)
 		(uuid "cf74b3a8-3162-40cb-a3c3-9b2ef7227f1f")
 	)
-	(label "DAC_DIN_CN1"
+	(label "DAC_SCLK_CN1"
 		(at 218.44 87.63 180)
 		(effects
 			(font
