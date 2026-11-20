@@ -1,5 +1,5 @@
 <!-- title: BenchPod datasheet -->
-<!-- footer: BenchPod datasheet · Rev A · November 2026 · embeddedci.com -->
+<!-- footer: BenchPod datasheet · Rev B DRAFT · November 2026 · embeddedci.com -->
 
 <div class="cover" markdown="1">
 <div class="brand">EmbeddedCI</div>
@@ -7,11 +7,17 @@
 # BenchPod
 
 <div class="subtitle">Hardware-in-the-loop test instrument for embedded boards</div>
-<div class="meta">Datasheet · Rev A · November 2026 · Digital board v3r3 with analog module v3-r4</div>
+<div class="meta">Datasheet · Rev B DRAFT · November 2026 · Digital board v3r3 with analog module v3-r4, and the next revisions: digital board v3r4, analog module v3r5</div>
 </div>
 
 <div class="columns" markdown="1">
 <div markdown="1">
+
+<div class="note">
+
+**DRAFT, not for publication.** Digital board v3r4 and analog module v3r5 are designed but not built or measured yet. Values marked "from digital board v3r4" or "from analog module v3r5" come from the schematic and simulations. Values marked TODO must be measured on the first boards before this draft is published. Values without a revision mark apply to the boards shipped today.
+
+</div>
 
 ### Overview
 
@@ -34,7 +40,7 @@ It is built from two stacked boards: a **digital board** (power, flashing, logic
 
 - **DUT power**: switched 5 V and external supply outputs, current monitoring
 - **Flash and debug**: on-board CMSIS-DAP probe (SWD), works with OpenOCD targets
-- **14-channel logic analyzer / GPIO** at 1.8 V or 3.3 V
+- **14-channel logic analyzer / GPIO** at 1.8 V or 3.3 V; from digital board v3r4 also 5 V logic
 - **Protocols**: UART, I2C (sensor emulation), SPI, CAN and CAN FD
 - **16-bit ADC**, 400 kS/s, ±30 V, BNC input
 - **16-bit DAC**, outputs 0-3.3 V, 0-5 V and ±12 V
@@ -51,7 +57,7 @@ It is built from two stacked boards: a **digital board** (power, flashing, logic
 |---|---|
 | Power input | 5 V DC, USB-C, from a computer or USB-C power source |
 | DUT power | Switched 5 V (2 A) and external 2.7-20 V (3 A) outputs, current monitoring |
-| Logic analyzer / GPIO | 14 channels, 1.8 V or 3.3 V, up to 12 MS/s, 48 MS/s change capture |
+| Logic analyzer / GPIO | 14 channels, 1.8 V or 3.3 V (from digital board v3r4: also 5 V), up to 12 MS/s, 48 MS/s change capture |
 | Protocols | SWD (CMSIS-DAP), UART, SPI, I2C sensor emulation, GPS emulation, CAN and CAN FD |
 | ADC | 16-bit, 400 kS/s, ±30 V, BNC |
 | DAC | 16-bit, 0-3.3 V, 0-5 V and ±12 V outputs, up to 889 kS/s |
@@ -69,8 +75,9 @@ It is built from two stacked boards: a **digital board** (power, flashing, logic
 ### Digital board
 
 - **MCU** (STM32H563): runs the firmware. It handles the network (ETHERNET, the USB network adapter and the cloud connection) and executes the commands. It also switches and monitors DUT power, runs the CAN controller and drives DUT RESET. Over the MODULE LINK it sets the analog module's relays and reads its ID memory.
-- **FPGA** (iCE40UP5K): every LA channel on the I/O HEADER goes straight to an FPGA pin, through a 330 Ω series resistor and an ESD clamp. No pin has a fixed function. The FPGA implements logic analyzer capture, GPIO, timed pulses, UART, SPI, the SWD debug probe, and I2C sensor and GPS emulation, on whichever channels the wiring profile assigns. It also drives the ADC and DAC on the analog module and the STATUS LED.
+- **FPGA** (iCE40UP5K): every LA channel on the I/O HEADER goes straight to an FPGA pin, through a 330 Ω series resistor (100 Ω from digital board v3r4) and an ESD clamp. No pin has a fixed function. The FPGA implements logic analyzer capture, GPIO, timed pulses, UART, SPI, the SWD debug probe, and I2C sensor and GPS emulation, on whichever channels the wiring profile assigns. It also drives the ADC and DAC on the analog module and the STATUS LED.
 - **I/O level**: the FPGA's LA bank runs from a switched 1.8 V or 3.3 V supply. The channels are at the DUT's logic level directly, with no level shifters.
+- **I/O level, from digital board v3r4**: a bidirectional level translator sits between the FPGA and each channel, so every channel reads 1.8 V, 3.3 V and 5 V logic. The pod drives a high up to 3.3 V; a 5 V high comes from the switchable pull-up on the channel, which also sets how fast a 5 V output can switch.
 - **PSRAM** (8 MB): shared by the MCU and the FPGA. Deep captures stream into it, and recorded signals replay from it.
 - **DUT power**: eFuses with current limits switch the DUT 5V and DUT EXT outputs. A monitor measures each output's current.
 
@@ -80,7 +87,7 @@ The analog module has no processor. The FPGA reads the ADC and writes the DAC ov
 
 - **ADC IN**: a divider, buffer and differential driver feed a 16-bit SAR ADC with a 4.096 V reference. A relay selects the ±30 V or the ±5.4 V range.
 - **DAC OUT**: a quad 16-bit DAC with one channel per output: 0-3.3 V, 0-5 V, ±12 V, plus the channel for the 4-20 mA output.
-- **4-20 mA**: the input is a 249 Ω sense resistor read by the ADC. The output is a two-wire loop transmitter set by the DAC.
+- **4-20 mA**: the input is a 249 Ω sense resistor read by the ADC (from analog module v3r5: 100 Ω, behind a 30 mA current limiter). The output is a two-wire loop transmitter set by the DAC.
 - **Relays** route the inputs and loop the outputs back to the ADC, for self-test and calibration.
 - **ID memory**: identifies the module to the firmware.
 
@@ -167,6 +174,8 @@ The I/O HEADER is a keyed, shrouded 2x13 right-angle header with 2.54 mm pitch, 
 
 - **LA1-LA14**: logic analyzer and GPIO channels. Any channel can carry UART, SWD, SPI, I2C or a GPIO; the wiring profile in the web app records which signal is on which channel.
 - **LA_REF**: reference output at the selected I/O voltage (1.8 V or 3.3 V).
+- **LA_REF (pin 21), from digital board v3r4**: reference output. Pin 21 outputs the selected I/O voltage (1.8 V, 3.3 V or 5 V). Set the pod to the highest logic voltage present on the connected lines. If a line carries a voltage above the selected one, pin 21 rises toward that voltage and no longer matches the setting; the pod reports this as a warning. Pin 21 is a reference, not a supply for the DUT. The 5 V setting is the USB supply (about 4.4 to 5.1 V). How far pin 21 rises: **TODO (measure on first boards)**.
+- **Logic inputs, from digital board v3r4**: 5 V tolerant at every I/O voltage setting, so 5 V on a line does no harm. Mixed 3.3 V and 5 V lines: select 5 V and leave the pod's pull-ups off on the 3.3 V lines (they pull to 5 V in that mode). Mixed 1.8 V and 5 V lines are not supported.
 - **DUT RESET**: dedicated reset line to the DUT, used when flashing and by reset commands.
 - **CAN high / CAN low**: CAN or CAN FD bus through an on-board transceiver, with a switchable termination.
 
@@ -218,9 +227,11 @@ Typical values at 25 °C, with the pod powered from a 5 V USB-C supply.
 | Parameter | Value |
 |---|---|
 | Channels | 14 |
-| I/O voltage | 1.8 V or 3.3 V, selectable |
-| Channel protection | 330 Ω series resistor and ESD clamp on each channel |
+| I/O voltage | 1.8 V or 3.3 V, selectable. From digital board v3r4: also 5 V |
+| 5 V outputs (from digital board v3r4) | High level through the pull-up. Highest clock into CMOS-level 5 V inputs: **TODO (measure on first boards)** (simulation: 2.4 to 6 MHz with 2.2 kΩ, 10 to 30 pF load) |
+| Channel protection | 330 Ω series resistor and ESD clamp on each channel. From digital board v3r4: 100 Ω |
 | Pull resistors (switchable, 3.3 V I/O) | LA1-LA2 4.7 kΩ up; LA3-LA4 2.2 kΩ up; LA5-LA6 10 kΩ up; LA7-LA8 10 kΩ down; LA9-LA14 none |
+| Pull resistors, from digital board v3r4 | Every channel: 10 kΩ and 2.2 kΩ (about 1.8 kΩ with both), up or down, to LA_REF, at every I/O voltage. Needs a firmware release that supports the board |
 | Sample rate | Up to 12 MS/s; change capture up to 48 MS/s (20.8 ns resolution) |
 | Capture depth | Up to 4 M samples (8 MB PSRAM) |
 | GPIO pulses | FPGA-timed, 4 µs to 65.5 ms wide |
@@ -250,6 +261,7 @@ Typical values at 25 °C, with the pod powered from a 5 V USB-C supply.
 | Sample rate | Up to 400 kS/s |
 | Input range | ±30 V (about 1 mV per count); low range ±5.4 V |
 | Input impedance | About 1 MΩ (±30 V range), 1.8 MΩ (low range) |
+| Input clamp, from analog module v3r5 | ESD clamp at the BNC, about 3 pF (clamp rating: 2.8 pF typical, 3.5 pF maximum at 0 V). Input capacitance of the whole input: **TODO (measure on first boards)** |
 | Capture depth | 32 k samples; deep capture up to 2 M samples (about 5 s at 400 kS/s) |
 | Connector | BNC |
 
@@ -263,6 +275,7 @@ Typical values at 25 °C, with the pod powered from a 5 V USB-C supply.
 | Resolution | 16-bit, one DAC channel per output |
 | Outputs | 0-3.3 V, 0-5 V, ±12 V |
 | Output impedance | 49.9 Ω series resistor on each output |
+| 0-5 V output with long cables | Below about 1 V, a long cable on the 0-5 V output can make it oscillate (3 to 4 MHz). The DC value stays right. 100 nF from the output to GND at the terminal stops it; the output then responds with a time constant of about 5 µs. The 0-3.3 V and ±12 V outputs are not affected. From analog module v3r5: a feedback capacitor is added to fix it, **TODO (measure on first boards)** |
 | Update rate | Up to 889 kS/s |
 | Waveforms | Sine, square, sawtooth, arbitrary; replay of recorded signals up to 4 M samples |
 
@@ -273,9 +286,11 @@ Typical values at 25 °C, with the pod powered from a 5 V USB-C supply.
 
 | Parameter | Value |
 |---|---|
-| 4-20 mA IN | 249 Ω sense resistor (0.1 %), measured by the ADC |
+| 4-20 mA IN | 249 Ω sense resistor (0.1 %), measured by the ADC. Takes about 5 V from the loop at 20 mA (249 Ω x 20 mA) |
+| 4-20 mA IN, from analog module v3r5 | 100 Ω sense resistor (0.1 %) behind a current limiter. Takes about 4.3 V from the loop at 20 mA, **TODO (measure on first boards)** (at 4, 12, 20 and 22.5 mA). Readings clip near 30 mA (limiter: 28.5 to 31.5 mA) |
 | 4-20 mA OUT | Two-wire transmitter, about 4 to 20 mA, 0.25 µA steps |
-| Loop supply for 4-20 mA OUT | External, floating, 30 V maximum |
+| 4-20 mA OUT voltage at the terminals | About 8 V at 20 mA, **TODO (measure on a shipped board)**. From analog module v3r5: about 9.3 V, **TODO (measure on first boards)** |
+| Loop supply for 4-20 mA OUT | External, floating, 30 V maximum. At least the terminal voltage plus the receiver's drop (receiver resistance x 20 mA): 13 V for a 250 Ω receiver (from analog module v3r5: 15 V). A 12 V supply works with receivers up to about 200 Ω (from analog module v3r5: about 130 Ω) |
 
 </div>
 <div class="keep" markdown="1">
@@ -411,12 +426,12 @@ The connection can be `usb`, the pod's network address, or `embeddedci:<name>` t
 ## Usage notes
 
 - **Indoor use, short cables.** BenchPod is for indoor use. Keep every cable under 3 m, except ETHERNET: up to 30 m, indoors, to a switch or router in the same building.
-- **Set the I/O voltage first.** The pod refuses flashing, UART, logic analyzer captures, pull resistors and I2C emulation until the I/O voltage matches the DUT (1.8 V or 3.3 V). Never connect an LA channel to a signal above the selected I/O voltage.
+- **Set the I/O voltage first.** The pod refuses flashing, UART, logic analyzer captures, pull resistors and I2C emulation until the I/O voltage matches the DUT (1.8 V or 3.3 V). Never connect an LA channel to a signal above the selected I/O voltage. From digital board v3r4: the channels take 5 V signals, but select 5 V for a 5 V DUT. A 5 V signal while the pod is set to 1.8 V or 3.3 V lifts LA_REF and everything pulled to it.
 - **One owner per channel.** A channel used as GPIO must be released before UART, flashing or I2C emulation can use it; the error message names the command that frees it.
-- **Pull resistors** on LA1-LA8 work at 3.3 V I/O. For I2C, use LA1-LA6 (pull-ups), or add external pull-ups on LA9-LA14.
+- **Pull resistors** on LA1-LA8 work at 3.3 V I/O. For I2C, use LA1-LA6 (pull-ups), or add external pull-ups on LA9-LA14. From digital board v3r4: every channel has pulls at every I/O voltage; for an exact value, add a resistor from the line to LA_REF.
 - **DUT EXT** passes the voltage on EXT SUPPLY IN (2.7-20 V) to the DUT. Use DUT 5V when the DUT runs from 5 V.
-- **DAC OUT**: connect the DUT to the one output its pin tolerates. A 3.3 V MCU pin belongs on 0-3.3 V; the 0-5 V and ±12 V outputs can exceed it.
-- **4-20 mA OUT** needs its own floating 12-30 V loop supply. Nothing in the loop may connect to the pod's ground, so it cannot loop back into 4-20 mA IN or be powered from the pod's own outputs.
+- **DAC OUT**: connect the DUT to the one output its pin tolerates. A 3.3 V MCU pin belongs on 0-3.3 V; the 0-5 V and ±12 V outputs can exceed it. With a long cable on the 0-5 V output and settings below about 1 V, add 100 nF from the output to GND at the terminal, or use the 0-3.3 V output for low voltages.
+- **4-20 mA OUT** needs its own floating loop supply, 30 V at most and high enough for the receiver: 13 V or more for a 250 Ω receiver (15 V from analog module v3r5). Nothing in the loop may connect to the pod's ground, so it cannot loop back into 4-20 mA IN or be powered from the pod's own outputs.
 - **ADC IN** readings within a few millivolts of 0 V show a small step of about 3 counts. This comes from the ADC and is not removed by calibration.
 
 <div class="keep" markdown="1">
@@ -427,10 +442,10 @@ The connection can be `usb`, the pod's network address, or `embeddedci:<name>` t
 |---|---|---|
 | ADC IN | ±30 V | Mains, or any circuit connected to mains. The BNC shell is the pod's ground and connects to the computer through USB |
 | EXT SUPPLY IN | 2.7-20 V DC | More than 20 V (no 24 V supplies), or + and GND swapped |
-| 4-20 mA IN | Current input, up to 24 mA | A supply wired straight to it, with no transmitter in the loop |
-| 4-20 mA OUT | External floating loop supply, 12-30 V | More than 30 V, or anything in the loop tied to the pod's ground |
+| 4-20 mA IN | Current input, up to 24 mA (from analog module v3r5: limited near 30 mA) | A supply wired straight to it, with no transmitter in the loop |
+| 4-20 mA OUT | External floating loop supply, 30 V maximum, 13 V or more for a 250 Ω receiver (15 V from analog module v3r5) | More than 30 V, or anything in the loop tied to the pod's ground |
 | DUT 5V, DUT EXT, BRIDGE POWER, DAC OUT | Outputs | A supply or voltage connected to an output |
-| LA1-LA14 | 1.8 V or 3.3 V, as set | A signal above the I/O voltage set |
+| LA1-LA14 | 1.8 V or 3.3 V, as set (from digital board v3r4: 1.8 V, 3.3 V or 5 V) | A signal above the I/O voltage set (from digital board v3r4: above 5 V. Maximum input: **TODO (measure on first boards)**) |
 
 - **DUT power can switch on at any time**, from tests, CI, AI agents or the web app. Unplug the DUT power plug before touching or reworking the DUT.
 - Several terminal blocks take the same plug: check each plug before inserting it. Use wires rated for 2 A (DUT 5V) and 3 A (DUT EXT).
@@ -471,7 +486,7 @@ The EMC test plan, a separate document, describes the operating mode, monitoring
 | EXT SUPPLY IN | DC power port (input) | 2.7-20 V |
 | DUT 5V, DUT 5V (USB-A), DUT EXT | DC power ports (output) | To the DUT |
 | BRIDGE POWER | DC power port (output) | To the Wi-Fi bridge |
-| I/O HEADER | Signal port | Logic level 1.8 / 3.3 V, CAN |
+| I/O HEADER | Signal port | Logic level 1.8 / 3.3 V (5 V from digital board v3r4), CAN |
 | ADC IN, DAC OUT, 4-20 mA IN, 4-20 mA OUT | Signal ports | Analog, ±30 V maximum |
 
 There is no mains port: BenchPod runs from 5 V USB-C. Indoor use only. Cables: 3 m maximum on every port except ETHERNET, which is up to 30 m, indoors, to a switch or router in the same building.
