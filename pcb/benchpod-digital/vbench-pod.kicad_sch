@@ -10918,6 +10918,10 @@
 		(uuid "fb2b4a42-d962-481a-ad9b-b2ad2ca4ca60")
 	)
 	(no_connect
+		(at 330.2 55.88)
+		(uuid "0053df8b-15ce-4907-8ad6-9f47394a8d0b")
+	)
+	(no_connect
 		(at 214.63 217.17)
 		(uuid "02dada40-fb85-4980-8761-5aa6023ca786")
 	)
@@ -11004,10 +11008,6 @@
 	(no_connect
 		(at 330.2 73.66)
 		(uuid "722991d8-19a3-4d98-85f8-79f5a51b19e7")
-	)
-	(no_connect
-		(at 373.38 73.66)
-		(uuid "753a0b23-134c-408e-abd9-de3a3c12348c")
 	)
 	(no_connect
 		(at 373.38 134.62)
@@ -14331,6 +14331,16 @@
 		)
 		(uuid "2e86469e-4660-40c6-a727-b685db88acec")
 	)
+	(label "ICE_SS"
+		(at 373.38 73.66 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "2ea5efa9-81dc-41b8-8018-ad527eb90b23")
+	)
 	(label "PH1"
 		(at 265.43 162.56 0)
 		(effects
@@ -15800,16 +15810,6 @@
 			(justify left bottom)
 		)
 		(uuid "a97ebadd-6730-4518-9449-7c5a87326b3d")
-	)
-	(label "ICE_SS"
-		(at 330.2 55.88 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "ab6fa9f3-35e8-4d9f-aeae-0c88e0a106e8")
 	)
 	(label "STM32_VCAP1"
 		(at 373.38 58.42 0)
