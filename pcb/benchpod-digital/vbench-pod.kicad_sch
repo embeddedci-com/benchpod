@@ -11010,10 +11010,6 @@
 		(uuid "722991d8-19a3-4d98-85f8-79f5a51b19e7")
 	)
 	(no_connect
-		(at 373.38 134.62)
-		(uuid "7c244839-ccc0-432b-a900-6fa6ab8dbf6e")
-	)
-	(no_connect
 		(at 330.2 170.18)
 		(uuid "7d487089-2a58-41fc-80aa-506d47693f76")
 	)
@@ -11052,6 +11048,10 @@
 	(no_connect
 		(at 330.2 71.12)
 		(uuid "a06c4df1-730a-4e13-b6dd-e638670ac370")
+	)
+	(no_connect
+		(at 330.2 58.42)
+		(uuid "a65ef87a-00ba-4a46-afb2-e848b64db48c")
 	)
 	(no_connect
 		(at 330.2 198.12)
@@ -14071,6 +14071,16 @@
 		)
 		(uuid "12b12a76-7246-4dc0-a919-617b402b4420")
 	)
+	(label "ICE_SS_PSRAM"
+		(at 373.38 134.62 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "1337e75b-c826-4c40-a80c-7331650423ca")
+	)
 	(label "ICE_SPI_SI"
 		(at 83.82 219.71 180)
 		(effects
@@ -14130,16 +14140,6 @@
 			(justify left bottom)
 		)
 		(uuid "19c55975-1525-45a6-a483-0f65d2ae58d5")
-	)
-	(label "ICE_SS_PSRAM"
-		(at 330.2 58.42 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "1a121002-5731-4ae8-953c-014617781c36")
 	)
 	(label "ICE_IO3"
 		(at 330.2 96.52 180)
