@@ -17988,7 +17988,7 @@
 				)
 			)
 		)
-		(property "Value" "33"
+		(property "Value" "100"
 			(at 116.84 96.52 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18031,7 +18031,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C25105"
+		(property "LCSC" "C25076"
 			(at 116.84 96.52 90)
 			(hide yes)
 			(show_name no)
@@ -27045,7 +27045,7 @@
 				)
 			)
 		)
-		(property "Value" "33"
+		(property "Value" "100"
 			(at 118.11 106.68 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -27088,7 +27088,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C25105"
+		(property "LCSC" "C25076"
 			(at 118.11 106.68 90)
 			(hide yes)
 			(show_name no)
@@ -43786,7 +43786,7 @@
 				)
 			)
 		)
-		(property "Value" "33"
+		(property "Value" "100"
 			(at 88.9 101.6 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -43829,7 +43829,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C25105"
+		(property "LCSC" "C25076"
 			(at 88.9 101.6 90)
 			(hide yes)
 			(show_name no)
@@ -49538,7 +49538,7 @@
 				)
 			)
 		)
-		(property "Value" "33"
+		(property "Value" "100"
 			(at 118.11 101.6 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -49581,7 +49581,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C25105"
+		(property "LCSC" "C25076"
 			(at 118.11 101.6 90)
 			(hide yes)
 			(show_name no)
