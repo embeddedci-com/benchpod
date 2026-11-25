@@ -80,7 +80,7 @@ The analog module has no processor. The FPGA reads the ADC and writes the DAC ov
 
 - **ADC IN**: a divider, buffer and differential driver feed a 16-bit SAR ADC with a 4.096 V reference. A relay selects the ±30 V or the ±5.4 V range.
 - **DAC OUT**: a quad 16-bit DAC with one channel per output: 0-3.3 V, 0-5 V, ±12 V, plus the channel for the 4-20 mA output.
-- **4-20 mA**: the input is a 249 Ω sense resistor read by the ADC. The output is a two-wire loop transmitter set by the DAC.
+- **4-20 mA**: the input is a 249 Ω sense resistor read by the ADC (from analog module v3-r5: 100 Ω behind a series diode and a 30 mA current limiter). The output is a two-wire loop transmitter set by the DAC.
 - **Relays** route the inputs and loop the outputs back to the ADC, for self-test and calibration.
 - **ID memory**: identifies the module to the firmware.
 
@@ -283,6 +283,12 @@ Typical values at 25 °C, with the pod powered from a 5 V USB-C supply.
 | Parameter | Value |
 |---|---|
 | 4-20 mA IN | 249 Ω sense resistor (0.1 %), measured by the ADC |
+| 4-20 mA IN: voltage taken from the loop | About 5 V at 20 mA |
+| 4-20 mA IN: resolution | About 4 µA per ADC count (0.7 µA in the ADC low range, up to about 21 mA) |
+| 4-20 mA IN from analog module v3-r5 | 100 Ω sense resistor (0.1 %) behind a series diode and a 30 mA current limiter; firmware 3.10.13 or later |
+| 4-20 mA IN from v3-r5: voltage taken from the loop | About 4.3 V at 20 mA |
+| 4-20 mA IN from v3-r5: range | 0 to the limiter's 28.5 to 31.5 mA; readings clip there. A reversed loop reads 0 |
+| 4-20 mA IN from v3-r5: resolution | About 1.7 µA per ADC count (read in the ADC low range by default) |
 | 4-20 mA OUT | Two-wire transmitter, about 4 to 20 mA, 0.25 µA steps |
 | Loop supply for 4-20 mA OUT | External, floating, 30 V maximum |
 
@@ -436,7 +442,7 @@ The connection can be `usb`, the pod's network address, or `embeddedci:<name>` t
 |---|---|---|
 | ADC IN | ±30 V | Mains, or any circuit connected to mains. The BNC shell is the pod's ground and connects to the computer through USB |
 | EXT SUPPLY IN | 2.7-20 V DC | More than 20 V (no 24 V supplies), or + and GND swapped |
-| 4-20 mA IN | Current input, up to 24 mA | A supply wired straight to it, with no transmitter in the loop |
+| 4-20 mA IN | Current input, up to 24 mA (from analog module v3-r5: limited to about 30 mA) | A supply wired straight to it, with no transmitter in the loop |
 | 4-20 mA OUT | External floating loop supply, 12-30 V | More than 30 V, or anything in the loop tied to the pod's ground |
 | DUT 5V, DUT EXT, BRIDGE POWER, DAC OUT | Outputs | A supply or voltage connected to an output |
 | LA1-LA14 | 1.8 V or 3.3 V, as set | A signal above the I/O voltage set |
