@@ -250,6 +250,14 @@ Typical values at 25 °C, with the pod powered from a 5 V USB-C supply.
 | Sample rate | Up to 400 kS/s |
 | Input range | ±30 V (about 1 mV per count); low range ±5.4 V |
 | Input impedance | About 1 MΩ (±30 V range), 1.8 MΩ (low range) |
+| Noise | About 0.57 mV RMS (±30 V range), 0.10 to 0.15 mV RMS (low range), at 400 kS/s |
+| Effective resolution | About 14 noise-free bits at 400 kS/s in both ranges; up to 16 with oversampling at 10 kS/s |
+| Accuracy after DMM calibration | 0.5 to 4.5 V: within ±1.2 mV (±30 V range), within ±(0.05 % + 0.3 mV) (low range) |
+| Offset at 0 V | Under 1 mV (±30 V range), under 0.2 mV (low range) |
+| Accuracy before DMM calibration | Up to about 0.25 % of reading + 8 mV |
+| Linearity (DAC to ADC loopback) | Within ±1.5 mV of a straight line over ±11.5 V; within ±0.7 mV over 0.1 to 4.9 V |
+| Repeatability | Within 0.3 mV over 30 reconnects of the input relays (standard deviation under 0.1 mV) |
+| Calibration repeatability | A repeated DMM calibration agrees within 20 ppm of gain and 0.1 mV of offset |
 | Capture depth | 32 k samples; deep capture up to 2 M samples (about 5 s at 400 kS/s) |
 | Connector | BNC |
 
@@ -263,6 +271,7 @@ Typical values at 25 °C, with the pod powered from a 5 V USB-C supply.
 | Resolution | 16-bit, one DAC channel per output |
 | Outputs | 0-3.3 V, 0-5 V, ±12 V |
 | Output impedance | 49.9 Ω series resistor on each output |
+| Accuracy after DMM calibration | 0-3.3 V and 0-5 V: within ±0.4 mV; ±12 V: within ±0.8 mV (mid-scale, no load) |
 | Update rate | Up to 889 kS/s |
 | Waveforms | Sine, square, sawtooth, arbitrary; replay of recorded signals up to 4 M samples |
 

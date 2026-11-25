@@ -240,6 +240,8 @@ Typical values at 25 °C, with the pod powered from a 5 V USB-C supply.
 | Sample rate | Up to 400 kS/s |
 | Input range | ±30 V (about 1 mV per count). There is no low range on this board |
 | Input impedance | About 1 MΩ |
+| Noise | About 0.55 mV RMS at 400 kS/s |
+| Effective resolution | About 14 noise-free bits at 400 kS/s; up to 16 with oversampling at 10 kS/s |
 | Capture depth | 32 k samples; deep capture up to 2 M samples (about 5 s at 400 kS/s) |
 | Connector | SMA |
 
