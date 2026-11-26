@@ -7,6 +7,12 @@
 		(legacy_teardrops no)
 	)
 	(paper "A4")
+	(title_block
+		(title "BenchPod v4-Digital")
+		(date "2026-11-26")
+		(rev "v4")
+		(company "EmbeddedCI")
+	)
 	(layers
 		(0 "F.Cu" signal)
 		(4 "In1.Cu" power)
@@ -122185,7 +122191,7 @@
 			(justify left bottom)
 		)
 	)
-	(gr_text "BenchPod v3r4-Digital"
+	(gr_text "BenchPod v4-Digital"
 		(at 124.581 71.536 0)
 		(layer "F.SilkS")
 		(uuid "0948cec0-69e3-4e0c-a6ed-a7a479600aae")

@@ -4,6 +4,12 @@
 	(generator_version "10.0")
 	(uuid "745fcf4b-2e0b-4fc4-95c0-f2e3fd40beb9")
 	(paper "A3")
+	(title_block
+		(title "BenchPod v4-Analog")
+		(date "2026-11-26")
+		(rev "v4")
+		(company "EmbeddedCI")
+	)
 	(lib_symbols
 		(symbol "Device:C"
 			(pin_numbers

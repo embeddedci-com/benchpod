@@ -58,6 +58,9 @@ below to get the git tag with the exact design files for your board:
 | BenchPod v3-r2 | Analog + digital | `analog-v3r2` | `pcb/benchpod` | One DAC8554 quad DAC (a channel per output) replaces the DAC8551 and its two TMUX1104 muxes. The ±14 V supply starts off and the firmware switches it on. 0.1 % resistors around the ADC driver for a smaller zero offset between pods. Fixed 9.1 pF ADC compensation instead of the trimmer. SWD and USART2 on DNP 2x2 headers instead of H1-H3. More ESD clamps (USB CC, +1V8, LA_VCCIO, the 0-5 V SMA). Board revision strap 2.70 V. |
 | BenchPod v3r3-Digital | Digital only | `digital-v3r3` | `pcb/benchpod-digital` | 24-pin FFC connector (CN1) for the analog module. The module 5 V and the USB-A bridge 5 V are switched by SY6280AAC power switches, with TVS diodes on the 5 V outputs. 3.3 V buck becomes a TPS62130A with a 2.2 uH inductor. PSRAM in SOP-8. Ethernet EMI changes from the Microchip and TI reference designs: RJ45 chassis ground straight to GND, center taps fed through a 0 ohm resistor, 8.2 pF on the four data lines, a flow-through TPD4E05U06 ESD clamp. 100 nF + 470 pF at the J4, J5 and J6 terminals. Connectors placed for the enclosure. |
 | BenchPod v3-r3-analog | Analog module | `analog-v3r3` | `pcb/benchpod-analog` | First analog module: the analog section on its own board, connected to the v3r3 digital board by a 24-pin FFC (CN1). Front-panel connectors for the enclosure: a lead-free BNC for the ADC input (ready for 10x probes), pluggable terminal blocks for the DAC outputs (one 6-pin block) and the 4-20 mA loop. Module ID EEPROM. +3V3 from an AP2112K-3.3. |
+| BenchPod v3-r4-analog | Analog module | `analog-v3r4` | `pcb/benchpod-analog` | ADC low range: relay K5 switches the input divider from ±32.8 V to ±5.46 V for 6x the resolution. |
+| BenchPod v4-Digital | Digital only | not tagged yet (on `main`) | `pcb/benchpod-digital` | First board with built-in 5 V I/O: an LSF0108 level shifter on every LA channel, 1.8, 3.3 or 5 V, J1 pin 21 as the switched and measured reference. Pull-up or pull-down with 10k, 2.2k or both on every channel (two TCA6416A). USB-A host port for the DUT's own USB (flashing and USB host). Second board revision strap. Memory-mapped W25Q. Not built yet. |
+| BenchPod v4-Analog | Analog module | not tagged yet (on `main`) | `pcb/benchpod-analog` | 4-20 mA input behind a 30 mA limiter with a 100 ohm sense resistor. DAC clock and data swapped on the flat cable (pairs with the v4 digital board). More ESD clamps. Module EEPROM revision 4.0. Not built yet. |
 
 To get the files for your board, check out its tag:
 
@@ -71,7 +74,11 @@ Every tag holds all KiCad projects; use the folder from the table. Older boards:
 The v3 tags used to be named `v3.0.0` (now `analog-v3`), `v3.0.1-digital` (now `digital-v3`),
 `v3.0.1-analog` (now `analog-v3r1`) and `v3.0.2-digital` (now `digital-v3r2`).
 
-One firmware runs on all v3 boards. The pod's own current needs firmware newer than 3.5.1.
+v4 is the first board with 5 V I/O. It was called digital v3r4 and analog module v3r5 while it
+was designed; the feature jump made it a major version. A v4 digital board needs a v4 analog
+module (or both older): the DAC lines on the flat cable are swapped.
+
+One firmware runs on all v3 and v4 boards. The pod's own current needs firmware newer than 3.5.1.
 The v3-r2 board needs firmware newer than 3.9.4: older firmware runs it as a v3-r1 and its DAC
 outputs and ±12 V stay off.
 
