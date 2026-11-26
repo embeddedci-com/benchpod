@@ -54800,7 +54800,7 @@
 				)
 			)
 		)
-		(property "Value" "0"
+		(property "Value" "BLM15AG221SN1D"
 			(at 67.31 36.83 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -54832,7 +54832,7 @@
 				)
 			)
 		)
-		(property "Description" "Series footprint after the DAC 100 ohm: 0 ohm as built, ferrite bead lab option"
+		(property "Description" "Ferrite bead after the DAC 100 ohm (220 ohm @ 100 MHz, Murata), with C29x 22 pF: DAC SCLK/DIN/SYNC comb filter (EMC 2026-11-25)"
 			(at 67.31 33.02 0)
 			(hide yes)
 			(show_name no)
@@ -54843,7 +54843,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C17168"
+		(property "LCSC" "C85813"
 			(at 67.31 33.02 90)
 			(hide yes)
 			(show_name no)
@@ -54854,7 +54854,7 @@
 				)
 			)
 		)
-		(property "MPN" "0402WGF0000TCE"
+		(property "MPN" "BLM15AG221SN1D"
 			(at 67.31 33.02 90)
 			(hide yes)
 			(show_name no)
@@ -54958,7 +54958,7 @@
 		(in_bom yes)
 		(on_board yes)
 		(in_pos_files yes)
-		(dnp yes)
+		(dnp no)
 		(uuid "1b80192b-9495-4519-b176-a33c4d96f4a0")
 		(property "Reference" "C290"
 			(at 77.47 35.56 0)
@@ -55171,7 +55171,7 @@
 				)
 			)
 		)
-		(property "Value" "0"
+		(property "Value" "BLM15AG221SN1D"
 			(at 67.31 52.07 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -55203,7 +55203,7 @@
 				)
 			)
 		)
-		(property "Description" "Series footprint after the DAC 100 ohm: 0 ohm as built, ferrite bead lab option"
+		(property "Description" "Ferrite bead after the DAC 100 ohm (220 ohm @ 100 MHz, Murata), with C29x 22 pF: DAC SCLK/DIN/SYNC comb filter (EMC 2026-11-25)"
 			(at 67.31 48.26 0)
 			(hide yes)
 			(show_name no)
@@ -55214,7 +55214,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C17168"
+		(property "LCSC" "C85813"
 			(at 67.31 48.26 90)
 			(hide yes)
 			(show_name no)
@@ -55225,7 +55225,7 @@
 				)
 			)
 		)
-		(property "MPN" "0402WGF0000TCE"
+		(property "MPN" "BLM15AG221SN1D"
 			(at 67.31 48.26 90)
 			(hide yes)
 			(show_name no)
@@ -55329,7 +55329,7 @@
 		(in_bom yes)
 		(on_board yes)
 		(in_pos_files yes)
-		(dnp yes)
+		(dnp no)
 		(uuid "0ae0e5dd-6a17-4bd6-8cf0-cacf013064c6")
 		(property "Reference" "C291"
 			(at 77.47 50.8 0)
@@ -55542,7 +55542,7 @@
 				)
 			)
 		)
-		(property "Value" "0"
+		(property "Value" "BLM15AG221SN1D"
 			(at 67.31 67.31 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -55574,7 +55574,7 @@
 				)
 			)
 		)
-		(property "Description" "Series footprint after the DAC 100 ohm: 0 ohm as built, ferrite bead lab option"
+		(property "Description" "Ferrite bead after the DAC 100 ohm (220 ohm @ 100 MHz, Murata), with C29x 22 pF: DAC SCLK/DIN/SYNC comb filter (EMC 2026-11-25)"
 			(at 67.31 63.5 0)
 			(hide yes)
 			(show_name no)
@@ -55585,7 +55585,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C17168"
+		(property "LCSC" "C85813"
 			(at 67.31 63.5 90)
 			(hide yes)
 			(show_name no)
@@ -55596,7 +55596,7 @@
 				)
 			)
 		)
-		(property "MPN" "0402WGF0000TCE"
+		(property "MPN" "BLM15AG221SN1D"
 			(at 67.31 63.5 90)
 			(hide yes)
 			(show_name no)
@@ -55700,7 +55700,7 @@
 		(in_bom yes)
 		(on_board yes)
 		(in_pos_files yes)
-		(dnp yes)
+		(dnp no)
 		(uuid "9c031fc7-4536-490f-bafa-b6f13b9c6e84")
 		(property "Reference" "C292"
 			(at 77.47 66.04 0)
