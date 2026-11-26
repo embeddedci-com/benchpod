@@ -4632,7 +4632,7 @@
 		)
 		(uuid "e017cee1-c51d-400a-9f41-3894cd20a07a")
 	)
-	(text "Compensated divider: R90 x (C140 + ~0.3 pF stray) = R91 x (C72 + ~7 pF).\nFixed 9.1 pF replaces the v3 2-6 pF trimmer (measured 2026-10-20)."
+	(text "Compensated divider: R90 x (C140 + ~0.3 pF stray) = R91 x (C72 + C271 + ~7 pF).\nFixed 9.1 pF replaces the v3 2-6 pF trimmer (measured 2026-10-20).\nv3r4 C72 51p: HF/DC 0.94 (bottom/top 11.8 vs 11.03); v3r5 C72 43p, ~1.01."
 		(exclude_from_sim no)
 		(at 176.784 18.542 0)
 		(effects
@@ -4642,7 +4642,7 @@
 		)
 		(uuid "f02eef0d-6549-490f-8ff9-cda15be55d62")
 	)
-	(text "ADC low range: K5, LOW_RANGE_EN (U53 OUT5, from U58 P5).\nK5 off = ±32.8 V (÷12, as v3r3). K5 on = ±5.46 V (÷2).\nOff: R91 + C72 51p + C271 47p to GND (NC1/NC2):\n  82.5k || ~105 pF (98p + ~7p stray), top 9.1p + 0.3p.\nOn: R182 910k || C269 47p to GND (NO1), C271 across R90 (NO2):\n  top 9.1 + 47 + 0.3 = 56.4p, bottom 47p + ~8p stray.\nLow range input 1.82 Mohm: 1x leads, not 10x probes.\nFinal C269/C271 (C270 DNP pad): adc_comp_sweep.py on both ranges, first board.\nNo K5: fit R183 + R184 (0 ohm, DNP) for the ÷12 divider only."
+	(text "ADC low range: K5, LOW_RANGE_EN (U53 OUT5, from U58 P5).\nK5 off = ±32.8 V (÷12, as v3r3). K5 on = ±5.46 V (÷2).\nOff: R91 + C72 43p + C271 47p to GND (NC1/NC2):\n  82.5k || ~97 pF (90p + ~7p stray), top 9.1p + 0.3p.\nOn: R182 910k || C269 47p to GND (NO1), C271 across R90 (NO2):\n  top 9.1 + 47 + 0.3 = 56.4p, bottom 47p + ~8p stray.\nLow range input 1.82 Mohm: 1x leads, not 10x probes.\nC269 47p confirmed on v3r4 (HF/DC 0.990, 0.987); C270 stays DNP.\nFirst v3r5 board: adc_comp_sweep.py on both ranges (R90 0805, C72 43p).\nNo K5: fit R183 + R184 (0 ohm, DNP) for the ÷12 divider only."
 		(exclude_from_sim no)
 		(at 213.36 190.5 0)
 		(effects
@@ -7807,7 +7807,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "51p"
+		(property "Value" "43p"
 			(at 175.26 54.6099 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7851,7 +7851,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C541437"
+		(property "LCSC" "C415393"
 			(at 171.45 53.34 0)
 			(hide yes)
 			(show_name no)
