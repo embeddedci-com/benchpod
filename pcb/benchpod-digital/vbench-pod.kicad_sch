@@ -10964,10 +10964,6 @@
 		(uuid "33b7acf2-5392-4c4d-9da8-0bcc9b5bbc6e")
 	)
 	(no_connect
-		(at 373.38 121.92)
-		(uuid "3b9b1dae-92d1-414f-a890-11c64cb218ee")
-	)
-	(no_connect
 		(at 373.38 96.52)
 		(uuid "3c4033d8-beba-4252-82d2-200ba06df96e")
 	)
@@ -11102,10 +11098,6 @@
 	(no_connect
 		(at 214.63 222.25)
 		(uuid "dae776cf-4a14-494c-bd7a-d61b7b050e52")
-	)
-	(no_connect
-		(at 373.38 119.38)
-		(uuid "e84e1653-0acf-469f-9d39-64210111d18b")
 	)
 	(no_connect
 		(at 373.38 198.12)
@@ -24267,7 +24259,7 @@
 				)
 			)
 		)
-		(property "Value" "+1V8"
+		(property "Value" "+1V8_DUT"
 			(at 213.36 194.31 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -39735,7 +39727,7 @@
 				)
 			)
 		)
-		(property "Value" "+3V3"
+		(property "Value" "+3V3_DUT"
 			(at 190.246 195.58 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -55884,6 +55876,112 @@
 				(path "/745fcf4b-2e0b-4fc4-95c0-f2e3fd40beb9"
 					(reference "#PWR0958")
 					(unit 1)
+				)
+			)
+		)
+	)
+	(label "DUT_3V3_EN"
+		(at 373.38 121.92 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "3952a204-7954-44ba-86b3-a9bf08b1049f")
+	)
+	(label "DUT_1V8_EN"
+		(at 373.38 119.38 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "dd10fccb-3905-46bb-abfc-7db677bad02d")
+	)
+	(label "DUT_3V3_EN"
+		(at 110.49 69.85 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "882f2ade-bb12-4975-b8d0-c9b21c4a2983")
+	)
+	(label "DUT_1V8_EN"
+		(at 110.49 72.39 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "7574b71e-50dc-4068-b30a-c8f99f805630")
+	)
+	(sheet
+		(at 85.09 67.31)
+		(size 25.4 10.16)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "dc53f8bf-99c0-42a4-ade1-bc6e32e6c363")
+		(property "Sheetname" "DUT power"
+			(at 85.09 66.5984 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "dut-power.kicad_sch"
+			(at 85.09 78.0546 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "DUT_3V3_EN" input
+			(at 110.49 69.85 0)
+			(uuid "c698967e-9d36-4411-9130-8b1d3df1e51e")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "DUT_1V8_EN" input
+			(at 110.49 72.39 0)
+			(uuid "a29b733f-febd-46db-a786-4d1ab0ecd199")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(instances
+			(project "vbench-pod"
+				(path "/745fcf4b-2e0b-4fc4-95c0-f2e3fd40beb9"
+					(page "8")
 				)
 			)
 		)
