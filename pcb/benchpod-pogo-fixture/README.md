@@ -23,14 +23,17 @@ the standoffs.
 
 | J1 | Net | Pod J10 pad | Pod signal |
 |---|---|---|---|
-| 1 | POD_5V | 1 | +5V_EFUSE (through the pod's input eFuse) |
-| 2 | SWDIO | 3 | SWDIO |
+| 1 | POD_5V | 1 | +5V_EFUSE (before the pod's input eFuse) |
+| 2 | GND | 3 | GND |
 | 3 | NRST | 5 | NRST |
 | 4 | POD_TX | 7 | USART2_TX (the pod's console out) |
 | 5 | POD_RX | 8 | USART2_RX |
-| 6 | GND | 6 | GND |
+| 6 | SWDIO | 6 | SWDIO |
 | 7 | SWCLK | 4 | SWCLK |
 | 8 | GND | 2 | GND |
+
+On the pod, pad 1 (5 V) has GND on both direct neighbors (pads 2 and 3), so a short across
+neighboring pads only reaches the supply's current limit, never an STM32 pin.
 
 ## Using it
 

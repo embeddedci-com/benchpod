@@ -56379,12 +56379,12 @@
 		(uuid "228b95be-dcd7-4b51-b14c-6beb1b6b94e2")
 	)
 	(label "SWDIO"
-		(at 262.89 215.9 180)
+		(at 275.59 218.44 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify right bottom)
+			(justify left bottom)
 		)
 		(uuid "29b2cfb4-ff72-4a5c-bc2e-ec13b1294082")
 	)
@@ -56614,7 +56614,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 275.59 218.44 90)
+		(at 262.89 215.9 270)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -56624,7 +56624,7 @@
 		(dnp no)
 		(uuid "87ff2224-f484-47a9-adaf-d4f6b2ae8402")
 		(property "Reference" "#PWR0981"
-			(at 269.24 218.44 0)
+			(at 256.54 215.9 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -56635,7 +56635,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 271.78 218.44 0)
+			(at 259.08 215.9 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -56645,7 +56645,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 275.59 218.44 0)
+			(at 262.89 215.9 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -56656,7 +56656,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 275.59 218.44 0)
+			(at 262.89 215.9 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -56667,7 +56667,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 275.59 218.44 0)
+			(at 262.89 215.9 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)

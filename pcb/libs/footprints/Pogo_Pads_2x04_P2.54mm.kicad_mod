@@ -3,7 +3,7 @@
 	(generator "pcbnew")
 	(generator_version "9.0")
 	(layer "F.Cu")
-	(descr "Pogo pin test pads 2x4, 2.54 mm pitch, 1.5 mm round pads, no paste. Place on the bottom side. Fixture aligns on the board mounting holes. Pinout: 1 +5V_EFUSE, 2 GND, 3 SWDIO, 4 SWCLK, 5 NRST, 6 GND, 7 USART2_TX, 8 USART2_RX")
+	(descr "Pogo pin test pads 2x4, 2.54 mm pitch, 1.5 mm round pads, no paste. Place on the bottom side. Fixture aligns on the board mounting holes. Pinout: 1 +5V_EFUSE, 2 GND, 3 GND, 4 SWCLK, 5 NRST, 6 SWDIO, 7 USART2_TX, 8 USART2_RX")
 	(tags "pogo test pad SWD UART fixture")
 	(property "Reference" "J**"
 		(at 1.27 -2.6 0)
@@ -204,7 +204,7 @@
 			)
 		)
 	)
-	(fp_text user "DIO"
+	(fp_text user "GND"
 		(at -2.9 2.54 0)
 		(layer "F.SilkS")
 		(uuid "ec9efcc2-1a3e-4886-a814-aea9950d2ab6")
@@ -237,7 +237,7 @@
 			)
 		)
 	)
-	(fp_text user "GND"
+	(fp_text user "DIO"
 		(at 5.44 5.08 0)
 		(layer "F.SilkS")
 		(uuid "22e527ed-cfb6-408a-9e3a-61dcc6ed2d7b")
