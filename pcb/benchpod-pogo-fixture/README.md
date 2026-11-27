@@ -1,52 +1,51 @@
 # BenchPod v4 pogo fixture
 
-A passive fixture for flashing and testing BenchPod v4 digital boards. The pod sits on top, and
-eight spring probes touch two groups of test pads on the bottom of the pod:
+A passive fixture for flashing and testing BenchPod v4 digital boards. Eight SMD pogo pins touch two
+groups of test pads on the bottom of the pod:
 
 - **J10** (6 pads, right of the STM32): SWD, NRST and the USART2 console.
 - **J12** (2 pads, next to the input eFuse U57): 5 V and GND.
 
-The 5 V pads sit next to U57 so the pod's power track stays short. The 5 V pad only has GND
-next to it, so a short across neighboring pads reaches the supply's current limit, never an
-STM32 pin.
+The fixture board lies flat in a printed stand with a toggle clamp lever (benchpod-private,
+`enclosure/pogo_fixture_stand.py`). Per pod: drop it on the four pins, push the lever down, flash,
+lift the lever.
 
-The fixture is drawn in the same coordinates as `../benchpod-digital/vbench-pod.kicad_pcb`, so
-every hole and probe lines up with the pod.
+The board is drawn in the same coordinates as `../benchpod-digital/vbench-pod.kicad_pcb`, so every
+hole and pin lines up with the pod.
 
 ## Parts
 
 | Ref | Part | Notes |
 |---|---|---|
-| J2 | 6 × P75 probes in R75 press-fit receptacles | 1.7 mm plated holes, 2.54 mm pitch, under the pod's J10 (pad 1 at 124.50, 83.54) |
-| J3 | 2 × P75 probes in R75 press-fit receptacles | Under the pod's J12 (pad 1 at 119.50, 118.50) |
+| P1–P8 | BAT WIRELESS BWCD-L6.5W2.0H2.0, LCSC C2826552 | SMD pogo pin, 6.5 mm, 2.0 mm plunger out, 100 g; JLC reflows them. In the BOM and placement files. |
 | J1 | 1×8 right-angle pin header, 2.54 mm | Goes to the controller pod; the pins hang over the bottom edge |
-| H1, H2 | M2.5 × 8 mm hex standoffs, female-female | Under the pod's H11 and H14 (2.7 mm holes, 86.34 mm apart) |
-| H3, H4 | M2.5 feet | Use 25 mm feet at all four holes so the receptacle tails clear the bench |
+| H1, H2 | 6.4 mm holes | The stand's posts under the pod's H11/H14 come up through them |
+| H3, H4 | M2.5 plated holes | M2.5×8 screws into the stand's floor |
 
-The 8 mm gap assumes the probe tips stand 10 mm above the fixture with nothing pressing on them,
-which uses about 2 mm of probe travel. Check the free height in the probe datasheet before ordering
-the standoffs.
+The stand holds the pod 5.5 mm above the fixture board, which presses the pins 1.0 mm.
 
-## J1 pinout
+## Pin map
 
-| J1 | Net | Pod pad | Pod signal |
+| Pin | Pod pad | Net | J1 |
 |---|---|---|---|
-| 1 | GND | | GND |
-| 2 | POD_RX | J10.6 | USART2_RX |
-| 3 | SWDIO | J10.4 | SWDIO |
-| 4 | SWCLK | J10.2 | SWCLK |
-| 5 | GND | J10.1, J12.2 | GND |
-| 6 | NRST | J10.3 | NRST |
-| 7 | POD_TX | J10.5 | USART2_TX (the pod's console out) |
-| 8 | POD_5V | J12.1 | +5V_EFUSE (before the pod's input eFuse) |
+| P1 | J10.1 | GND | 5 |
+| P2 | J10.2 | SWCLK | 4 |
+| P3 | J10.3 | NRST | 6 |
+| P4 | J10.4 | SWDIO | 3 |
+| P5 | J10.5 | USART2_TX (the pod's console out) | 7 |
+| P6 | J10.6 | USART2_RX | 2 |
+| P7 | J12.1 | +5V_EFUSE (before the pod's input eFuse) | 8 |
+| P8 | J12.2 | GND | 5 |
+
+J1: 1 GND, 2 POD_RX, 3 SWDIO, 4 SWCLK, 5 GND, 6 NRST, 7 POD_TX, 8 POD_5V.
 
 ## Using it
 
 Wire J1 to a controller BenchPod. Use its target power for POD_5V, three LA channels for SWDIO,
-SWCLK and NRST, and a UART receive channel on POD_TX. A test script then:
+SWCLK and NRST, and a UART receive channel on POD_TX. A loop on the controller then:
 
-1. Turns target power on.
+1. Keeps target power on, current-limited, and waits until the pod draws current.
 2. Waits for the boot banner on the UART.
 3. Flashes the pod over SWD.
-4. Reads the self-test result.
-5. Turns target power off.
+4. Reads the self-test result and shows pass or fail.
+5. Waits for the current to drop when the pod comes off.

@@ -1,0 +1,84 @@
+(footprint "Pogo_SMD_BWCD-L6.5W2.0H2.0"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(descr "SMD pogo pin BAT WIRELESS BWCD-L6.5W2.0H2.0 (LCSC C2826552): 2.0 mm flange, 1.5 mm body, 0.9 mm plunger, 6.5 mm tall, 2.0 mm plunger out, 100 g at working height. Reflowed by JLC.")
+	(tags "pogo pin spring probe SMD fixture")
+	(property "Reference" "P**"
+		(at 0 -1.9 0)
+		(layer "F.SilkS")
+		(uuid "8602d397-9fbf-4ac6-ba0a-5bad0bc42ed5")
+		(effects
+			(font
+				(size 0.7 0.7)
+				(thickness 0.12)
+			)
+		)
+	)
+	(property "Value" "Pogo_SMD_BWCD-L6.5W2.0H2.0"
+		(at 0 1.9 0)
+		(layer "F.Fab")
+		(uuid "2377423f-f833-4363-bcd4-aff8b37f8f79")
+		(effects
+			(font
+				(size 0.5 0.5)
+				(thickness 0.12)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "684300b9-e6ca-49b1-aa2a-72f352efe923")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.12)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "a5ff5414-ddda-4e12-b577-e49942a53988")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.12)
+			)
+		)
+	)
+	(attr smd)
+	(fp_circle
+		(center 0 0)
+		(end 1.0 0)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.Fab")
+		(uuid "e561bbdb-d6a6-4fb7-8498-e4fa9f62ba12")
+	)
+	(fp_circle
+		(center 0 0)
+		(end 1.25 0)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.CrtYd")
+		(uuid "b4524b51-48f8-4902-8fbf-31332be9206f")
+	)
+	(pad "1" smd circle
+		(at 0 0)
+		(size 2.2 2.2)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "74427eb4-062b-4dc0-b17d-652e18f97b3c")
+	)
+	(embedded_fonts no)
+)
