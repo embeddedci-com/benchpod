@@ -284,7 +284,7 @@
       "internal_id": "",
       "mfg": "",
       "mpn": "",
-      "sch_revision": ""
+      "sch_revision": "v4"
     },
     "layer_pairs": [],
     "layer_presets": [],
@@ -952,6 +952,10 @@
     [
       "5f5cb8c4-f908-4057-9292-dab73b13c2b1",
       "LA pulls"
+    ],
+    [
+      "dc53f8bf-99c0-42a4-ade1-bc6e32e6c363",
+      "DUT power"
     ]
   ],
   "text_variables": {},

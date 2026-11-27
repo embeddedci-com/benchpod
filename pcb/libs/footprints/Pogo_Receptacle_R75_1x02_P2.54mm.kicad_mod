@@ -1,0 +1,202 @@
+(footprint "Pogo_Receptacle_R75_1x02_P2.54mm"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(descr "Pogo probe receptacles 1x2, 2.54 mm pitch, R75 press-fit, 1.7 mm plated hole. Mates with Pogo_Pads_1x02_P2.54mm: pad 2 sits to the left of pad 1 seen from the top.")
+	(tags "pogo probe receptacle R75 P75 fixture power")
+	(property "Reference" "J**"
+		(at -1.27 -2.8 0)
+		(layer "F.SilkS")
+		(uuid "1937cbc5-404b-45a3-b25d-bd64719554d6")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "Pogo_Receptacle_R75_1x02_P2.54mm"
+		(at -1.27 2.8 0)
+		(layer "F.Fab")
+		(uuid "3b2fb02b-3548-4356-af03-fda0b1f1ed43")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "7833f2f3-63e7-4b4c-9fae-cd0ba3c38cb8")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "d40a4c45-51e0-4185-b98b-022fcabbfa0f")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr through_hole)
+	(fp_line
+		(start -3.94 -1.4)
+		(end 1.4 -1.4)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "7dd3e952-9604-4280-973d-641422add242")
+	)
+	(fp_line
+		(start 1.4 -1.4)
+		(end 1.4 1.4)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "63641445-8b85-483a-accb-dbf36d2f39b4")
+	)
+	(fp_line
+		(start 1.4 1.4)
+		(end -3.94 1.4)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "0ca8561b-329c-4852-9af0-2fb5e0fd02cf")
+	)
+	(fp_line
+		(start -3.94 1.4)
+		(end -3.94 -1.4)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "9a0700ab-9609-4c09-8e70-6d37b3434438")
+	)
+	(fp_line
+		(start 1.9 -1.4)
+		(end 1.9 0)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "044d9a6c-b398-4128-b13f-e4580ca1a236")
+	)
+	(fp_line
+		(start -4.34 -1.8)
+		(end 1.8 -1.8)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "599dd0b6-c57f-47b2-8190-831f5d103600")
+	)
+	(fp_line
+		(start 1.8 -1.8)
+		(end 1.8 1.8)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "d12b6392-463a-4b77-a1a0-1e9e68bdaf37")
+	)
+	(fp_line
+		(start 1.8 1.8)
+		(end -4.34 1.8)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "1d3ce22f-164e-41f5-b859-e355dabf2bd0")
+	)
+	(fp_line
+		(start -4.34 1.8)
+		(end -4.34 -1.8)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "8ebeb36b-82aa-4374-a480-d866d80c4b10")
+	)
+	(fp_line
+		(start -3.64 -1.1)
+		(end 1.1 -1.1)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "6218d6c1-5f86-46d8-8107-9c1114e4fde0")
+	)
+	(fp_line
+		(start 1.1 -1.1)
+		(end 1.1 1.1)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "0e0ea718-2f63-4609-8446-6aa7b2e2254d")
+	)
+	(fp_line
+		(start 1.1 1.1)
+		(end -3.64 1.1)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "2e8c04e9-e078-4416-aa6b-09fb2ee69c9b")
+	)
+	(fp_line
+		(start -3.64 1.1)
+		(end -3.64 -1.1)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "305c55b4-f59b-41a8-b557-56948adba0ea")
+	)
+	(pad "1" thru_hole rect
+		(at -0 0)
+		(size 2.2 2.2)
+		(drill 1.7)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "746dbc0b-0c31-477b-87f9-1db474069798")
+	)
+	(pad "2" thru_hole circle
+		(at -2.54 0)
+		(size 2.2 2.2)
+		(drill 1.7)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "dd76ced5-b871-46b9-9b77-12052d1d1bfe")
+	)
+	(embedded_fonts no)
+)

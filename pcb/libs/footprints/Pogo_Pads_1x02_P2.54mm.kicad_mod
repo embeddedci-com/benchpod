@@ -1,0 +1,220 @@
+(footprint "Pogo_Pads_1x02_P2.54mm"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(descr "Pogo pin power pads, 2 pads at 2.54 mm pitch, 1.5 mm round, no paste. Place on the bottom side. Pinout: 1 +5V_EFUSE, 2 GND")
+	(tags "pogo test pad power fixture")
+	(property "Reference" "J**"
+		(at 1.27 -2.8 0)
+		(layer "F.SilkS")
+		(uuid "7a12465b-5dd9-4147-a87e-35413fdce69e")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "Pogo_Pads_1x02_P2.54mm"
+		(at 1.27 2.8 0)
+		(layer "F.Fab")
+		(uuid "c51b8497-2aff-4881-ab8a-5c5370e0b29e")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "0c6125a4-38ab-4d85-9867-ff77330977d4")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "4cbb8627-9c09-43f4-80eb-324ff510fa70")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd exclude_from_pos_files exclude_from_bom)
+	(fp_line
+		(start -1.4 -1.4)
+		(end 3.94 -1.4)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "0ebd28e1-889b-4a4b-aaca-d85a6a8af547")
+	)
+	(fp_line
+		(start 3.94 -1.4)
+		(end 3.94 1.4)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "30d618e8-f91e-4747-8bf9-b4e0acb875c3")
+	)
+	(fp_line
+		(start 3.94 1.4)
+		(end -1.4 1.4)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "c415577f-ddd0-40a7-9e29-543b407b9e40")
+	)
+	(fp_line
+		(start -1.4 1.4)
+		(end -1.4 -1.4)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "90e3270d-0dfa-40fa-90d3-03aa58206cf2")
+	)
+	(fp_line
+		(start -1.9 -1.4)
+		(end -1.9 0)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "ccf6dcc6-0c55-4c4d-b486-b3ce4e9a78a5")
+	)
+	(fp_line
+		(start -4.8 -1.8)
+		(end 7.34 -1.8)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "518a4e0c-fe82-4b08-930a-9c64b619136b")
+	)
+	(fp_line
+		(start 7.34 -1.8)
+		(end 7.34 1.8)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "04dd36aa-7c70-4ad9-89a2-1630653cb7d9")
+	)
+	(fp_line
+		(start 7.34 1.8)
+		(end -4.8 1.8)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "edd4c501-a896-4797-a606-9183174599f3")
+	)
+	(fp_line
+		(start -4.8 1.8)
+		(end -4.8 -1.8)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "78dcec6d-7443-4352-829b-02eb574c7113")
+	)
+	(fp_line
+		(start -1.1 -1.1)
+		(end 3.64 -1.1)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "82fbcede-44a8-48e3-9726-878ed925452e")
+	)
+	(fp_line
+		(start 3.64 -1.1)
+		(end 3.64 1.1)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "1aa8df48-49fc-46e2-be9f-9e81b2a9fd15")
+	)
+	(fp_line
+		(start 3.64 1.1)
+		(end -1.1 1.1)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "9b890187-0a01-4eb0-b2e5-59377987fe22")
+	)
+	(fp_line
+		(start -1.1 1.1)
+		(end -1.1 -1.1)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "1ccba9e8-ad2d-4cd3-a1e5-ec4e7bd855e8")
+	)
+	(fp_text user "5V"
+		(at -2.9 0 0)
+		(layer "F.SilkS")
+		(uuid "76714682-c633-42a5-b5f1-dcb368b93835")
+		(effects
+			(font
+				(size 0.7 0.7)
+				(thickness 0.12)
+			)
+		)
+	)
+	(pad "1" smd circle
+		(at 0 0)
+		(size 1.5 1.5)
+		(layers "F.Cu" "F.Mask")
+		(uuid "a790f4bc-34cb-46bd-8ea7-9eb410fab6de")
+	)
+	(fp_text user "GND"
+		(at 5.44 0 0)
+		(layer "F.SilkS")
+		(uuid "589a42da-5d46-495f-a572-9ab3809ad4ad")
+		(effects
+			(font
+				(size 0.7 0.7)
+				(thickness 0.12)
+			)
+		)
+	)
+	(pad "2" smd circle
+		(at 2.54 0)
+		(size 1.5 1.5)
+		(layers "F.Cu" "F.Mask")
+		(uuid "93aa94e6-9485-41fe-9e9b-622106dc38fe")
+	)
+	(embedded_fonts no)
+)

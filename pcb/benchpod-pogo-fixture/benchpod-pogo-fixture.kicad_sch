@@ -2,15 +2,173 @@
 	(version 20260306)
 	(generator "eeschema")
 	(generator_version "10.0")
-	(uuid "9605075a-6e20-475c-a17f-ae475bd7d716")
+	(uuid "3435cdc9-f052-4838-8976-b55659e935c9")
 	(paper "A4")
 	(title_block
 		(title "BenchPod v4 pogo fixture")
-		(date "2026-11-27")
-		(rev "1")
 		(company "EmbeddedCI")
+		(rev "2")
+		(date "2026-11-27")
 	)
 	(lib_symbols
+		(symbol "Connector_Generic:Conn_01x02"
+			(pin_names
+				(offset 1.016)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "J"
+				(at 0 2.54 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "Conn_01x02"
+				(at 0 -5.08 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "connector"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "Connector*:*_1x??_*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "Conn_01x02_1_1"
+				(rectangle
+					(start -1.27 1.27)
+					(end 1.27 -3.81)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(rectangle
+					(start -1.27 0.127)
+					(end 0 -0.127)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start -1.27 -2.413)
+					(end 0 -2.667)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at -5.08 0 0)
+					(length 3.81)
+					(name "Pin_1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 -2.54 0)
+					(length 3.81)
+					(name "Pin_2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "Connector_Generic:Conn_01x08"
 			(pin_names
 				(offset 1.016)
@@ -343,7 +501,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Connector_Generic:Conn_02x04_Odd_Even"
+		(symbol "Connector_Generic:Conn_02x03_Odd_Even"
 			(pin_names
 				(offset 1.016)
 				(hide yes)
@@ -363,8 +521,8 @@
 					)
 				)
 			)
-			(property "Value" "Conn_02x04_Odd_Even"
-				(at 1.27 -7.62 0)
+			(property "Value" "Conn_02x03_Odd_Even"
+				(at 1.27 -5.08 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(effects
@@ -395,7 +553,7 @@
 					)
 				)
 			)
-			(property "Description" "Generic connector, double row, 02x04, odd/even pin numbering scheme (row 1 odd numbers, row 2 even numbers), script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(property "Description" "Generic connector, double row, 02x03, odd/even pin numbering scheme (row 1 odd numbers, row 2 even numbers), script generated (kicad-library-utils/schlib/autogen/connector/)"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -428,10 +586,10 @@
 					)
 				)
 			)
-			(symbol "Conn_02x04_Odd_Even_1_1"
+			(symbol "Conn_02x03_Odd_Even_1_1"
 				(rectangle
 					(start -1.27 3.81)
-					(end 3.81 -6.35)
+					(end 3.81 -3.81)
 					(stroke
 						(width 0.254)
 						(type default)
@@ -474,17 +632,6 @@
 					)
 				)
 				(rectangle
-					(start -1.27 -4.953)
-					(end 0 -5.207)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(rectangle
 					(start 3.81 2.667)
 					(end 2.54 2.413)
 					(stroke
@@ -509,17 +656,6 @@
 				(rectangle
 					(start 3.81 -2.413)
 					(end 2.54 -2.667)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(rectangle
-					(start 3.81 -4.953)
-					(end 2.54 -5.207)
 					(stroke
 						(width 0.1524)
 						(type default)
@@ -629,42 +765,6 @@
 						)
 					)
 					(number "6"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -5.08 -5.08 0)
-					(length 3.81)
-					(name "Pin_7"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "7"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 7.62 -5.08 180)
-					(length 3.81)
-					(name "Pin_8"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "8"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1029,18 +1129,7 @@
 			(embedded_fonts no)
 		)
 	)
-	(text "BenchPod v4 pogo fixture. Passive: the controller (a BenchPod) drives J1.\nJ2: 8 P75 probes in R75 receptacles (1.7 mm plated holes), under the pod's J10 pads.\nThe pod sits on M2.5 standoffs in H1/H2 (its holes H11/H14). H3/H4 are feet.\nJ1 to the controller: target power (5V) on POD_5V, SWD, NRST and the pod console\n(POD_TX = pod USART2 TX, read it on a controller UART RX)."
-		(exclude_from_sim no)
-		(at 91.44 76.2 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left top)
-		)
-		(uuid "21ec3f4b-c6c0-457f-876b-40380b5d0cb6")
-	)
-	(label "NRST"
+	(label "SWDIO"
 		(at 154.94 99.06 180)
 		(effects
 			(font
@@ -1048,109 +1137,19 @@
 			)
 			(justify right bottom)
 		)
-		(uuid "096a7424-57a9-4429-b7f8-9938ddda95ac")
-	)
-	(label "POD_RX"
-		(at 154.94 104.14 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "2ebcb9eb-5332-43bb-bffb-94b1d6f73c05")
-	)
-	(label "SWDIO"
-		(at 109.22 104.14 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "5dfef93b-83b9-435a-8cff-233ed9d96889")
-	)
-	(label "POD_RX"
-		(at 109.22 106.68 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "66c5677c-397e-43c9-898d-7669815b4583")
-	)
-	(label "POD_TX"
-		(at 96.52 106.68 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "6d701016-ee8c-4059-917d-35424b5f109a")
-	)
-	(label "SWCLK"
-		(at 154.94 109.22 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "7503b34b-afec-4029-8dab-c7774e87750f")
-	)
-	(label "POD_TX"
-		(at 154.94 101.6 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "ba537ae3-8a3a-41fb-95a6-925c22bdf9b7")
+		(uuid "0e56191a-e64e-4c15-a5b6-cb7cf6c26d94")
 	)
 	(label "POD_5V"
-		(at 96.52 99.06 180)
+		(at 154.94 111.76 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify right bottom)
 		)
-		(uuid "bef7749c-b993-4537-abbd-87b101282308")
+		(uuid "2a090bd5-4711-403f-b5e9-9c3b20622c6b")
 	)
-	(label "SWCLK"
-		(at 109.22 101.6 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "d1808ca7-e715-4f45-bbbb-11951da89418")
-	)
-	(label "SWDIO"
-		(at 154.94 106.68 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "e53308fe-a709-4ea6-8ee4-de0d6c49c79a")
-	)
-	(label "POD_5V"
-		(at 154.94 93.98 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "f4279a05-533f-4e26-b95c-bfc5a9038d87")
-	)
-	(label "NRST"
+	(label "POD_TX"
 		(at 96.52 104.14 180)
 		(effects
 			(font
@@ -1158,165 +1157,101 @@
 			)
 			(justify right bottom)
 		)
-		(uuid "fc18834e-87d9-4a28-9054-22a240658461")
+		(uuid "343c6d10-7d46-43bd-bdef-37aff0caf6c7")
 	)
-	(symbol
-		(lib_id "power:GND")
-		(at 99.06 134.62 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "0f17f526-fb59-42e7-b8f3-bb82140df68b")
-		(property "Reference" "#PWR05"
-			(at 99.06 128.27 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
+	(label "NRST"
+		(at 154.94 106.68 180)
+		(effects
+			(font
+				(size 1.27 1.27)
 			)
+			(justify right bottom)
 		)
-		(property "Value" "GND"
-			(at 99.06 130.81 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 99.06 134.62 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 99.06 134.62 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 99.06 134.62 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "47a8de11-ea69-4b84-a32b-df12b285dec2")
-		)
-		(instances
-			(project "benchpod-pogo-fixture"
-				(path "/9605075a-6e20-475c-a17f-ae475bd7d716"
-					(reference "#PWR05")
-					(unit 1)
-				)
-			)
-		)
+		(uuid "5a2cc95f-2799-4bbd-9dfc-70cf61f2b8d0")
 	)
-	(symbol
-		(lib_id "power:GND")
-		(at 154.94 111.76 270)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "1cd5268d-5c4f-4d85-b224-0039b8a083d8")
-		(property "Reference" "#PWR04"
-			(at 161.29 111.76 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
+	(label "NRST"
+		(at 96.52 101.6 180)
+		(effects
+			(font
+				(size 1.27 1.27)
 			)
+			(justify right bottom)
 		)
-		(property "Value" "GND"
-			(at 158.75 111.76 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
+		(uuid "64b51951-4ae0-42be-a6ac-8de75dd0fe49")
+	)
+	(label "POD_TX"
+		(at 154.94 109.22 180)
+		(effects
+			(font
+				(size 1.27 1.27)
 			)
+			(justify right bottom)
 		)
-		(property "Footprint" ""
-			(at 154.94 111.76 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
+		(uuid "71dc651a-9d43-4922-b5fd-d17a513707f6")
+	)
+	(label "SWDIO"
+		(at 109.22 101.6 0)
+		(effects
+			(font
+				(size 1.27 1.27)
 			)
+			(justify left bottom)
 		)
-		(property "Datasheet" ""
-			(at 154.94 111.76 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
+		(uuid "93abc6a8-e88c-401d-b37b-bb115a2defdd")
+	)
+	(label "POD_5V"
+		(at 96.52 116.84 180)
+		(effects
+			(font
+				(size 1.27 1.27)
 			)
+			(justify right bottom)
 		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 154.94 111.76 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
+		(uuid "984f2b33-9d28-4743-be61-807ffd622e78")
+	)
+	(label "SWCLK"
+		(at 109.22 99.06 0)
+		(effects
+			(font
+				(size 1.27 1.27)
 			)
+			(justify left bottom)
 		)
-		(pin "1"
-			(uuid "85c62eef-3cab-4264-8429-2164d4def4fc")
-		)
-		(instances
-			(project "benchpod-pogo-fixture"
-				(path "/9605075a-6e20-475c-a17f-ae475bd7d716"
-					(reference "#PWR04")
-					(unit 1)
-				)
+		(uuid "a21d1c8d-5577-4e10-9f15-50904aacc4e3")
+	)
+	(label "SWCLK"
+		(at 154.94 101.6 180)
+		(effects
+			(font
+				(size 1.27 1.27)
 			)
+			(justify right bottom)
 		)
+		(uuid "b84c9004-5a06-45ac-9412-eeefa0463f59")
+	)
+	(label "POD_RX"
+		(at 109.22 104.14 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "fa241cf4-cdd3-4d23-bf42-c51406702d1e")
+	)
+	(label "POD_RX"
+		(at 154.94 96.52 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "fc8b2cc8-d6b4-46d2-a0ee-c81458738094")
 	)
 	(symbol
 		(lib_id "Mechanical:MountingHole_Pad")
-		(at 129.54 132.08 0)
+		(at 109.22 137.16 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -1324,9 +1259,9 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(uuid "1eb71153-f705-46c8-ad2d-4b0f0199ee57")
-		(property "Reference" "H4"
-			(at 129.54 138.43 0)
+		(uuid "0e9ce0be-82a1-43cf-8a25-75f21a9460b5")
+		(property "Reference" "H2"
+			(at 109.22 143.51 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1335,8 +1270,8 @@
 				)
 			)
 		)
-		(property "Value" "M2.5 foot"
-			(at 129.54 136.525 0)
+		(property "Value" "M2.5 to pod H14"
+			(at 109.22 141.605 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1346,7 +1281,7 @@
 			)
 		)
 		(property "Footprint" "MountingHole:MountingHole_2.7mm_M2.5_Pad_Via"
-			(at 129.54 132.08 0)
+			(at 109.22 137.16 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1357,7 +1292,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 129.54 132.08 0)
+			(at 109.22 137.16 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1368,7 +1303,7 @@
 			)
 		)
 		(property "Description" "Mounting Hole with connection"
-			(at 129.54 132.08 0)
+			(at 109.22 137.16 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1379,20 +1314,20 @@
 			)
 		)
 		(pin "1"
-			(uuid "451feca5-e54c-4a44-9f21-da366741fc61")
+			(uuid "558ef79c-a4fc-4be8-8625-b68f5b431f6b")
 		)
 		(instances
 			(project "benchpod-pogo-fixture"
-				(path "/9605075a-6e20-475c-a17f-ae475bd7d716"
-					(reference "H4")
+				(path "/3435cdc9-f052-4838-8976-b55659e935c9"
+					(reference "H2")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "power:PWR_FLAG")
-		(at 129.54 134.62 180)
+		(lib_id "power:GND")
+		(at 109.22 139.7 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -1400,9 +1335,9 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(uuid "53f4617c-cd42-42e6-9f7b-e51f0729737d")
-		(property "Reference" "#FLG01"
-			(at 129.54 132.715 0)
+		(uuid "1897a7f1-20fc-49c3-9f8b-3d287ab136c3")
+		(property "Reference" "#PWR06"
+			(at 109.22 133.35 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1412,8 +1347,8 @@
 				)
 			)
 		)
-		(property "Value" "PWR_FLAG"
-			(at 129.54 130.81 0)
+		(property "Value" "GND"
+			(at 109.22 135.89 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1423,7 +1358,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 129.54 134.62 0)
+			(at 109.22 139.7 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1434,7 +1369,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 129.54 134.62 0)
+			(at 109.22 139.7 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1444,8 +1379,8 @@
 				)
 			)
 		)
-		(property "Description" "Special symbol for telling ERC where power comes from"
-			(at 129.54 134.62 0)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 109.22 139.7 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1456,12 +1391,717 @@
 			)
 		)
 		(pin "1"
-			(uuid "b2be7d4b-bd40-40e2-8f7b-bb06a304fc27")
+			(uuid "97ba9fc2-f468-4182-9f02-75b2aa7f521f")
 		)
 		(instances
 			(project "benchpod-pogo-fixture"
-				(path "/9605075a-6e20-475c-a17f-ae475bd7d716"
+				(path "/3435cdc9-f052-4838-8976-b55659e935c9"
+					(reference "#PWR06")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:PWR_FLAG")
+		(at 129.54 139.7 180)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "4987bb7c-1fa2-4dd4-81ca-a5119ccf6acd")
+		(property "Reference" "#FLG01"
+			(at 129.54 137.795 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "PWR_FLAG"
+			(at 129.54 135.89 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 129.54 139.7 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 129.54 139.7 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Special symbol for telling ERC where power comes from"
+			(at 129.54 139.7 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "16ea31a6-9b8a-49bd-9534-7010add69458")
+		)
+		(instances
+			(project "benchpod-pogo-fixture"
+				(path "/3435cdc9-f052-4838-8976-b55659e935c9"
 					(reference "#FLG01")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 96.52 119.38 270)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "52dcd7ed-3c92-4ac1-b4c3-275c208e1f86")
+		(property "Reference" "#PWR02"
+			(at 102.87 119.38 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 100.33 119.38 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 96.52 119.38 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 96.52 119.38 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 96.52 119.38 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "13fa00f6-1cfb-48f9-95b4-429603848790")
+		)
+		(instances
+			(project "benchpod-pogo-fixture"
+				(path "/3435cdc9-f052-4838-8976-b55659e935c9"
+					(reference "#PWR02")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 154.94 104.14 270)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "55bcb5ef-3e04-4faa-ba32-cfbbb9132339")
+		(property "Reference" "#PWR04"
+			(at 161.29 104.14 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 158.75 104.14 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 154.94 104.14 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 154.94 104.14 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 154.94 104.14 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "e09fa4c8-7bf0-40d6-b8ce-307eb8f8a023")
+		)
+		(instances
+			(project "benchpod-pogo-fixture"
+				(path "/3435cdc9-f052-4838-8976-b55659e935c9"
+					(reference "#PWR04")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 119.38 139.7 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "7a58e5f5-0ae1-4f9a-9f7f-49233f630344")
+		(property "Reference" "#PWR07"
+			(at 119.38 133.35 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 119.38 135.89 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 119.38 139.7 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 119.38 139.7 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 119.38 139.7 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "3ee6666a-3457-4a63-ab46-d570fd463c5c")
+		)
+		(instances
+			(project "benchpod-pogo-fixture"
+				(path "/3435cdc9-f052-4838-8976-b55659e935c9"
+					(reference "#PWR07")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Mechanical:MountingHole_Pad")
+		(at 129.54 137.16 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "9247ed07-b435-491b-a0fa-4b72f2f6082b")
+		(property "Reference" "H4"
+			(at 129.54 143.51 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "M2.5 foot"
+			(at 129.54 141.605 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_2.7mm_M2.5_Pad_Via"
+			(at 129.54 137.16 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 129.54 137.16 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Mounting Hole with connection"
+			(at 129.54 137.16 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "b5af282b-dca2-4a2e-b3ce-b1f81bc25f0f")
+		)
+		(instances
+			(project "benchpod-pogo-fixture"
+				(path "/3435cdc9-f052-4838-8976-b55659e935c9"
+					(reference "H4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 96.52 99.06 270)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "a0fd84b8-1eab-4cba-9bb8-277551598c7b")
+		(property "Reference" "#PWR01"
+			(at 102.87 99.06 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 100.33 99.06 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 96.52 99.06 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 96.52 99.06 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 96.52 99.06 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "ed3173ff-7714-495d-864b-77a6ba7e2508")
+		)
+		(instances
+			(project "benchpod-pogo-fixture"
+				(path "/3435cdc9-f052-4838-8976-b55659e935c9"
+					(reference "#PWR01")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Mechanical:MountingHole_Pad")
+		(at 99.06 137.16 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "c0cfca51-01d6-4152-a354-1f58aedef857")
+		(property "Reference" "H1"
+			(at 99.06 143.51 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "M2.5 to pod H11"
+			(at 99.06 141.605 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_2.7mm_M2.5_Pad_Via"
+			(at 99.06 137.16 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 99.06 137.16 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Mounting Hole with connection"
+			(at 99.06 137.16 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "195a10cd-759a-4348-bd95-67747aa47035")
+		)
+		(instances
+			(project "benchpod-pogo-fixture"
+				(path "/3435cdc9-f052-4838-8976-b55659e935c9"
+					(reference "H1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 99.06 139.7 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "c46f1941-3a9c-4d3d-9501-7448d5c792d2")
+		(property "Reference" "#PWR05"
+			(at 99.06 133.35 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 99.06 135.89 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 99.06 139.7 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 99.06 139.7 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 99.06 139.7 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "8871d0d3-6593-4460-b94b-1a4784d8b0db")
+		)
+		(instances
+			(project "benchpod-pogo-fixture"
+				(path "/3435cdc9-f052-4838-8976-b55659e935c9"
+					(reference "#PWR05")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector_Generic:Conn_02x03_Odd_Even")
+		(at 101.6 101.6 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "d733cb10-1621-4071-b911-cd88e13c0779")
+		(property "Reference" "J2"
+			(at 102.87 106.68 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Pogo_R75_P75 signals"
+			(at 102.87 96.52 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "edward footprints:Pogo_Receptacle_R75_2x03_P2.54mm"
+			(at 101.6 101.6 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 101.6 101.6 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Generic connector, double row, 02x03, odd/even pin numbering scheme (row 1 odd numbers, row 2 even numbers), script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 101.6 101.6 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "ecdd8661-4530-4538-bcc9-45002e565925")
+		)
+		(pin "2"
+			(uuid "54c673ac-39dd-4b27-8c22-4d05c605d9f1")
+		)
+		(pin "3"
+			(uuid "b081477e-2114-42bf-889b-89ae72141b9e")
+		)
+		(pin "4"
+			(uuid "50ef6e98-934d-4169-838f-fe132004cae9")
+		)
+		(pin "5"
+			(uuid "cc11bf75-3891-4e04-8d36-01002ff59d99")
+		)
+		(pin "6"
+			(uuid "dc9099c1-dca1-4246-8839-6f929db95456")
+		)
+		(instances
+			(project "benchpod-pogo-fixture"
+				(path "/3435cdc9-f052-4838-8976-b55659e935c9"
+					(reference "J2")
 					(unit 1)
 				)
 			)
@@ -1477,7 +2117,7 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(uuid "55c32844-5bce-4367-b9eb-43459c39f0e6")
+		(uuid "dcf0f964-0bad-4b16-baba-eb471266b798")
 		(property "Reference" "J1"
 			(at 160.02 111.76 0)
 			(show_name no)
@@ -1532,32 +2172,32 @@
 			)
 		)
 		(pin "1"
-			(uuid "65f52587-23ed-4ae1-b1cd-b309d8eae248")
+			(uuid "c1af22d5-0503-4563-b038-ae65bbc5c26e")
 		)
 		(pin "2"
-			(uuid "193a4e5a-9313-402a-8767-c13e2eaf1106")
+			(uuid "3b20c5c7-c30a-47eb-b31c-2cfd3195e68f")
 		)
 		(pin "3"
-			(uuid "5e74bfb8-1466-4a7e-8521-238725803b70")
+			(uuid "67768651-09ed-4e02-96ae-064048be8550")
 		)
 		(pin "4"
-			(uuid "dc55be79-431d-40ba-b4b3-a15dd7492632")
+			(uuid "08b88e60-5d69-4d32-a480-97a480ceca00")
 		)
 		(pin "5"
-			(uuid "6a2cd7b2-37c8-404c-936e-d303fb66f46e")
+			(uuid "e1c2a48f-c74f-4434-998f-b746d31113ca")
 		)
 		(pin "6"
-			(uuid "cbc5b705-7f7c-45f7-acb2-42f443d174fb")
+			(uuid "f88fede8-9fac-4b25-a47d-add3adadee77")
 		)
 		(pin "7"
-			(uuid "b52b86b7-cca2-49d9-89ef-f9e4d06109fc")
+			(uuid "28dea9d4-5a39-4aa8-8eaa-9f78df31f47a")
 		)
 		(pin "8"
-			(uuid "fcd39411-f6d0-43ae-aef0-21bb11aef9b3")
+			(uuid "de565689-a2b3-412a-887b-b20e66a1a9f3")
 		)
 		(instances
 			(project "benchpod-pogo-fixture"
-				(path "/9605075a-6e20-475c-a17f-ae475bd7d716"
+				(path "/3435cdc9-f052-4838-8976-b55659e935c9"
 					(reference "J1")
 					(unit 1)
 				)
@@ -1565,85 +2205,8 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
-		(at 119.38 134.62 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "58719588-838c-4793-bb78-2ec955f73533")
-		(property "Reference" "#PWR07"
-			(at 119.38 128.27 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "GND"
-			(at 119.38 130.81 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 119.38 134.62 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 119.38 134.62 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 119.38 134.62 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "4c923edd-6f88-43a3-b79a-4d8fc2bc9933")
-		)
-		(instances
-			(project "benchpod-pogo-fixture"
-				(path "/9605075a-6e20-475c-a17f-ae475bd7d716"
-					(reference "#PWR07")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Mechanical:MountingHole_Pad")
-		(at 119.38 132.08 0)
+		(at 119.38 137.16 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -1651,9 +2214,9 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(uuid "7694bcd9-7b10-462c-af1e-f0bb48969235")
+		(uuid "e85616de-e6b7-4db6-807c-cc1b8789acb5")
 		(property "Reference" "H3"
-			(at 119.38 138.43 0)
+			(at 119.38 143.51 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1663,7 +2226,7 @@
 			)
 		)
 		(property "Value" "M2.5 foot"
-			(at 119.38 136.525 0)
+			(at 119.38 141.605 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1673,7 +2236,7 @@
 			)
 		)
 		(property "Footprint" "MountingHole:MountingHole_2.7mm_M2.5_Pad_Via"
-			(at 119.38 132.08 0)
+			(at 119.38 137.16 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1684,7 +2247,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 119.38 132.08 0)
+			(at 119.38 137.16 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1695,7 +2258,7 @@
 			)
 		)
 		(property "Description" "Mounting Hole with connection"
-			(at 119.38 132.08 0)
+			(at 119.38 137.16 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1706,11 +2269,11 @@
 			)
 		)
 		(pin "1"
-			(uuid "b1a19937-9925-404f-8339-6385e3061464")
+			(uuid "ada7db47-6c2b-4cb4-912d-01185983e0ee")
 		)
 		(instances
 			(project "benchpod-pogo-fixture"
-				(path "/9605075a-6e20-475c-a17f-ae475bd7d716"
+				(path "/3435cdc9-f052-4838-8976-b55659e935c9"
 					(reference "H3")
 					(unit 1)
 				)
@@ -1718,160 +2281,8 @@
 		)
 	)
 	(symbol
-		(lib_id "Mechanical:MountingHole_Pad")
-		(at 109.22 132.08 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom no)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "8f0c05c6-aad4-406c-9fb2-a19009b4275d")
-		(property "Reference" "H2"
-			(at 109.22 138.43 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "M2.5 to pod H14"
-			(at 109.22 136.525 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "MountingHole:MountingHole_2.7mm_M2.5_Pad_Via"
-			(at 109.22 132.08 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 109.22 132.08 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Mounting Hole with connection"
-			(at 109.22 132.08 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "bb9ebe78-047e-4901-a562-f3ca9085d782")
-		)
-		(instances
-			(project "benchpod-pogo-fixture"
-				(path "/9605075a-6e20-475c-a17f-ae475bd7d716"
-					(reference "H2")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Mechanical:MountingHole_Pad")
-		(at 99.06 132.08 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom no)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "a5cad318-7bf7-42f3-bd14-0af90aabac57")
-		(property "Reference" "H1"
-			(at 99.06 138.43 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "M2.5 to pod H11"
-			(at 99.06 136.525 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "MountingHole:MountingHole_2.7mm_M2.5_Pad_Via"
-			(at 99.06 132.08 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 99.06 132.08 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Mounting Hole with connection"
-			(at 99.06 132.08 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "8f15de90-5897-4e07-8e0f-5857a3905c68")
-		)
-		(instances
-			(project "benchpod-pogo-fixture"
-				(path "/9605075a-6e20-475c-a17f-ae475bd7d716"
-					(reference "H1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GND")
-		(at 109.22 134.62 0)
+		(at 129.54 139.7 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -1879,86 +2290,9 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(uuid "b0115086-4bd2-4f9d-a35d-93b0a87f80b0")
-		(property "Reference" "#PWR06"
-			(at 109.22 128.27 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "GND"
-			(at 109.22 130.81 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 109.22 134.62 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 109.22 134.62 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 109.22 134.62 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "f27dfcaa-85af-4a8b-899d-9e57f38a5608")
-		)
-		(instances
-			(project "benchpod-pogo-fixture"
-				(path "/9605075a-6e20-475c-a17f-ae475bd7d716"
-					(reference "#PWR06")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 129.54 134.62 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "b3258020-79c9-4d15-8ac5-b95365559855")
+		(uuid "f08e8eec-223b-48ed-97f6-2a74bf00ec30")
 		(property "Reference" "#PWR08"
-			(at 129.54 128.27 0)
+			(at 129.54 133.35 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1969,7 +2303,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 129.54 130.81 0)
+			(at 129.54 135.89 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1979,7 +2313,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 129.54 134.62 0)
+			(at 129.54 139.7 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1990,7 +2324,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 129.54 134.62 0)
+			(at 129.54 139.7 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2001,7 +2335,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 129.54 134.62 0)
+			(at 129.54 139.7 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2012,11 +2346,11 @@
 			)
 		)
 		(pin "1"
-			(uuid "b74c4ed3-b089-4d77-89ee-7a2bcca24ba9")
+			(uuid "b0bc7ad7-70f1-4785-9fe9-d0740d401f89")
 		)
 		(instances
 			(project "benchpod-pogo-fixture"
-				(path "/9605075a-6e20-475c-a17f-ae475bd7d716"
+				(path "/3435cdc9-f052-4838-8976-b55659e935c9"
 					(reference "#PWR08")
 					(unit 1)
 				)
@@ -2025,7 +2359,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 109.22 99.06 90)
+		(at 154.94 93.98 270)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -2033,260 +2367,9 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(uuid "bd1e8dff-d31a-49c0-a0d8-51a6db7db14b")
-		(property "Reference" "#PWR01"
-			(at 102.87 99.06 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "GND"
-			(at 105.41 99.06 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 109.22 99.06 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 109.22 99.06 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 109.22 99.06 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "835bf465-2d87-435d-a2e5-aee85016ce86")
-		)
-		(instances
-			(project "benchpod-pogo-fixture"
-				(path "/9605075a-6e20-475c-a17f-ae475bd7d716"
-					(reference "#PWR01")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 96.52 101.6 270)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "d6878949-9bfc-469b-b881-1648ac643d33")
-		(property "Reference" "#PWR02"
-			(at 90.17 101.6 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "GND"
-			(at 92.71 101.6 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 96.52 101.6 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 96.52 101.6 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 96.52 101.6 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "1bd5789f-986c-4757-a0db-148b2092360d")
-		)
-		(instances
-			(project "benchpod-pogo-fixture"
-				(path "/9605075a-6e20-475c-a17f-ae475bd7d716"
-					(reference "#PWR02")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector_Generic:Conn_02x04_Odd_Even")
-		(at 101.6 101.6 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "ee458ab0-9eff-4b57-b3b9-e784598d21a4")
-		(property "Reference" "J2"
-			(at 102.87 106.68 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "Pogo_R75_P75"
-			(at 102.87 93.98 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "edward footprints:Pogo_Receptacle_R75_2x04_P2.54mm"
-			(at 101.6 101.6 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 101.6 101.6 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Generic connector, double row, 02x04, odd/even pin numbering scheme (row 1 odd numbers, row 2 even numbers), script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 101.6 101.6 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "fb01b3fd-7ca7-4013-a1d6-28d1c261e94e")
-		)
-		(pin "2"
-			(uuid "19c5b3c7-0948-494a-8578-219fc70e2fe8")
-		)
-		(pin "3"
-			(uuid "2a01ada6-3b53-4e19-99c7-e59e69c7c413")
-		)
-		(pin "4"
-			(uuid "a59b9bdc-1e0d-4f7f-a09e-2abc3228cf91")
-		)
-		(pin "5"
-			(uuid "e9e00acf-25db-4f69-908d-2de8bd43fd31")
-		)
-		(pin "6"
-			(uuid "de80b973-fe6c-4ba6-be5b-3a023f53ea75")
-		)
-		(pin "7"
-			(uuid "5ecff1ad-f8ca-4c54-bbc0-8bdbe549a67b")
-		)
-		(pin "8"
-			(uuid "f2c50333-51ce-42ee-b326-4c4a867f9347")
-		)
-		(instances
-			(project "benchpod-pogo-fixture"
-				(path "/9605075a-6e20-475c-a17f-ae475bd7d716"
-					(reference "J2")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 154.94 96.52 270)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "ff176a4c-2d96-49ad-bbb7-bce996c8c0ad")
+		(uuid "f96581a9-6777-429a-9a13-84c301b4970d")
 		(property "Reference" "#PWR03"
-			(at 161.29 96.52 0)
+			(at 161.29 93.98 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2297,7 +2380,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 158.75 96.52 0)
+			(at 158.75 93.98 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2307,7 +2390,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 154.94 96.52 0)
+			(at 154.94 93.98 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2318,7 +2401,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 154.94 96.52 0)
+			(at 154.94 93.98 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2329,7 +2412,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 154.94 96.52 0)
+			(at 154.94 93.98 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2340,16 +2423,106 @@
 			)
 		)
 		(pin "1"
-			(uuid "0b0b861b-5bb8-4bbf-aa51-893ec4480db7")
+			(uuid "0ffae935-38b2-4460-92e6-a23047a9899c")
 		)
 		(instances
 			(project "benchpod-pogo-fixture"
-				(path "/9605075a-6e20-475c-a17f-ae475bd7d716"
+				(path "/3435cdc9-f052-4838-8976-b55659e935c9"
 					(reference "#PWR03")
 					(unit 1)
 				)
 			)
 		)
+	)
+	(symbol
+		(lib_id "Connector_Generic:Conn_01x02")
+		(at 101.6 116.84 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "fb33403d-9fee-4733-ad5b-968148632cae")
+		(property "Reference" "J3"
+			(at 101.6 119.38 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Pogo_R75_P75 power"
+			(at 101.6 111.76 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "edward footprints:Pogo_Receptacle_R75_1x02_P2.54mm"
+			(at 101.6 116.84 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 101.6 116.84 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 101.6 116.84 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "ba3cc2f4-f776-4a0d-ab59-02402169635c")
+		)
+		(pin "2"
+			(uuid "4513b4a7-b33f-4a56-b7af-6f3cd674d6ab")
+		)
+		(instances
+			(project "benchpod-pogo-fixture"
+				(path "/3435cdc9-f052-4838-8976-b55659e935c9"
+					(reference "J3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(text "BenchPod v4 pogo fixture. Passive: the controller (a BenchPod) drives J1.\nJ2: 6 P75 probes in R75 receptacles under the pod's J10 (SWD, NRST, console).\nJ3: 2 probes under the pod's J12 (5 V before the input eFuse, GND).\nThe pod sits on M2.5 standoffs in H1/H2 (its holes H11/H14). H3/H4 are feet."
+		(exclude_from_sim no)
+		(at 91.44 76.2 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left top)
+		)
+		(uuid "1df5d25a-f019-416a-8863-40966e392145")
 	)
 	(sheet_instances
 		(path "/"
