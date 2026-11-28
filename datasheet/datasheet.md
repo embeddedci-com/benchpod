@@ -166,7 +166,7 @@ The I/O HEADER is a keyed, shrouded 2x13 right-angle header with 2.54 mm pitch, 
 </div>
 
 - **LA1-LA14**: logic analyzer and GPIO channels. Any channel can carry UART, SWD, SPI, I2C or a GPIO; the wiring profile in the web app records which signal is on which channel.
-- **LA_REF**: reference output at the selected I/O voltage (1.8 V or 3.3 V).
+- **LA_REF**: reference output at the selected I/O voltage (1.8 V or 3.3 V), for level shifters or a DUT's reference input. It is not a power supply.
 - **DUT RESET**: dedicated reset line to the DUT, used when flashing and by reset commands.
 - **CAN high / CAN low**: CAN or CAN FD bus through an on-board transceiver, with a switchable termination.
 
